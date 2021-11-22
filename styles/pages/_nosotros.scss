@@ -1,0 +1,102 @@
+// Variables ----------------------------->
+
+@import "../base/variables";
+
+// Mixin ------------------------->
+
+@import "../base/mixins";
+
+// Extend ------------------------->
+
+@import "../base/extends";
+
+// Nosotros ---------------------------->
+
+// Section principal -------------------------------->
+
+.video-container-nosotros video {
+  width: 100vw;
+  height: auto;
+}
+
+// Section one -------------------------------->
+
+.nosotros-section-principal-container {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 6em;
+  font-family: $font;
+  font-size: $sizegeneral;
+  div {
+    display: flex;
+    align-items: center;
+    padding: 1.2em 0 1.2em 0;
+    .nosotros-img-container {
+      img {
+        width: 60vh;
+      }
+    }
+    .nosotros-p-container {
+      p {
+        padding: 0 3.1em 0 3.1em;
+        text-align: justify;
+      }
+    }
+  }
+  div {
+    display: flex;
+    align-items: center;
+    padding: 1.2em 0 1.2em 0;
+    .mision-p-container {
+      p {
+        padding: 0 3.1em 0 3.1em;
+        text-align: justify;
+      }
+    }
+    .mision-img-container {
+      img {
+        width: 60vh;
+      }
+    }
+  }
+  div {
+    display: flex;
+    align-items: center;
+    padding: 1.2em 0 1.2em 0;
+    .valores-img-container {
+      img {
+        width: 60vh;
+      }
+    }
+    .valores-p-container {
+      flex-flow: column wrap;
+      padding-left: 12.7em;
+      p {
+        padding: 0 3.1em 0 3.1em;
+        text-align: justify;   
+      }
+    }
+  }
+  div {
+    display: flex;
+    align-items: center;
+    padding: 1.2em 0 1.2em 0;
+    .servicios-p-container {
+      flex-flow: column wrap;
+      padding-right: 2em;
+      p {
+        padding: 0 3.1em 0 3.1em;
+        text-align: justify;
+      }
+    }
+    .servicios-img-container {
+      img {
+        width: 60vh;
+      }
+    }
+  }
+}
+
+// MEDIAS QUERY ------------------------------------->
+
+@import "../base/mediaQuery";

@@ -1,0 +1,5842 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html main {
+  padding-top: 12vh;
+}
+
+.nav-general {
+  background-color: #000;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1em;
+  height: 12vh;
+}
+
+.nav-general div a #logo {
+  margin-left: 0.6em;
+  width: 15vw;
+}
+
+.nav-general div .navbar-icon {
+  border-color: #ffffff;
+}
+
+.nav-general div ul .navbar-color-item:hover {
+  background-color: #c5b552;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.nav-general div ul .navbar-color-item a {
+  color: #ffffff;
+}
+
+@media screen and (max-width: 980px) {
+  #footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .column-footer {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .column-footer .footer-contacto .h4-title {
+    font-size: 1.5em;
+  }
+  .column-footer .paragraph-footer-2 p {
+    text-align: center;
+    font-size: 0.9em;
+  }
+  .section-principal-container {
+    height: 50vh;
+  }
+  .section-principal-container div .h1-title {
+    font-size: 1.9em;
+  }
+  .section-principal-container div p {
+    font-size: 0.9em;
+  }
+  .section-unidades-container .div-titulos-unidades-container div .h2-title {
+    font-size: 1.5em;
+  }
+  .section-unidades-container .div-titulos-unidades-container div p {
+    font-size: 0.9em;
+  }
+  .section-unidades-container .div-unidades-container div {
+    height: 13em;
+    width: 13em;
+  }
+  .section-unidades-container .div-unidades-container a .h3-title {
+    font-size: 1.5em;
+  }
+  .section-nosotros-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .section-nosotros-container div {
+    margin: auto;
+    padding: auto;
+  }
+  .section-nosotros-container div div .h3-title {
+    font-size: 1.1em;
+  }
+  .section-nosotros-container div div p {
+    font-size: 0.9em;
+  }
+  .section-nosotros-container div .video-institucional-index {
+    width: 50vw;
+  }
+  .section-formulario-container .titulo-formulario-container .h2-title {
+    font-size: 0.9em;
+  }
+  .section-formulario-container .titulo-formulario-container p {
+    font-size: 0.9em;
+  }
+  .section-formulario-container .formulario-contacto {
+    font-size: 0.9em;
+    padding: 0 0 1em 1em;
+  }
+  .section-suscribite-container {
+    font-size: 0.9em;
+    padding: 1em 0 1em 0;
+  }
+  .icon-top a {
+    font-size: 3em;
+  }
+  .inmobiliaria-section-principal-container {
+    padding: 10em 0 10em;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container {
+    padding: 3.2em;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container .h1-title {
+    font-size: 1.9em;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container .h2-title {
+    font-size: 0.9em;
+  }
+  .inmobilaria-barra-container {
+    font-size: 0.9em;
+  }
+  .inmobiliaria-section-destacadas .inmobiliaria-propiedades-destacadas .h2-title {
+    font-size: 1.2em;
+  }
+  .inmobiliaria-paragraph-propiedades {
+    font-size: 0.9em;
+  }
+  .inmobiliaria-section-emprendimientos .inmobiliaria-emprendimientos .h2-title {
+    font-size: 1.2em;
+  }
+  .financiera-section-principal-container {
+    padding: 10m 5em 10em 5em;
+  }
+  .financiera-section-principal-container .h1-title {
+    font-size: 2.5em;
+  }
+  .financiera-section-principal-container .h2-title {
+    font-size: 1.9em;
+  }
+  .financiera-section-principal-container p {
+    font-size: 0.9em;
+  }
+  .financiera-section-icon-container {
+    padding: 6em 3em 0 em;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container {
+    padding-bottom: 4em;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container .financiera-icon-container i {
+    font-size: 8vh;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container .financiera-icon-container p {
+    font-size: 0.9em;
+    margin-top: 1.1em;
+  }
+  .financiera-section-icon-container .financiera-icon-button-container {
+    padding-top: 3.2em;
+  }
+  .financiera-section-formulario-container .financiera-titulo-container .h2-title {
+    font-size: 1.9em;
+  }
+  .financiera-section-formulario-container .formulario-finacniera {
+    padding: 1em;
+    font-size: 0.7em;
+  }
+  .desarrolladora-section-principal-container .h1-title {
+    font-size: 2.5em;
+    padding: 0.2em 0 0.2em 0;
+  }
+  .desarrolladora-section-principal-container .h2-title {
+    font-size: 1.9em;
+  }
+  .desarrolladora-section-principal-container p {
+    font-size: 0.9em;
+  }
+  .desarroladora-section-two-container div p {
+    font-size: 0.9em;
+  }
+  .desarralladora-section-icon-container .h3-title {
+    font-size: 1.2em;
+  }
+  .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container i {
+    font-size: 8vh;
+  }
+  .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container p {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-proyectos-container div .h2-title {
+    font-size: 1.9em;
+  }
+  .desarrolladora-section-proyectos-container div div div div p {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-alianzas-container div .h2-title {
+    font-size: 1.9em;
+  }
+  .desarrolladora-section-alianzas-container div div div div p {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-terceros-container div .h2-title {
+    font-size: 1.9em;
+  }
+  .desarrolladora-section-terceros-container div div div div p {
+    font-size: 0.9em;
+  }
+  .nosotros-section-principal-container {
+    margin: 0;
+    padding: 2em;
+    font-size: 0.9em;
+  }
+  .nosotros-section-principal-container div .nosotros-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div .mision-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div .valores-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div .servicios-img-container img {
+    width: 40vh;
+  }
+  .contacto-section-principal-container .h2-title {
+    font-size: 1.5em;
+  }
+  .contacto-section-principal-container p {
+    font-size: 0.9em;
+  }
+  .contacto-form-container {
+    font-size: 0.5em;
+  }
+  .contacto-section-two-container div .h3-title {
+    font-size: 1.2em;
+    text-align: center;
+  }
+  .contacto-section-two-container div p {
+    font-size: 0.9em;
+  }
+  .contacto-section-two-container .mapa-contacto iframe {
+    width: 50vw;
+    height: 50vh;
+  }
+  .vende-section-principal-container div .h2-title {
+    font-size: 1.9em;
+  }
+  .vende-section-principal-container div p {
+    font-size: 0.9em;
+  }
+  .vende-section-principal-container .form-container {
+    font-size: 0.7em;
+    margin: 0;
+    padding: 1em;
+  }
+}
+
+/* Media query mobile */
+@media screen and (max-width: 590px) {
+  #footer .column-footer .logo a img {
+    width: 15vw;
+  }
+  #footer .column-footer .paragraph-footer p {
+    font-size: 0.8em;
+  }
+  #footer .column-footer {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #footer .column-footer .footer-contacto .h4-title {
+    font-size: 1em;
+  }
+  #footer .column-footer .paragraph-footer-2 p {
+    text-align: center;
+    font-size: 0.9em;
+  }
+  #footer .column-footer .footer-unidades .h4-title {
+    font-size: 1em;
+  }
+  #footer .column-footer div .h4-title {
+    font-size: 1em;
+  }
+  #footer .column-footer .icon-redes a {
+    font-size: 1.2em;
+    padding: 0 0.5em 0 0.5em;
+  }
+  .section-principal-container {
+    height: 50vh;
+    padding: 0;
+    margin: 0;
+  }
+  .section-principal-container div {
+    padding: 0;
+    margin: 0;
+  }
+  .section-principal-container div .h1-title {
+    font-size: 0.9em;
+  }
+  .section-principal-container div {
+    padding: 0;
+    margin: 0;
+  }
+  .section-principal-container div p {
+    font-size: 0.9em;
+  }
+  .section-unidades-container .div-titulos-unidades-container div .h2-title {
+    font-size: 0.9em;
+  }
+  .section-unidades-container .div-titulos-unidades-container div p {
+    font-size: 0.9em;
+  }
+  .section-unidades-container .div-unidades-container div {
+    height: 9em;
+    width: 9em;
+  }
+  .section-unidades-container .div-unidades-container a .h3-title {
+    font-size: 0.9em;
+  }
+  .section-nosotros-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .section-nosotros-container div {
+    margin: auto;
+    padding: auto;
+  }
+  .section-nosotros-container div div .h3-title {
+    font-size: 0.9em;
+  }
+  .section-nosotros-container div div p {
+    font-size: 0.7em;
+  }
+  .section-nosotros-container div .video-institucional-index {
+    width: 50vw;
+  }
+  .section-formulario-container .titulo-formulario-container .h2-title {
+    font-size: 0.9em;
+  }
+  .section-formulario-container .titulo-formulario-container p {
+    font-size: 0.7em;
+  }
+  .section-formulario-container .formulario-contacto {
+    font-size: 0.7em;
+    margin: auto;
+    padding: auto;
+  }
+  .section-suscribite-container {
+    font-size: 0.9em;
+    margin: auto;
+    padding: auto;
+  }
+  .icon-top a {
+    font-size: 2em;
+  }
+  .inmobiliaria-section-principal-container {
+    padding: 8em 0 8em;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container {
+    padding: 3em;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container .h1-title {
+    font-size: 1.1em;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container .h2-title {
+    font-size: 0.9em;
+  }
+  .inmobilaria-barra-container {
+    font-size: 0.7em;
+  }
+  .inmobiliaria-section-destacadas .inmobiliaria-propiedades-destacadas .h2-title {
+    font-size: 0.8em;
+  }
+  .inmobiliaria-paragraph-propiedades {
+    font-size: 0.7em;
+  }
+  .inmobiliaria-section-emprendimientos .inmobiliaria-emprendimientos .h2-title {
+    font-size: 1em;
+  }
+  .financiera-section-principal-container {
+    padding: 7em 5em 5em 5em;
+  }
+  .financiera-section-principal-container .h1-title {
+    font-size: 1.9em;
+    text-align: center;
+  }
+  .financiera-section-principal-container .h2-title {
+    font-size: 0.9em;
+  }
+  .financiera-section-principal-container p {
+    font-size: 0.7em;
+  }
+  .financiera-section-icon-container {
+    padding: 6em 3em 0 em;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    padding-bottom: 4em;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container .financiera-icon-container i {
+    font-size: 6vh;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container .financiera-icon-container p {
+    font-size: 0.7em;
+    margin-top: 1.1em;
+  }
+  .financiera-section-icon-container .financiera-icon-button-container {
+    padding-top: 3.2em;
+  }
+  .financiera-section-formulario-container .financiera-titulo-container .h2-title {
+    font-size: 0.9em;
+  }
+  .financiera-section-formulario-container .financiera-titulo-container p {
+    font-size: 0.7em;
+  }
+  .financiera-section-formulario-container .formulario-finacniera {
+    padding: 1em;
+    font-size: 0.6em;
+  }
+  .desarrolladora-section-principal-container .h1-title {
+    font-size: 1.9em;
+    font-weight: 700;
+    padding: 0.1em 0 0.1em 0;
+  }
+  .desarrolladora-section-principal-container .h2-title {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-principal-container p {
+    font-size: 0.9em;
+  }
+  .desarroladora-section-two-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .desarroladora-section-two-container div p {
+    padding-top: 2em;
+    font-size: 0.7em;
+  }
+  .desarralladora-section-icon-container .h3-title {
+    font-size: 1em;
+    text-align: center;
+  }
+  .desarralladora-section-icon-container .desarrolladora-div-icon-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container i {
+    font-size: 6vh;
+  }
+  .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container p {
+    font-size: 0.7em;
+  }
+  .desarrolladora-section-proyectos-container div .h2-title {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-proyectos-container div div div div p {
+    font-size: 0.7em;
+  }
+  .desarrolladora-section-alianzas-container div .h2-title {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-alianzas-container div div div div p {
+    font-size: 0.7em;
+  }
+  .desarrolladora-section-terceros-container div .h2-title {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-terceros-container div div div div p {
+    font-size: 0.7em;
+  }
+  .nosotros-section-principal-container {
+    margin: 0;
+    padding: 2em;
+    font-size: 0.7em;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .nosotros-section-principal-container div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .nosotros-section-principal-container div .nosotros-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .nosotros-section-principal-container div .mision-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    margin: auto;
+  }
+  .nosotros-section-principal-container div .valores-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div .valores-p-container {
+    padding: 0;
+    text-align: center;
+  }
+  .nosotros-section-principal-container div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .nosotros-section-principal-container div .servicios-img-container img {
+    width: 40vh;
+  }
+  .vende-section-principal-container div .h2-title {
+    font-size: 0.9em;
+  }
+  .vende-section-principal-container div p {
+    font-size: 0.9em;
+  }
+  .vende-section-principal-container .form-container {
+    font-size: 0.7em;
+    margin: 0;
+    padding: 1em;
+  }
+}
+
+#footer {
+  background-color: #000;
+  color: #ffffff;
+  font-family: "Work Sans", sans-serif;
+  font-size: 0.9em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 4em 5em 4em 5em;
+  border-top: 1px solid #353535;
+}
+
+#footer .column-footer .logo {
+  padding-bottom: 1em;
+}
+
+#footer .column-footer .logo a img {
+  width: 15vw;
+}
+
+#footer .column-footer .paragraph-footer p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 0.9em;
+  font-weight: 400;
+}
+
+#footer .column-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+}
+
+#footer .column-footer .footer-contacto .h4-title {
+  font-family: "Work Sans", sans-serif;
+  color: #ffffff;
+  font-size: 1.5em;
+  font-weight: 500;
+  padding-bottom: 1em;
+}
+
+#footer .column-footer .paragraph-footer-2 p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 0.9em;
+  font-weight: 400;
+}
+
+#footer .column-footer .footer-unidades .h4-title {
+  font-family: "Work Sans", sans-serif;
+  color: #ffffff;
+  font-size: 1.5em;
+  font-weight: 500;
+  padding-bottom: 1em;
+}
+
+#footer .column-footer .footer-list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 5em;
+}
+
+#footer .column-footer .footer-list ul .list-footer {
+  list-style: none;
+}
+
+#footer .column-footer .footer-list ul .list-footer:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#footer .column-footer .footer-list ul .list-footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#footer .column-footer .footer-list ul .list-footer a:hover {
+  color: #c5b552;
+}
+
+#footer .column-footer div .h4-title {
+  font-family: "Work Sans", sans-serif;
+  color: #ffffff;
+  font-size: 1.5em;
+  font-weight: 500;
+  padding-bottom: 1em;
+}
+
+#footer .column-footer .icon-redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#footer .column-footer .icon-redes a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 2em;
+}
+
+#footer .column-footer .icon-redes a .icon-insta:hover,
+#footer .column-footer .icon-redes a .icon-fb:hover {
+  color: #c5b552;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+@media screen and (max-width: 980px) {
+  #footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .column-footer {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .column-footer .footer-contacto .h4-title {
+    font-size: 1.5em;
+  }
+  .column-footer .paragraph-footer-2 p {
+    text-align: center;
+    font-size: 0.9em;
+  }
+  .section-principal-container {
+    height: 50vh;
+  }
+  .section-principal-container div .h1-title {
+    font-size: 1.9em;
+  }
+  .section-principal-container div p {
+    font-size: 0.9em;
+  }
+  .section-unidades-container .div-titulos-unidades-container div .h2-title {
+    font-size: 1.5em;
+  }
+  .section-unidades-container .div-titulos-unidades-container div p {
+    font-size: 0.9em;
+  }
+  .section-unidades-container .div-unidades-container div {
+    height: 13em;
+    width: 13em;
+  }
+  .section-unidades-container .div-unidades-container a .h3-title {
+    font-size: 1.5em;
+  }
+  .section-nosotros-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .section-nosotros-container div {
+    margin: auto;
+    padding: auto;
+  }
+  .section-nosotros-container div div .h3-title {
+    font-size: 1.1em;
+  }
+  .section-nosotros-container div div p {
+    font-size: 0.9em;
+  }
+  .section-nosotros-container div .video-institucional-index {
+    width: 50vw;
+  }
+  .section-formulario-container .titulo-formulario-container .h2-title {
+    font-size: 0.9em;
+  }
+  .section-formulario-container .titulo-formulario-container p {
+    font-size: 0.9em;
+  }
+  .section-formulario-container .formulario-contacto {
+    font-size: 0.9em;
+    padding: 0 0 1em 1em;
+  }
+  .section-suscribite-container {
+    font-size: 0.9em;
+    padding: 1em 0 1em 0;
+  }
+  .icon-top a {
+    font-size: 3em;
+  }
+  .inmobiliaria-section-principal-container {
+    padding: 10em 0 10em;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container {
+    padding: 3.2em;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container .h1-title {
+    font-size: 1.9em;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container .h2-title {
+    font-size: 0.9em;
+  }
+  .inmobilaria-barra-container {
+    font-size: 0.9em;
+  }
+  .inmobiliaria-section-destacadas .inmobiliaria-propiedades-destacadas .h2-title {
+    font-size: 1.2em;
+  }
+  .inmobiliaria-paragraph-propiedades {
+    font-size: 0.9em;
+  }
+  .inmobiliaria-section-emprendimientos .inmobiliaria-emprendimientos .h2-title {
+    font-size: 1.2em;
+  }
+  .financiera-section-principal-container {
+    padding: 10m 5em 10em 5em;
+  }
+  .financiera-section-principal-container .h1-title {
+    font-size: 2.5em;
+  }
+  .financiera-section-principal-container .h2-title {
+    font-size: 1.9em;
+  }
+  .financiera-section-principal-container p {
+    font-size: 0.9em;
+  }
+  .financiera-section-icon-container {
+    padding: 6em 3em 0 em;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container {
+    padding-bottom: 4em;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container .financiera-icon-container i {
+    font-size: 8vh;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container .financiera-icon-container p {
+    font-size: 0.9em;
+    margin-top: 1.1em;
+  }
+  .financiera-section-icon-container .financiera-icon-button-container {
+    padding-top: 3.2em;
+  }
+  .financiera-section-formulario-container .financiera-titulo-container .h2-title {
+    font-size: 1.9em;
+  }
+  .financiera-section-formulario-container .formulario-finacniera {
+    padding: 1em;
+    font-size: 0.7em;
+  }
+  .desarrolladora-section-principal-container .h1-title {
+    font-size: 2.5em;
+    padding: 0.2em 0 0.2em 0;
+  }
+  .desarrolladora-section-principal-container .h2-title {
+    font-size: 1.9em;
+  }
+  .desarrolladora-section-principal-container p {
+    font-size: 0.9em;
+  }
+  .desarroladora-section-two-container div p {
+    font-size: 0.9em;
+  }
+  .desarralladora-section-icon-container .h3-title {
+    font-size: 1.2em;
+  }
+  .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container i {
+    font-size: 8vh;
+  }
+  .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container p {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-proyectos-container div .h2-title {
+    font-size: 1.9em;
+  }
+  .desarrolladora-section-proyectos-container div div div div p {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-alianzas-container div .h2-title {
+    font-size: 1.9em;
+  }
+  .desarrolladora-section-alianzas-container div div div div p {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-terceros-container div .h2-title {
+    font-size: 1.9em;
+  }
+  .desarrolladora-section-terceros-container div div div div p {
+    font-size: 0.9em;
+  }
+  .nosotros-section-principal-container {
+    margin: 0;
+    padding: 2em;
+    font-size: 0.9em;
+  }
+  .nosotros-section-principal-container div .nosotros-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div .mision-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div .valores-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div .servicios-img-container img {
+    width: 40vh;
+  }
+  .contacto-section-principal-container .h2-title {
+    font-size: 1.5em;
+  }
+  .contacto-section-principal-container p {
+    font-size: 0.9em;
+  }
+  .contacto-form-container {
+    font-size: 0.5em;
+  }
+  .contacto-section-two-container div .h3-title {
+    font-size: 1.2em;
+    text-align: center;
+  }
+  .contacto-section-two-container div p {
+    font-size: 0.9em;
+  }
+  .contacto-section-two-container .mapa-contacto iframe {
+    width: 50vw;
+    height: 50vh;
+  }
+  .vende-section-principal-container div .h2-title {
+    font-size: 1.9em;
+  }
+  .vende-section-principal-container div p {
+    font-size: 0.9em;
+  }
+  .vende-section-principal-container .form-container {
+    font-size: 0.7em;
+    margin: 0;
+    padding: 1em;
+  }
+}
+
+/* Media query mobile */
+@media screen and (max-width: 590px) {
+  #footer .column-footer .logo a img {
+    width: 15vw;
+  }
+  #footer .column-footer .paragraph-footer p {
+    font-size: 0.8em;
+  }
+  #footer .column-footer {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #footer .column-footer .footer-contacto .h4-title {
+    font-size: 1em;
+  }
+  #footer .column-footer .paragraph-footer-2 p {
+    text-align: center;
+    font-size: 0.9em;
+  }
+  #footer .column-footer .footer-unidades .h4-title {
+    font-size: 1em;
+  }
+  #footer .column-footer div .h4-title {
+    font-size: 1em;
+  }
+  #footer .column-footer .icon-redes a {
+    font-size: 1.2em;
+    padding: 0 0.5em 0 0.5em;
+  }
+  .section-principal-container {
+    height: 50vh;
+    padding: 0;
+    margin: 0;
+  }
+  .section-principal-container div {
+    padding: 0;
+    margin: 0;
+  }
+  .section-principal-container div .h1-title {
+    font-size: 0.9em;
+  }
+  .section-principal-container div {
+    padding: 0;
+    margin: 0;
+  }
+  .section-principal-container div p {
+    font-size: 0.9em;
+  }
+  .section-unidades-container .div-titulos-unidades-container div .h2-title {
+    font-size: 0.9em;
+  }
+  .section-unidades-container .div-titulos-unidades-container div p {
+    font-size: 0.9em;
+  }
+  .section-unidades-container .div-unidades-container div {
+    height: 9em;
+    width: 9em;
+  }
+  .section-unidades-container .div-unidades-container a .h3-title {
+    font-size: 0.9em;
+  }
+  .section-nosotros-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .section-nosotros-container div {
+    margin: auto;
+    padding: auto;
+  }
+  .section-nosotros-container div div .h3-title {
+    font-size: 0.9em;
+  }
+  .section-nosotros-container div div p {
+    font-size: 0.7em;
+  }
+  .section-nosotros-container div .video-institucional-index {
+    width: 50vw;
+  }
+  .section-formulario-container .titulo-formulario-container .h2-title {
+    font-size: 0.9em;
+  }
+  .section-formulario-container .titulo-formulario-container p {
+    font-size: 0.7em;
+  }
+  .section-formulario-container .formulario-contacto {
+    font-size: 0.7em;
+    margin: auto;
+    padding: auto;
+  }
+  .section-suscribite-container {
+    font-size: 0.9em;
+    margin: auto;
+    padding: auto;
+  }
+  .icon-top a {
+    font-size: 2em;
+  }
+  .inmobiliaria-section-principal-container {
+    padding: 8em 0 8em;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container {
+    padding: 3em;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container .h1-title {
+    font-size: 1.1em;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container .h2-title {
+    font-size: 0.9em;
+  }
+  .inmobilaria-barra-container {
+    font-size: 0.7em;
+  }
+  .inmobiliaria-section-destacadas .inmobiliaria-propiedades-destacadas .h2-title {
+    font-size: 0.8em;
+  }
+  .inmobiliaria-paragraph-propiedades {
+    font-size: 0.7em;
+  }
+  .inmobiliaria-section-emprendimientos .inmobiliaria-emprendimientos .h2-title {
+    font-size: 1em;
+  }
+  .financiera-section-principal-container {
+    padding: 7em 5em 5em 5em;
+  }
+  .financiera-section-principal-container .h1-title {
+    font-size: 1.9em;
+    text-align: center;
+  }
+  .financiera-section-principal-container .h2-title {
+    font-size: 0.9em;
+  }
+  .financiera-section-principal-container p {
+    font-size: 0.7em;
+  }
+  .financiera-section-icon-container {
+    padding: 6em 3em 0 em;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    padding-bottom: 4em;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container .financiera-icon-container i {
+    font-size: 6vh;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container .financiera-icon-container p {
+    font-size: 0.7em;
+    margin-top: 1.1em;
+  }
+  .financiera-section-icon-container .financiera-icon-button-container {
+    padding-top: 3.2em;
+  }
+  .financiera-section-formulario-container .financiera-titulo-container .h2-title {
+    font-size: 0.9em;
+  }
+  .financiera-section-formulario-container .financiera-titulo-container p {
+    font-size: 0.7em;
+  }
+  .financiera-section-formulario-container .formulario-finacniera {
+    padding: 1em;
+    font-size: 0.6em;
+  }
+  .desarrolladora-section-principal-container .h1-title {
+    font-size: 1.9em;
+    font-weight: 700;
+    padding: 0.1em 0 0.1em 0;
+  }
+  .desarrolladora-section-principal-container .h2-title {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-principal-container p {
+    font-size: 0.9em;
+  }
+  .desarroladora-section-two-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .desarroladora-section-two-container div p {
+    padding-top: 2em;
+    font-size: 0.7em;
+  }
+  .desarralladora-section-icon-container .h3-title {
+    font-size: 1em;
+    text-align: center;
+  }
+  .desarralladora-section-icon-container .desarrolladora-div-icon-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container i {
+    font-size: 6vh;
+  }
+  .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container p {
+    font-size: 0.7em;
+  }
+  .desarrolladora-section-proyectos-container div .h2-title {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-proyectos-container div div div div p {
+    font-size: 0.7em;
+  }
+  .desarrolladora-section-alianzas-container div .h2-title {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-alianzas-container div div div div p {
+    font-size: 0.7em;
+  }
+  .desarrolladora-section-terceros-container div .h2-title {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-terceros-container div div div div p {
+    font-size: 0.7em;
+  }
+  .nosotros-section-principal-container {
+    margin: 0;
+    padding: 2em;
+    font-size: 0.7em;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .nosotros-section-principal-container div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .nosotros-section-principal-container div .nosotros-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .nosotros-section-principal-container div .mision-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    margin: auto;
+  }
+  .nosotros-section-principal-container div .valores-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div .valores-p-container {
+    padding: 0;
+    text-align: center;
+  }
+  .nosotros-section-principal-container div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .nosotros-section-principal-container div .servicios-img-container img {
+    width: 40vh;
+  }
+  .vende-section-principal-container div .h2-title {
+    font-size: 0.9em;
+  }
+  .vende-section-principal-container div p {
+    font-size: 0.9em;
+  }
+  .vende-section-principal-container .form-container {
+    font-size: 0.7em;
+    margin: 0;
+    padding: 1em;
+  }
+}
+
+.section-principal-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("./../src/assets/fotos/principal.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  width: auto;
+}
+
+.section-principal-container div .h1-title {
+  font-family: "Work Sans", sans-serif;
+  font-size: 3.2em;
+  font-weight: 700;
+  color: #000;
+}
+
+.section-principal-container div p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.9em;
+  color: #000;
+  font-weight: 500;
+}
+
+.section-unidades-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 5em 0 6em 0;
+}
+
+.section-unidades-container .div-titulos-unidades-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-unidades-container .div-titulos-unidades-container div .h2-title {
+  font-family: "Work Sans", sans-serif;
+  font-size: 2.5em;
+  font-weight: 600;
+  color: #000;
+}
+
+.section-unidades-container .div-titulos-unidades-container div p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.3em;
+  color: #000;
+  font-weight: 500;
+  padding: 1em 1em 2em 1em;
+  text-align: center;
+  letter-spacing: normal;
+}
+
+.section-unidades-container .div-unidades-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.section-unidades-container .div-unidades-container div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 16em;
+  width: 16em;
+  border-radius: 1.2em;
+  border: 1px solid #f0f0f0;
+  border-bottom: 0.7em solid #c5b552;
+}
+
+.section-unidades-container .div-unidades-container div:hover {
+  background-color: #eeeeee;
+  -webkit-box-shadow: 0px 0px 90px rgba(41, 44, 28, 0.08);
+          box-shadow: 0px 0px 90px rgba(41, 44, 28, 0.08);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  border: 1px solid #e2e2e2;
+  border-bottom: 0.7em solid #c5b552;
+}
+
+.section-unidades-container .div-unidades-container a {
+  color: #000;
+  text-decoration: none;
+}
+
+.section-unidades-container .div-unidades-container a .h3-title {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.9em;
+  font-weight: 500;
+  color: #000;
+}
+
+.section-nosotros-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 3em;
+}
+
+.section-nosotros-container div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-right: 2.5em;
+}
+
+.section-nosotros-container div div .h3-title {
+  font-family: "Work Sans", sans-serif;
+  font-size: 2.5em;
+  font-weight: 600;
+  color: #000;
+}
+
+.section-nosotros-container div div p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 0.9em;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.section-nosotros-container div .video-institucional-index {
+  width: 50vw;
+}
+
+.section-formulario-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  background-color: #c5b552;
+}
+
+.section-formulario-container .titulo-formulario-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 2.5em;
+}
+
+.section-formulario-container .titulo-formulario-container .h2-title {
+  font-family: "Work Sans", sans-serif;
+  font-size: 2.5em;
+  font-weight: 600;
+  color: #000;
+}
+
+.section-formulario-container .titulo-formulario-container p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 2em;
+  font-weight: 500;
+  color: #000;
+}
+
+.section-formulario-container .formulario-contacto {
+  font-family: "Work Sans", sans-serif;
+  font-size: 0.9em;
+  font-weight: 400;
+  margin-top: 0.7em;
+  padding: 0 0 1.2em 6.25em;
+}
+
+.section-suscribite-container {
+  background-color: #000;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.9em;
+  color: #ffffff;
+  padding: 1em 0 1em 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.icon-top a {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin-right: 0.2em;
+  color: #c5b552;
+  font-size: 4em;
+}
+
+.icon-top a:hover {
+  color: #000;
+}
+
+@media screen and (max-width: 980px) {
+  #footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .column-footer {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .column-footer .footer-contacto .h4-title {
+    font-size: 1.5em;
+  }
+  .column-footer .paragraph-footer-2 p {
+    text-align: center;
+    font-size: 0.9em;
+  }
+  .section-principal-container {
+    height: 50vh;
+  }
+  .section-principal-container div .h1-title {
+    font-size: 1.9em;
+  }
+  .section-principal-container div p {
+    font-size: 0.9em;
+  }
+  .section-unidades-container .div-titulos-unidades-container div .h2-title {
+    font-size: 1.5em;
+  }
+  .section-unidades-container .div-titulos-unidades-container div p {
+    font-size: 0.9em;
+  }
+  .section-unidades-container .div-unidades-container div {
+    height: 13em;
+    width: 13em;
+  }
+  .section-unidades-container .div-unidades-container a .h3-title {
+    font-size: 1.5em;
+  }
+  .section-nosotros-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .section-nosotros-container div {
+    margin: auto;
+    padding: auto;
+  }
+  .section-nosotros-container div div .h3-title {
+    font-size: 1.1em;
+  }
+  .section-nosotros-container div div p {
+    font-size: 0.9em;
+  }
+  .section-nosotros-container div .video-institucional-index {
+    width: 50vw;
+  }
+  .section-formulario-container .titulo-formulario-container .h2-title {
+    font-size: 0.9em;
+  }
+  .section-formulario-container .titulo-formulario-container p {
+    font-size: 0.9em;
+  }
+  .section-formulario-container .formulario-contacto {
+    font-size: 0.9em;
+    padding: 0 0 1em 1em;
+  }
+  .section-suscribite-container {
+    font-size: 0.9em;
+    padding: 1em 0 1em 0;
+  }
+  .icon-top a {
+    font-size: 3em;
+  }
+  .inmobiliaria-section-principal-container {
+    padding: 10em 0 10em;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container {
+    padding: 3.2em;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container .h1-title {
+    font-size: 1.9em;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container .h2-title {
+    font-size: 0.9em;
+  }
+  .inmobilaria-barra-container {
+    font-size: 0.9em;
+  }
+  .inmobiliaria-section-destacadas .inmobiliaria-propiedades-destacadas .h2-title {
+    font-size: 1.2em;
+  }
+  .inmobiliaria-paragraph-propiedades {
+    font-size: 0.9em;
+  }
+  .inmobiliaria-section-emprendimientos .inmobiliaria-emprendimientos .h2-title {
+    font-size: 1.2em;
+  }
+  .financiera-section-principal-container {
+    padding: 10m 5em 10em 5em;
+  }
+  .financiera-section-principal-container .h1-title {
+    font-size: 2.5em;
+  }
+  .financiera-section-principal-container .h2-title {
+    font-size: 1.9em;
+  }
+  .financiera-section-principal-container p {
+    font-size: 0.9em;
+  }
+  .financiera-section-icon-container {
+    padding: 6em 3em 0 em;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container {
+    padding-bottom: 4em;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container .financiera-icon-container i {
+    font-size: 8vh;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container .financiera-icon-container p {
+    font-size: 0.9em;
+    margin-top: 1.1em;
+  }
+  .financiera-section-icon-container .financiera-icon-button-container {
+    padding-top: 3.2em;
+  }
+  .financiera-section-formulario-container .financiera-titulo-container .h2-title {
+    font-size: 1.9em;
+  }
+  .financiera-section-formulario-container .formulario-finacniera {
+    padding: 1em;
+    font-size: 0.7em;
+  }
+  .desarrolladora-section-principal-container .h1-title {
+    font-size: 2.5em;
+    padding: 0.2em 0 0.2em 0;
+  }
+  .desarrolladora-section-principal-container .h2-title {
+    font-size: 1.9em;
+  }
+  .desarrolladora-section-principal-container p {
+    font-size: 0.9em;
+  }
+  .desarroladora-section-two-container div p {
+    font-size: 0.9em;
+  }
+  .desarralladora-section-icon-container .h3-title {
+    font-size: 1.2em;
+  }
+  .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container i {
+    font-size: 8vh;
+  }
+  .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container p {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-proyectos-container div .h2-title {
+    font-size: 1.9em;
+  }
+  .desarrolladora-section-proyectos-container div div div div p {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-alianzas-container div .h2-title {
+    font-size: 1.9em;
+  }
+  .desarrolladora-section-alianzas-container div div div div p {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-terceros-container div .h2-title {
+    font-size: 1.9em;
+  }
+  .desarrolladora-section-terceros-container div div div div p {
+    font-size: 0.9em;
+  }
+  .nosotros-section-principal-container {
+    margin: 0;
+    padding: 2em;
+    font-size: 0.9em;
+  }
+  .nosotros-section-principal-container div .nosotros-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div .mision-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div .valores-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div .servicios-img-container img {
+    width: 40vh;
+  }
+  .contacto-section-principal-container .h2-title {
+    font-size: 1.5em;
+  }
+  .contacto-section-principal-container p {
+    font-size: 0.9em;
+  }
+  .contacto-form-container {
+    font-size: 0.5em;
+  }
+  .contacto-section-two-container div .h3-title {
+    font-size: 1.2em;
+    text-align: center;
+  }
+  .contacto-section-two-container div p {
+    font-size: 0.9em;
+  }
+  .contacto-section-two-container .mapa-contacto iframe {
+    width: 50vw;
+    height: 50vh;
+  }
+  .vende-section-principal-container div .h2-title {
+    font-size: 1.9em;
+  }
+  .vende-section-principal-container div p {
+    font-size: 0.9em;
+  }
+  .vende-section-principal-container .form-container {
+    font-size: 0.7em;
+    margin: 0;
+    padding: 1em;
+  }
+}
+
+/* Media query mobile */
+@media screen and (max-width: 590px) {
+  #footer .column-footer .logo a img {
+    width: 15vw;
+  }
+  #footer .column-footer .paragraph-footer p {
+    font-size: 0.8em;
+  }
+  #footer .column-footer {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #footer .column-footer .footer-contacto .h4-title {
+    font-size: 1em;
+  }
+  #footer .column-footer .paragraph-footer-2 p {
+    text-align: center;
+    font-size: 0.9em;
+  }
+  #footer .column-footer .footer-unidades .h4-title {
+    font-size: 1em;
+  }
+  #footer .column-footer div .h4-title {
+    font-size: 1em;
+  }
+  #footer .column-footer .icon-redes a {
+    font-size: 1.2em;
+    padding: 0 0.5em 0 0.5em;
+  }
+  .section-principal-container {
+    height: 50vh;
+    padding: 0;
+    margin: 0;
+  }
+  .section-principal-container div {
+    padding: 0;
+    margin: 0;
+  }
+  .section-principal-container div .h1-title {
+    font-size: 0.9em;
+  }
+  .section-principal-container div {
+    padding: 0;
+    margin: 0;
+  }
+  .section-principal-container div p {
+    font-size: 0.9em;
+  }
+  .section-unidades-container .div-titulos-unidades-container div .h2-title {
+    font-size: 0.9em;
+  }
+  .section-unidades-container .div-titulos-unidades-container div p {
+    font-size: 0.9em;
+  }
+  .section-unidades-container .div-unidades-container div {
+    height: 9em;
+    width: 9em;
+  }
+  .section-unidades-container .div-unidades-container a .h3-title {
+    font-size: 0.9em;
+  }
+  .section-nosotros-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .section-nosotros-container div {
+    margin: auto;
+    padding: auto;
+  }
+  .section-nosotros-container div div .h3-title {
+    font-size: 0.9em;
+  }
+  .section-nosotros-container div div p {
+    font-size: 0.7em;
+  }
+  .section-nosotros-container div .video-institucional-index {
+    width: 50vw;
+  }
+  .section-formulario-container .titulo-formulario-container .h2-title {
+    font-size: 0.9em;
+  }
+  .section-formulario-container .titulo-formulario-container p {
+    font-size: 0.7em;
+  }
+  .section-formulario-container .formulario-contacto {
+    font-size: 0.7em;
+    margin: auto;
+    padding: auto;
+  }
+  .section-suscribite-container {
+    font-size: 0.9em;
+    margin: auto;
+    padding: auto;
+  }
+  .icon-top a {
+    font-size: 2em;
+  }
+  .inmobiliaria-section-principal-container {
+    padding: 8em 0 8em;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container {
+    padding: 3em;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container .h1-title {
+    font-size: 1.1em;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container .h2-title {
+    font-size: 0.9em;
+  }
+  .inmobilaria-barra-container {
+    font-size: 0.7em;
+  }
+  .inmobiliaria-section-destacadas .inmobiliaria-propiedades-destacadas .h2-title {
+    font-size: 0.8em;
+  }
+  .inmobiliaria-paragraph-propiedades {
+    font-size: 0.7em;
+  }
+  .inmobiliaria-section-emprendimientos .inmobiliaria-emprendimientos .h2-title {
+    font-size: 1em;
+  }
+  .financiera-section-principal-container {
+    padding: 7em 5em 5em 5em;
+  }
+  .financiera-section-principal-container .h1-title {
+    font-size: 1.9em;
+    text-align: center;
+  }
+  .financiera-section-principal-container .h2-title {
+    font-size: 0.9em;
+  }
+  .financiera-section-principal-container p {
+    font-size: 0.7em;
+  }
+  .financiera-section-icon-container {
+    padding: 6em 3em 0 em;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    padding-bottom: 4em;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container .financiera-icon-container i {
+    font-size: 6vh;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container .financiera-icon-container p {
+    font-size: 0.7em;
+    margin-top: 1.1em;
+  }
+  .financiera-section-icon-container .financiera-icon-button-container {
+    padding-top: 3.2em;
+  }
+  .financiera-section-formulario-container .financiera-titulo-container .h2-title {
+    font-size: 0.9em;
+  }
+  .financiera-section-formulario-container .financiera-titulo-container p {
+    font-size: 0.7em;
+  }
+  .financiera-section-formulario-container .formulario-finacniera {
+    padding: 1em;
+    font-size: 0.6em;
+  }
+  .desarrolladora-section-principal-container .h1-title {
+    font-size: 1.9em;
+    font-weight: 700;
+    padding: 0.1em 0 0.1em 0;
+  }
+  .desarrolladora-section-principal-container .h2-title {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-principal-container p {
+    font-size: 0.9em;
+  }
+  .desarroladora-section-two-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .desarroladora-section-two-container div p {
+    padding-top: 2em;
+    font-size: 0.7em;
+  }
+  .desarralladora-section-icon-container .h3-title {
+    font-size: 1em;
+    text-align: center;
+  }
+  .desarralladora-section-icon-container .desarrolladora-div-icon-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container i {
+    font-size: 6vh;
+  }
+  .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container p {
+    font-size: 0.7em;
+  }
+  .desarrolladora-section-proyectos-container div .h2-title {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-proyectos-container div div div div p {
+    font-size: 0.7em;
+  }
+  .desarrolladora-section-alianzas-container div .h2-title {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-alianzas-container div div div div p {
+    font-size: 0.7em;
+  }
+  .desarrolladora-section-terceros-container div .h2-title {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-terceros-container div div div div p {
+    font-size: 0.7em;
+  }
+  .nosotros-section-principal-container {
+    margin: 0;
+    padding: 2em;
+    font-size: 0.7em;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .nosotros-section-principal-container div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .nosotros-section-principal-container div .nosotros-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .nosotros-section-principal-container div .mision-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    margin: auto;
+  }
+  .nosotros-section-principal-container div .valores-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div .valores-p-container {
+    padding: 0;
+    text-align: center;
+  }
+  .nosotros-section-principal-container div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .nosotros-section-principal-container div .servicios-img-container img {
+    width: 40vh;
+  }
+  .vende-section-principal-container div .h2-title {
+    font-size: 0.9em;
+  }
+  .vende-section-principal-container div p {
+    font-size: 0.9em;
+  }
+  .vende-section-principal-container .form-container {
+    font-size: 0.7em;
+    margin: 0;
+    padding: 1em;
+  }
+}
+
+.inmobiliaria-section-principal-container {
+  background-color: #c5b552;
+  padding: 9em 0 12em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.inmobiliaria-section-principal-container .inmobiliaria-titulos-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3.2em;
+  color: #000;
+}
+
+.inmobiliaria-section-principal-container .inmobiliaria-titulos-container .h1-title {
+  font-family: "Work Sans", sans-serif;
+  font-size: 3.2em;
+  font-weight: 700;
+  color: #000;
+}
+
+.inmobiliaria-section-principal-container .inmobiliaria-titulos-container .h2-title {
+  font-family: "Work Sans", sans-serif;
+  color: #000;
+  font-size: 2.5em;
+  font-weight: 600;
+}
+
+.inmobiliaria-section-principal-container .inmobilaria-barra-container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.inmobiliaria-section-principal-container .inmobilaria-barra-container ul li {
+  list-style: none;
+  font-family: "Work Sans", sans-serif;
+  font-size: 0.9em;
+  font-weight: 500;
+  color: #000;
+}
+
+.inmobiliaria-section-principal-container .inmobilaria-barra-container ul li .inmobiliaria-vende {
+  text-decoration: none;
+  color: #000;
+}
+
+.inmobiliaria-section-destacadas .inmobiliaria-propiedades-destacadas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1.9em;
+}
+
+.inmobiliaria-section-destacadas .inmobiliaria-propiedades-destacadas .h2-title {
+  font-family: "Work Sans", sans-serif;
+  color: #000;
+  font-size: 2.5em;
+  font-weight: 600;
+}
+
+.inmobiliaria-paragraph-propiedades {
+  font-family: "Work Sans", sans-serif;
+  font-size: 0.9em;
+  font-weight: 400;
+  color: #000;
+}
+
+.inmobiliaria-section-emprendimientos .inmobiliaria-emprendimientos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1.9em;
+}
+
+.inmobiliaria-section-emprendimientos .inmobiliaria-emprendimientos .h2-title {
+  font-family: "Work Sans", sans-serif;
+  color: #000;
+  font-size: 2.5em;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 980px) {
+  #footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .column-footer {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .column-footer .footer-contacto .h4-title {
+    font-size: 1.5em;
+  }
+  .column-footer .paragraph-footer-2 p {
+    text-align: center;
+    font-size: 0.9em;
+  }
+  .section-principal-container {
+    height: 50vh;
+  }
+  .section-principal-container div .h1-title {
+    font-size: 1.9em;
+  }
+  .section-principal-container div p {
+    font-size: 0.9em;
+  }
+  .section-unidades-container .div-titulos-unidades-container div .h2-title {
+    font-size: 1.5em;
+  }
+  .section-unidades-container .div-titulos-unidades-container div p {
+    font-size: 0.9em;
+  }
+  .section-unidades-container .div-unidades-container div {
+    height: 13em;
+    width: 13em;
+  }
+  .section-unidades-container .div-unidades-container a .h3-title {
+    font-size: 1.5em;
+  }
+  .section-nosotros-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .section-nosotros-container div {
+    margin: auto;
+    padding: auto;
+  }
+  .section-nosotros-container div div .h3-title {
+    font-size: 1.1em;
+  }
+  .section-nosotros-container div div p {
+    font-size: 0.9em;
+  }
+  .section-nosotros-container div .video-institucional-index {
+    width: 50vw;
+  }
+  .section-formulario-container .titulo-formulario-container .h2-title {
+    font-size: 0.9em;
+  }
+  .section-formulario-container .titulo-formulario-container p {
+    font-size: 0.9em;
+  }
+  .section-formulario-container .formulario-contacto {
+    font-size: 0.9em;
+    padding: 0 0 1em 1em;
+  }
+  .section-suscribite-container {
+    font-size: 0.9em;
+    padding: 1em 0 1em 0;
+  }
+  .icon-top a {
+    font-size: 3em;
+  }
+  .inmobiliaria-section-principal-container {
+    padding: 10em 0 10em;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container {
+    padding: 3.2em;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container .h1-title {
+    font-size: 1.9em;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container .h2-title {
+    font-size: 0.9em;
+  }
+  .inmobilaria-barra-container {
+    font-size: 0.9em;
+  }
+  .inmobiliaria-section-destacadas .inmobiliaria-propiedades-destacadas .h2-title {
+    font-size: 1.2em;
+  }
+  .inmobiliaria-paragraph-propiedades {
+    font-size: 0.9em;
+  }
+  .inmobiliaria-section-emprendimientos .inmobiliaria-emprendimientos .h2-title {
+    font-size: 1.2em;
+  }
+  .financiera-section-principal-container {
+    padding: 10m 5em 10em 5em;
+  }
+  .financiera-section-principal-container .h1-title {
+    font-size: 2.5em;
+  }
+  .financiera-section-principal-container .h2-title {
+    font-size: 1.9em;
+  }
+  .financiera-section-principal-container p {
+    font-size: 0.9em;
+  }
+  .financiera-section-icon-container {
+    padding: 6em 3em 0 em;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container {
+    padding-bottom: 4em;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container .financiera-icon-container i {
+    font-size: 8vh;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container .financiera-icon-container p {
+    font-size: 0.9em;
+    margin-top: 1.1em;
+  }
+  .financiera-section-icon-container .financiera-icon-button-container {
+    padding-top: 3.2em;
+  }
+  .financiera-section-formulario-container .financiera-titulo-container .h2-title {
+    font-size: 1.9em;
+  }
+  .financiera-section-formulario-container .formulario-finacniera {
+    padding: 1em;
+    font-size: 0.7em;
+  }
+  .desarrolladora-section-principal-container .h1-title {
+    font-size: 2.5em;
+    padding: 0.2em 0 0.2em 0;
+  }
+  .desarrolladora-section-principal-container .h2-title {
+    font-size: 1.9em;
+  }
+  .desarrolladora-section-principal-container p {
+    font-size: 0.9em;
+  }
+  .desarroladora-section-two-container div p {
+    font-size: 0.9em;
+  }
+  .desarralladora-section-icon-container .h3-title {
+    font-size: 1.2em;
+  }
+  .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container i {
+    font-size: 8vh;
+  }
+  .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container p {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-proyectos-container div .h2-title {
+    font-size: 1.9em;
+  }
+  .desarrolladora-section-proyectos-container div div div div p {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-alianzas-container div .h2-title {
+    font-size: 1.9em;
+  }
+  .desarrolladora-section-alianzas-container div div div div p {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-terceros-container div .h2-title {
+    font-size: 1.9em;
+  }
+  .desarrolladora-section-terceros-container div div div div p {
+    font-size: 0.9em;
+  }
+  .nosotros-section-principal-container {
+    margin: 0;
+    padding: 2em;
+    font-size: 0.9em;
+  }
+  .nosotros-section-principal-container div .nosotros-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div .mision-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div .valores-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div .servicios-img-container img {
+    width: 40vh;
+  }
+  .contacto-section-principal-container .h2-title {
+    font-size: 1.5em;
+  }
+  .contacto-section-principal-container p {
+    font-size: 0.9em;
+  }
+  .contacto-form-container {
+    font-size: 0.5em;
+  }
+  .contacto-section-two-container div .h3-title {
+    font-size: 1.2em;
+    text-align: center;
+  }
+  .contacto-section-two-container div p {
+    font-size: 0.9em;
+  }
+  .contacto-section-two-container .mapa-contacto iframe {
+    width: 50vw;
+    height: 50vh;
+  }
+  .vende-section-principal-container div .h2-title {
+    font-size: 1.9em;
+  }
+  .vende-section-principal-container div p {
+    font-size: 0.9em;
+  }
+  .vende-section-principal-container .form-container {
+    font-size: 0.7em;
+    margin: 0;
+    padding: 1em;
+  }
+}
+
+/* Media query mobile */
+@media screen and (max-width: 590px) {
+  #footer .column-footer .logo a img {
+    width: 15vw;
+  }
+  #footer .column-footer .paragraph-footer p {
+    font-size: 0.8em;
+  }
+  #footer .column-footer {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #footer .column-footer .footer-contacto .h4-title {
+    font-size: 1em;
+  }
+  #footer .column-footer .paragraph-footer-2 p {
+    text-align: center;
+    font-size: 0.9em;
+  }
+  #footer .column-footer .footer-unidades .h4-title {
+    font-size: 1em;
+  }
+  #footer .column-footer div .h4-title {
+    font-size: 1em;
+  }
+  #footer .column-footer .icon-redes a {
+    font-size: 1.2em;
+    padding: 0 0.5em 0 0.5em;
+  }
+  .section-principal-container {
+    height: 50vh;
+    padding: 0;
+    margin: 0;
+  }
+  .section-principal-container div {
+    padding: 0;
+    margin: 0;
+  }
+  .section-principal-container div .h1-title {
+    font-size: 0.9em;
+  }
+  .section-principal-container div {
+    padding: 0;
+    margin: 0;
+  }
+  .section-principal-container div p {
+    font-size: 0.9em;
+  }
+  .section-unidades-container .div-titulos-unidades-container div .h2-title {
+    font-size: 0.9em;
+  }
+  .section-unidades-container .div-titulos-unidades-container div p {
+    font-size: 0.9em;
+  }
+  .section-unidades-container .div-unidades-container div {
+    height: 9em;
+    width: 9em;
+  }
+  .section-unidades-container .div-unidades-container a .h3-title {
+    font-size: 0.9em;
+  }
+  .section-nosotros-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .section-nosotros-container div {
+    margin: auto;
+    padding: auto;
+  }
+  .section-nosotros-container div div .h3-title {
+    font-size: 0.9em;
+  }
+  .section-nosotros-container div div p {
+    font-size: 0.7em;
+  }
+  .section-nosotros-container div .video-institucional-index {
+    width: 50vw;
+  }
+  .section-formulario-container .titulo-formulario-container .h2-title {
+    font-size: 0.9em;
+  }
+  .section-formulario-container .titulo-formulario-container p {
+    font-size: 0.7em;
+  }
+  .section-formulario-container .formulario-contacto {
+    font-size: 0.7em;
+    margin: auto;
+    padding: auto;
+  }
+  .section-suscribite-container {
+    font-size: 0.9em;
+    margin: auto;
+    padding: auto;
+  }
+  .icon-top a {
+    font-size: 2em;
+  }
+  .inmobiliaria-section-principal-container {
+    padding: 8em 0 8em;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container {
+    padding: 3em;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container .h1-title {
+    font-size: 1.1em;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container .h2-title {
+    font-size: 0.9em;
+  }
+  .inmobilaria-barra-container {
+    font-size: 0.7em;
+  }
+  .inmobiliaria-section-destacadas .inmobiliaria-propiedades-destacadas .h2-title {
+    font-size: 0.8em;
+  }
+  .inmobiliaria-paragraph-propiedades {
+    font-size: 0.7em;
+  }
+  .inmobiliaria-section-emprendimientos .inmobiliaria-emprendimientos .h2-title {
+    font-size: 1em;
+  }
+  .financiera-section-principal-container {
+    padding: 7em 5em 5em 5em;
+  }
+  .financiera-section-principal-container .h1-title {
+    font-size: 1.9em;
+    text-align: center;
+  }
+  .financiera-section-principal-container .h2-title {
+    font-size: 0.9em;
+  }
+  .financiera-section-principal-container p {
+    font-size: 0.7em;
+  }
+  .financiera-section-icon-container {
+    padding: 6em 3em 0 em;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    padding-bottom: 4em;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container .financiera-icon-container i {
+    font-size: 6vh;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container .financiera-icon-container p {
+    font-size: 0.7em;
+    margin-top: 1.1em;
+  }
+  .financiera-section-icon-container .financiera-icon-button-container {
+    padding-top: 3.2em;
+  }
+  .financiera-section-formulario-container .financiera-titulo-container .h2-title {
+    font-size: 0.9em;
+  }
+  .financiera-section-formulario-container .financiera-titulo-container p {
+    font-size: 0.7em;
+  }
+  .financiera-section-formulario-container .formulario-finacniera {
+    padding: 1em;
+    font-size: 0.6em;
+  }
+  .desarrolladora-section-principal-container .h1-title {
+    font-size: 1.9em;
+    font-weight: 700;
+    padding: 0.1em 0 0.1em 0;
+  }
+  .desarrolladora-section-principal-container .h2-title {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-principal-container p {
+    font-size: 0.9em;
+  }
+  .desarroladora-section-two-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .desarroladora-section-two-container div p {
+    padding-top: 2em;
+    font-size: 0.7em;
+  }
+  .desarralladora-section-icon-container .h3-title {
+    font-size: 1em;
+    text-align: center;
+  }
+  .desarralladora-section-icon-container .desarrolladora-div-icon-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container i {
+    font-size: 6vh;
+  }
+  .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container p {
+    font-size: 0.7em;
+  }
+  .desarrolladora-section-proyectos-container div .h2-title {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-proyectos-container div div div div p {
+    font-size: 0.7em;
+  }
+  .desarrolladora-section-alianzas-container div .h2-title {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-alianzas-container div div div div p {
+    font-size: 0.7em;
+  }
+  .desarrolladora-section-terceros-container div .h2-title {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-terceros-container div div div div p {
+    font-size: 0.7em;
+  }
+  .nosotros-section-principal-container {
+    margin: 0;
+    padding: 2em;
+    font-size: 0.7em;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .nosotros-section-principal-container div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .nosotros-section-principal-container div .nosotros-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .nosotros-section-principal-container div .mision-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    margin: auto;
+  }
+  .nosotros-section-principal-container div .valores-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div .valores-p-container {
+    padding: 0;
+    text-align: center;
+  }
+  .nosotros-section-principal-container div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .nosotros-section-principal-container div .servicios-img-container img {
+    width: 40vh;
+  }
+  .vende-section-principal-container div .h2-title {
+    font-size: 0.9em;
+  }
+  .vende-section-principal-container div p {
+    font-size: 0.9em;
+  }
+  .vende-section-principal-container .form-container {
+    font-size: 0.7em;
+    margin: 0;
+    padding: 1em;
+  }
+}
+
+.financiera-section-principal-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  padding: 9em 6.3em 12em 6.3em;
+}
+
+.financiera-section-principal-container .h1-title {
+  font-family: "Work Sans", sans-serif;
+  font-size: 3.2em;
+  font-weight: 700;
+  color: #000;
+}
+
+.financiera-section-principal-container .h2-title {
+  font-family: "Work Sans", sans-serif;
+  color: #000;
+  font-size: 2.5em;
+  font-weight: 600;
+}
+
+.financiera-section-principal-container p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.5em;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 1.1em;
+  color: #000;
+}
+
+.financiera-section-icon-container {
+  background-color: #c5b552;
+  padding: 6.3em 3.2em 0 3.2em;
+}
+
+.financiera-section-icon-container .financiera-div-icon-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-bottom: 6.3em;
+}
+
+.financiera-section-icon-container .financiera-div-icon-container .financiera-icon-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.financiera-section-icon-container .financiera-div-icon-container .financiera-icon-container i {
+  font-size: 10vh;
+  color: #000;
+}
+
+.financiera-section-icon-container .financiera-div-icon-container .financiera-icon-container p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.5em;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 1.1em;
+  color: #000;
+}
+
+.financiera-section-icon-container .financiera-icon-button-container {
+  padding-top: 3.2em;
+}
+
+.financiera-section-formulario-container .financiera-titulo-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 2em;
+}
+
+.financiera-section-formulario-container .financiera-titulo-container .h2-title {
+  font-family: "Work Sans", sans-serif;
+  color: #000;
+  font-size: 2.5em;
+  font-weight: 600;
+}
+
+.financiera-section-formulario-container .financiera-titulo-container p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 0.9em;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 1.1em;
+  color: #000;
+}
+
+.financiera-section-formulario-container .formulario-finacniera {
+  font-family: "Work Sans", sans-serif;
+  font-size: 0.9em;
+  font-weight: 400;
+  margin-top: 0.7em;
+  padding: 0 0 1.2em 6.3em;
+}
+
+@media screen and (max-width: 980px) {
+  #footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .column-footer {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .column-footer .footer-contacto .h4-title {
+    font-size: 1.5em;
+  }
+  .column-footer .paragraph-footer-2 p {
+    text-align: center;
+    font-size: 0.9em;
+  }
+  .section-principal-container {
+    height: 50vh;
+  }
+  .section-principal-container div .h1-title {
+    font-size: 1.9em;
+  }
+  .section-principal-container div p {
+    font-size: 0.9em;
+  }
+  .section-unidades-container .div-titulos-unidades-container div .h2-title {
+    font-size: 1.5em;
+  }
+  .section-unidades-container .div-titulos-unidades-container div p {
+    font-size: 0.9em;
+  }
+  .section-unidades-container .div-unidades-container div {
+    height: 13em;
+    width: 13em;
+  }
+  .section-unidades-container .div-unidades-container a .h3-title {
+    font-size: 1.5em;
+  }
+  .section-nosotros-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .section-nosotros-container div {
+    margin: auto;
+    padding: auto;
+  }
+  .section-nosotros-container div div .h3-title {
+    font-size: 1.1em;
+  }
+  .section-nosotros-container div div p {
+    font-size: 0.9em;
+  }
+  .section-nosotros-container div .video-institucional-index {
+    width: 50vw;
+  }
+  .section-formulario-container .titulo-formulario-container .h2-title {
+    font-size: 0.9em;
+  }
+  .section-formulario-container .titulo-formulario-container p {
+    font-size: 0.9em;
+  }
+  .section-formulario-container .formulario-contacto {
+    font-size: 0.9em;
+    padding: 0 0 1em 1em;
+  }
+  .section-suscribite-container {
+    font-size: 0.9em;
+    padding: 1em 0 1em 0;
+  }
+  .icon-top a {
+    font-size: 3em;
+  }
+  .inmobiliaria-section-principal-container {
+    padding: 10em 0 10em;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container {
+    padding: 3.2em;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container .h1-title {
+    font-size: 1.9em;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container .h2-title {
+    font-size: 0.9em;
+  }
+  .inmobilaria-barra-container {
+    font-size: 0.9em;
+  }
+  .inmobiliaria-section-destacadas .inmobiliaria-propiedades-destacadas .h2-title {
+    font-size: 1.2em;
+  }
+  .inmobiliaria-paragraph-propiedades {
+    font-size: 0.9em;
+  }
+  .inmobiliaria-section-emprendimientos .inmobiliaria-emprendimientos .h2-title {
+    font-size: 1.2em;
+  }
+  .financiera-section-principal-container {
+    padding: 10m 5em 10em 5em;
+  }
+  .financiera-section-principal-container .h1-title {
+    font-size: 2.5em;
+  }
+  .financiera-section-principal-container .h2-title {
+    font-size: 1.9em;
+  }
+  .financiera-section-principal-container p {
+    font-size: 0.9em;
+  }
+  .financiera-section-icon-container {
+    padding: 6em 3em 0 em;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container {
+    padding-bottom: 4em;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container .financiera-icon-container i {
+    font-size: 8vh;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container .financiera-icon-container p {
+    font-size: 0.9em;
+    margin-top: 1.1em;
+  }
+  .financiera-section-icon-container .financiera-icon-button-container {
+    padding-top: 3.2em;
+  }
+  .financiera-section-formulario-container .financiera-titulo-container .h2-title {
+    font-size: 1.9em;
+  }
+  .financiera-section-formulario-container .formulario-finacniera {
+    padding: 1em;
+    font-size: 0.7em;
+  }
+  .desarrolladora-section-principal-container .h1-title {
+    font-size: 2.5em;
+    padding: 0.2em 0 0.2em 0;
+  }
+  .desarrolladora-section-principal-container .h2-title {
+    font-size: 1.9em;
+  }
+  .desarrolladora-section-principal-container p {
+    font-size: 0.9em;
+  }
+  .desarroladora-section-two-container div p {
+    font-size: 0.9em;
+  }
+  .desarralladora-section-icon-container .h3-title {
+    font-size: 1.2em;
+  }
+  .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container i {
+    font-size: 8vh;
+  }
+  .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container p {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-proyectos-container div .h2-title {
+    font-size: 1.9em;
+  }
+  .desarrolladora-section-proyectos-container div div div div p {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-alianzas-container div .h2-title {
+    font-size: 1.9em;
+  }
+  .desarrolladora-section-alianzas-container div div div div p {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-terceros-container div .h2-title {
+    font-size: 1.9em;
+  }
+  .desarrolladora-section-terceros-container div div div div p {
+    font-size: 0.9em;
+  }
+  .nosotros-section-principal-container {
+    margin: 0;
+    padding: 2em;
+    font-size: 0.9em;
+  }
+  .nosotros-section-principal-container div .nosotros-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div .mision-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div .valores-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div .servicios-img-container img {
+    width: 40vh;
+  }
+  .contacto-section-principal-container .h2-title {
+    font-size: 1.5em;
+  }
+  .contacto-section-principal-container p {
+    font-size: 0.9em;
+  }
+  .contacto-form-container {
+    font-size: 0.5em;
+  }
+  .contacto-section-two-container div .h3-title {
+    font-size: 1.2em;
+    text-align: center;
+  }
+  .contacto-section-two-container div p {
+    font-size: 0.9em;
+  }
+  .contacto-section-two-container .mapa-contacto iframe {
+    width: 50vw;
+    height: 50vh;
+  }
+  .vende-section-principal-container div .h2-title {
+    font-size: 1.9em;
+  }
+  .vende-section-principal-container div p {
+    font-size: 0.9em;
+  }
+  .vende-section-principal-container .form-container {
+    font-size: 0.7em;
+    margin: 0;
+    padding: 1em;
+  }
+}
+
+/* Media query mobile */
+@media screen and (max-width: 590px) {
+  #footer .column-footer .logo a img {
+    width: 15vw;
+  }
+  #footer .column-footer .paragraph-footer p {
+    font-size: 0.8em;
+  }
+  #footer .column-footer {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #footer .column-footer .footer-contacto .h4-title {
+    font-size: 1em;
+  }
+  #footer .column-footer .paragraph-footer-2 p {
+    text-align: center;
+    font-size: 0.9em;
+  }
+  #footer .column-footer .footer-unidades .h4-title {
+    font-size: 1em;
+  }
+  #footer .column-footer div .h4-title {
+    font-size: 1em;
+  }
+  #footer .column-footer .icon-redes a {
+    font-size: 1.2em;
+    padding: 0 0.5em 0 0.5em;
+  }
+  .section-principal-container {
+    height: 50vh;
+    padding: 0;
+    margin: 0;
+  }
+  .section-principal-container div {
+    padding: 0;
+    margin: 0;
+  }
+  .section-principal-container div .h1-title {
+    font-size: 0.9em;
+  }
+  .section-principal-container div {
+    padding: 0;
+    margin: 0;
+  }
+  .section-principal-container div p {
+    font-size: 0.9em;
+  }
+  .section-unidades-container .div-titulos-unidades-container div .h2-title {
+    font-size: 0.9em;
+  }
+  .section-unidades-container .div-titulos-unidades-container div p {
+    font-size: 0.9em;
+  }
+  .section-unidades-container .div-unidades-container div {
+    height: 9em;
+    width: 9em;
+  }
+  .section-unidades-container .div-unidades-container a .h3-title {
+    font-size: 0.9em;
+  }
+  .section-nosotros-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .section-nosotros-container div {
+    margin: auto;
+    padding: auto;
+  }
+  .section-nosotros-container div div .h3-title {
+    font-size: 0.9em;
+  }
+  .section-nosotros-container div div p {
+    font-size: 0.7em;
+  }
+  .section-nosotros-container div .video-institucional-index {
+    width: 50vw;
+  }
+  .section-formulario-container .titulo-formulario-container .h2-title {
+    font-size: 0.9em;
+  }
+  .section-formulario-container .titulo-formulario-container p {
+    font-size: 0.7em;
+  }
+  .section-formulario-container .formulario-contacto {
+    font-size: 0.7em;
+    margin: auto;
+    padding: auto;
+  }
+  .section-suscribite-container {
+    font-size: 0.9em;
+    margin: auto;
+    padding: auto;
+  }
+  .icon-top a {
+    font-size: 2em;
+  }
+  .inmobiliaria-section-principal-container {
+    padding: 8em 0 8em;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container {
+    padding: 3em;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container .h1-title {
+    font-size: 1.1em;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container .h2-title {
+    font-size: 0.9em;
+  }
+  .inmobilaria-barra-container {
+    font-size: 0.7em;
+  }
+  .inmobiliaria-section-destacadas .inmobiliaria-propiedades-destacadas .h2-title {
+    font-size: 0.8em;
+  }
+  .inmobiliaria-paragraph-propiedades {
+    font-size: 0.7em;
+  }
+  .inmobiliaria-section-emprendimientos .inmobiliaria-emprendimientos .h2-title {
+    font-size: 1em;
+  }
+  .financiera-section-principal-container {
+    padding: 7em 5em 5em 5em;
+  }
+  .financiera-section-principal-container .h1-title {
+    font-size: 1.9em;
+    text-align: center;
+  }
+  .financiera-section-principal-container .h2-title {
+    font-size: 0.9em;
+  }
+  .financiera-section-principal-container p {
+    font-size: 0.7em;
+  }
+  .financiera-section-icon-container {
+    padding: 6em 3em 0 em;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    padding-bottom: 4em;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container .financiera-icon-container i {
+    font-size: 6vh;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container .financiera-icon-container p {
+    font-size: 0.7em;
+    margin-top: 1.1em;
+  }
+  .financiera-section-icon-container .financiera-icon-button-container {
+    padding-top: 3.2em;
+  }
+  .financiera-section-formulario-container .financiera-titulo-container .h2-title {
+    font-size: 0.9em;
+  }
+  .financiera-section-formulario-container .financiera-titulo-container p {
+    font-size: 0.7em;
+  }
+  .financiera-section-formulario-container .formulario-finacniera {
+    padding: 1em;
+    font-size: 0.6em;
+  }
+  .desarrolladora-section-principal-container .h1-title {
+    font-size: 1.9em;
+    font-weight: 700;
+    padding: 0.1em 0 0.1em 0;
+  }
+  .desarrolladora-section-principal-container .h2-title {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-principal-container p {
+    font-size: 0.9em;
+  }
+  .desarroladora-section-two-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .desarroladora-section-two-container div p {
+    padding-top: 2em;
+    font-size: 0.7em;
+  }
+  .desarralladora-section-icon-container .h3-title {
+    font-size: 1em;
+    text-align: center;
+  }
+  .desarralladora-section-icon-container .desarrolladora-div-icon-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container i {
+    font-size: 6vh;
+  }
+  .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container p {
+    font-size: 0.7em;
+  }
+  .desarrolladora-section-proyectos-container div .h2-title {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-proyectos-container div div div div p {
+    font-size: 0.7em;
+  }
+  .desarrolladora-section-alianzas-container div .h2-title {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-alianzas-container div div div div p {
+    font-size: 0.7em;
+  }
+  .desarrolladora-section-terceros-container div .h2-title {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-terceros-container div div div div p {
+    font-size: 0.7em;
+  }
+  .nosotros-section-principal-container {
+    margin: 0;
+    padding: 2em;
+    font-size: 0.7em;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .nosotros-section-principal-container div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .nosotros-section-principal-container div .nosotros-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .nosotros-section-principal-container div .mision-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    margin: auto;
+  }
+  .nosotros-section-principal-container div .valores-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div .valores-p-container {
+    padding: 0;
+    text-align: center;
+  }
+  .nosotros-section-principal-container div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .nosotros-section-principal-container div .servicios-img-container img {
+    width: 40vh;
+  }
+  .vende-section-principal-container div .h2-title {
+    font-size: 0.9em;
+  }
+  .vende-section-principal-container div p {
+    font-size: 0.9em;
+  }
+  .vende-section-principal-container .form-container {
+    font-size: 0.7em;
+    margin: 0;
+    padding: 1em;
+  }
+}
+
+.desarrolladora-section-principal-container {
+  background-color: #c5b552;
+  /* TODAVIA NO DECIDI QUE IMAGEN PONER */
+  padding: 8em 8em 9em 8em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+}
+
+.desarrolladora-section-principal-container .h1-title {
+  font-family: "Work Sans", sans-serif;
+  font-size: 3.2em;
+  font-weight: 700;
+  color: #000;
+  padding: 0.5em 0 0.5em 0;
+}
+
+.desarrolladora-section-principal-container .h2-title {
+  font-family: "Work Sans", sans-serif;
+  color: #000;
+  font-size: 2.5em;
+  font-weight: 600;
+}
+
+.desarrolladora-section-principal-container p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.9em;
+  color: #000;
+  font-weight: 500;
+  padding-top: 1.2em;
+}
+
+.desarroladora-section-two-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 6.3em;
+  padding-bottom: 6.3em;
+  margin: 0 3.2em;
+}
+
+.desarroladora-section-two-container div img {
+  width: 100%;
+}
+
+.desarroladora-section-two-container div p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 0.9em;
+  color: #000;
+  font-weight: 400;
+  padding-left: 2em;
+}
+
+.desarralladora-section-icon-container {
+  background-color: #c5b552;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  padding: 6em 0 6.3em 0;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.desarralladora-section-icon-container .h3-title {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.9em;
+  font-weight: 500;
+  color: #000;
+  padding: 0 3em 3em 3em;
+}
+
+.desarralladora-section-icon-container .desarrolladora-div-icon-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+}
+
+.desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container i {
+  color: #000;
+  font-size: 10vh;
+}
+
+.desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 0.9em;
+  font-weight: 500;
+  padding-top: 1.9em;
+}
+
+.desarroladora-section-barra-container div ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.desarroladora-section-barra-container div ul li {
+  list-style: none;
+  font-family: "Work Sans", sans-serif;
+  font-size: 0.9em;
+  font-weight: 400;
+  color: #000;
+  padding: 6.3em 0 6.3em 0;
+}
+
+.desarroladora-section-barra-container div ul li a {
+  text-decoration: none;
+  color: var(--color-princial);
+}
+
+.desarrolladora-section-proyectos-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1.2em;
+}
+
+.desarrolladora-section-proyectos-container div .h2-title {
+  font-family: "Work Sans", sans-serif;
+  color: #000;
+  font-size: 2.5em;
+  font-weight: 600;
+  padding-bottom: 2em;
+}
+
+.desarrolladora-section-alianzas-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1.2em;
+}
+
+.desarrolladora-section-alianzas-container div .h2-title {
+  font-family: "Work Sans", sans-serif;
+  color: #000;
+  font-size: 2.5em;
+  font-weight: 600;
+  padding: 1.2em;
+}
+
+.desarrolladora-section-terceros-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1.2em;
+}
+
+.desarrolladora-section-terceros-container div .h2-title {
+  font-family: "Work Sans", sans-serif;
+  color: #000;
+  font-size: 2.5em;
+  font-weight: 600;
+  padding: 1.2em;
+}
+
+@media screen and (max-width: 980px) {
+  #footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .column-footer {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .column-footer .footer-contacto .h4-title {
+    font-size: 1.5em;
+  }
+  .column-footer .paragraph-footer-2 p {
+    text-align: center;
+    font-size: 0.9em;
+  }
+  .section-principal-container {
+    height: 50vh;
+  }
+  .section-principal-container div .h1-title {
+    font-size: 1.9em;
+  }
+  .section-principal-container div p {
+    font-size: 0.9em;
+  }
+  .section-unidades-container .div-titulos-unidades-container div .h2-title {
+    font-size: 1.5em;
+  }
+  .section-unidades-container .div-titulos-unidades-container div p {
+    font-size: 0.9em;
+  }
+  .section-unidades-container .div-unidades-container div {
+    height: 13em;
+    width: 13em;
+  }
+  .section-unidades-container .div-unidades-container a .h3-title {
+    font-size: 1.5em;
+  }
+  .section-nosotros-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .section-nosotros-container div {
+    margin: auto;
+    padding: auto;
+  }
+  .section-nosotros-container div div .h3-title {
+    font-size: 1.1em;
+  }
+  .section-nosotros-container div div p {
+    font-size: 0.9em;
+  }
+  .section-nosotros-container div .video-institucional-index {
+    width: 50vw;
+  }
+  .section-formulario-container .titulo-formulario-container .h2-title {
+    font-size: 0.9em;
+  }
+  .section-formulario-container .titulo-formulario-container p {
+    font-size: 0.9em;
+  }
+  .section-formulario-container .formulario-contacto {
+    font-size: 0.9em;
+    padding: 0 0 1em 1em;
+  }
+  .section-suscribite-container {
+    font-size: 0.9em;
+    padding: 1em 0 1em 0;
+  }
+  .icon-top a {
+    font-size: 3em;
+  }
+  .inmobiliaria-section-principal-container {
+    padding: 10em 0 10em;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container {
+    padding: 3.2em;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container .h1-title {
+    font-size: 1.9em;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container .h2-title {
+    font-size: 0.9em;
+  }
+  .inmobilaria-barra-container {
+    font-size: 0.9em;
+  }
+  .inmobiliaria-section-destacadas .inmobiliaria-propiedades-destacadas .h2-title {
+    font-size: 1.2em;
+  }
+  .inmobiliaria-paragraph-propiedades {
+    font-size: 0.9em;
+  }
+  .inmobiliaria-section-emprendimientos .inmobiliaria-emprendimientos .h2-title {
+    font-size: 1.2em;
+  }
+  .financiera-section-principal-container {
+    padding: 10m 5em 10em 5em;
+  }
+  .financiera-section-principal-container .h1-title {
+    font-size: 2.5em;
+  }
+  .financiera-section-principal-container .h2-title {
+    font-size: 1.9em;
+  }
+  .financiera-section-principal-container p {
+    font-size: 0.9em;
+  }
+  .financiera-section-icon-container {
+    padding: 6em 3em 0 em;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container {
+    padding-bottom: 4em;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container .financiera-icon-container i {
+    font-size: 8vh;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container .financiera-icon-container p {
+    font-size: 0.9em;
+    margin-top: 1.1em;
+  }
+  .financiera-section-icon-container .financiera-icon-button-container {
+    padding-top: 3.2em;
+  }
+  .financiera-section-formulario-container .financiera-titulo-container .h2-title {
+    font-size: 1.9em;
+  }
+  .financiera-section-formulario-container .formulario-finacniera {
+    padding: 1em;
+    font-size: 0.7em;
+  }
+  .desarrolladora-section-principal-container .h1-title {
+    font-size: 2.5em;
+    padding: 0.2em 0 0.2em 0;
+  }
+  .desarrolladora-section-principal-container .h2-title {
+    font-size: 1.9em;
+  }
+  .desarrolladora-section-principal-container p {
+    font-size: 0.9em;
+  }
+  .desarroladora-section-two-container div p {
+    font-size: 0.9em;
+  }
+  .desarralladora-section-icon-container .h3-title {
+    font-size: 1.2em;
+  }
+  .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container i {
+    font-size: 8vh;
+  }
+  .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container p {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-proyectos-container div .h2-title {
+    font-size: 1.9em;
+  }
+  .desarrolladora-section-proyectos-container div div div div p {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-alianzas-container div .h2-title {
+    font-size: 1.9em;
+  }
+  .desarrolladora-section-alianzas-container div div div div p {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-terceros-container div .h2-title {
+    font-size: 1.9em;
+  }
+  .desarrolladora-section-terceros-container div div div div p {
+    font-size: 0.9em;
+  }
+  .nosotros-section-principal-container {
+    margin: 0;
+    padding: 2em;
+    font-size: 0.9em;
+  }
+  .nosotros-section-principal-container div .nosotros-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div .mision-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div .valores-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div .servicios-img-container img {
+    width: 40vh;
+  }
+  .contacto-section-principal-container .h2-title {
+    font-size: 1.5em;
+  }
+  .contacto-section-principal-container p {
+    font-size: 0.9em;
+  }
+  .contacto-form-container {
+    font-size: 0.5em;
+  }
+  .contacto-section-two-container div .h3-title {
+    font-size: 1.2em;
+    text-align: center;
+  }
+  .contacto-section-two-container div p {
+    font-size: 0.9em;
+  }
+  .contacto-section-two-container .mapa-contacto iframe {
+    width: 50vw;
+    height: 50vh;
+  }
+  .vende-section-principal-container div .h2-title {
+    font-size: 1.9em;
+  }
+  .vende-section-principal-container div p {
+    font-size: 0.9em;
+  }
+  .vende-section-principal-container .form-container {
+    font-size: 0.7em;
+    margin: 0;
+    padding: 1em;
+  }
+}
+
+/* Media query mobile */
+@media screen and (max-width: 590px) {
+  #footer .column-footer .logo a img {
+    width: 15vw;
+  }
+  #footer .column-footer .paragraph-footer p {
+    font-size: 0.8em;
+  }
+  #footer .column-footer {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #footer .column-footer .footer-contacto .h4-title {
+    font-size: 1em;
+  }
+  #footer .column-footer .paragraph-footer-2 p {
+    text-align: center;
+    font-size: 0.9em;
+  }
+  #footer .column-footer .footer-unidades .h4-title {
+    font-size: 1em;
+  }
+  #footer .column-footer div .h4-title {
+    font-size: 1em;
+  }
+  #footer .column-footer .icon-redes a {
+    font-size: 1.2em;
+    padding: 0 0.5em 0 0.5em;
+  }
+  .section-principal-container {
+    height: 50vh;
+    padding: 0;
+    margin: 0;
+  }
+  .section-principal-container div {
+    padding: 0;
+    margin: 0;
+  }
+  .section-principal-container div .h1-title {
+    font-size: 0.9em;
+  }
+  .section-principal-container div {
+    padding: 0;
+    margin: 0;
+  }
+  .section-principal-container div p {
+    font-size: 0.9em;
+  }
+  .section-unidades-container .div-titulos-unidades-container div .h2-title {
+    font-size: 0.9em;
+  }
+  .section-unidades-container .div-titulos-unidades-container div p {
+    font-size: 0.9em;
+  }
+  .section-unidades-container .div-unidades-container div {
+    height: 9em;
+    width: 9em;
+  }
+  .section-unidades-container .div-unidades-container a .h3-title {
+    font-size: 0.9em;
+  }
+  .section-nosotros-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .section-nosotros-container div {
+    margin: auto;
+    padding: auto;
+  }
+  .section-nosotros-container div div .h3-title {
+    font-size: 0.9em;
+  }
+  .section-nosotros-container div div p {
+    font-size: 0.7em;
+  }
+  .section-nosotros-container div .video-institucional-index {
+    width: 50vw;
+  }
+  .section-formulario-container .titulo-formulario-container .h2-title {
+    font-size: 0.9em;
+  }
+  .section-formulario-container .titulo-formulario-container p {
+    font-size: 0.7em;
+  }
+  .section-formulario-container .formulario-contacto {
+    font-size: 0.7em;
+    margin: auto;
+    padding: auto;
+  }
+  .section-suscribite-container {
+    font-size: 0.9em;
+    margin: auto;
+    padding: auto;
+  }
+  .icon-top a {
+    font-size: 2em;
+  }
+  .inmobiliaria-section-principal-container {
+    padding: 8em 0 8em;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container {
+    padding: 3em;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container .h1-title {
+    font-size: 1.1em;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container .h2-title {
+    font-size: 0.9em;
+  }
+  .inmobilaria-barra-container {
+    font-size: 0.7em;
+  }
+  .inmobiliaria-section-destacadas .inmobiliaria-propiedades-destacadas .h2-title {
+    font-size: 0.8em;
+  }
+  .inmobiliaria-paragraph-propiedades {
+    font-size: 0.7em;
+  }
+  .inmobiliaria-section-emprendimientos .inmobiliaria-emprendimientos .h2-title {
+    font-size: 1em;
+  }
+  .financiera-section-principal-container {
+    padding: 7em 5em 5em 5em;
+  }
+  .financiera-section-principal-container .h1-title {
+    font-size: 1.9em;
+    text-align: center;
+  }
+  .financiera-section-principal-container .h2-title {
+    font-size: 0.9em;
+  }
+  .financiera-section-principal-container p {
+    font-size: 0.7em;
+  }
+  .financiera-section-icon-container {
+    padding: 6em 3em 0 em;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    padding-bottom: 4em;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container .financiera-icon-container i {
+    font-size: 6vh;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container .financiera-icon-container p {
+    font-size: 0.7em;
+    margin-top: 1.1em;
+  }
+  .financiera-section-icon-container .financiera-icon-button-container {
+    padding-top: 3.2em;
+  }
+  .financiera-section-formulario-container .financiera-titulo-container .h2-title {
+    font-size: 0.9em;
+  }
+  .financiera-section-formulario-container .financiera-titulo-container p {
+    font-size: 0.7em;
+  }
+  .financiera-section-formulario-container .formulario-finacniera {
+    padding: 1em;
+    font-size: 0.6em;
+  }
+  .desarrolladora-section-principal-container .h1-title {
+    font-size: 1.9em;
+    font-weight: 700;
+    padding: 0.1em 0 0.1em 0;
+  }
+  .desarrolladora-section-principal-container .h2-title {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-principal-container p {
+    font-size: 0.9em;
+  }
+  .desarroladora-section-two-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .desarroladora-section-two-container div p {
+    padding-top: 2em;
+    font-size: 0.7em;
+  }
+  .desarralladora-section-icon-container .h3-title {
+    font-size: 1em;
+    text-align: center;
+  }
+  .desarralladora-section-icon-container .desarrolladora-div-icon-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container i {
+    font-size: 6vh;
+  }
+  .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container p {
+    font-size: 0.7em;
+  }
+  .desarrolladora-section-proyectos-container div .h2-title {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-proyectos-container div div div div p {
+    font-size: 0.7em;
+  }
+  .desarrolladora-section-alianzas-container div .h2-title {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-alianzas-container div div div div p {
+    font-size: 0.7em;
+  }
+  .desarrolladora-section-terceros-container div .h2-title {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-terceros-container div div div div p {
+    font-size: 0.7em;
+  }
+  .nosotros-section-principal-container {
+    margin: 0;
+    padding: 2em;
+    font-size: 0.7em;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .nosotros-section-principal-container div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .nosotros-section-principal-container div .nosotros-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .nosotros-section-principal-container div .mision-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    margin: auto;
+  }
+  .nosotros-section-principal-container div .valores-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div .valores-p-container {
+    padding: 0;
+    text-align: center;
+  }
+  .nosotros-section-principal-container div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .nosotros-section-principal-container div .servicios-img-container img {
+    width: 40vh;
+  }
+  .vende-section-principal-container div .h2-title {
+    font-size: 0.9em;
+  }
+  .vende-section-principal-container div p {
+    font-size: 0.9em;
+  }
+  .vende-section-principal-container .form-container {
+    font-size: 0.7em;
+    margin: 0;
+    padding: 1em;
+  }
+}
+
+.video-container-nosotros video {
+  width: 100vw;
+  height: auto;
+}
+
+.nosotros-section-principal-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  margin: 6em;
+  font-family: "Work Sans", sans-serif;
+  font-size: 0.9em;
+}
+
+.nosotros-section-principal-container div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.2em 0 1.2em 0;
+}
+
+.nosotros-section-principal-container div .nosotros-img-container img {
+  width: 60vh;
+}
+
+.nosotros-section-principal-container div .nosotros-p-container p {
+  padding: 0 3.1em 0 3.1em;
+  text-align: justify;
+}
+
+.nosotros-section-principal-container div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.2em 0 1.2em 0;
+}
+
+.nosotros-section-principal-container div .mision-p-container p {
+  padding: 0 3.1em 0 3.1em;
+  text-align: justify;
+}
+
+.nosotros-section-principal-container div .mision-img-container img {
+  width: 60vh;
+}
+
+.nosotros-section-principal-container div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.2em 0 1.2em 0;
+}
+
+.nosotros-section-principal-container div .valores-img-container img {
+  width: 60vh;
+}
+
+.nosotros-section-principal-container div .valores-p-container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  padding-left: 12.7em;
+}
+
+.nosotros-section-principal-container div .valores-p-container p {
+  padding: 0 3.1em 0 3.1em;
+  text-align: justify;
+}
+
+.nosotros-section-principal-container div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.2em 0 1.2em 0;
+}
+
+.nosotros-section-principal-container div .servicios-p-container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  padding-right: 2em;
+}
+
+.nosotros-section-principal-container div .servicios-p-container p {
+  padding: 0 3.1em 0 3.1em;
+  text-align: justify;
+}
+
+.nosotros-section-principal-container div .servicios-img-container img {
+  width: 60vh;
+}
+
+@media screen and (max-width: 980px) {
+  #footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .column-footer {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .column-footer .footer-contacto .h4-title {
+    font-size: 1.5em;
+  }
+  .column-footer .paragraph-footer-2 p {
+    text-align: center;
+    font-size: 0.9em;
+  }
+  .section-principal-container {
+    height: 50vh;
+  }
+  .section-principal-container div .h1-title {
+    font-size: 1.9em;
+  }
+  .section-principal-container div p {
+    font-size: 0.9em;
+  }
+  .section-unidades-container .div-titulos-unidades-container div .h2-title {
+    font-size: 1.5em;
+  }
+  .section-unidades-container .div-titulos-unidades-container div p {
+    font-size: 0.9em;
+  }
+  .section-unidades-container .div-unidades-container div {
+    height: 13em;
+    width: 13em;
+  }
+  .section-unidades-container .div-unidades-container a .h3-title {
+    font-size: 1.5em;
+  }
+  .section-nosotros-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .section-nosotros-container div {
+    margin: auto;
+    padding: auto;
+  }
+  .section-nosotros-container div div .h3-title {
+    font-size: 1.1em;
+  }
+  .section-nosotros-container div div p {
+    font-size: 0.9em;
+  }
+  .section-nosotros-container div .video-institucional-index {
+    width: 50vw;
+  }
+  .section-formulario-container .titulo-formulario-container .h2-title {
+    font-size: 0.9em;
+  }
+  .section-formulario-container .titulo-formulario-container p {
+    font-size: 0.9em;
+  }
+  .section-formulario-container .formulario-contacto {
+    font-size: 0.9em;
+    padding: 0 0 1em 1em;
+  }
+  .section-suscribite-container {
+    font-size: 0.9em;
+    padding: 1em 0 1em 0;
+  }
+  .icon-top a {
+    font-size: 3em;
+  }
+  .inmobiliaria-section-principal-container {
+    padding: 10em 0 10em;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container {
+    padding: 3.2em;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container .h1-title {
+    font-size: 1.9em;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container .h2-title {
+    font-size: 0.9em;
+  }
+  .inmobilaria-barra-container {
+    font-size: 0.9em;
+  }
+  .inmobiliaria-section-destacadas .inmobiliaria-propiedades-destacadas .h2-title {
+    font-size: 1.2em;
+  }
+  .inmobiliaria-paragraph-propiedades {
+    font-size: 0.9em;
+  }
+  .inmobiliaria-section-emprendimientos .inmobiliaria-emprendimientos .h2-title {
+    font-size: 1.2em;
+  }
+  .financiera-section-principal-container {
+    padding: 10m 5em 10em 5em;
+  }
+  .financiera-section-principal-container .h1-title {
+    font-size: 2.5em;
+  }
+  .financiera-section-principal-container .h2-title {
+    font-size: 1.9em;
+  }
+  .financiera-section-principal-container p {
+    font-size: 0.9em;
+  }
+  .financiera-section-icon-container {
+    padding: 6em 3em 0 em;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container {
+    padding-bottom: 4em;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container .financiera-icon-container i {
+    font-size: 8vh;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container .financiera-icon-container p {
+    font-size: 0.9em;
+    margin-top: 1.1em;
+  }
+  .financiera-section-icon-container .financiera-icon-button-container {
+    padding-top: 3.2em;
+  }
+  .financiera-section-formulario-container .financiera-titulo-container .h2-title {
+    font-size: 1.9em;
+  }
+  .financiera-section-formulario-container .formulario-finacniera {
+    padding: 1em;
+    font-size: 0.7em;
+  }
+  .desarrolladora-section-principal-container .h1-title {
+    font-size: 2.5em;
+    padding: 0.2em 0 0.2em 0;
+  }
+  .desarrolladora-section-principal-container .h2-title {
+    font-size: 1.9em;
+  }
+  .desarrolladora-section-principal-container p {
+    font-size: 0.9em;
+  }
+  .desarroladora-section-two-container div p {
+    font-size: 0.9em;
+  }
+  .desarralladora-section-icon-container .h3-title {
+    font-size: 1.2em;
+  }
+  .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container i {
+    font-size: 8vh;
+  }
+  .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container p {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-proyectos-container div .h2-title {
+    font-size: 1.9em;
+  }
+  .desarrolladora-section-proyectos-container div div div div p {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-alianzas-container div .h2-title {
+    font-size: 1.9em;
+  }
+  .desarrolladora-section-alianzas-container div div div div p {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-terceros-container div .h2-title {
+    font-size: 1.9em;
+  }
+  .desarrolladora-section-terceros-container div div div div p {
+    font-size: 0.9em;
+  }
+  .nosotros-section-principal-container {
+    margin: 0;
+    padding: 2em;
+    font-size: 0.9em;
+  }
+  .nosotros-section-principal-container div .nosotros-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div .mision-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div .valores-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div .servicios-img-container img {
+    width: 40vh;
+  }
+  .contacto-section-principal-container .h2-title {
+    font-size: 1.5em;
+  }
+  .contacto-section-principal-container p {
+    font-size: 0.9em;
+  }
+  .contacto-form-container {
+    font-size: 0.5em;
+  }
+  .contacto-section-two-container div .h3-title {
+    font-size: 1.2em;
+    text-align: center;
+  }
+  .contacto-section-two-container div p {
+    font-size: 0.9em;
+  }
+  .contacto-section-two-container .mapa-contacto iframe {
+    width: 50vw;
+    height: 50vh;
+  }
+  .vende-section-principal-container div .h2-title {
+    font-size: 1.9em;
+  }
+  .vende-section-principal-container div p {
+    font-size: 0.9em;
+  }
+  .vende-section-principal-container .form-container {
+    font-size: 0.7em;
+    margin: 0;
+    padding: 1em;
+  }
+}
+
+/* Media query mobile */
+@media screen and (max-width: 590px) {
+  #footer .column-footer .logo a img {
+    width: 15vw;
+  }
+  #footer .column-footer .paragraph-footer p {
+    font-size: 0.8em;
+  }
+  #footer .column-footer {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #footer .column-footer .footer-contacto .h4-title {
+    font-size: 1em;
+  }
+  #footer .column-footer .paragraph-footer-2 p {
+    text-align: center;
+    font-size: 0.9em;
+  }
+  #footer .column-footer .footer-unidades .h4-title {
+    font-size: 1em;
+  }
+  #footer .column-footer div .h4-title {
+    font-size: 1em;
+  }
+  #footer .column-footer .icon-redes a {
+    font-size: 1.2em;
+    padding: 0 0.5em 0 0.5em;
+  }
+  .section-principal-container {
+    height: 50vh;
+    padding: 0;
+    margin: 0;
+  }
+  .section-principal-container div {
+    padding: 0;
+    margin: 0;
+  }
+  .section-principal-container div .h1-title {
+    font-size: 0.9em;
+  }
+  .section-principal-container div {
+    padding: 0;
+    margin: 0;
+  }
+  .section-principal-container div p {
+    font-size: 0.9em;
+  }
+  .section-unidades-container .div-titulos-unidades-container div .h2-title {
+    font-size: 0.9em;
+  }
+  .section-unidades-container .div-titulos-unidades-container div p {
+    font-size: 0.9em;
+  }
+  .section-unidades-container .div-unidades-container div {
+    height: 9em;
+    width: 9em;
+  }
+  .section-unidades-container .div-unidades-container a .h3-title {
+    font-size: 0.9em;
+  }
+  .section-nosotros-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .section-nosotros-container div {
+    margin: auto;
+    padding: auto;
+  }
+  .section-nosotros-container div div .h3-title {
+    font-size: 0.9em;
+  }
+  .section-nosotros-container div div p {
+    font-size: 0.7em;
+  }
+  .section-nosotros-container div .video-institucional-index {
+    width: 50vw;
+  }
+  .section-formulario-container .titulo-formulario-container .h2-title {
+    font-size: 0.9em;
+  }
+  .section-formulario-container .titulo-formulario-container p {
+    font-size: 0.7em;
+  }
+  .section-formulario-container .formulario-contacto {
+    font-size: 0.7em;
+    margin: auto;
+    padding: auto;
+  }
+  .section-suscribite-container {
+    font-size: 0.9em;
+    margin: auto;
+    padding: auto;
+  }
+  .icon-top a {
+    font-size: 2em;
+  }
+  .inmobiliaria-section-principal-container {
+    padding: 8em 0 8em;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container {
+    padding: 3em;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container .h1-title {
+    font-size: 1.1em;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container .h2-title {
+    font-size: 0.9em;
+  }
+  .inmobilaria-barra-container {
+    font-size: 0.7em;
+  }
+  .inmobiliaria-section-destacadas .inmobiliaria-propiedades-destacadas .h2-title {
+    font-size: 0.8em;
+  }
+  .inmobiliaria-paragraph-propiedades {
+    font-size: 0.7em;
+  }
+  .inmobiliaria-section-emprendimientos .inmobiliaria-emprendimientos .h2-title {
+    font-size: 1em;
+  }
+  .financiera-section-principal-container {
+    padding: 7em 5em 5em 5em;
+  }
+  .financiera-section-principal-container .h1-title {
+    font-size: 1.9em;
+    text-align: center;
+  }
+  .financiera-section-principal-container .h2-title {
+    font-size: 0.9em;
+  }
+  .financiera-section-principal-container p {
+    font-size: 0.7em;
+  }
+  .financiera-section-icon-container {
+    padding: 6em 3em 0 em;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    padding-bottom: 4em;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container .financiera-icon-container i {
+    font-size: 6vh;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container .financiera-icon-container p {
+    font-size: 0.7em;
+    margin-top: 1.1em;
+  }
+  .financiera-section-icon-container .financiera-icon-button-container {
+    padding-top: 3.2em;
+  }
+  .financiera-section-formulario-container .financiera-titulo-container .h2-title {
+    font-size: 0.9em;
+  }
+  .financiera-section-formulario-container .financiera-titulo-container p {
+    font-size: 0.7em;
+  }
+  .financiera-section-formulario-container .formulario-finacniera {
+    padding: 1em;
+    font-size: 0.6em;
+  }
+  .desarrolladora-section-principal-container .h1-title {
+    font-size: 1.9em;
+    font-weight: 700;
+    padding: 0.1em 0 0.1em 0;
+  }
+  .desarrolladora-section-principal-container .h2-title {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-principal-container p {
+    font-size: 0.9em;
+  }
+  .desarroladora-section-two-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .desarroladora-section-two-container div p {
+    padding-top: 2em;
+    font-size: 0.7em;
+  }
+  .desarralladora-section-icon-container .h3-title {
+    font-size: 1em;
+    text-align: center;
+  }
+  .desarralladora-section-icon-container .desarrolladora-div-icon-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container i {
+    font-size: 6vh;
+  }
+  .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container p {
+    font-size: 0.7em;
+  }
+  .desarrolladora-section-proyectos-container div .h2-title {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-proyectos-container div div div div p {
+    font-size: 0.7em;
+  }
+  .desarrolladora-section-alianzas-container div .h2-title {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-alianzas-container div div div div p {
+    font-size: 0.7em;
+  }
+  .desarrolladora-section-terceros-container div .h2-title {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-terceros-container div div div div p {
+    font-size: 0.7em;
+  }
+  .nosotros-section-principal-container {
+    margin: 0;
+    padding: 2em;
+    font-size: 0.7em;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .nosotros-section-principal-container div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .nosotros-section-principal-container div .nosotros-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .nosotros-section-principal-container div .mision-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    margin: auto;
+  }
+  .nosotros-section-principal-container div .valores-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div .valores-p-container {
+    padding: 0;
+    text-align: center;
+  }
+  .nosotros-section-principal-container div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .nosotros-section-principal-container div .servicios-img-container img {
+    width: 40vh;
+  }
+  .vende-section-principal-container div .h2-title {
+    font-size: 0.9em;
+  }
+  .vende-section-principal-container div p {
+    font-size: 0.9em;
+  }
+  .vende-section-principal-container .form-container {
+    font-size: 0.7em;
+    margin: 0;
+    padding: 1em;
+  }
+}
+
+.contacto-section-principal-container {
+  font-family: "Work Sans", sans-serif;
+  color: #000;
+  background-color: #c5b552;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 6.3em;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+}
+
+.contacto-section-principal-container .h2-title {
+  font-family: "Work Sans", sans-serif;
+  color: #000;
+  font-size: 2.5em;
+  font-weight: 600;
+  text-align: center;
+}
+
+.contacto-section-principal-container p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 0.9em;
+  font-weight: 400;
+  text-align: center;
+}
+
+.contacto-form-container {
+  font-size: 0.65em;
+}
+
+.contacto-section-two-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 4em;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+}
+
+.contacto-section-two-container div .h3-title {
+  font-family: "Work Sans", sans-serif;
+  font-size: 2em;
+  font-weight: 500;
+  color: #000;
+}
+
+.contacto-section-two-container div p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 0.9em;
+  font-weight: 400;
+  text-align: center;
+}
+
+.contacto-section-two-container .mapa-contacto iframe {
+  width: 50vw;
+  height: 50vh;
+}
+
+@media screen and (max-width: 980px) {
+  #footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .column-footer {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .column-footer .footer-contacto .h4-title {
+    font-size: 1.5em;
+  }
+  .column-footer .paragraph-footer-2 p {
+    text-align: center;
+    font-size: 0.9em;
+  }
+  .section-principal-container {
+    height: 50vh;
+  }
+  .section-principal-container div .h1-title {
+    font-size: 1.9em;
+  }
+  .section-principal-container div p {
+    font-size: 0.9em;
+  }
+  .section-unidades-container .div-titulos-unidades-container div .h2-title {
+    font-size: 1.5em;
+  }
+  .section-unidades-container .div-titulos-unidades-container div p {
+    font-size: 0.9em;
+  }
+  .section-unidades-container .div-unidades-container div {
+    height: 13em;
+    width: 13em;
+  }
+  .section-unidades-container .div-unidades-container a .h3-title {
+    font-size: 1.5em;
+  }
+  .section-nosotros-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .section-nosotros-container div {
+    margin: auto;
+    padding: auto;
+  }
+  .section-nosotros-container div div .h3-title {
+    font-size: 1.1em;
+  }
+  .section-nosotros-container div div p {
+    font-size: 0.9em;
+  }
+  .section-nosotros-container div .video-institucional-index {
+    width: 50vw;
+  }
+  .section-formulario-container .titulo-formulario-container .h2-title {
+    font-size: 0.9em;
+  }
+  .section-formulario-container .titulo-formulario-container p {
+    font-size: 0.9em;
+  }
+  .section-formulario-container .formulario-contacto {
+    font-size: 0.9em;
+    padding: 0 0 1em 1em;
+  }
+  .section-suscribite-container {
+    font-size: 0.9em;
+    padding: 1em 0 1em 0;
+  }
+  .icon-top a {
+    font-size: 3em;
+  }
+  .inmobiliaria-section-principal-container {
+    padding: 10em 0 10em;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container {
+    padding: 3.2em;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container .h1-title {
+    font-size: 1.9em;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container .h2-title {
+    font-size: 0.9em;
+  }
+  .inmobilaria-barra-container {
+    font-size: 0.9em;
+  }
+  .inmobiliaria-section-destacadas .inmobiliaria-propiedades-destacadas .h2-title {
+    font-size: 1.2em;
+  }
+  .inmobiliaria-paragraph-propiedades {
+    font-size: 0.9em;
+  }
+  .inmobiliaria-section-emprendimientos .inmobiliaria-emprendimientos .h2-title {
+    font-size: 1.2em;
+  }
+  .financiera-section-principal-container {
+    padding: 10m 5em 10em 5em;
+  }
+  .financiera-section-principal-container .h1-title {
+    font-size: 2.5em;
+  }
+  .financiera-section-principal-container .h2-title {
+    font-size: 1.9em;
+  }
+  .financiera-section-principal-container p {
+    font-size: 0.9em;
+  }
+  .financiera-section-icon-container {
+    padding: 6em 3em 0 em;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container {
+    padding-bottom: 4em;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container .financiera-icon-container i {
+    font-size: 8vh;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container .financiera-icon-container p {
+    font-size: 0.9em;
+    margin-top: 1.1em;
+  }
+  .financiera-section-icon-container .financiera-icon-button-container {
+    padding-top: 3.2em;
+  }
+  .financiera-section-formulario-container .financiera-titulo-container .h2-title {
+    font-size: 1.9em;
+  }
+  .financiera-section-formulario-container .formulario-finacniera {
+    padding: 1em;
+    font-size: 0.7em;
+  }
+  .desarrolladora-section-principal-container .h1-title {
+    font-size: 2.5em;
+    padding: 0.2em 0 0.2em 0;
+  }
+  .desarrolladora-section-principal-container .h2-title {
+    font-size: 1.9em;
+  }
+  .desarrolladora-section-principal-container p {
+    font-size: 0.9em;
+  }
+  .desarroladora-section-two-container div p {
+    font-size: 0.9em;
+  }
+  .desarralladora-section-icon-container .h3-title {
+    font-size: 1.2em;
+  }
+  .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container i {
+    font-size: 8vh;
+  }
+  .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container p {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-proyectos-container div .h2-title {
+    font-size: 1.9em;
+  }
+  .desarrolladora-section-proyectos-container div div div div p {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-alianzas-container div .h2-title {
+    font-size: 1.9em;
+  }
+  .desarrolladora-section-alianzas-container div div div div p {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-terceros-container div .h2-title {
+    font-size: 1.9em;
+  }
+  .desarrolladora-section-terceros-container div div div div p {
+    font-size: 0.9em;
+  }
+  .nosotros-section-principal-container {
+    margin: 0;
+    padding: 2em;
+    font-size: 0.9em;
+  }
+  .nosotros-section-principal-container div .nosotros-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div .mision-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div .valores-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div .servicios-img-container img {
+    width: 40vh;
+  }
+  .contacto-section-principal-container .h2-title {
+    font-size: 1.5em;
+  }
+  .contacto-section-principal-container p {
+    font-size: 0.9em;
+  }
+  .contacto-form-container {
+    font-size: 0.5em;
+  }
+  .contacto-section-two-container div .h3-title {
+    font-size: 1.2em;
+    text-align: center;
+  }
+  .contacto-section-two-container div p {
+    font-size: 0.9em;
+  }
+  .contacto-section-two-container .mapa-contacto iframe {
+    width: 50vw;
+    height: 50vh;
+  }
+  .vende-section-principal-container div .h2-title {
+    font-size: 1.9em;
+  }
+  .vende-section-principal-container div p {
+    font-size: 0.9em;
+  }
+  .vende-section-principal-container .form-container {
+    font-size: 0.7em;
+    margin: 0;
+    padding: 1em;
+  }
+}
+
+/* Media query mobile */
+@media screen and (max-width: 590px) {
+  #footer .column-footer .logo a img {
+    width: 15vw;
+  }
+  #footer .column-footer .paragraph-footer p {
+    font-size: 0.8em;
+  }
+  #footer .column-footer {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #footer .column-footer .footer-contacto .h4-title {
+    font-size: 1em;
+  }
+  #footer .column-footer .paragraph-footer-2 p {
+    text-align: center;
+    font-size: 0.9em;
+  }
+  #footer .column-footer .footer-unidades .h4-title {
+    font-size: 1em;
+  }
+  #footer .column-footer div .h4-title {
+    font-size: 1em;
+  }
+  #footer .column-footer .icon-redes a {
+    font-size: 1.2em;
+    padding: 0 0.5em 0 0.5em;
+  }
+  .section-principal-container {
+    height: 50vh;
+    padding: 0;
+    margin: 0;
+  }
+  .section-principal-container div {
+    padding: 0;
+    margin: 0;
+  }
+  .section-principal-container div .h1-title {
+    font-size: 0.9em;
+  }
+  .section-principal-container div {
+    padding: 0;
+    margin: 0;
+  }
+  .section-principal-container div p {
+    font-size: 0.9em;
+  }
+  .section-unidades-container .div-titulos-unidades-container div .h2-title {
+    font-size: 0.9em;
+  }
+  .section-unidades-container .div-titulos-unidades-container div p {
+    font-size: 0.9em;
+  }
+  .section-unidades-container .div-unidades-container div {
+    height: 9em;
+    width: 9em;
+  }
+  .section-unidades-container .div-unidades-container a .h3-title {
+    font-size: 0.9em;
+  }
+  .section-nosotros-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .section-nosotros-container div {
+    margin: auto;
+    padding: auto;
+  }
+  .section-nosotros-container div div .h3-title {
+    font-size: 0.9em;
+  }
+  .section-nosotros-container div div p {
+    font-size: 0.7em;
+  }
+  .section-nosotros-container div .video-institucional-index {
+    width: 50vw;
+  }
+  .section-formulario-container .titulo-formulario-container .h2-title {
+    font-size: 0.9em;
+  }
+  .section-formulario-container .titulo-formulario-container p {
+    font-size: 0.7em;
+  }
+  .section-formulario-container .formulario-contacto {
+    font-size: 0.7em;
+    margin: auto;
+    padding: auto;
+  }
+  .section-suscribite-container {
+    font-size: 0.9em;
+    margin: auto;
+    padding: auto;
+  }
+  .icon-top a {
+    font-size: 2em;
+  }
+  .inmobiliaria-section-principal-container {
+    padding: 8em 0 8em;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container {
+    padding: 3em;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container .h1-title {
+    font-size: 1.1em;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container .h2-title {
+    font-size: 0.9em;
+  }
+  .inmobilaria-barra-container {
+    font-size: 0.7em;
+  }
+  .inmobiliaria-section-destacadas .inmobiliaria-propiedades-destacadas .h2-title {
+    font-size: 0.8em;
+  }
+  .inmobiliaria-paragraph-propiedades {
+    font-size: 0.7em;
+  }
+  .inmobiliaria-section-emprendimientos .inmobiliaria-emprendimientos .h2-title {
+    font-size: 1em;
+  }
+  .financiera-section-principal-container {
+    padding: 7em 5em 5em 5em;
+  }
+  .financiera-section-principal-container .h1-title {
+    font-size: 1.9em;
+    text-align: center;
+  }
+  .financiera-section-principal-container .h2-title {
+    font-size: 0.9em;
+  }
+  .financiera-section-principal-container p {
+    font-size: 0.7em;
+  }
+  .financiera-section-icon-container {
+    padding: 6em 3em 0 em;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    padding-bottom: 4em;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container .financiera-icon-container i {
+    font-size: 6vh;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container .financiera-icon-container p {
+    font-size: 0.7em;
+    margin-top: 1.1em;
+  }
+  .financiera-section-icon-container .financiera-icon-button-container {
+    padding-top: 3.2em;
+  }
+  .financiera-section-formulario-container .financiera-titulo-container .h2-title {
+    font-size: 0.9em;
+  }
+  .financiera-section-formulario-container .financiera-titulo-container p {
+    font-size: 0.7em;
+  }
+  .financiera-section-formulario-container .formulario-finacniera {
+    padding: 1em;
+    font-size: 0.6em;
+  }
+  .desarrolladora-section-principal-container .h1-title {
+    font-size: 1.9em;
+    font-weight: 700;
+    padding: 0.1em 0 0.1em 0;
+  }
+  .desarrolladora-section-principal-container .h2-title {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-principal-container p {
+    font-size: 0.9em;
+  }
+  .desarroladora-section-two-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .desarroladora-section-two-container div p {
+    padding-top: 2em;
+    font-size: 0.7em;
+  }
+  .desarralladora-section-icon-container .h3-title {
+    font-size: 1em;
+    text-align: center;
+  }
+  .desarralladora-section-icon-container .desarrolladora-div-icon-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container i {
+    font-size: 6vh;
+  }
+  .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container p {
+    font-size: 0.7em;
+  }
+  .desarrolladora-section-proyectos-container div .h2-title {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-proyectos-container div div div div p {
+    font-size: 0.7em;
+  }
+  .desarrolladora-section-alianzas-container div .h2-title {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-alianzas-container div div div div p {
+    font-size: 0.7em;
+  }
+  .desarrolladora-section-terceros-container div .h2-title {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-terceros-container div div div div p {
+    font-size: 0.7em;
+  }
+  .nosotros-section-principal-container {
+    margin: 0;
+    padding: 2em;
+    font-size: 0.7em;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .nosotros-section-principal-container div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .nosotros-section-principal-container div .nosotros-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .nosotros-section-principal-container div .mision-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    margin: auto;
+  }
+  .nosotros-section-principal-container div .valores-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div .valores-p-container {
+    padding: 0;
+    text-align: center;
+  }
+  .nosotros-section-principal-container div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .nosotros-section-principal-container div .servicios-img-container img {
+    width: 40vh;
+  }
+  .vende-section-principal-container div .h2-title {
+    font-size: 0.9em;
+  }
+  .vende-section-principal-container div p {
+    font-size: 0.9em;
+  }
+  .vende-section-principal-container .form-container {
+    font-size: 0.7em;
+    margin: 0;
+    padding: 1em;
+  }
+}
+
+.vende-section-principal-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  background-image: url("./../src/assets/fotos/quienesopaca.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Work Sans", sans-serif;
+  color: #ffffff;
+  padding: 5em 0 5em 0;
+}
+
+.vende-section-principal-container div .h2-title {
+  font-size: 2.5em;
+  font-weight: 600;
+  text-align: center;
+  padding: 1.1em 0 0.7em 0;
+}
+
+.vende-section-principal-container div p {
+  padding-bottom: 1.9em;
+  text-align: center;
+}
+
+.vende-section-principal-container .form-container {
+  padding-left: 2em;
+}
+
+@media screen and (max-width: 980px) {
+  #footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .column-footer {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .column-footer .footer-contacto .h4-title {
+    font-size: 1.5em;
+  }
+  .column-footer .paragraph-footer-2 p {
+    text-align: center;
+    font-size: 0.9em;
+  }
+  .section-principal-container {
+    height: 50vh;
+  }
+  .section-principal-container div .h1-title {
+    font-size: 1.9em;
+  }
+  .section-principal-container div p {
+    font-size: 0.9em;
+  }
+  .section-unidades-container .div-titulos-unidades-container div .h2-title {
+    font-size: 1.5em;
+  }
+  .section-unidades-container .div-titulos-unidades-container div p {
+    font-size: 0.9em;
+  }
+  .section-unidades-container .div-unidades-container div {
+    height: 13em;
+    width: 13em;
+  }
+  .section-unidades-container .div-unidades-container a .h3-title {
+    font-size: 1.5em;
+  }
+  .section-nosotros-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .section-nosotros-container div {
+    margin: auto;
+    padding: auto;
+  }
+  .section-nosotros-container div div .h3-title {
+    font-size: 1.1em;
+  }
+  .section-nosotros-container div div p {
+    font-size: 0.9em;
+  }
+  .section-nosotros-container div .video-institucional-index {
+    width: 50vw;
+  }
+  .section-formulario-container .titulo-formulario-container .h2-title {
+    font-size: 0.9em;
+  }
+  .section-formulario-container .titulo-formulario-container p {
+    font-size: 0.9em;
+  }
+  .section-formulario-container .formulario-contacto {
+    font-size: 0.9em;
+    padding: 0 0 1em 1em;
+  }
+  .section-suscribite-container {
+    font-size: 0.9em;
+    padding: 1em 0 1em 0;
+  }
+  .icon-top a {
+    font-size: 3em;
+  }
+  .inmobiliaria-section-principal-container {
+    padding: 10em 0 10em;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container {
+    padding: 3.2em;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container .h1-title {
+    font-size: 1.9em;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container .h2-title {
+    font-size: 0.9em;
+  }
+  .inmobilaria-barra-container {
+    font-size: 0.9em;
+  }
+  .inmobiliaria-section-destacadas .inmobiliaria-propiedades-destacadas .h2-title {
+    font-size: 1.2em;
+  }
+  .inmobiliaria-paragraph-propiedades {
+    font-size: 0.9em;
+  }
+  .inmobiliaria-section-emprendimientos .inmobiliaria-emprendimientos .h2-title {
+    font-size: 1.2em;
+  }
+  .financiera-section-principal-container {
+    padding: 10m 5em 10em 5em;
+  }
+  .financiera-section-principal-container .h1-title {
+    font-size: 2.5em;
+  }
+  .financiera-section-principal-container .h2-title {
+    font-size: 1.9em;
+  }
+  .financiera-section-principal-container p {
+    font-size: 0.9em;
+  }
+  .financiera-section-icon-container {
+    padding: 6em 3em 0 em;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container {
+    padding-bottom: 4em;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container .financiera-icon-container i {
+    font-size: 8vh;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container .financiera-icon-container p {
+    font-size: 0.9em;
+    margin-top: 1.1em;
+  }
+  .financiera-section-icon-container .financiera-icon-button-container {
+    padding-top: 3.2em;
+  }
+  .financiera-section-formulario-container .financiera-titulo-container .h2-title {
+    font-size: 1.9em;
+  }
+  .financiera-section-formulario-container .formulario-finacniera {
+    padding: 1em;
+    font-size: 0.7em;
+  }
+  .desarrolladora-section-principal-container .h1-title {
+    font-size: 2.5em;
+    padding: 0.2em 0 0.2em 0;
+  }
+  .desarrolladora-section-principal-container .h2-title {
+    font-size: 1.9em;
+  }
+  .desarrolladora-section-principal-container p {
+    font-size: 0.9em;
+  }
+  .desarroladora-section-two-container div p {
+    font-size: 0.9em;
+  }
+  .desarralladora-section-icon-container .h3-title {
+    font-size: 1.2em;
+  }
+  .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container i {
+    font-size: 8vh;
+  }
+  .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container p {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-proyectos-container div .h2-title {
+    font-size: 1.9em;
+  }
+  .desarrolladora-section-proyectos-container div div div div p {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-alianzas-container div .h2-title {
+    font-size: 1.9em;
+  }
+  .desarrolladora-section-alianzas-container div div div div p {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-terceros-container div .h2-title {
+    font-size: 1.9em;
+  }
+  .desarrolladora-section-terceros-container div div div div p {
+    font-size: 0.9em;
+  }
+  .nosotros-section-principal-container {
+    margin: 0;
+    padding: 2em;
+    font-size: 0.9em;
+  }
+  .nosotros-section-principal-container div .nosotros-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div .mision-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div .valores-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div .servicios-img-container img {
+    width: 40vh;
+  }
+  .contacto-section-principal-container .h2-title {
+    font-size: 1.5em;
+  }
+  .contacto-section-principal-container p {
+    font-size: 0.9em;
+  }
+  .contacto-form-container {
+    font-size: 0.5em;
+  }
+  .contacto-section-two-container div .h3-title {
+    font-size: 1.2em;
+    text-align: center;
+  }
+  .contacto-section-two-container div p {
+    font-size: 0.9em;
+  }
+  .contacto-section-two-container .mapa-contacto iframe {
+    width: 50vw;
+    height: 50vh;
+  }
+  .vende-section-principal-container div .h2-title {
+    font-size: 1.9em;
+  }
+  .vende-section-principal-container div p {
+    font-size: 0.9em;
+  }
+  .vende-section-principal-container .form-container {
+    font-size: 0.7em;
+    margin: 0;
+    padding: 1em;
+  }
+}
+
+/* Media query mobile */
+@media screen and (max-width: 590px) {
+  #footer .column-footer .logo a img {
+    width: 15vw;
+  }
+  #footer .column-footer .paragraph-footer p {
+    font-size: 0.8em;
+  }
+  #footer .column-footer {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #footer .column-footer .footer-contacto .h4-title {
+    font-size: 1em;
+  }
+  #footer .column-footer .paragraph-footer-2 p {
+    text-align: center;
+    font-size: 0.9em;
+  }
+  #footer .column-footer .footer-unidades .h4-title {
+    font-size: 1em;
+  }
+  #footer .column-footer div .h4-title {
+    font-size: 1em;
+  }
+  #footer .column-footer .icon-redes a {
+    font-size: 1.2em;
+    padding: 0 0.5em 0 0.5em;
+  }
+  .section-principal-container {
+    height: 50vh;
+    padding: 0;
+    margin: 0;
+  }
+  .section-principal-container div {
+    padding: 0;
+    margin: 0;
+  }
+  .section-principal-container div .h1-title {
+    font-size: 0.9em;
+  }
+  .section-principal-container div {
+    padding: 0;
+    margin: 0;
+  }
+  .section-principal-container div p {
+    font-size: 0.9em;
+  }
+  .section-unidades-container .div-titulos-unidades-container div .h2-title {
+    font-size: 0.9em;
+  }
+  .section-unidades-container .div-titulos-unidades-container div p {
+    font-size: 0.9em;
+  }
+  .section-unidades-container .div-unidades-container div {
+    height: 9em;
+    width: 9em;
+  }
+  .section-unidades-container .div-unidades-container a .h3-title {
+    font-size: 0.9em;
+  }
+  .section-nosotros-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .section-nosotros-container div {
+    margin: auto;
+    padding: auto;
+  }
+  .section-nosotros-container div div .h3-title {
+    font-size: 0.9em;
+  }
+  .section-nosotros-container div div p {
+    font-size: 0.7em;
+  }
+  .section-nosotros-container div .video-institucional-index {
+    width: 50vw;
+  }
+  .section-formulario-container .titulo-formulario-container .h2-title {
+    font-size: 0.9em;
+  }
+  .section-formulario-container .titulo-formulario-container p {
+    font-size: 0.7em;
+  }
+  .section-formulario-container .formulario-contacto {
+    font-size: 0.7em;
+    margin: auto;
+    padding: auto;
+  }
+  .section-suscribite-container {
+    font-size: 0.9em;
+    margin: auto;
+    padding: auto;
+  }
+  .icon-top a {
+    font-size: 2em;
+  }
+  .inmobiliaria-section-principal-container {
+    padding: 8em 0 8em;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container {
+    padding: 3em;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container .h1-title {
+    font-size: 1.1em;
+  }
+  .inmobiliaria-section-principal-container .inmobiliaria-titulos-container .h2-title {
+    font-size: 0.9em;
+  }
+  .inmobilaria-barra-container {
+    font-size: 0.7em;
+  }
+  .inmobiliaria-section-destacadas .inmobiliaria-propiedades-destacadas .h2-title {
+    font-size: 0.8em;
+  }
+  .inmobiliaria-paragraph-propiedades {
+    font-size: 0.7em;
+  }
+  .inmobiliaria-section-emprendimientos .inmobiliaria-emprendimientos .h2-title {
+    font-size: 1em;
+  }
+  .financiera-section-principal-container {
+    padding: 7em 5em 5em 5em;
+  }
+  .financiera-section-principal-container .h1-title {
+    font-size: 1.9em;
+    text-align: center;
+  }
+  .financiera-section-principal-container .h2-title {
+    font-size: 0.9em;
+  }
+  .financiera-section-principal-container p {
+    font-size: 0.7em;
+  }
+  .financiera-section-icon-container {
+    padding: 6em 3em 0 em;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    padding-bottom: 4em;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container .financiera-icon-container i {
+    font-size: 6vh;
+  }
+  .financiera-section-icon-container .financiera-div-icon-container .financiera-icon-container p {
+    font-size: 0.7em;
+    margin-top: 1.1em;
+  }
+  .financiera-section-icon-container .financiera-icon-button-container {
+    padding-top: 3.2em;
+  }
+  .financiera-section-formulario-container .financiera-titulo-container .h2-title {
+    font-size: 0.9em;
+  }
+  .financiera-section-formulario-container .financiera-titulo-container p {
+    font-size: 0.7em;
+  }
+  .financiera-section-formulario-container .formulario-finacniera {
+    padding: 1em;
+    font-size: 0.6em;
+  }
+  .desarrolladora-section-principal-container .h1-title {
+    font-size: 1.9em;
+    font-weight: 700;
+    padding: 0.1em 0 0.1em 0;
+  }
+  .desarrolladora-section-principal-container .h2-title {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-principal-container p {
+    font-size: 0.9em;
+  }
+  .desarroladora-section-two-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .desarroladora-section-two-container div p {
+    padding-top: 2em;
+    font-size: 0.7em;
+  }
+  .desarralladora-section-icon-container .h3-title {
+    font-size: 1em;
+    text-align: center;
+  }
+  .desarralladora-section-icon-container .desarrolladora-div-icon-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container i {
+    font-size: 6vh;
+  }
+  .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container p {
+    font-size: 0.7em;
+  }
+  .desarrolladora-section-proyectos-container div .h2-title {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-proyectos-container div div div div p {
+    font-size: 0.7em;
+  }
+  .desarrolladora-section-alianzas-container div .h2-title {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-alianzas-container div div div div p {
+    font-size: 0.7em;
+  }
+  .desarrolladora-section-terceros-container div .h2-title {
+    font-size: 0.9em;
+  }
+  .desarrolladora-section-terceros-container div div div div p {
+    font-size: 0.7em;
+  }
+  .nosotros-section-principal-container {
+    margin: 0;
+    padding: 2em;
+    font-size: 0.7em;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .nosotros-section-principal-container div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .nosotros-section-principal-container div .nosotros-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .nosotros-section-principal-container div .mision-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    margin: auto;
+  }
+  .nosotros-section-principal-container div .valores-img-container img {
+    width: 40vh;
+  }
+  .nosotros-section-principal-container div .valores-p-container {
+    padding: 0;
+    text-align: center;
+  }
+  .nosotros-section-principal-container div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .nosotros-section-principal-container div .servicios-img-container img {
+    width: 40vh;
+  }
+  .vende-section-principal-container div .h2-title {
+    font-size: 0.9em;
+  }
+  .vende-section-principal-container div p {
+    font-size: 0.9em;
+  }
+  .vende-section-principal-container .form-container {
+    font-size: 0.7em;
+    margin: 0;
+    padding: 1em;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,112 @@
+// Variables ----------------------------->
+
+@import "../base/variables";
+
+// Mixin ------------------------->
+
+@import "../base/mixins";
+
+// Extend ------------------------->
+
+@import "../base/extends";
+
+// Financiera ---------------------------->
+
+// Section principal -------------------------------->
+
+.financiera-section-principal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  padding: 9em 6.3em 12em 6.3em;
+  .h1-title {
+    font-family: $font;
+    font-size: $sizetitulos;
+    font-weight: 700;
+    color: $color1;
+  }
+  .h2-title {
+    font-family: $font;
+    color: $color1;
+    font-size: $sizeintermedio;
+    font-weight: 600;
+  }
+  p {
+    font-family: $font;
+    font-size: 1.5em;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 1.1em;
+    color: $color1;
+  }
+}
+
+// Section iconos -------------------------------->
+
+.financiera-section-icon-container {
+  background-color: $color3;
+  padding: 6.3em 3.2em 0 3.2em;
+  .financiera-div-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 6.3em;
+    .financiera-icon-container {
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      i {
+        font-size: 10vh;
+        color: $color1;
+      }
+      p {
+        font-family: $font;
+        font-size: 1.5em;
+        font-weight: 500;
+        text-align: center;
+        margin-top: 1.1em;
+        color: $color1;
+      }
+    }
+  }
+  .financiera-icon-button-container {
+    padding-top: 3.2em;
+  }
+}
+
+// Section formulario -------------------------------->
+
+.financiera-section-formulario-container {
+  .financiera-titulo-container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-top: 2em;
+    .h2-title {
+      font-family: $font;
+      color: $color1;
+      font-size: $sizeintermedio;
+      font-weight: 600;
+    }
+    p {
+      font-family: $font;
+      font-size: $sizegeneral;
+      font-weight: 500;
+      text-align: center;
+      margin-top: 1.1em;
+      color: $color1;
+    }
+  }
+  .formulario-finacniera {
+    font-family: $font;
+    font-size: $sizegeneral;
+    font-weight: 400;
+    margin-top: 0.7em;
+    padding: 0 0 1.2em 6.3em;
+  }
+}
+
+// MEDIAS QUERY ------------------------------------->
+
+@import "../base/mediaQuery";

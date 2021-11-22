@@ -1,0 +1,193 @@
+// Variables ------------------------->
+
+@import "../base/variables";
+
+// Mixin ------------------------->
+
+@import "../base/mixins";
+
+// Extend ------------------------->
+
+@import "../base/extends";
+
+// Index ------------------------->
+
+// Sección principal ---------------------------->
+
+.section-principal-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./../src/assets/fotos/principal.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  width: auto;
+  div {
+    .h1-title {
+      @include h1-title;
+    }
+  }
+  div {
+    p {
+      font-family: $font;
+      font-size: $sizesubtitulos;
+      color: $color1;
+      font-weight: 500;
+    }
+  }
+}
+
+// Sección unidades de negocios ---------------------------->
+
+.section-unidades-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  padding: 5em 0 6em 0;
+  .div-titulos-unidades-container {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    div {
+      .h2-title {
+        @include h2-title;
+      }
+    }
+    div {
+      p {
+        font-family: $font;
+        font-size: 1.3em;
+        color: $color1;
+        font-weight: 500;
+        padding: 1em 1em 2em 1em;
+        text-align: center;
+        letter-spacing: normal;
+      }
+    }
+  }
+  .div-unidades-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 16em;
+      width: 16em;
+      border-radius: 1.2em;
+      border: 1px solid rgb(240, 240, 240);
+      border-bottom: 0.7em solid $color3;
+
+      &:hover {
+        background-color: rgb(238, 238, 238);
+        box-shadow: 0px 0px 90px rgba(41, 44, 28, 0.08);
+        transition: all 0.5s;
+        border: 1px solid rgb(226, 226, 226);
+        border-bottom: 0.7em solid $color3;
+      }
+    }
+
+    a {
+      color: $color1;
+      text-decoration: none;
+      .h3-title {
+        @include h3-title;
+      }
+    }
+  }
+}
+
+// Sección nosotros ----------------------------------------->
+
+.section-nosotros-container {
+  display: flex;
+  padding: 3em;
+  div {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 2.5em;
+    div {
+      .h3-title {
+        @include h2-title;
+      }
+    }
+    div {
+      p {
+        @include paragraph;
+        font-weight: 400;
+        text-align: justify;
+      }
+    }
+  }
+  div {
+    .video-institucional-index {
+      width: 50vw;
+    }
+  }
+}
+
+// Sección formulario ----------------------------------------->
+
+.section-formulario-container {
+  display: flex;
+  flex-flow: column wrap;
+  background-color: $color3;
+  .titulo-formulario-container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding-top: 2.5em;
+    .h2-title {
+      @include h2-title;
+    }
+    p {
+      font-family: $font;
+      font-size: 2em;
+      font-weight: 500;
+      color: $color1;
+    }
+  }
+  .formulario-contacto {
+    font-family: $font;
+    font-size: $sizegeneral;
+    font-weight: 400;
+    margin-top: 0.7em;
+    padding: 0 0 1.2em 6.25em;
+  }
+}
+
+// Sección suscribite ----------------------------------------->
+
+.section-suscribite-container {
+  background-color: $color1;
+  font-family: $font;
+  font-size: $sizesubtitulos;
+  color: $color2;
+  padding: 1em 0 1em 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+// Sección icon-top ----------------------------------------->
+
+.icon-top a {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin-right: 0.2em;
+  color: $color3;
+  font-size: 4em;
+
+  &:hover {
+    color: $color1;
+  }
+}
+
+// MEDIAS QUERY ------------------------------------->
+
+@import "../base/mediaQuery";

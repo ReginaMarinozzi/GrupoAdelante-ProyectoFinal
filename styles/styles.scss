@@ -1,0 +1,36 @@
+// SETEOS GENERALES ---------------------------->
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+
+  main {
+    padding-top: 12vh;
+  }
+}
+
+// Base --------------------------------------->
+
+@import "base/variables";
+@import "base/mixins";
+@import "base/extends";
+
+
+// Layout ---------------------------------->
+
+@import "layout/header";
+@import "layout/footer";
+
+// Pages ---------------------------------->
+
+@import "pages/index";
+@import "pages/inmobiliaria";
+@import "pages/financiera";
+@import "pages/desarrolladora";
+@import "pages/nosotros";
+@import "pages/contacto";
+@import "pages/vende";

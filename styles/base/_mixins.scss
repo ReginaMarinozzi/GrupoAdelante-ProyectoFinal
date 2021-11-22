@@ -1,0 +1,27 @@
+// Mixin ------------------------->
+
+@mixin h1-title {
+  font-family: $font;
+  font-size: $sizetitulos;
+  font-weight: 700;
+  color: $color1;
+}
+
+@mixin h2-title {
+    font-family: $font;
+    font-size: $sizeintermedio;
+    font-weight: 600;
+    color: $color1;
+}
+
+@mixin h3-title {
+    font-family: $font;
+    font-size: $sizesubtitulos;
+    font-weight: 500;
+    color: $color1;
+}
+
+@mixin paragraph {
+    font-family: $font;
+    font-size: $sizegeneral;
+}

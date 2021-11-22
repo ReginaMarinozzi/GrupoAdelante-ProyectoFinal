@@ -1,0 +1,134 @@
+// Variables ----------------------------->
+
+@import "../base/variables";
+
+// Mixin ------------------------->
+
+@import "../base/mixins";
+
+// Extend ------------------------->
+
+@import "../base/extends";
+
+// Footer ------------------------------>
+
+#footer {
+  background-color: $color1;
+  color: $color2;
+  font-family: $font;
+  font-size: $sizegeneral;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 4em 5em 4em 5em;
+  border-top: 1px solid #353535;
+  .column-footer {
+    .logo {
+      padding-bottom: 1em;
+      a {
+        img {
+          width: 15vw;
+        }
+      }
+    }
+    .paragraph-footer {
+      p {
+        font-family: $font;
+        font-size: $sizegeneral;
+        font-weight: 400;
+      }
+    }
+  }
+
+  .column-footer {
+    display: flex;
+    flex-flow: column wrap;
+    .footer-contacto {
+      .h4-title {
+        font-family: $font;
+        color: $color2;
+        font-size: 1.5em;
+        font-weight: 500;
+        padding-bottom: 1em;
+      }
+    }
+    .paragraph-footer-2 {
+      p {
+        font-family: $font;
+        font-size: $sizegeneral;
+        font-weight: 400;
+      }
+    }
+  }
+
+  .column-footer {
+    .footer-unidades {
+      .h4-title {
+        font-family: $font;
+        color: $color2;
+        font-size: 1.5em;
+        font-weight: 500;
+        padding-bottom: 1em;
+      }
+    }
+    .footer-list {
+      ul {
+        display: flex;
+        flex-direction: column;
+        height: 5em;
+        .list-footer {
+          list-style: none;
+
+          &:hover {
+            transform: scale(1.2);
+            transition: all 0.5s;
+          }
+          a {
+            text-decoration: none;
+            color: $color2;
+
+            &:hover {
+              color: $color3;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .column-footer {
+    div {
+      .h4-title {
+        font-family: $font;
+        color: $color2;
+        font-size: 1.5em;
+        font-weight: 500;
+        padding-bottom: 1em;
+      }
+    }
+    .icon-redes {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+
+      a {
+        color: $color2;
+        text-decoration: none;
+        font-size: 2em;
+        .icon-insta,
+        .icon-fb {
+          &:hover {
+            color: $color3;
+            transform: scale(1.2);
+            transition: all 0.5s;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+// MEDIAS QUERY ------------------------------------->
+
+@import "../base/mediaQuery";

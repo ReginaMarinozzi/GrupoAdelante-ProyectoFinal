@@ -1,0 +1,184 @@
+// Variables ----------------------------->
+
+@import "../base/variables";
+
+// Mixin ------------------------->
+
+@import "../base/mixins";
+
+// Extend ------------------------->
+
+@import "../base/extends";
+
+// Desarrolladora ---------------------------->
+
+// Section principal -------------------------------->
+
+.desarrolladora-section-principal-container {
+  background-color: $color3; /* TODAVIA NO DECIDI QUE IMAGEN PONER */
+  padding: 8em 8em 9em 8em;
+  display: flex;
+  flex-flow: column nowrap;
+  .h1-title {
+    font-family: $font;
+    font-size: $sizetitulos;
+    font-weight: 700;
+    color: $color1;
+    padding: 0.5em 0 0.5em 0;
+  }
+  .h2-title {
+    font-family: $font;
+    color: $color1;
+    font-size: $sizeintermedio;
+    font-weight: 600;
+  }
+  p {
+    font-family: $font;
+    font-size: $sizesubtitulos;
+    color: $color1;
+    font-weight: 500;
+    padding-top: 1.2em;
+  }
+}
+
+// Section two -------------------------------->
+
+.desarroladora-section-two-container {
+  display: flex;
+  align-items: center;
+  padding-top: 6.3em;
+  padding-bottom: 6.3em;
+  margin: 0 3.2em;
+  div {
+    img {
+      width: 100%;
+    }
+  }
+  div {
+    p {
+      font-family: $font;
+      font-size: $sizegeneral;
+      color: $color1;
+      font-weight: 400;
+      padding-left: 2em;
+    }
+  }
+}
+
+// Section iconos desarrollos -------------------------------->
+
+.desarralladora-section-icon-container {
+  background-color: $color3;
+  display: flex;
+  flex-flow: column wrap;
+  padding: 6em 0 6.3em 0;
+  justify-content: space-evenly;
+  .h3-title {
+    font-family: $font;
+    font-size: $sizesubtitulos;
+    font-weight: 500;
+    color: $color1;
+    padding: 0 3em 3em 3em;
+  }
+  .desarrolladora-div-icon-container {
+    display: flex;
+    justify-content: space-evenly;
+    .desarrolladora-icon-container {
+      display: flex;
+      align-items: center;
+      flex-flow: column nowrap;
+      i {
+        color: $color1;
+        font-size: 10vh;
+      }
+      p {
+        font-family: $font;
+        font-size: $sizegeneral;
+        font-weight: 500;
+        padding-top: 1.9em;
+      }
+    }
+  }
+}
+
+// Section barra de búsqueda -------------------------------->
+
+.desarroladora-section-barra-container {
+  div {
+    ul {
+      display: flex;
+      justify-content: space-evenly;
+      li {
+        list-style: none;
+        font-family: $font;
+        font-size: $sizegeneral;
+        font-weight: 400;
+        color: $color1;
+        padding: 6.3em 0 6.3em 0;
+        a {
+          text-decoration: none;
+          color: var(--color-princial);
+        }
+      }
+    }
+  }
+}
+
+// Section nuestros proyectos -------------------------------->
+
+// Section nuestros proyectos, alianzas y desarrrollos de terceros
+
+.desarrolladora-section-proyectos-container {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 1.2em;
+  div {
+    .h2-title {
+      font-family: $font;
+      color: $color1;
+      font-size: $sizeintermedio;
+      font-weight: 600;
+      padding-bottom: 2em;
+    }
+  }
+}
+
+.desarrolladora-section-alianzas-container {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 1.2em;
+  div {
+    .h2-title {
+      font-family: $font;
+      color: $color1;
+      font-size: $sizeintermedio;
+      font-weight: 600;
+      padding: 1.2em;
+    }
+  }
+}
+
+.desarrolladora-section-terceros-container {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 1.2em;
+  div {
+    .h2-title {
+      font-family: $font;
+      color: $color1;
+      font-size: $sizeintermedio;
+      font-weight: 600;
+      padding: 1.2em;
+    }
+  }
+}
+
+// MEDIAS QUERY ------------------------------------->
+
+@import "../base/mediaQuery";

@@ -1,0 +1,103 @@
+// Variables ----------------------------->
+
+@import "../base/variables";
+
+// Mixin ------------------------->
+
+@import "../base/mixins";
+
+// Extend ------------------------->
+
+@import "../base/extends";
+
+// Inmobiliaria ---------------------------->
+
+// Section principal -------------------------------->
+
+.inmobiliaria-section-principal-container {
+  background-color: $color3; // en realidad va una foto no decidí cuál todavía
+  padding: 9em 0 12em;
+  align-items: center;
+  .inmobiliaria-titulos-container {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding: 3.2em;
+    color: $color1;
+    .h1-title {
+      font-family: $font;
+      font-size: $sizetitulos;
+      font-weight: 700;
+      color: $color1;
+    }
+
+    .h2-title {
+      font-family: $font;
+      color: $color1;
+      font-size: $sizeintermedio;
+      font-weight: 600;
+    }
+  }
+
+  .inmobilaria-barra-container {
+    ul {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      li {
+        list-style: none;
+        font-family: $font;
+        font-size: $sizegeneral;
+        font-weight: 500;
+        color: $color1;
+        .inmobiliaria-vende {
+          text-decoration: none;
+          color: $color1;
+        }
+      }
+    }
+  }
+}
+
+// Section propiedades destacadas -------------------------------->
+
+.inmobiliaria-section-destacadas {
+  .inmobiliaria-propiedades-destacadas {
+    display: flex;
+    justify-content: center;
+    padding: 1.9em;
+    .h2-title {
+      font-family: $font;
+      color: $color1;
+      font-size: $sizeintermedio;
+      font-weight: 600;
+    }
+  }
+}
+
+.inmobiliaria-paragraph-propiedades {
+  font-family: $font;
+  font-size: $sizegeneral;
+  font-weight: 400;
+  color: $color1;
+}
+
+// Section emprendimientos -------------------------------->
+
+.inmobiliaria-section-emprendimientos {
+  .inmobiliaria-emprendimientos {
+    display: flex;
+    justify-content: center;
+    padding: 1.9em;
+    .h2-title {
+      font-family: $font;
+      color: $color1;
+      font-size: $sizeintermedio;
+      font-weight: 600;
+    }
+  }
+}
+
+// MEDIAS QUERY ------------------------------------->
+
+@import "../base/mediaQuery";

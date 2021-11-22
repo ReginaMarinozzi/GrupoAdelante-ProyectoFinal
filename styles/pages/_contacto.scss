@@ -1,0 +1,78 @@
+// Variables ----------------------------->
+
+@import "../base/variables";
+
+// Mixin ------------------------->
+
+@import "../base/mixins";
+
+// Extend ------------------------->
+
+@import "../base/extends";
+
+// Contacto ---------------------------->
+
+// Section principal -------------------------------->
+
+.contacto-section-principal-container {
+  font-family: $font;
+  color: $color1;
+  background-color: $color3;
+  display: flex;
+  padding: 6.3em;
+  flex-flow: column nowrap;
+
+  .h2-title {
+    font-family: $font;
+    color: $color1;
+    font-size: $sizeintermedio;
+    font-weight: 600;
+    text-align: center;
+  }
+  p {
+    font-family: $font;
+    font-size: $sizegeneral;
+    font-weight: 400;
+    text-align: center;
+  }
+}
+
+.contacto-form-container {
+  font-size: 0.65em;
+}
+
+// Section two ----------------------------->
+
+.contacto-section-two-container {
+  display: flex;
+  padding-top: 4em;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: $font;
+  font-weight: 400;
+  div {
+    .h3-title {
+      font-family: $font;
+      font-size: 2em;
+      font-weight: 500;
+      color: $color1;
+    }
+    p {
+      font-family: $font;
+      font-size: $sizegeneral;
+      font-weight: 400;
+      text-align: center;
+    }
+  }
+  .mapa-contacto {
+    iframe {
+      width: 50vw;
+      height: 50vh;
+    }
+
+  }
+}
+
+// MEDIAS QUERY ------------------------------------->
+
+@import "../base/mediaQuery";
