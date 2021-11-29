@@ -21,23 +21,23 @@ html main {
   padding-top: 12vh;
 }
 
-.nav-general {
+#nav-general {
   background-color: #000;
   font-family: "Work Sans", sans-serif;
   font-size: 1em;
   height: 12vh;
 }
 
-.nav-general div a #logo {
+#nav-general div a #logo {
   margin-left: 0.6em;
-  width: 15vw;
+  width: 9vw;
 }
 
-.nav-general div .navbar-icon {
-  border-color: #ffffff;
+#nav-general div {
+  background-color: #000;
 }
 
-.nav-general div ul .navbar-color-item:hover {
+#nav-general div ul .navbar-color-item:hover {
   background-color: #c5b552;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
@@ -45,7 +45,7 @@ html main {
   transition: all 0.5s;
 }
 
-.nav-general div ul .navbar-color-item a {
+#nav-general div ul .navbar-color-item a {
   color: #ffffff;
 }
 
@@ -601,7 +601,7 @@ html main {
 }
 
 #footer .column-footer .logo a img {
-  width: 15vw;
+  width: 9vw;
 }
 
 #footer .column-footer .paragraph-footer p {
@@ -2081,7 +2081,7 @@ html main {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 1.9em;
+  padding: 2em;
 }
 
 .inmobiliaria-section-destacadas .inmobiliaria-propiedades-destacadas .h2-title {
@@ -2091,11 +2091,22 @@ html main {
   font-weight: 600;
 }
 
+.inmobiliaria-section-destacadas .container-destacadas {
+  padding: 0 2em 0 2em;
+}
+
 .inmobiliaria-paragraph-propiedades {
   font-family: "Work Sans", sans-serif;
   font-size: 0.9em;
   font-weight: 400;
   color: #000;
+}
+
+.inmobiliaria-paragraph-propiedades2 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 0.9em;
+  font-weight: 600;
+  color: #c5b552;
 }
 
 .inmobiliaria-section-emprendimientos .inmobiliaria-emprendimientos {
@@ -2113,6 +2124,10 @@ html main {
   color: #000;
   font-size: 2.5em;
   font-weight: 600;
+}
+
+.inmobiliaria-section-emprendimientos .container-emprendimientos {
+  padding: 0 2em 0 2em;
 }
 
 @media screen and (max-width: 980px) {

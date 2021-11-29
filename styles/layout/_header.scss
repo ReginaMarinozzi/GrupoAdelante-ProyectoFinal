@@ -12,7 +12,7 @@
 
 // Header------------------------------>
 
-.nav-general {
+#nav-general {
   background-color: $color1;
   font-family: $font;
   font-size: 1em;
@@ -21,16 +21,14 @@
     a {
       #logo {
         margin-left: 0.6em;
-        width: 15vw;
+        width: 9vw;
       }
     }
-    .navbar-icon {
-      border-color: $color2;
-    }
   }
-  div {
+  div { background-color: $color1;
     ul {
       .navbar-color-item {
+    
         &:hover {
           background-color: $color3;
           transform: scale(1.1);
