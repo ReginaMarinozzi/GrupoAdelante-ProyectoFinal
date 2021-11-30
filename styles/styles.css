@@ -2014,7 +2014,7 @@ html main {
 
 .inmobiliaria-section-principal-container {
   background-color: #c5b552;
-  padding: 9em 0 12em;
+  padding: 7em 0 12em;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -2031,7 +2031,7 @@ html main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 3.2em;
+  padding: 3.2em 0 6em;
   color: #000;
 }
 
@@ -2049,29 +2049,12 @@ html main {
   font-weight: 600;
 }
 
-.inmobiliaria-section-principal-container .inmobilaria-barra-container ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.inmobiliaria-section-principal-container .inmobilaria-barra-container ul li {
-  list-style: none;
+.inmobiliaria-section-principal-container #buttons-inmobiliaria {
+  background-color: #000;
+  color: #ffffff;
   font-family: "Work Sans", sans-serif;
   font-size: 0.9em;
   font-weight: 500;
-  color: #000;
-}
-
-.inmobiliaria-section-principal-container .inmobilaria-barra-container ul li .inmobiliaria-vende {
-  text-decoration: none;
-  color: #000;
 }
 
 .inmobiliaria-section-destacadas .inmobiliaria-propiedades-destacadas {
@@ -4705,7 +4688,7 @@ html main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 6.3em;
+  padding: 3em 0 6.3em 6em;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-flow: column nowrap;

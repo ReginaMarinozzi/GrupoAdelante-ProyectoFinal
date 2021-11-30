@@ -6,23 +6,19 @@
 
 @import "../base/mixins";
 
-// Extend ------------------------->
-
-@import "../base/extends";
-
 // Inmobiliaria ---------------------------->
 
 // Section principal -------------------------------->
 
 .inmobiliaria-section-principal-container {
   background-color: $color3; // en realidad va una foto no decidí cuál todavía
-  padding: 9em 0 12em;
+  padding: 7em 0 12em;
   align-items: center;
   .inmobiliaria-titulos-container {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    padding: 3.2em;
+    padding: 3.2em 0 6em;
     color: $color1;
     .h1-title {
       font-family: $font;
@@ -39,23 +35,12 @@
     }
   }
 
-  .inmobilaria-barra-container {
-    ul {
-      display: flex;
-      justify-content: space-evenly;
-      align-items: center;
-      li {
-        list-style: none;
-        font-family: $font;
-        font-size: $sizegeneral;
-        font-weight: 500;
-        color: $color1;
-        .inmobiliaria-vende {
-          text-decoration: none;
-          color: $color1;
-        }
-      }
-    }
+  #buttons-inmobiliaria {
+    background-color: $color1;
+    color: $color2;
+    font-family: $font;
+    font-size: $sizegeneral;
+    font-weight: 500;
   }
 }
 

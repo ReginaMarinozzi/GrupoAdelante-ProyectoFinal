@@ -6,9 +6,6 @@
 
 @import "../base/mixins";
 
-// Extend ------------------------->
-
-@import "../base/extends";
 
 // Contacto ---------------------------->
 
@@ -19,7 +16,7 @@
   color: $color1;
   background-color: $color3;
   display: flex;
-  padding: 6.3em;
+  padding: 3em 0 6.3em 6em;
   flex-flow: column nowrap;
 
   .h2-title {
