@@ -136,6 +136,7 @@
   .titulo-formulario-container {
     display: flex;
     flex-flow: column nowrap;
+    justify-content: center;
     align-items: center;
     padding-top: 2.5em;
     .h2-title {
@@ -153,7 +154,8 @@
     font-size: $sizegeneral;
     font-weight: 400;
     margin-top: 0.7em;
-    padding: 0 0 1.2em 6.25em;
+    padding-left: 20em;
+    padding-bottom: 2em;
   }
 }
 
