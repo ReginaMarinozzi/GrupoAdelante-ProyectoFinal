@@ -103,7 +103,7 @@
   div {
     .h2-title {
       @include title-p($font, $sizeintermedio, 600, $color1);
-      padding-bottom: 2em;
+      padding: 1.2em;
     }
   }
   .container-proyectos {
