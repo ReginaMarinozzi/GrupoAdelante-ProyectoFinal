@@ -16,21 +16,19 @@
   background-image: url("./../src/assets/fotos/quienesopaca.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
+  color: $color2;
   padding: 1em 0 5em 0;
   div {
     .h2-title {
       @include title-p($font, $sizeintermedio, 600, $color2);
       text-align: center;
-      padding: 1.1em 0 0.7em 0;
+      padding: 1em 0 0.7em 0;
     }
     p {
       @include title-p($font, $sizegeneral, 500, $color2);
       padding-bottom: 1.9em;
       text-align: center;
     }
-  }
-  .form-container {
-    padding-left: 2em;
   }
 }
 

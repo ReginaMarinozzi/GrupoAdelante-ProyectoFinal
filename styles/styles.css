@@ -5313,6 +5313,7 @@ html main {
   background-image: url("./../src/assets/fotos/quienesopaca.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
+  color: #ffffff;
   padding: 1em 0 5em 0;
 }
 
@@ -5322,7 +5323,7 @@ html main {
   font-weight: 600;
   color: #ffffff;
   text-align: center;
-  padding: 1.1em 0 0.7em 0;
+  padding: 1em 0 0.7em 0;
 }
 
 .vende-section-principal-container div p {
@@ -5332,10 +5333,6 @@ html main {
   color: #ffffff;
   padding-bottom: 1.9em;
   text-align: center;
-}
-
-.vende-section-principal-container .form-container {
-  padding-left: 2em;
 }
 
 @media screen and (max-width: 980px) {
