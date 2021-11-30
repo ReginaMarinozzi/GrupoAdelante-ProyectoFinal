@@ -2664,6 +2664,10 @@ html main {
   -webkit-box-direction: normal;
       -ms-flex-flow: column nowrap;
           flex-flow: column nowrap;
+  background-image: url("./../src/assets/fotos/quienesopaca.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Work Sans", sans-serif;
   padding: 9em 6.3em 12em 6.3em;
 }
 
@@ -2671,12 +2675,12 @@ html main {
   font-family: "Work Sans", sans-serif;
   font-size: 3.2em;
   font-weight: 700;
-  color: #000;
+  color: #ffffff;
 }
 
 .financiera-section-principal-container .h2-title {
   font-family: "Work Sans", sans-serif;
-  color: #000;
+  color: #ffffff;
   font-size: 2.5em;
   font-weight: 600;
 }
@@ -2687,7 +2691,7 @@ html main {
   font-weight: 500;
   text-align: center;
   margin-top: 1.1em;
-  color: #000;
+  color: #ffffff;
 }
 
 .financiera-section-icon-container {
@@ -5321,7 +5325,7 @@ html main {
   background-attachment: fixed;
   font-family: "Work Sans", sans-serif;
   color: #ffffff;
-  padding: 5em 0 5em 0;
+  padding: 1em 0 5em 0;
 }
 
 .vende-section-principal-container div .h2-title {
