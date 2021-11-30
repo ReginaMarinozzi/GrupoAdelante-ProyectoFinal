@@ -4721,7 +4721,6 @@ html main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 3em 0 6.3em 6em;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-flow: column nowrap;
@@ -4734,6 +4733,7 @@ html main {
   font-size: 2.5em;
   font-weight: 600;
   text-align: center;
+  padding-top: 1em;
 }
 
 .contacto-section-principal-container p {
@@ -4744,6 +4744,7 @@ html main {
 }
 
 .contacto-form-container {
+  padding: 1em 3em 2em 3em;
   font-size: 0.65em;
 }
 
