@@ -18,28 +18,17 @@
   background-image: url("./../src/assets/fotos/quienesopaca.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  font-family: $font;
-
   padding: 9em 6.3em 12em 6.3em;
   .h1-title {
-    font-family: $font;
-    font-size: $sizetitulos;
-    font-weight: 700;
-    color: $color2;
+    @include title-p($font, $sizetitulos, 700, $color2);
   }
   .h2-title {
-    font-family: $font;
-    color: $color2;
-    font-size: $sizeintermedio;
-    font-weight: 600;
+    @include title-p($font, $sizeintermedio, 600, $color2);
   }
   p {
-    font-family: $font;
-    font-size: 1.5em;
-    font-weight: 500;
+    @include title-p($font, 1.5em, 500, $color2);
     text-align: center;
     margin-top: 1.1em;
-    color: $color2;
   }
 }
 
@@ -62,12 +51,9 @@
         color: $color1;
       }
       p {
-        font-family: $font;
-        font-size: 1.5em;
-        font-weight: 500;
+        @include title-p($font, 1.5em, 500, $color1);
         text-align: center;
         margin-top: 1.1em;
-        color: $color1;
       }
     }
   }
@@ -85,26 +71,13 @@
     align-items: center;
     padding-top: 2em;
     .h3-title {
-      font-family: $font;
-      color: $color1;
-      font-size: $sizesubtitulos;
-      font-weight: 600;
+      @include title-p($font, $sizesubtitulos, 600, $color1);
     }
     p {
-      font-family: $font;
-      font-size: $sizegeneral;
-      font-weight: 500;
+      @include title-p($font, $sizegeneral, 500, $color1);
       text-align: center;
       margin-top: 1.1em;
-      color: $color1;
     }
-  }
-  .formulario-finacniera {
-    font-family: $font;
-    font-size: $sizegeneral;
-    font-weight: 400;
-    margin-top: 0.7em;
-    padding: 0 0 1.2em 6.3em;
   }
 }
 

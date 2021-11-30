@@ -21,26 +21,17 @@
     padding: 3.2em 0 6em;
     color: $color1;
     .h1-title {
-      font-family: $font;
-      font-size: $sizetitulos;
-      font-weight: 700;
-      color: $color1;
+      @include title-p($font, $sizetitulos, 700, $color1);
     }
 
     .h2-title {
-      font-family: $font;
-      color: $color1;
-      font-size: $sizeintermedio;
-      font-weight: 600;
+      @include title-p($font, $sizeintermedio, 600, $color1);
     }
   }
 
   #buttons-inmobiliaria {
     background-color: $color1;
-    color: $color2;
-    font-family: $font;
-    font-size: $sizegeneral;
-    font-weight: 500;
+    @include title-p($font, $sizegeneral, 500, $color2);
   }
 }
 
@@ -52,10 +43,7 @@
     justify-content: center;
     padding: 2em;
     .h2-title {
-      font-family: $font;
-      color: $color1;
-      font-size: $sizeintermedio;
-      font-weight: 600;
+      @include title-p($font, $sizeintermedio, 600, $color1);
     }
   }
   .container-destacadas {
@@ -64,17 +52,11 @@
 }
 
 .inmobiliaria-paragraph-propiedades {
-  font-family: $font;
-  font-size: $sizegeneral;
-  font-weight: 400;
-  color: $color1;
+  @include title-p($font, $sizegeneral, 400, $color1);
 }
 
 .inmobiliaria-paragraph-propiedades2 {
-  font-family: $font;
-  font-size: $sizegeneral;
-  font-weight: 600;
-  color: $color3;
+  @include title-p($font, $sizegeneral, 400, $color3);
 }
 
 // Section emprendimientos -------------------------------->
@@ -85,10 +67,7 @@
     justify-content: center;
     padding: 1.9em;
     .h2-title {
-      font-family: $font;
-      color: $color1;
-      font-size: $sizeintermedio;
-      font-weight: 600;
+      @include title-p($font, $sizeintermedio, 600, $color1);
     }
   }
   .container-emprendimientos {

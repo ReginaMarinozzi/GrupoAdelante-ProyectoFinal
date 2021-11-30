@@ -22,15 +22,12 @@
   width: auto;
   div {
     .h1-title {
-      @include h1-title;
+      @include title-p($font, $sizetitulos, 700, $color1);
     }
   }
   div {
     p {
-      font-family: $font;
-      font-size: $sizesubtitulos;
-      color: $color1;
-      font-weight: 500;
+      @include title-p($font, $sizesubtitulos, 500, $color1);
     }
   }
 }
@@ -48,15 +45,12 @@
     align-items: center;
     div {
       .h2-title {
-        @include h2-title;
+        @include title-p($font, $sizesubtitulos, 600, $color1);
       }
     }
     div {
       p {
-        font-family: $font;
-        font-size: 1.3em;
-        color: $color1;
-        font-weight: 500;
+        @include title-p($font, 1.3em, 500, $color1);
         padding: 1em 1em 2em 1em;
         text-align: center;
         letter-spacing: normal;
@@ -90,7 +84,7 @@
       color: $color1;
       text-decoration: none;
       .h3-title {
-        @include h3-title;
+        @include title-p($font, $sizeintermedio, 500, $color1);
       }
     }
   }
@@ -109,13 +103,12 @@
     margin-right: 2.5em;
     div {
       .h3-title {
-        @include h2-title;
+        @include title-p($font, $sizesubtitulos, 600, $color1);
       }
     }
     div {
       p {
-        @include paragraph;
-        font-weight: 400;
+        @include title-p($font, $sizegeneral, 400, $color1);
         text-align: justify;
       }
     }
@@ -140,19 +133,14 @@
     align-items: center;
     padding-top: 2.5em;
     .h2-title {
-      @include h2-title;
+      @include title-p($font, $sizeintermedio, 600, $color1);
     }
     p {
-      font-family: $font;
-      font-size: 2em;
-      font-weight: 500;
-      color: $color1;
+      @include title-p($font, 2em, 500, $color1);
     }
   }
   .formulario-contacto {
-    font-family: $font;
-    font-size: $sizegeneral;
-    font-weight: 400;
+    @include title-p($font, $sizegeneral, 400, $color1);
     margin-top: 0.7em;
     padding-left: 20em;
     padding-bottom: 2em;
@@ -163,14 +151,11 @@
 
 .section-suscribite-container {
   background-color: $color1;
-  font-family: $font;
-  font-size: $sizesubtitulos;
-  color: $color2;
+  @include title-p($font, $sizesubtitulos, 500, $color2);
   padding: 1em 0 1em 0;
   display: flex;
   justify-content: space-evenly;
 }
-
 
 // MEDIAS QUERY ------------------------------------->
 

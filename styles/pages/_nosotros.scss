@@ -21,8 +21,7 @@
   display: flex;
   flex-flow: column nowrap;
   margin: 6em;
-  font-family: $font;
-  font-size: $sizegeneral;
+  @include title-p($font, $sizegeneral, 400, $color1);
   div {
     display: flex;
     align-items: center;

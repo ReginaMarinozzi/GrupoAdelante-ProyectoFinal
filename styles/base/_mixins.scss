@@ -1,27 +1,15 @@
 // Mixin ------------------------->
 
-@mixin h1-title {
-  font-family: $font;
-  font-size: $sizetitulos;
-  font-weight: 700;
-  color: $color1;
+@mixin title-p ($font-family, $font-size, $font-weight, $color) {
+  font-family: $font-family;
+  font-size: $font-size;
+  font-weight: $font-weight;
+  color: $color;
 }
 
-@mixin h2-title {
-    font-family: $font;
-    font-size: $sizeintermedio;
-    font-weight: 600;
-    color: $color1;
-}
-
-@mixin h3-title {
-    font-family: $font;
-    font-size: $sizesubtitulos;
-    font-weight: 500;
-    color: $color1;
-}
-
-@mixin paragraph {
-    font-family: $font;
-    font-size: $sizegeneral;
+@mixin display ($diplay, $justify-content, $aling-items, $flex-flow,) {
+    display: $diplay;
+    justify-content: $justify-content;
+    align-items: $aling-item; 
+    flex-flow: $flex-flow;
 }
