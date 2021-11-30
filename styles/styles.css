@@ -1478,19 +1478,6 @@ html main {
           justify-content: space-evenly;
 }
 
-.icon-top a {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  margin-right: 0.2em;
-  color: #c5b552;
-  font-size: 4em;
-}
-
-.icon-top a:hover {
-  color: #000;
-}
-
 @media screen and (max-width: 980px) {
   #footer {
     -webkit-box-orient: vertical;
@@ -5878,5 +5865,18 @@ html main {
     margin: 0;
     padding: 1em;
   }
+}
+
+.icon-top a {
+  position: fixed;
+  right: 0%;
+  bottom: 0%;
+  margin-right: 0.2em;
+  color: #85782c;
+  font-size: 4em;
+}
+
+.icon-top a:hover {
+  color: #333333;
 }
 /*# sourceMappingURL=styles.css.map */

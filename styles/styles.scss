@@ -33,3 +33,19 @@ html {
 @import "pages/nosotros";
 @import "pages/contacto";
 @import "pages/vende";
+
+// Sección icon-top ----------------------------------------->
+
+.icon-top a {
+  position: fixed;
+  right: 0%;
+  bottom: 0%;
+  margin-right: 0.2em;
+  color: darken($color3, 20%);
+  font-size: 4em;
+
+  &:hover {
+    color: lighten($color1, 20%);
+  }
+}
+

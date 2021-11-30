@@ -171,20 +171,6 @@
   justify-content: space-evenly;
 }
 
-// Sección icon-top ----------------------------------------->
-
-.icon-top a {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  margin-right: 0.2em;
-  color: $color3;
-  font-size: 4em;
-
-  &:hover {
-    color: $color1;
-  }
-}
 
 // MEDIAS QUERY ------------------------------------->
 
