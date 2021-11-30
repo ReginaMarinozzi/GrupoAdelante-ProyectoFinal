@@ -101,23 +101,13 @@
 // Section barra de búsqueda -------------------------------->
 
 .desarroladora-section-barra-container {
-  div {
-    ul {
-      display: flex;
-      justify-content: space-evenly;
-      li {
-        list-style: none;
-        font-family: $font;
-        font-size: $sizegeneral;
-        font-weight: 400;
-        color: $color1;
-        padding: 6.3em 0 6.3em 0;
-        a {
-          text-decoration: none;
-          color: var(--color-princial);
-        }
-      }
-    }
+  padding: 4em 3em 4em 3em;
+  #buttons-desarrolladora {
+    background-color: $color1;
+    color: $color2;
+    font-family: $font;
+    font-size: $sizegeneral;
+    font-weight: 500;
   }
 }
 
@@ -140,6 +130,9 @@
       padding-bottom: 2em;
     }
   }
+  .container-proyectos {
+    padding: 0 2em 0 2em;
+  }
 }
 
 .desarrolladora-section-alianzas-container {
@@ -156,6 +149,9 @@
       font-weight: 600;
       padding: 1.2em;
     }
+  }
+  .container-alianzas {
+    padding: 0 2em 0 2em;
   }
 }
 
@@ -174,6 +170,23 @@
       padding: 1.2em;
     }
   }
+  .container-terceros {
+    padding: 0 2em 0 2em;
+  }
+}
+
+.desarrolladora-paragraph-propiedades {
+  font-family: $font;
+  font-size: $sizegeneral;
+  font-weight: 400;
+  color: $color1;
+}
+
+.desarrolladora-paragraph-propiedades2 {
+  font-family: $font;
+  font-size: $sizegeneral;
+  font-weight: 600;
+  color: $color3;
 }
 
 // MEDIAS QUERY ------------------------------------->
