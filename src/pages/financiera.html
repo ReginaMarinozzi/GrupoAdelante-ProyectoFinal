@@ -41,41 +41,59 @@
 </head>
 
 <body>
-    <!-- Cabecera -->
-    <header id="header">
-        <!-- Acá quiero que al tocar mi logo me lleve a mi página principal -->
-        <nav class="navbar navbar-expand-lg fixed-top navbar-dark" id="nav-general">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="../../index.html"><img id="logo" src="../../src/assets/fotos/logo.png"
-                        alt="logo de Grupo Adelnte"></a>
-                <button class="navbar-toggler navbar-icon" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-around" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item navbar-color-item">
-                            <a class="nav-link" href="../../src/pages/inmobiliaria.html">Inmobiliaria</a>
-                        </li>
-                        <li class="nav-item navbar-color-item">
-                            <a class="nav-link" href="../../src/pages/financiera.html">Financiera</a>
-                        </li>
-                        <li class="nav-item navbar-color-item">
-                            <a class="nav-link" href="../../src/pages/desarroladora.html">Desarrolladora</a>
-                        </li>
-                        <li class="nav-item navbar-color-item">
-                            <a class="nav-link" href="../../src/pages/nosotros.html">Nosotros</a>
-                        </li>
-                        <li class="nav-item navbar-color-item">
-                            <a class="nav-link" href="../../src/pages/contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <!-- Fin de cabecera -->
+  <!-- Cabecera -->
+  <header id="header">
+    <!-- Video de fondo -->
+    <div id="fondo-video">
+      <video poster="https://estudiobl.com/img/ebl_video_transparent_poster.png" autoplay="" muted="" loop="">
+        <source src="" type="video/webm">
+        <source src="../../src/assets/videos/presentacion.mp4" type="video/mp4">
+      </video>
+    </div>
+    <!-- Capa de opacidad -->
+    <div class="overlay"></div>
+    <!-- Texto encima del video -->
+    <div class="text-box">
+      <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+        <h1 class="h1-title">Inversiones inmobiliarias en Rosario</h1>
+      </div>
+      <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+        <p>Servicio integral de principio a fin.</p>
+      </div>
+    </div>
+
+    <!-- Acá quiero que al tocar mi logo me lleve a mi página principal -->
+    <nav class="navbar navbar-expand-lg navbar-dark" id="nav-general">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../../index.html"><img id="logo" src="../../src/assets/fotos/logo.png"
+            alt="logo de Grupo Adelante"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-around" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item navbar-color-item">
+              <a class="nav-link" href="../../src/pages/inmobiliaria.html">Inmobiliaria</a>
+            </li>
+            <li class="nav-item navbar-color-item">
+              <a class="nav-link" href="../../src/pages/financiera.html">Financiera</a>
+            </li>
+            <li class="nav-item navbar-color-item">
+              <a class="nav-link" href="../../src/pages/desarroladora.html">Desarrolladora</a>
+            </li>
+            <li class="nav-item navbar-color-item">
+              <a class="nav-link" href="../../src/pages/nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item navbar-color-item">
+              <a class="nav-link" href="../../src/pages/contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Fin de cabecera -->
 
     <main>
         <!-- Acá empieza la sección principal -->
@@ -130,71 +148,69 @@
         <!-- Fin de la sección formulario -->
     </main>
 
-    <!-- Acá empieza el footer -->
-    <footer id="footer">
-        <!-- El footer esta dividido en tres partes, 
-            tres columnas con su título arriba y abajo toda la info-->
-        <div class="column-footer">
-            <!-- Acá cliquenado en el logo te lleva siempre a index -->
-            <div class="logo">
-                <a href="../../index.html"><img src="../../src/assets/fotos/logo.png" alt="logo de Grupo Adelnte" /></a>
-            </div>
-            <div class="paragraph-footer">
-                <p>
-                    ADELANTE © 2021
-                    <br>
-                    Todos los derechos reservados
-                    <br>
-                    Mercedes Cámpora Mat. 1730
-                </p>
-            </div>
-        </div>
-        <div class="column-footer">
-            <div class="footer-contacto">
-                <h4 class="h4-title">Contacto</h4>
-            </div>
-            <div class="paragraph-footer-2">
-                <p>
-                    Dirección: Avenida Luis Candido
-                    <br>
-                    Carballo 128, planta baja E4 L1
-                    <br>
-                    Teléfono: +54 341 5902111
-                    <br>
-                    adelantebroker@gmail.com
-                    <br>
-                </p>
-            </div>
-        </div>
-        <div class="column-footer">
-            <div class="footer-unidades">
-                <h4 class="h4-title">Unidades de negocios</h4>
-            </div>
-            <div class="footer-list">
-                <ul>
-                    <li class="list-footer"><a href="../../src/pages/inmobiliaria.html">Inmobiliaria</a></li>
-                    <li class="list-footer"><a href="../../src/pages/desarroladora.html">Desarrolladora</a></li>
-                    <li class="list-footer"><a href="../../src/pages/financiera.html">Financiera</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="column-footer">
-            <div>
-                <h4 class="h4-title">Nuestras redes</h4>
-            </div>
-            <div class="icon-redes">
-                <a href="https://www.instagram.com/adelantebroker" target="_blank">
-                    <i class="fab fa-instagram icon-insta"></i>
-                </a>
-
-                <a href="https://www.facebook.com/adelante.broker" target="_blank">
-                    <i class="fab fa-facebook icon-fb"></i>
-                </a>
-            </div>
-        </div>
-    </footer>
-    <!-- Fin de la footer -->
-
+  <!-- Acá empieza el footer -->
+  <footer id="footer">
+    <!-- El footer esta dividido en tres partes, 
+          tres columnas con su título arriba y abajo toda la info-->
+    <div class="column-footer-one">
+      <!-- Acá cliquenado en el logo te lleva siempre a index -->
+      <div class="logo">
+        <a href="../../index.html"><img src="../../src/assets/fotos/logo.png" alt="logo de Grupo Adelnte" /></a>
+      </div>
+      <div class="paragraph-footer">
+        <p>
+          ADELANTE © 2021
+          <br>
+          Todos los derechos reservados
+          <br>
+          Mercedes Cámpora Mat. 1730
+        </p>
+      </div>
+    </div>
+    <div class="column-footer-two">
+      <div class="footer-contacto">
+        <h4 class="h4-title">Contacto</h4>
+      </div>
+      <div class="paragraph-footer-2">
+        <p>
+          Dirección: Avenida Luis Candido
+          <br>
+          Carballo 128, planta baja E4 L1
+          <br>
+          Teléfono: +54 341 5902111
+          <br>
+          adelantebroker@gmail.com
+          <br>
+        </p>
+      </div>
+    </div>
+    <div class="column-footer-three">
+      <div class="footer-unidades">
+        <h4 class="h4-title">Unidades de negocios</h4>
+      </div>
+      <div class="footer-list">
+        <ul>
+          <li class="list-footer"><a href="../../src/pages/inmobiliaria.html">Inmobiliaria</a></li>
+          <li class="list-footer"><a href="../../src/pages/desarroladora.html">Desarrolladora</a></li>
+          <li class="list-footer"><a href="../../src/pages/financiera.html">Financiera</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="column-footer-four">
+      <div>
+        <h4 class="h4-title">Nuestras redes</h4>
+      </div>
+      <div class="icon-redes">
+        <a href="https://www.instagram.com/adelantebroker" target="_blank">
+          <i class="fab fa-instagram icon-insta"></i>
+        </a>
+        <a href="https://www.facebook.com/adelante.broker" target="_blank">
+          <i class="fab fa-facebook icon-fb"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+  <!-- Fin de la footer -->
     <!-- Icono que me lleva arriba -->
     <section class="icon-top">
         <a href="#top">

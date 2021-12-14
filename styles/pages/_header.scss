@@ -1,0 +1,93 @@
+// Variables ----------------------------->
+
+@import "../base/variables";
+
+// Mixin ------------------------->
+
+@import "../base/mixins";
+
+// Header------------------------------>
+
+#header {
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+
+  #fondo-video {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -1;
+    video {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+    }
+  }
+
+  .overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  #nav-general {
+    font-family: $font;
+    font-size: 1em;
+    height: 12vh;
+    div {
+      a {
+        #logo {
+          margin-left: 0.6em;
+          width: 150px;
+        }
+      }
+    }
+    div {
+      ul {
+        .navbar-color-item {
+          &:hover {
+            transform: scale(1.1);
+            transition: all 0.5s;
+          }
+          a {
+            color: $color2;
+            &:hover {
+              color: $color3;
+            }
+          }
+        }
+      }
+    }
+  }
+  .text-box {
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+    div {
+      .h1-title {
+        @include title-p($font, $sizetitulos, 500, $color2);
+      }
+    }
+    div {
+      p {
+        @include title-p($font, $sizesubtitulos, 400, $color2);
+      }
+    }
+  }
+}
+
+// MEDIAS QUERY ------------------------------------->
+
+@import "../base/mediaQuery";

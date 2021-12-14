@@ -16,12 +16,12 @@
   align-items: flex-start;
   padding: 4em 5em 4em 5em;
   border-top: 1px solid #353535;
-  .column-footer {
+  .column-footer-one {
     .logo {
       padding-bottom: 1em;
       a {
         img {
-          width: 9vw;
+          width: 150px;
         }
       }
     }
@@ -32,7 +32,7 @@
     }
   }
 
-  .column-footer {
+  .column-footer-two {
     display: flex;
     flex-flow: column wrap;
     .footer-contacto {
@@ -48,7 +48,7 @@
     }
   }
 
-  .column-footer {
+  .column-footer-three {
     .footer-unidades {
       .h4-title {
         @include title-p($font, 1.5em, 500, $color2);
@@ -64,7 +64,7 @@
           list-style: none;
 
           &:hover {
-            transform: scale(1.2);
+            transform: scale(1.1);
             transition: all 0.5s;
           }
           a {
@@ -80,7 +80,7 @@
     }
   }
 
-  .column-footer {
+  .column-footer-four {
     div {
       .h4-title {
         @include title-p($font, 1.5em, 500, $color2);

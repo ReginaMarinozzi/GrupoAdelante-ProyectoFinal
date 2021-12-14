@@ -8,30 +8,6 @@
 
 // Index ------------------------->
 
-// Sección principal ---------------------------->
-
-.section-principal-container {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  align-items: center;
-  background-image: url("./../src/assets/fotos/principal.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  height: 100vh;
-  width: auto;
-  div {
-    .h1-title {
-      @include title-p($font, $sizetitulos, 700, $color1);
-    }
-  }
-  div {
-    p {
-      @include title-p($font, $sizesubtitulos, 500, $color1);
-    }
-  }
-}
-
 // Sección unidades de negocios ---------------------------->
 
 .section-unidades-container {
@@ -84,7 +60,7 @@
       color: $color1;
       text-decoration: none;
       .h3-title {
-        @include title-p($font, $sizeintermedio, 500, $color1);
+        @include title-p($font, $sizesubtitulos, 500, $color1);
       }
     }
   }
@@ -123,14 +99,9 @@
 // Sección formulario ----------------------------------------->
 
 .section-formulario-container {
-  display: flex;
-  flex-flow: column wrap;
   background-color: $color3;
   .titulo-formulario-container {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
+   text-align: center;
     padding-top: 2.5em;
     .h2-title {
       @include title-p($font, $sizeintermedio, 600, $color1);
@@ -139,11 +110,27 @@
       @include title-p($font, 2em, 500, $color1);
     }
   }
-  .formulario-contacto {
-    @include title-p($font, $sizegeneral, 400, $color1);
-    margin-top: 0.7em;
-    padding-left: 20em;
-    padding-bottom: 2em;
+  .contac-form {
+    
+    .fila-1 {
+      display: flex;
+     justify-content: space-evenly;
+      margin: auto;
+      padding: 0.5em;
+    }
+    .fila-2 {
+      justify-content: space-evenly;
+       margin: auto;
+       padding: 0.5em 0 0.5em 0;
+     }
+     .fila-3 {
+       display: flex;
+       justify-content: center;
+     }
+    #boton-enviar {
+      padding: 2em;
+    }
+    
   }
 }
 

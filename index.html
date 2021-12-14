@@ -44,14 +44,32 @@
 <body>
     <!-- Cabecera -->
     <header id="header">
+        <!-- Video de fondo -->
+        <div id="fondo-video">
+            <video poster="https://estudiobl.com/img/ebl_video_transparent_poster.png" autoplay="" muted="" loop="">
+                <source src="" type="video/webm">
+                <source src="./src/assets/videos/presentacion.mp4" type="video/mp4">
+            </video>
+        </div>
+        <!-- Capa de opacidad -->
+        <div class="overlay"></div>
+        <!-- Texto encima del video -->
+        <div class="text-box">
+            <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+                <h1 class="h1-title">Inversiones inmobiliarias en Rosario</h1>
+            </div>
+            <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+                <p>Servicio integral de principio a fin.</p>
+            </div>
+        </div>
+
         <!-- Acá quiero que al tocar mi logo me lleve a mi página principal -->
-        <nav class="navbar navbar-expand-lg fixed-top navbar-dark" id="nav-general">
+        <nav class="navbar navbar-expand-lg navbar-dark" id="nav-general">
             <div class="container-fluid">
                 <a class="navbar-brand" href="./index.html"><img id="logo" src="./src/assets/fotos/logo.png"
                         alt="logo de Grupo Adelante"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                    aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-around" id="navbarNav">
@@ -79,18 +97,6 @@
     <!-- Fin de cabecera -->
 
     <main>
-        <!-- Acá empieza la sección principal -->
-        <section class="section-principal-container">
-            <!-- El texto va sombre la imagen -->
-            <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
-                <h1 class="h1-title">Inversiones inmobiliarias en Rosario</h1>
-            </div>
-            <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
-                <p>Servicio integral de principio a fin.</p>
-            </div>
-        </section>
-        <!-- Fin de la sección principal -->
-
         <!-- Acá empieza la sección unidades de negocios -->
         <section class="section-unidades-container">
             <div class="div-titulos-unidades-container">
@@ -153,7 +159,7 @@
             </div>
             <!-- Video institucional, va del lado derecho-->
             <div>
-                <video preload="none" autoplay controls poster="./src/assets/fotos/preview.png"
+                <video preload="none" controls poster="./src/assets/fotos/preview.png"
                     class="video-institucional-index">
                     <source src="./src/assets/videos/videoinst.mp4" type="video/mp4" />
                 </video>
@@ -163,44 +169,27 @@
 
         <!-- Acá empieza la sección formulario -->
         <section class="section-formulario-container">
-            <!-- Imagen de fondo -->
             <div class="titulo-formulario-container">
                 <h2 class="h2-title">¿Búscas una inversión segura?</h2>
                 <p>Contactate con nosotros</p>
             </div>
-            <form class="formulario-contacto">
-                <div class="form-row">
-                    <div class="col-lg-8">
-                        <label for="validationDefault01">Nombre</label>
-                        <input type="text" class="form-control" id="validationDefault01" placeholder="First name"
-                            value="..." required>
-                    </div>
-                    <div class="col-lg-8">
-                        <label for="validationDefault02">Apellido</label>
-                        <input type="text" class="form-control" id="validationDefault02" placeholder="Last name"
-                            value="..." required>
-                    </div>
-                    <div class="col-lg-8">
-                        <label for="validationDefault02">Email</label>
-                        <input type="text" class="form-control" id="validationDefault03" placeholder="Last name"
-                            value="..." required>
-                    </div>
+            <form class="contac-form">
+                <div class="row fila-1">
+                    <input type="text" name="Nombre" placeholder="Nombre" class="col-lg-2">
+                    <input type="text" name="Apellido" placeholder="Apellido" class="col-lg-2">
                 </div>
-                <div class="form-row">
-                    <div class="col-lg-8">
-                        <label for="validationDefault03">Consulta</label>
-                        <textarea name="text" id="form-control" cols="80" rows="9"></textarea>
-                    </div>
-                    <div class="col-lg-8">
-                        <label for="validationDefault04">Ciudad</label>
-                        <input type="text" class="form-control" id="validationDefault04" placeholder="..." required>
-                    </div>
-                    <div class="col-lg-8">
-                        <label for="validationDefault05">Código postal</label>
-                        <input type="text" class="form-control" id="validationDefault05" placeholder="..." required>
-                    </div>
+
+                <div class="row fila-2">
+                    <input type="tel" name="Teléfono" placeholder="Teléfono" class="col-lg-2">
+                    <input type="email" name="Email" placeholder="Email" class="col-lg-2">
                 </div>
-                <button class="btn btn-dark" type="submit">Enviar</button>
+
+                <div class="row fila=3">
+                    <textarea name="Consulta" class="col-lg-6" placeholder="Escriba aquí su consulta"></textarea>
+                </div>
+
+                <input type="button" value="Enviar" id="boton-enviar">
+
             </form>
         </section>
         <!-- Fin de la sección formulario -->
@@ -228,7 +217,7 @@
     <footer id="footer">
         <!-- El footer esta dividido en tres partes, 
             tres columnas con su título arriba y abajo toda la info-->
-        <div class="column-footer">
+        <div class="column-footer-one">
             <!-- Acá cliquenado en el logo te lleva siempre a index -->
             <div class="logo">
                 <a href="./index.html"><img src="./src/assets/fotos/logo.png" alt="logo de Grupo Adelnte" /></a>
@@ -243,7 +232,7 @@
                 </p>
             </div>
         </div>
-        <div class="column-footer">
+        <div class="column-footer-two">
             <div class="footer-contacto">
                 <h4 class="h4-title">Contacto</h4>
             </div>
@@ -260,7 +249,7 @@
                 </p>
             </div>
         </div>
-        <div class="column-footer">
+        <div class="column-footer-three">
             <div class="footer-unidades">
                 <h4 class="h4-title">Unidades de negocios</h4>
             </div>
@@ -272,7 +261,7 @@
                 </ul>
             </div>
         </div>
-        <div class="column-footer">
+        <div class="column-footer-four">
             <div>
                 <h4 class="h4-title">Nuestras redes</h4>
             </div>

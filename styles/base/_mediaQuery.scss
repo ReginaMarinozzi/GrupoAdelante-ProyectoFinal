@@ -3,42 +3,74 @@
 // Media query tablet
 
 @media screen and (max-width: 980px) {
+  // Header ------------->
+
+  #header {
+    .text-box {
+      text-align: center;
+      div {
+        .h1-title {
+          font-size: $sizesubtitulos;
+        }
+      }
+      div {
+        p {
+          font-size: $sizegeneral;
+        }
+      }
+    }
+
+    div {
+      ul {
+        .navbar-color-item {
+          background-color: $color1;
+          text-align: center;
+          &:hover {
+            transform: scale(1.1);
+            transition: all 0.5s;
+            background-color: $color3;
+          }
+          a {
+            color: $color2;
+          }
+        }
+      }
+    }
+  }
 
   // Footer  ---------->
   #footer {
     flex-flow: column wrap;
     align-items: center;
-  }
-
-  .column-footer {
-    align-items: center;
-    .footer-contacto {
-      .h4-title {
-        font-size: 1.5em;
+    text-align: center;
+    .column-footer-one {
+      .footer-contacto {
+        .h4-title {
+          font-size: 1.5em;
+        }
+      }
+      .paragraph-footer-2 {
+        p {
+          font-size: $sizegeneral;
+        }
       }
     }
-    .paragraph-footer-2 {
-      p {
-        text-align: center;
-        font-size: $sizegeneral;
+    .column-footer-three {
+      .footer-list {
+        align-items: center;
+
+        ul {
+          padding: 0;
+          margin: 0;
+          li {
+            font-size: $sizegeneral;
+          }
+        }
       }
     }
   }
 
   // Index -------->
-  .section-principal-container {
-    height: 50vh;
-    div {
-      .h1-title {
-        font-size: $sizesubtitulos;
-      }
-    }
-    div {
-      p {
-        font-size: $sizegeneral;
-      }
-    }
-  }
 
   .section-unidades-container {
     .div-titulos-unidades-container {
@@ -575,7 +607,7 @@
     }
   }
 
-  .inmobiliaria-paragraph-propiedades, 
+  .inmobiliaria-paragraph-propiedades,
   .inmobiliaria-paragraph-propiedades2 {
     font-size: 0.7em;
   }

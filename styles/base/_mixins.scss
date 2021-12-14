@@ -7,9 +7,9 @@
   color: $color;
 }
 
-@mixin display ($diplay, $justify-content, $aling-items, $flex-flow,) {
+@mixin display ($diplay, $justify-content, $aling-items, $flex-flow) {
     display: $diplay;
     justify-content: $justify-content;
-    align-items: $aling-item; 
+    align-items: $aling-items; 
     flex-flow: $flex-flow;
 }

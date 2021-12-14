@@ -43,14 +43,14 @@
 <body>
     <!-- Cabecera -->
     <header id="header">
+
         <!-- Acá quiero que al tocar mi logo me lleve a mi página principal -->
-        <nav class="navbar navbar-expand-lg fixed-top navbar-dark" id="nav-general">
+        <nav class="navbar navbar-expand-lg navbar-dark" id="nav-general">
             <div class="container-fluid">
                 <a class="navbar-brand" href="../../index.html"><img id="logo" src="../../src/assets/fotos/logo.png"
-                        alt="logo de Grupo Adelnte"></a>
-                <button class="navbar-toggler navbar-icon" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                    aria-label="Toggle navigation">
+                        alt="logo de Grupo Adelante"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-around" id="navbarNav">
@@ -81,7 +81,7 @@
         <!-- Acá empieza la sección principal-->
         <section class="video-container-nosotros">
             <!-- El video debe ocupar toda la seccion -->
-            <video preload="none" autoplay controls poster="../../src/assets/fotos/preview.png">
+            <video preload="none" controls poster="../../src/assets/fotos/preview.png">
                 <source src="../../src/assets/videos/videoinst.mp4" type="video/mp4" />
             </video>
         </section>
@@ -202,8 +202,8 @@
     <!-- Acá empieza el footer -->
     <footer id="footer">
         <!-- El footer esta dividido en tres partes, 
-            tres columnas con su título arriba y abajo toda la info-->
-        <div class="column-footer">
+          tres columnas con su título arriba y abajo toda la info-->
+        <div class="column-footer-one">
             <!-- Acá cliquenado en el logo te lleva siempre a index -->
             <div class="logo">
                 <a href="../../index.html"><img src="../../src/assets/fotos/logo.png" alt="logo de Grupo Adelnte" /></a>
@@ -218,7 +218,7 @@
                 </p>
             </div>
         </div>
-        <div class="column-footer">
+        <div class="column-footer-two">
             <div class="footer-contacto">
                 <h4 class="h4-title">Contacto</h4>
             </div>
@@ -235,7 +235,7 @@
                 </p>
             </div>
         </div>
-        <div class="column-footer">
+        <div class="column-footer-three">
             <div class="footer-unidades">
                 <h4 class="h4-title">Unidades de negocios</h4>
             </div>
@@ -247,7 +247,7 @@
                 </ul>
             </div>
         </div>
-        <div class="column-footer">
+        <div class="column-footer-four">
             <div>
                 <h4 class="h4-title">Nuestras redes</h4>
             </div>
@@ -255,7 +255,6 @@
                 <a href="https://www.instagram.com/adelantebroker" target="_blank">
                     <i class="fab fa-instagram icon-insta"></i>
                 </a>
-
                 <a href="https://www.facebook.com/adelante.broker" target="_blank">
                     <i class="fab fa-facebook icon-fb"></i>
                 </a>
