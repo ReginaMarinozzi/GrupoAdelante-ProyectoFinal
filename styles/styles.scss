@@ -19,11 +19,12 @@ html {
 
 // Layout ---------------------------------->
 
-@import "layout/header";
 @import "layout/footer";
+@import "layout/navbar-pages";
 
 // Pages ---------------------------------->
 
+@import "pages/header-index";
 @import "pages/index";
 @import "pages/inmobiliaria";
 @import "pages/financiera";
