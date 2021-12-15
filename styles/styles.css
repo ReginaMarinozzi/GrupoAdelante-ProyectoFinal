@@ -4415,7 +4415,7 @@ html {
   padding: 0 2em 0 2em;
 }
 
-#texto-propiedades-desarrolladora {
+.texto-propiedades-desarrolladora {
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4426,21 +4426,21 @@ html {
           flex-flow: column wrap;
 }
 
-#texto-propiedades-desarrolladora .desarrolladora-paragraph-propiedades {
+.texto-propiedades-desarrolladora .desarrolladora-paragraph-propiedades {
   font-family: "Work Sans", sans-serif;
   font-size: 0.9em;
   font-weight: 400;
   color: #000;
 }
 
-#texto-propiedades-desarrolladora .desarrolladora-paragraph-propiedades2 {
+.texto-propiedades-desarrolladora .desarrolladora-paragraph-propiedades2 {
   font-family: "Work Sans", sans-serif;
   font-size: 0.9em;
   font-weight: 500;
   color: #c5b552;
 }
 
-#texto-propiedades-desarrolladora #text-icons {
+.texto-propiedades-desarrolladora #text-icons {
   font-family: "Work Sans", sans-serif;
   font-size: 0.9em;
   font-weight: 500;
@@ -4457,7 +4457,7 @@ html {
           justify-content: center;
 }
 
-#texto-propiedades-desarrolladora #text-icons .metros {
+.texto-propiedades-desarrolladora #text-icons .metros {
   padding-bottom: 2em;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4469,15 +4469,15 @@ html {
   margin: 0 7px;
 }
 
-#texto-propiedades-desarrolladora #text-icons .metros i {
+.texto-propiedades-desarrolladora #text-icons .metros i {
   margin: 0 5px;
 }
 
-#texto-propiedades-desarrolladora #text-icons .metros p {
+.texto-propiedades-desarrolladora #text-icons .metros p {
   margin: 0 5px;
 }
 
-#texto-propiedades-desarrolladora #text-icons .baños {
+.texto-propiedades-desarrolladora #text-icons .baños {
   padding-bottom: 2em;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4489,15 +4489,15 @@ html {
   margin: 0 7px;
 }
 
-#texto-propiedades-desarrolladora #text-icons .baños i {
+.texto-propiedades-desarrolladora #text-icons .baños i {
   margin: 0 5px;
 }
 
-#texto-propiedades-desarrolladora #text-icons .baños p {
+.texto-propiedades-desarrolladora #text-icons .baños p {
   margin: 0 5px;
 }
 
-#texto-propiedades-desarrolladora #text-icons .dormitorios {
+.texto-propiedades-desarrolladora #text-icons .dormitorios {
   padding-bottom: 2em;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4509,11 +4509,11 @@ html {
   margin: 0 7px;
 }
 
-#texto-propiedades-desarrolladora #text-icons .dormitorios i {
+.texto-propiedades-desarrolladora #text-icons .dormitorios i {
   margin: 0 5px;
 }
 
-#texto-propiedades-desarrolladora #text-icons .dormitorios p {
+.texto-propiedades-desarrolladora #text-icons .dormitorios p {
   margin: 0 5px;
 }
 
