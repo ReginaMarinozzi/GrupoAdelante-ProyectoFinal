@@ -2264,10 +2264,6 @@ html {
 
 .section-suscribite-container {
   background-color: #000;
-  font-family: "Work Sans", sans-serif;
-  font-size: 1.9em;
-  font-weight: 500;
-  color: #ffffff;
   padding: 1em 0 1em 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2275,6 +2271,36 @@ html {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+}
+
+.section-suscribite-container div p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.9em;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.section-suscribite-container .subcribite-form .email-subscribite {
+  font-size: 0.9em;
+  border-radius: 12px;
+}
+
+.section-suscribite-container .subcribite-form .text-small {
+  font-family: "Work Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.section-suscribite-container .boton-subscribite {
+  margin-top: 10px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #c5b552;
+  border-radius: 10px;
+  background-color: #000;
+  padding: 9px;
 }
 
 @media screen and (max-width: 980px) {

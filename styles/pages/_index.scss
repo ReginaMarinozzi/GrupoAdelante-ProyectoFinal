@@ -172,10 +172,30 @@
 
 .section-suscribite-container {
   background-color: $color1;
-  @include title-p($font, $sizesubtitulos, 500, $color2);
   padding: 1em 0 1em 0;
   display: flex;
   justify-content: space-evenly;
+  div {
+    p {
+      @include title-p($font, $sizesubtitulos, 500, $color2);
+    }
+  }
+  .subcribite-form {
+    .email-subscribite {
+      font-size: $sizegeneral;
+      border-radius: 12px;
+    }
+    .text-small {
+      @include title-p($font, 12px, 300, $color2);
+    }
+  }
+  .boton-subscribite {
+    margin-top: 10px;
+    @include title-p($font, 14px, 300, $color3);
+    border-radius: 10px;
+    background-color: $color1;
+    padding: 9px;
+  }
 }
 
 // MEDIAS QUERY ------------------------------------->
