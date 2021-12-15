@@ -90,9 +90,7 @@
   }
 }
 
-// Section nuestros proyectos -------------------------------->
-
-// Section nuestros proyectos, alianzas y desarrrollos de terceros
+// Section nuestros proyectos, alianzas y desarrrollos de terceros -------------------------------->
 
 .desarrolladora-section-proyectos-container {
   display: flex;
@@ -145,14 +143,6 @@
   }
 }
 
-.desarrolladora-paragraph-propiedades {
-  @include title-p($font, $sizegeneral, 400, $color1);
-}
-
-.desarrolladora-paragraph-propiedades2 {
-  @include title-p($font, $sizegeneral, 600, $color3);
-}
-
 .texto-propiedades-desarrolladora {
   text-align: center;
   display: flex;
@@ -165,7 +155,7 @@
     @include title-p($font, $sizegeneral, 500, $color3);
   }
 
-  .text-icons {
+  #text-icons {
     @include title-p($font, $sizegeneral, 500, $color1);
     display: flex;
     justify-content: center;
