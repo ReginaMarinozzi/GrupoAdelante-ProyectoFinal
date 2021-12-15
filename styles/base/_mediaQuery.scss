@@ -424,7 +424,9 @@
     }
   }
 
-  .icon-top {
+  // Icon top
+
+  #icon-top {
     a {
       #iconTop {
         font-size: 0.9em;
@@ -603,16 +605,6 @@
     font-size: 0.9em;
     margin: auto;
     padding: auto;
-  }
-
-  // Icon-top ----------------------------------------->
-
-  .icon-top {
-    a {
-      #iconTop {
-        font-size: 20px;
-      }
-    }
   }
 
   // Inmobiliaria ---------------------------->
@@ -890,6 +882,16 @@
       font-size: 0.7em;
       margin: 0;
       padding: 1em;
+    }
+  }
+
+  // Icon-top ----------------------------------------->
+
+  #icon-top {
+    a {
+      #iconTop {
+        font-size: 20px;
+      }
     }
   }
 }

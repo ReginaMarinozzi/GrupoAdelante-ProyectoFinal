@@ -410,7 +410,7 @@ html {
     margin: 0;
     padding: 1em;
   }
-  .icon-top a #iconTop {
+  #icon-top a #iconTop {
     font-size: 0.9em;
   }
 }
@@ -531,9 +531,6 @@ html {
     font-size: 0.9em;
     margin: auto;
     padding: auto;
-  }
-  .icon-top a #iconTop {
-    font-size: 20px;
   }
   .inmobiliaria-section-principal-container {
     padding: 8em 0 8em;
@@ -736,6 +733,9 @@ html {
     font-size: 0.7em;
     margin: 0;
     padding: 1em;
+  }
+  #icon-top a #iconTop {
+    font-size: 20px;
   }
 }
 
@@ -1023,7 +1023,7 @@ html {
     margin: 0;
     padding: 1em;
   }
-  .icon-top a #iconTop {
+  #icon-top a #iconTop {
     font-size: 0.9em;
   }
 }
@@ -1144,9 +1144,6 @@ html {
     font-size: 0.9em;
     margin: auto;
     padding: auto;
-  }
-  .icon-top a #iconTop {
-    font-size: 20px;
   }
   .inmobiliaria-section-principal-container {
     padding: 8em 0 8em;
@@ -1349,6 +1346,9 @@ html {
     font-size: 0.7em;
     margin: 0;
     padding: 1em;
+  }
+  #icon-top a #iconTop {
+    font-size: 20px;
   }
 }
 
@@ -1691,7 +1691,7 @@ html {
     margin: 0;
     padding: 1em;
   }
-  .icon-top a #iconTop {
+  #icon-top a #iconTop {
     font-size: 0.9em;
   }
 }
@@ -1812,9 +1812,6 @@ html {
     font-size: 0.9em;
     margin: auto;
     padding: auto;
-  }
-  .icon-top a #iconTop {
-    font-size: 20px;
   }
   .inmobiliaria-section-principal-container {
     padding: 8em 0 8em;
@@ -2018,6 +2015,9 @@ html {
     margin: 0;
     padding: 1em;
   }
+  #icon-top a #iconTop {
+    font-size: 20px;
+  }
 }
 
 .section-unidades-container {
@@ -2161,7 +2161,7 @@ html {
 
 .container-contacto {
   width: 100%;
-  height: 100vh;
+  height: auto;
   background-color: #c5b552;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2196,10 +2196,12 @@ html {
 
 .container-contacto form .h3-title {
   font-family: "Work Sans", sans-serif;
-  font-size: 2.5em;
+  font-size: 3.2em;
   font-weight: 600;
   color: #000;
   padding-top: 1em;
+  text-align: center;
+  width: 80%;
 }
 
 .container-contacto form p {
@@ -2207,16 +2209,18 @@ html {
   font-size: 0.9em;
   font-weight: 500;
   color: #000;
+  text-align: center;
+  width: 80%;
 }
 
-.container-contacto input,
-.container-contacto textarea {
+.container-contacto form input,
+.container-contacto form textarea {
   border: none;
   resize: none;
   outline: none;
   padding: 15px 0px;
   width: 80%;
-  margin: 20px;
+  margin: 5px;
   -webkit-transition: all 300ms;
   transition: all 300ms;
   border-bottom: 1px solid #000;
@@ -2227,12 +2231,12 @@ html {
   color: #000;
 }
 
-.container-contacto input:focus,
-.container-contacto textarea:focus {
-  border-bottom: #610061;
+.container-contacto form input:focus,
+.container-contacto form textarea:focus {
+  border-bottom: 1px solid #c5b552;
 }
 
-.container-contacto button {
+.container-contacto form button {
   border: none;
   outline: none;
   background: #c5b552;
@@ -2251,7 +2255,7 @@ html {
   transition: all 300ms;
 }
 
-.container-contacto button :hover {
+.container-contacto form button:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
   -webkit-box-shadow: rgba(0, 0, 0, 0.9) 0px 0px 10px;
@@ -2530,7 +2534,7 @@ html {
     margin: 0;
     padding: 1em;
   }
-  .icon-top a #iconTop {
+  #icon-top a #iconTop {
     font-size: 0.9em;
   }
 }
@@ -2651,9 +2655,6 @@ html {
     font-size: 0.9em;
     margin: auto;
     padding: auto;
-  }
-  .icon-top a #iconTop {
-    font-size: 20px;
   }
   .inmobiliaria-section-principal-container {
     padding: 8em 0 8em;
@@ -2856,6 +2857,9 @@ html {
     font-size: 0.7em;
     margin: 0;
     padding: 1em;
+  }
+  #icon-top a #iconTop {
+    font-size: 20px;
   }
 }
 
@@ -3386,7 +3390,7 @@ html {
     margin: 0;
     padding: 1em;
   }
-  .icon-top a #iconTop {
+  #icon-top a #iconTop {
     font-size: 0.9em;
   }
 }
@@ -3507,9 +3511,6 @@ html {
     font-size: 0.9em;
     margin: auto;
     padding: auto;
-  }
-  .icon-top a #iconTop {
-    font-size: 20px;
   }
   .inmobiliaria-section-principal-container {
     padding: 8em 0 8em;
@@ -3712,6 +3713,9 @@ html {
     font-size: 0.7em;
     margin: 0;
     padding: 1em;
+  }
+  #icon-top a #iconTop {
+    font-size: 20px;
   }
 }
 
@@ -4094,7 +4098,7 @@ html {
     margin: 0;
     padding: 1em;
   }
-  .icon-top a #iconTop {
+  #icon-top a #iconTop {
     font-size: 0.9em;
   }
 }
@@ -4215,9 +4219,6 @@ html {
     font-size: 0.9em;
     margin: auto;
     padding: auto;
-  }
-  .icon-top a #iconTop {
-    font-size: 20px;
   }
   .inmobiliaria-section-principal-container {
     padding: 8em 0 8em;
@@ -4420,6 +4421,9 @@ html {
     font-size: 0.7em;
     margin: 0;
     padding: 1em;
+  }
+  #icon-top a #iconTop {
+    font-size: 20px;
   }
 }
 
@@ -4991,7 +4995,7 @@ html {
     margin: 0;
     padding: 1em;
   }
-  .icon-top a #iconTop {
+  #icon-top a #iconTop {
     font-size: 0.9em;
   }
 }
@@ -5112,9 +5116,6 @@ html {
     font-size: 0.9em;
     margin: auto;
     padding: auto;
-  }
-  .icon-top a #iconTop {
-    font-size: 20px;
   }
   .inmobiliaria-section-principal-container {
     padding: 8em 0 8em;
@@ -5317,6 +5318,9 @@ html {
     font-size: 0.7em;
     margin: 0;
     padding: 1em;
+  }
+  #icon-top a #iconTop {
+    font-size: 20px;
   }
 }
 
@@ -5693,7 +5697,7 @@ html {
     margin: 0;
     padding: 1em;
   }
-  .icon-top a #iconTop {
+  #icon-top a #iconTop {
     font-size: 0.9em;
   }
 }
@@ -5814,9 +5818,6 @@ html {
     font-size: 0.9em;
     margin: auto;
     padding: auto;
-  }
-  .icon-top a #iconTop {
-    font-size: 20px;
   }
   .inmobiliaria-section-principal-container {
     padding: 8em 0 8em;
@@ -6019,6 +6020,9 @@ html {
     font-size: 0.7em;
     margin: 0;
     padding: 1em;
+  }
+  #icon-top a #iconTop {
+    font-size: 20px;
   }
 }
 
@@ -6417,7 +6421,7 @@ html {
     margin: 0;
     padding: 1em;
   }
-  .icon-top a #iconTop {
+  #icon-top a #iconTop {
     font-size: 0.9em;
   }
 }
@@ -6538,9 +6542,6 @@ html {
     font-size: 0.9em;
     margin: auto;
     padding: auto;
-  }
-  .icon-top a #iconTop {
-    font-size: 20px;
   }
   .inmobiliaria-section-principal-container {
     padding: 8em 0 8em;
@@ -6743,6 +6744,9 @@ html {
     font-size: 0.7em;
     margin: 0;
     padding: 1em;
+  }
+  #icon-top a #iconTop {
+    font-size: 20px;
   }
 }
 
@@ -7036,7 +7040,7 @@ html {
     margin: 0;
     padding: 1em;
   }
-  .icon-top a #iconTop {
+  #icon-top a #iconTop {
     font-size: 0.9em;
   }
 }
@@ -7157,9 +7161,6 @@ html {
     font-size: 0.9em;
     margin: auto;
     padding: auto;
-  }
-  .icon-top a #iconTop {
-    font-size: 20px;
   }
   .inmobiliaria-section-principal-container {
     padding: 8em 0 8em;
@@ -7363,9 +7364,12 @@ html {
     margin: 0;
     padding: 1em;
   }
+  #icon-top a #iconTop {
+    font-size: 20px;
+  }
 }
 
-.icon-top a {
+#icon-top a {
   position: fixed;
   right: 0%;
   bottom: 0%;
@@ -7374,7 +7378,7 @@ html {
   font-size: 4em;
 }
 
-.icon-top a:hover {
+#icon-top a:hover {
   color: #333333;
 }
 /*# sourceMappingURL=styles.css.map */
