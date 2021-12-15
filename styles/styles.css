@@ -6159,6 +6159,7 @@ html {
 }
 
 .contacto-section-two-container .mapa-contacto iframe {
+  border-radius: 10px;
   width: 50vw;
   height: 50vh;
 }
