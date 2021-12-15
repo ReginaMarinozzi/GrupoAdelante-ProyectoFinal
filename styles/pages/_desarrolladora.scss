@@ -158,11 +158,13 @@
   #text-icons {
     @include title-p($font, $sizegeneral, 500, $color1);
     display: flex;
+    flex-flow: row wrap;
     justify-content: center;
 
     .metros {
       padding-bottom: 2em;
       display: flex;
+      flex-flow: row wrap;
       margin: 0 7px;
       i {
         margin: 0 5px;
@@ -175,6 +177,7 @@
     .baños {
       padding-bottom: 2em;
       display: flex;
+      flex-flow: row wrap;
       margin: 0 7px;
       i {
         margin: 0 5px;
@@ -187,6 +190,7 @@
     .dormitorios {
       padding-bottom: 2em;
       display: flex;
+      flex-flow: row wrap;
       margin: 0 7px;
       i {
         margin: 0 5px;
