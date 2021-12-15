@@ -51,21 +51,13 @@
   }
 }
 
-.inmobiliaria-paragraph-propiedades {
-  @include title-p($font, $sizegeneral, 400, $color1);
-}
-
-.inmobiliaria-paragraph-propiedades2 {
-  @include title-p($font, $sizegeneral, 400, $color3);
-}
-
 // Section emprendimientos -------------------------------->
 
 .inmobiliaria-section-emprendimientos {
   .inmobiliaria-emprendimientos {
     display: flex;
     justify-content: center;
-    padding: 1.9em;
+    padding: 2em;
     .h2-title {
       @include title-p($font, $sizeintermedio, 600, $color1);
     }
@@ -73,6 +65,15 @@
   .container-emprendimientos {
     padding: 0 2em 0 2em;
   }
+}
+// Parrafos ------------------------------------------------>
+
+.inmobiliaria-paragraph-propiedades {
+  @include title-p($font, $sizegeneral, 400, $color1);
+}
+
+.inmobiliaria-paragraph-propiedades2 {
+  @include title-p($font, $sizegeneral, 400, $color3);
 }
 
 // MEDIAS QUERY ------------------------------------->
