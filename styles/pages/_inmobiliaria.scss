@@ -11,7 +11,7 @@
 // Section principal -------------------------------->
 
 .inmobiliaria-section-principal-container {
-  background-color: $color3; // en realidad va una foto no decidí cuál todavía
+  background-color: $color3; 
   padding: 7em 0 12em;
   align-items: center;
   .inmobiliaria-titulos-container {
@@ -38,10 +38,11 @@
 // Section propiedades destacadas -------------------------------->
 
 .inmobiliaria-section-destacadas {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   .inmobiliaria-propiedades-destacadas {
-    display: flex;
-    justify-content: center;
-    padding: 2em;
+    padding: 4.5em;
     .h2-title {
       @include title-p($font, $sizeintermedio, 600, $color1);
     }
@@ -49,15 +50,70 @@
   .container-destacadas {
     padding: 0 2em 0 2em;
   }
+
+  .texto-propiedades {
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    .inmobiliaria-paragraph-propiedades {
+      @include title-p($font, $sizegeneral, 400, $color1);
+    }
+
+    .inmobiliaria-paragraph-propiedades2 {
+      @include title-p($font, $sizegeneral, 500, $color3);
+    }
+
+    .inmobiliaria-icons {
+      @include title-p($font, $sizegeneral, 500, $color1);
+      display: flex;
+      justify-content: center;
+
+      .metros {
+        display: flex;
+        margin: 0 7px;
+        i {
+          margin: 0 5px;
+        }
+        p {
+          margin: 0 5px;
+        }
+      }
+
+      .baños {
+        display: flex;
+        margin: 0 7px;
+        i {
+          margin: 0 5px;
+        }
+        p {
+          margin: 0 5px;
+        }
+      }
+
+      .dormitorios {
+        display: flex;
+        margin: 0 7px;
+        i {
+          margin: 0 5px;
+        }
+        p {
+          margin: 0 5px;
+        }
+      }
+    }
+  }
 }
 
 // Section emprendimientos -------------------------------->
 
 .inmobiliaria-section-emprendimientos {
+
+  padding-bottom: 2em;
+
   .inmobiliaria-emprendimientos {
     display: flex;
     justify-content: center;
-    padding: 2em;
+    padding: 5em;
     .h2-title {
       @include title-p($font, $sizeintermedio, 600, $color1);
     }
@@ -65,15 +121,57 @@
   .container-emprendimientos {
     padding: 0 2em 0 2em;
   }
-}
-// Parrafos ------------------------------------------------>
+  .texto-propiedades {
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    .inmobiliaria-paragraph-propiedades {
+      @include title-p($font, $sizegeneral, 400, $color1);
+    }
 
-.inmobiliaria-paragraph-propiedades {
-  @include title-p($font, $sizegeneral, 400, $color1);
-}
+    .inmobiliaria-paragraph-propiedades2 {
+      @include title-p($font, $sizegeneral, 500, $color3);
+    }
 
-.inmobiliaria-paragraph-propiedades2 {
-  @include title-p($font, $sizegeneral, 400, $color3);
+    .inmobiliaria-icons {
+      @include title-p($font, $sizegeneral, 500, $color1);
+      display: flex;
+      justify-content: center;
+
+      .metros {
+        display: flex;
+        margin: 0 7px;
+        i {
+          margin: 0 5px;
+        }
+        p {
+          margin: 0 5px;
+        }
+      }
+
+      .baños {
+        display: flex;
+        margin: 0 7px;
+        i {
+          margin: 0 5px;
+        }
+        p {
+          margin: 0 5px;
+        }
+      }
+
+      .dormitorios {
+        display: flex;
+        margin: 0 7px;
+        i {
+          margin: 0 5px;
+        }
+        p {
+          margin: 0 5px;
+        }
+      }
+    }
+  }
 }
 
 // MEDIAS QUERY ------------------------------------->
