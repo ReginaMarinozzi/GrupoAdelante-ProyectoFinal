@@ -121,18 +121,23 @@
     }
   }
 
-  .section-formulario-container {
-    .titulo-formulario-container {
-      .h2-title {
+  .container-contacto {
+    form {
+      .h3-title {
         font-size: $sizegeneral;
       }
       p {
-        font-size: 0.9em;
+        font-size: 12px;
       }
-    }
-    .formulario-contacto {
-      font-size: 0.9em;
-      padding: 0 0 1em 1em;
+      input {
+        font-size: 12px;
+      }
+      textarea {
+        font-size: 12px;
+      }
+      button {
+        font-size: 12px;
+      }
     }
   }
 
@@ -363,17 +368,24 @@
 
   // Contactos
 
-  .contacto-section-principal-container {
-    .h2-title {
-      font-size: 1.5em;
+  .container-contacto {
+    form {
+      .h1-title {
+        font-size: $sizeintermedio;
+      }
+      p {
+        font-size: 12px;
+      }
+      input {
+        font-size: 12px;
+      }
+      textarea {
+        font-size: 12px;
+      }
+      button {
+        font-size: 12px;
+      }
     }
-    p {
-      font-size: 0.9em;
-    }
-  }
-
-  .contacto-form-container {
-    font-size: 0.5em;
   }
 
   .contacto-section-two-container {
@@ -416,9 +428,9 @@
     a {
       #iconTop {
         font-size: 0.9em;
+      }
     }
   }
-}
 }
 
 /* Media query mobile */
@@ -567,19 +579,23 @@
     }
   }
 
-  .section-formulario-container {
-    .titulo-formulario-container {
-      .h2-title {
-        font-size: 0.9em;
+  .container-contacto {
+    form {
+      .h3-title {
+        font-size: $sizegeneral;
       }
       p {
-        font-size: 0.7em;
+        font-size: 12px;
       }
-    }
-    .formulario-contacto {
-      font-size: 0.7em;
-      margin: auto;
-      padding: auto;
+      input {
+        font-size: 12px;
+      }
+      textarea {
+        font-size: 12px;
+      }
+      button {
+        font-size: 12px;
+      }
     }
   }
 
@@ -595,9 +611,9 @@
     a {
       #iconTop {
         font-size: 20px;
+      }
     }
   }
-}
 
   // Inmobiliaria ---------------------------->
   .inmobiliaria-section-principal-container {
@@ -833,6 +849,28 @@
         img {
           width: 40vh;
         }
+      }
+    }
+  }
+
+  // Contacto ------------------------------------>
+
+  .container-contacto {
+    form {
+      .h1-title {
+        font-size: $sizegeneral;
+      }
+      p {
+        font-size: 12px;
+      }
+      input {
+        font-size: 12px;
+      }
+      textarea {
+        font-size: 12px;
+      }
+      button {
+        font-size: 12px;
       }
     }
   }

@@ -11,7 +11,7 @@
 // Section principal -------------------------------->
 
 .video-container-nosotros video {
-  width: 100vw;
+  width: 100%;
   height: auto;
 }
 
@@ -29,6 +29,7 @@
     .nosotros-img-container {
       img {
         width: 60vh;
+        border-radius: 10px;
       }
     }
     .nosotros-p-container {
@@ -51,6 +52,7 @@
     .mision-img-container {
       img {
         width: 60vh;
+        border-radius: 10px;
       }
     }
   }
@@ -61,6 +63,7 @@
     .valores-img-container {
       img {
         width: 60vh;
+        border-radius: 10px;
       }
     }
     .valores-p-container {
@@ -87,6 +90,7 @@
     .servicios-img-container {
       img {
         width: 60vh;
+        border-radius: 10px;
       }
     }
   }

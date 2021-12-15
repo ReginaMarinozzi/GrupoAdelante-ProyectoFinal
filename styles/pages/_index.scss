@@ -92,47 +92,78 @@
   div {
     .video-institucional-index {
       width: 50vw;
+      border-radius: 10px;
     }
   }
 }
 
 // Sección formulario ----------------------------------------->
 
-.section-formulario-container {
+.container-contacto {
+  width: 100%;
+  height: 100vh;
   background-color: $color3;
-  .titulo-formulario-container {
-   text-align: center;
-    padding-top: 2.5em;
-    .h2-title {
+  display: flex;
+  justify-content: center;
+
+  form {
+    display: flex;
+    flex-flow: column;
+    background-color: $color2;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding: 20px;
+    margin: 50px 0;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 50px;
+
+    .h3-title {
       @include title-p($font, $sizeintermedio, 600, $color1);
+      padding-top: 1em;
     }
     p {
-      @include title-p($font, 2em, 500, $color1);
+      @include title-p($font, $sizegeneral, 500, $color1);
     }
   }
-  .contac-form {
-    
-    .fila-1 {
-      display: flex;
-     justify-content: space-evenly;
-      margin: auto;
-      padding: 0.5em;
+  input,
+  textarea {
+    border: none;
+    resize: none;
+    outline: none;
+    padding: 15px 0px;
+    width: 80%;
+    margin: 20px;
+    transition: all 300ms;
+    border-bottom: 1px solid $color1;
+    overflow-y: hidden;
+    @include title-p($font, $sizegeneral, 400, $color1);
+
+    &:focus {
+      border-bottom: #610061;
     }
-    .fila-2 {
-      justify-content: space-evenly;
-       margin: auto;
-       padding: 0.5em 0 0.5em 0;
-     }
-     .fila-3 {
-       display: flex;
-       justify-content: center;
-     }
-    #boton-enviar {
-      padding: 2em;
+  }
+
+  button {
+    border: none;
+    outline: none;
+    background: $color3;
+    padding: 15px;
+    border-radius: 2px;
+    width: 200px;
+    @include title-p($font, $sizegeneral, 400, $color1);
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 0px 10px;
+    margin: 20px 0;
+    cursor: pointer;
+    transition: all 300ms;
+
+    & :hover {
+      transform: scale(1.05);
+      box-shadow: rgba(0, 0, 0, 0.9) 0px 0px 10px;
     }
-    
   }
 }
+
 
 // Sección suscribite ----------------------------------------->
 

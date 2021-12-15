@@ -234,15 +234,20 @@ html {
   .section-nosotros-container div .video-institucional-index {
     width: 50vw;
   }
-  .section-formulario-container .titulo-formulario-container .h2-title {
+  .container-contacto form .h3-title {
     font-size: 0.9em;
   }
-  .section-formulario-container .titulo-formulario-container p {
-    font-size: 0.9em;
+  .container-contacto form p {
+    font-size: 12px;
   }
-  .section-formulario-container .formulario-contacto {
-    font-size: 0.9em;
-    padding: 0 0 1em 1em;
+  .container-contacto form input {
+    font-size: 12px;
+  }
+  .container-contacto form textarea {
+    font-size: 12px;
+  }
+  .container-contacto form button {
+    font-size: 12px;
   }
   .section-suscribite-container {
     font-size: 0.9em;
@@ -368,14 +373,20 @@ html {
   .nosotros-section-principal-container div .servicios-img-container img {
     width: 40vh;
   }
-  .contacto-section-principal-container .h2-title {
-    font-size: 1.5em;
+  .container-contacto form .h1-title {
+    font-size: 2.5em;
   }
-  .contacto-section-principal-container p {
-    font-size: 0.9em;
+  .container-contacto form p {
+    font-size: 12px;
   }
-  .contacto-form-container {
-    font-size: 0.5em;
+  .container-contacto form input {
+    font-size: 12px;
+  }
+  .container-contacto form textarea {
+    font-size: 12px;
+  }
+  .container-contacto form button {
+    font-size: 12px;
   }
   .contacto-section-two-container div .h3-title {
     font-size: 1.2em;
@@ -501,16 +512,20 @@ html {
   .section-nosotros-container div .video-institucional-index {
     width: 50vw;
   }
-  .section-formulario-container .titulo-formulario-container .h2-title {
+  .container-contacto form .h3-title {
     font-size: 0.9em;
   }
-  .section-formulario-container .titulo-formulario-container p {
-    font-size: 0.7em;
+  .container-contacto form p {
+    font-size: 12px;
   }
-  .section-formulario-container .formulario-contacto {
-    font-size: 0.7em;
-    margin: auto;
-    padding: auto;
+  .container-contacto form input {
+    font-size: 12px;
+  }
+  .container-contacto form textarea {
+    font-size: 12px;
+  }
+  .container-contacto form button {
+    font-size: 12px;
   }
   .section-suscribite-container {
     font-size: 0.9em;
@@ -695,6 +710,21 @@ html {
   }
   .nosotros-section-principal-container div .servicios-img-container img {
     width: 40vh;
+  }
+  .container-contacto form .h1-title {
+    font-size: 0.9em;
+  }
+  .container-contacto form p {
+    font-size: 12px;
+  }
+  .container-contacto form input {
+    font-size: 12px;
+  }
+  .container-contacto form textarea {
+    font-size: 12px;
+  }
+  .container-contacto form button {
+    font-size: 12px;
   }
   .vende-section-principal-container div .h2-title {
     font-size: 0.9em;
@@ -817,15 +847,20 @@ html {
   .section-nosotros-container div .video-institucional-index {
     width: 50vw;
   }
-  .section-formulario-container .titulo-formulario-container .h2-title {
+  .container-contacto form .h3-title {
     font-size: 0.9em;
   }
-  .section-formulario-container .titulo-formulario-container p {
-    font-size: 0.9em;
+  .container-contacto form p {
+    font-size: 12px;
   }
-  .section-formulario-container .formulario-contacto {
-    font-size: 0.9em;
-    padding: 0 0 1em 1em;
+  .container-contacto form input {
+    font-size: 12px;
+  }
+  .container-contacto form textarea {
+    font-size: 12px;
+  }
+  .container-contacto form button {
+    font-size: 12px;
   }
   .section-suscribite-container {
     font-size: 0.9em;
@@ -951,14 +986,20 @@ html {
   .nosotros-section-principal-container div .servicios-img-container img {
     width: 40vh;
   }
-  .contacto-section-principal-container .h2-title {
-    font-size: 1.5em;
+  .container-contacto form .h1-title {
+    font-size: 2.5em;
   }
-  .contacto-section-principal-container p {
-    font-size: 0.9em;
+  .container-contacto form p {
+    font-size: 12px;
   }
-  .contacto-form-container {
-    font-size: 0.5em;
+  .container-contacto form input {
+    font-size: 12px;
+  }
+  .container-contacto form textarea {
+    font-size: 12px;
+  }
+  .container-contacto form button {
+    font-size: 12px;
   }
   .contacto-section-two-container div .h3-title {
     font-size: 1.2em;
@@ -1084,16 +1125,20 @@ html {
   .section-nosotros-container div .video-institucional-index {
     width: 50vw;
   }
-  .section-formulario-container .titulo-formulario-container .h2-title {
+  .container-contacto form .h3-title {
     font-size: 0.9em;
   }
-  .section-formulario-container .titulo-formulario-container p {
-    font-size: 0.7em;
+  .container-contacto form p {
+    font-size: 12px;
   }
-  .section-formulario-container .formulario-contacto {
-    font-size: 0.7em;
-    margin: auto;
-    padding: auto;
+  .container-contacto form input {
+    font-size: 12px;
+  }
+  .container-contacto form textarea {
+    font-size: 12px;
+  }
+  .container-contacto form button {
+    font-size: 12px;
   }
   .section-suscribite-container {
     font-size: 0.9em;
@@ -1278,6 +1323,21 @@ html {
   }
   .nosotros-section-principal-container div .servicios-img-container img {
     width: 40vh;
+  }
+  .container-contacto form .h1-title {
+    font-size: 0.9em;
+  }
+  .container-contacto form p {
+    font-size: 12px;
+  }
+  .container-contacto form input {
+    font-size: 12px;
+  }
+  .container-contacto form textarea {
+    font-size: 12px;
+  }
+  .container-contacto form button {
+    font-size: 12px;
   }
   .vende-section-principal-container div .h2-title {
     font-size: 0.9em;
@@ -1455,15 +1515,20 @@ html {
   .section-nosotros-container div .video-institucional-index {
     width: 50vw;
   }
-  .section-formulario-container .titulo-formulario-container .h2-title {
+  .container-contacto form .h3-title {
     font-size: 0.9em;
   }
-  .section-formulario-container .titulo-formulario-container p {
-    font-size: 0.9em;
+  .container-contacto form p {
+    font-size: 12px;
   }
-  .section-formulario-container .formulario-contacto {
-    font-size: 0.9em;
-    padding: 0 0 1em 1em;
+  .container-contacto form input {
+    font-size: 12px;
+  }
+  .container-contacto form textarea {
+    font-size: 12px;
+  }
+  .container-contacto form button {
+    font-size: 12px;
   }
   .section-suscribite-container {
     font-size: 0.9em;
@@ -1589,14 +1654,20 @@ html {
   .nosotros-section-principal-container div .servicios-img-container img {
     width: 40vh;
   }
-  .contacto-section-principal-container .h2-title {
-    font-size: 1.5em;
+  .container-contacto form .h1-title {
+    font-size: 2.5em;
   }
-  .contacto-section-principal-container p {
-    font-size: 0.9em;
+  .container-contacto form p {
+    font-size: 12px;
   }
-  .contacto-form-container {
-    font-size: 0.5em;
+  .container-contacto form input {
+    font-size: 12px;
+  }
+  .container-contacto form textarea {
+    font-size: 12px;
+  }
+  .container-contacto form button {
+    font-size: 12px;
   }
   .contacto-section-two-container div .h3-title {
     font-size: 1.2em;
@@ -1722,16 +1793,20 @@ html {
   .section-nosotros-container div .video-institucional-index {
     width: 50vw;
   }
-  .section-formulario-container .titulo-formulario-container .h2-title {
+  .container-contacto form .h3-title {
     font-size: 0.9em;
   }
-  .section-formulario-container .titulo-formulario-container p {
-    font-size: 0.7em;
+  .container-contacto form p {
+    font-size: 12px;
   }
-  .section-formulario-container .formulario-contacto {
-    font-size: 0.7em;
-    margin: auto;
-    padding: auto;
+  .container-contacto form input {
+    font-size: 12px;
+  }
+  .container-contacto form textarea {
+    font-size: 12px;
+  }
+  .container-contacto form button {
+    font-size: 12px;
   }
   .section-suscribite-container {
     font-size: 0.9em;
@@ -1916,6 +1991,21 @@ html {
   }
   .nosotros-section-principal-container div .servicios-img-container img {
     width: 40vh;
+  }
+  .container-contacto form .h1-title {
+    font-size: 0.9em;
+  }
+  .container-contacto form p {
+    font-size: 12px;
+  }
+  .container-contacto form input {
+    font-size: 12px;
+  }
+  .container-contacto form textarea {
+    font-size: 12px;
+  }
+  .container-contacto form button {
+    font-size: 12px;
   }
   .vende-section-principal-container div .h2-title {
     font-size: 0.9em;
@@ -2066,51 +2156,13 @@ html {
 
 .section-nosotros-container div .video-institucional-index {
   width: 50vw;
+  border-radius: 10px;
 }
 
-.section-formulario-container {
+.container-contacto {
+  width: 100%;
+  height: 100vh;
   background-color: #c5b552;
-}
-
-.section-formulario-container .titulo-formulario-container {
-  text-align: center;
-  padding-top: 2.5em;
-}
-
-.section-formulario-container .titulo-formulario-container .h2-title {
-  font-family: "Work Sans", sans-serif;
-  font-size: 2.5em;
-  font-weight: 600;
-  color: #000;
-}
-
-.section-formulario-container .titulo-formulario-container p {
-  font-family: "Work Sans", sans-serif;
-  font-size: 2em;
-  font-weight: 500;
-  color: #000;
-}
-
-.section-formulario-container .contac-form .fila-1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  margin: auto;
-  padding: 0.5em;
-}
-
-.section-formulario-container .contac-form .fila-2 {
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  margin: auto;
-  padding: 0.5em 0 0.5em 0;
-}
-
-.section-formulario-container .contac-form .fila-3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2119,8 +2171,91 @@ html {
           justify-content: center;
 }
 
-.section-formulario-container .contac-form #boton-enviar {
-  padding: 2em;
+.container-contacto form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  background-color: #ffffff;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  padding: 20px;
+  margin: 50px 0;
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 50px;
+          box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 50px;
+}
+
+.container-contacto form .h3-title {
+  font-family: "Work Sans", sans-serif;
+  font-size: 2.5em;
+  font-weight: 600;
+  color: #000;
+  padding-top: 1em;
+}
+
+.container-contacto form p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 0.9em;
+  font-weight: 500;
+  color: #000;
+}
+
+.container-contacto input,
+.container-contacto textarea {
+  border: none;
+  resize: none;
+  outline: none;
+  padding: 15px 0px;
+  width: 80%;
+  margin: 20px;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+  border-bottom: 1px solid #000;
+  overflow-y: hidden;
+  font-family: "Work Sans", sans-serif;
+  font-size: 0.9em;
+  font-weight: 400;
+  color: #000;
+}
+
+.container-contacto input:focus,
+.container-contacto textarea:focus {
+  border-bottom: #610061;
+}
+
+.container-contacto button {
+  border: none;
+  outline: none;
+  background: #c5b552;
+  padding: 15px;
+  border-radius: 2px;
+  width: 200px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 0.9em;
+  font-weight: 400;
+  color: #000;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.7) 0px 0px 10px;
+          box-shadow: rgba(0, 0, 0, 0.7) 0px 0px 10px;
+  margin: 20px 0;
+  cursor: pointer;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
+
+.container-contacto button :hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-box-shadow: rgba(0, 0, 0, 0.9) 0px 0px 10px;
+          box-shadow: rgba(0, 0, 0, 0.9) 0px 0px 10px;
 }
 
 .section-suscribite-container {
@@ -2219,15 +2354,20 @@ html {
   .section-nosotros-container div .video-institucional-index {
     width: 50vw;
   }
-  .section-formulario-container .titulo-formulario-container .h2-title {
+  .container-contacto form .h3-title {
     font-size: 0.9em;
   }
-  .section-formulario-container .titulo-formulario-container p {
-    font-size: 0.9em;
+  .container-contacto form p {
+    font-size: 12px;
   }
-  .section-formulario-container .formulario-contacto {
-    font-size: 0.9em;
-    padding: 0 0 1em 1em;
+  .container-contacto form input {
+    font-size: 12px;
+  }
+  .container-contacto form textarea {
+    font-size: 12px;
+  }
+  .container-contacto form button {
+    font-size: 12px;
   }
   .section-suscribite-container {
     font-size: 0.9em;
@@ -2353,14 +2493,20 @@ html {
   .nosotros-section-principal-container div .servicios-img-container img {
     width: 40vh;
   }
-  .contacto-section-principal-container .h2-title {
-    font-size: 1.5em;
+  .container-contacto form .h1-title {
+    font-size: 2.5em;
   }
-  .contacto-section-principal-container p {
-    font-size: 0.9em;
+  .container-contacto form p {
+    font-size: 12px;
   }
-  .contacto-form-container {
-    font-size: 0.5em;
+  .container-contacto form input {
+    font-size: 12px;
+  }
+  .container-contacto form textarea {
+    font-size: 12px;
+  }
+  .container-contacto form button {
+    font-size: 12px;
   }
   .contacto-section-two-container div .h3-title {
     font-size: 1.2em;
@@ -2486,16 +2632,20 @@ html {
   .section-nosotros-container div .video-institucional-index {
     width: 50vw;
   }
-  .section-formulario-container .titulo-formulario-container .h2-title {
+  .container-contacto form .h3-title {
     font-size: 0.9em;
   }
-  .section-formulario-container .titulo-formulario-container p {
-    font-size: 0.7em;
+  .container-contacto form p {
+    font-size: 12px;
   }
-  .section-formulario-container .formulario-contacto {
-    font-size: 0.7em;
-    margin: auto;
-    padding: auto;
+  .container-contacto form input {
+    font-size: 12px;
+  }
+  .container-contacto form textarea {
+    font-size: 12px;
+  }
+  .container-contacto form button {
+    font-size: 12px;
   }
   .section-suscribite-container {
     font-size: 0.9em;
@@ -2680,6 +2830,21 @@ html {
   }
   .nosotros-section-principal-container div .servicios-img-container img {
     width: 40vh;
+  }
+  .container-contacto form .h1-title {
+    font-size: 0.9em;
+  }
+  .container-contacto form p {
+    font-size: 12px;
+  }
+  .container-contacto form input {
+    font-size: 12px;
+  }
+  .container-contacto form textarea {
+    font-size: 12px;
+  }
+  .container-contacto form button {
+    font-size: 12px;
   }
   .vende-section-principal-container div .h2-title {
     font-size: 0.9em;
@@ -3045,15 +3210,20 @@ html {
   .section-nosotros-container div .video-institucional-index {
     width: 50vw;
   }
-  .section-formulario-container .titulo-formulario-container .h2-title {
+  .container-contacto form .h3-title {
     font-size: 0.9em;
   }
-  .section-formulario-container .titulo-formulario-container p {
-    font-size: 0.9em;
+  .container-contacto form p {
+    font-size: 12px;
   }
-  .section-formulario-container .formulario-contacto {
-    font-size: 0.9em;
-    padding: 0 0 1em 1em;
+  .container-contacto form input {
+    font-size: 12px;
+  }
+  .container-contacto form textarea {
+    font-size: 12px;
+  }
+  .container-contacto form button {
+    font-size: 12px;
   }
   .section-suscribite-container {
     font-size: 0.9em;
@@ -3179,14 +3349,20 @@ html {
   .nosotros-section-principal-container div .servicios-img-container img {
     width: 40vh;
   }
-  .contacto-section-principal-container .h2-title {
-    font-size: 1.5em;
+  .container-contacto form .h1-title {
+    font-size: 2.5em;
   }
-  .contacto-section-principal-container p {
-    font-size: 0.9em;
+  .container-contacto form p {
+    font-size: 12px;
   }
-  .contacto-form-container {
-    font-size: 0.5em;
+  .container-contacto form input {
+    font-size: 12px;
+  }
+  .container-contacto form textarea {
+    font-size: 12px;
+  }
+  .container-contacto form button {
+    font-size: 12px;
   }
   .contacto-section-two-container div .h3-title {
     font-size: 1.2em;
@@ -3312,16 +3488,20 @@ html {
   .section-nosotros-container div .video-institucional-index {
     width: 50vw;
   }
-  .section-formulario-container .titulo-formulario-container .h2-title {
+  .container-contacto form .h3-title {
     font-size: 0.9em;
   }
-  .section-formulario-container .titulo-formulario-container p {
-    font-size: 0.7em;
+  .container-contacto form p {
+    font-size: 12px;
   }
-  .section-formulario-container .formulario-contacto {
-    font-size: 0.7em;
-    margin: auto;
-    padding: auto;
+  .container-contacto form input {
+    font-size: 12px;
+  }
+  .container-contacto form textarea {
+    font-size: 12px;
+  }
+  .container-contacto form button {
+    font-size: 12px;
   }
   .section-suscribite-container {
     font-size: 0.9em;
@@ -3506,6 +3686,21 @@ html {
   }
   .nosotros-section-principal-container div .servicios-img-container img {
     width: 40vh;
+  }
+  .container-contacto form .h1-title {
+    font-size: 0.9em;
+  }
+  .container-contacto form p {
+    font-size: 12px;
+  }
+  .container-contacto form input {
+    font-size: 12px;
+  }
+  .container-contacto form textarea {
+    font-size: 12px;
+  }
+  .container-contacto form button {
+    font-size: 12px;
   }
   .vende-section-principal-container div .h2-title {
     font-size: 0.9em;
@@ -3723,15 +3918,20 @@ html {
   .section-nosotros-container div .video-institucional-index {
     width: 50vw;
   }
-  .section-formulario-container .titulo-formulario-container .h2-title {
+  .container-contacto form .h3-title {
     font-size: 0.9em;
   }
-  .section-formulario-container .titulo-formulario-container p {
-    font-size: 0.9em;
+  .container-contacto form p {
+    font-size: 12px;
   }
-  .section-formulario-container .formulario-contacto {
-    font-size: 0.9em;
-    padding: 0 0 1em 1em;
+  .container-contacto form input {
+    font-size: 12px;
+  }
+  .container-contacto form textarea {
+    font-size: 12px;
+  }
+  .container-contacto form button {
+    font-size: 12px;
   }
   .section-suscribite-container {
     font-size: 0.9em;
@@ -3857,14 +4057,20 @@ html {
   .nosotros-section-principal-container div .servicios-img-container img {
     width: 40vh;
   }
-  .contacto-section-principal-container .h2-title {
-    font-size: 1.5em;
+  .container-contacto form .h1-title {
+    font-size: 2.5em;
   }
-  .contacto-section-principal-container p {
-    font-size: 0.9em;
+  .container-contacto form p {
+    font-size: 12px;
   }
-  .contacto-form-container {
-    font-size: 0.5em;
+  .container-contacto form input {
+    font-size: 12px;
+  }
+  .container-contacto form textarea {
+    font-size: 12px;
+  }
+  .container-contacto form button {
+    font-size: 12px;
   }
   .contacto-section-two-container div .h3-title {
     font-size: 1.2em;
@@ -3990,16 +4196,20 @@ html {
   .section-nosotros-container div .video-institucional-index {
     width: 50vw;
   }
-  .section-formulario-container .titulo-formulario-container .h2-title {
+  .container-contacto form .h3-title {
     font-size: 0.9em;
   }
-  .section-formulario-container .titulo-formulario-container p {
-    font-size: 0.7em;
+  .container-contacto form p {
+    font-size: 12px;
   }
-  .section-formulario-container .formulario-contacto {
-    font-size: 0.7em;
-    margin: auto;
-    padding: auto;
+  .container-contacto form input {
+    font-size: 12px;
+  }
+  .container-contacto form textarea {
+    font-size: 12px;
+  }
+  .container-contacto form button {
+    font-size: 12px;
   }
   .section-suscribite-container {
     font-size: 0.9em;
@@ -4184,6 +4394,21 @@ html {
   }
   .nosotros-section-principal-container div .servicios-img-container img {
     width: 40vh;
+  }
+  .container-contacto form .h1-title {
+    font-size: 0.9em;
+  }
+  .container-contacto form p {
+    font-size: 12px;
+  }
+  .container-contacto form input {
+    font-size: 12px;
+  }
+  .container-contacto form textarea {
+    font-size: 12px;
+  }
+  .container-contacto form button {
+    font-size: 12px;
   }
   .vende-section-principal-container div .h2-title {
     font-size: 0.9em;
@@ -4598,15 +4823,20 @@ html {
   .section-nosotros-container div .video-institucional-index {
     width: 50vw;
   }
-  .section-formulario-container .titulo-formulario-container .h2-title {
+  .container-contacto form .h3-title {
     font-size: 0.9em;
   }
-  .section-formulario-container .titulo-formulario-container p {
-    font-size: 0.9em;
+  .container-contacto form p {
+    font-size: 12px;
   }
-  .section-formulario-container .formulario-contacto {
-    font-size: 0.9em;
-    padding: 0 0 1em 1em;
+  .container-contacto form input {
+    font-size: 12px;
+  }
+  .container-contacto form textarea {
+    font-size: 12px;
+  }
+  .container-contacto form button {
+    font-size: 12px;
   }
   .section-suscribite-container {
     font-size: 0.9em;
@@ -4732,14 +4962,20 @@ html {
   .nosotros-section-principal-container div .servicios-img-container img {
     width: 40vh;
   }
-  .contacto-section-principal-container .h2-title {
-    font-size: 1.5em;
+  .container-contacto form .h1-title {
+    font-size: 2.5em;
   }
-  .contacto-section-principal-container p {
-    font-size: 0.9em;
+  .container-contacto form p {
+    font-size: 12px;
   }
-  .contacto-form-container {
-    font-size: 0.5em;
+  .container-contacto form input {
+    font-size: 12px;
+  }
+  .container-contacto form textarea {
+    font-size: 12px;
+  }
+  .container-contacto form button {
+    font-size: 12px;
   }
   .contacto-section-two-container div .h3-title {
     font-size: 1.2em;
@@ -4865,16 +5101,20 @@ html {
   .section-nosotros-container div .video-institucional-index {
     width: 50vw;
   }
-  .section-formulario-container .titulo-formulario-container .h2-title {
+  .container-contacto form .h3-title {
     font-size: 0.9em;
   }
-  .section-formulario-container .titulo-formulario-container p {
-    font-size: 0.7em;
+  .container-contacto form p {
+    font-size: 12px;
   }
-  .section-formulario-container .formulario-contacto {
-    font-size: 0.7em;
-    margin: auto;
-    padding: auto;
+  .container-contacto form input {
+    font-size: 12px;
+  }
+  .container-contacto form textarea {
+    font-size: 12px;
+  }
+  .container-contacto form button {
+    font-size: 12px;
   }
   .section-suscribite-container {
     font-size: 0.9em;
@@ -5060,6 +5300,21 @@ html {
   .nosotros-section-principal-container div .servicios-img-container img {
     width: 40vh;
   }
+  .container-contacto form .h1-title {
+    font-size: 0.9em;
+  }
+  .container-contacto form p {
+    font-size: 12px;
+  }
+  .container-contacto form input {
+    font-size: 12px;
+  }
+  .container-contacto form textarea {
+    font-size: 12px;
+  }
+  .container-contacto form button {
+    font-size: 12px;
+  }
   .vende-section-principal-container div .h2-title {
     font-size: 0.9em;
   }
@@ -5074,7 +5329,7 @@ html {
 }
 
 .video-container-nosotros video {
-  width: 100vw;
+  width: 100%;
   height: auto;
 }
 
@@ -5105,6 +5360,7 @@ html {
 
 .nosotros-section-principal-container div .nosotros-img-container img {
   width: 60vh;
+  border-radius: 10px;
 }
 
 .nosotros-section-principal-container div .nosotros-p-container p {
@@ -5129,6 +5385,7 @@ html {
 
 .nosotros-section-principal-container div .mision-img-container img {
   width: 60vh;
+  border-radius: 10px;
 }
 
 .nosotros-section-principal-container div {
@@ -5143,6 +5400,7 @@ html {
 
 .nosotros-section-principal-container div .valores-img-container img {
   width: 60vh;
+  border-radius: 10px;
 }
 
 .nosotros-section-principal-container div .valores-p-container {
@@ -5183,6 +5441,7 @@ html {
 
 .nosotros-section-principal-container div .servicios-img-container img {
   width: 60vh;
+  border-radius: 10px;
 }
 
 @media screen and (max-width: 980px) {
@@ -5266,15 +5525,20 @@ html {
   .section-nosotros-container div .video-institucional-index {
     width: 50vw;
   }
-  .section-formulario-container .titulo-formulario-container .h2-title {
+  .container-contacto form .h3-title {
     font-size: 0.9em;
   }
-  .section-formulario-container .titulo-formulario-container p {
-    font-size: 0.9em;
+  .container-contacto form p {
+    font-size: 12px;
   }
-  .section-formulario-container .formulario-contacto {
-    font-size: 0.9em;
-    padding: 0 0 1em 1em;
+  .container-contacto form input {
+    font-size: 12px;
+  }
+  .container-contacto form textarea {
+    font-size: 12px;
+  }
+  .container-contacto form button {
+    font-size: 12px;
   }
   .section-suscribite-container {
     font-size: 0.9em;
@@ -5400,14 +5664,20 @@ html {
   .nosotros-section-principal-container div .servicios-img-container img {
     width: 40vh;
   }
-  .contacto-section-principal-container .h2-title {
-    font-size: 1.5em;
+  .container-contacto form .h1-title {
+    font-size: 2.5em;
   }
-  .contacto-section-principal-container p {
-    font-size: 0.9em;
+  .container-contacto form p {
+    font-size: 12px;
   }
-  .contacto-form-container {
-    font-size: 0.5em;
+  .container-contacto form input {
+    font-size: 12px;
+  }
+  .container-contacto form textarea {
+    font-size: 12px;
+  }
+  .container-contacto form button {
+    font-size: 12px;
   }
   .contacto-section-two-container div .h3-title {
     font-size: 1.2em;
@@ -5533,16 +5803,20 @@ html {
   .section-nosotros-container div .video-institucional-index {
     width: 50vw;
   }
-  .section-formulario-container .titulo-formulario-container .h2-title {
+  .container-contacto form .h3-title {
     font-size: 0.9em;
   }
-  .section-formulario-container .titulo-formulario-container p {
-    font-size: 0.7em;
+  .container-contacto form p {
+    font-size: 12px;
   }
-  .section-formulario-container .formulario-contacto {
-    font-size: 0.7em;
-    margin: auto;
-    padding: auto;
+  .container-contacto form input {
+    font-size: 12px;
+  }
+  .container-contacto form textarea {
+    font-size: 12px;
+  }
+  .container-contacto form button {
+    font-size: 12px;
   }
   .section-suscribite-container {
     font-size: 0.9em;
@@ -5727,6 +6001,21 @@ html {
   }
   .nosotros-section-principal-container div .servicios-img-container img {
     width: 40vh;
+  }
+  .container-contacto form .h1-title {
+    font-size: 0.9em;
+  }
+  .container-contacto form p {
+    font-size: 12px;
+  }
+  .container-contacto form input {
+    font-size: 12px;
+  }
+  .container-contacto form textarea {
+    font-size: 12px;
+  }
+  .container-contacto form button {
+    font-size: 12px;
   }
   .vende-section-principal-container div .h2-title {
     font-size: 0.9em;
@@ -5955,15 +6244,20 @@ html {
   .section-nosotros-container div .video-institucional-index {
     width: 50vw;
   }
-  .section-formulario-container .titulo-formulario-container .h2-title {
+  .container-contacto form .h3-title {
     font-size: 0.9em;
   }
-  .section-formulario-container .titulo-formulario-container p {
-    font-size: 0.9em;
+  .container-contacto form p {
+    font-size: 12px;
   }
-  .section-formulario-container .formulario-contacto {
-    font-size: 0.9em;
-    padding: 0 0 1em 1em;
+  .container-contacto form input {
+    font-size: 12px;
+  }
+  .container-contacto form textarea {
+    font-size: 12px;
+  }
+  .container-contacto form button {
+    font-size: 12px;
   }
   .section-suscribite-container {
     font-size: 0.9em;
@@ -6089,14 +6383,20 @@ html {
   .nosotros-section-principal-container div .servicios-img-container img {
     width: 40vh;
   }
-  .contacto-section-principal-container .h2-title {
-    font-size: 1.5em;
+  .container-contacto form .h1-title {
+    font-size: 2.5em;
   }
-  .contacto-section-principal-container p {
-    font-size: 0.9em;
+  .container-contacto form p {
+    font-size: 12px;
   }
-  .contacto-form-container {
-    font-size: 0.5em;
+  .container-contacto form input {
+    font-size: 12px;
+  }
+  .container-contacto form textarea {
+    font-size: 12px;
+  }
+  .container-contacto form button {
+    font-size: 12px;
   }
   .contacto-section-two-container div .h3-title {
     font-size: 1.2em;
@@ -6222,16 +6522,20 @@ html {
   .section-nosotros-container div .video-institucional-index {
     width: 50vw;
   }
-  .section-formulario-container .titulo-formulario-container .h2-title {
+  .container-contacto form .h3-title {
     font-size: 0.9em;
   }
-  .section-formulario-container .titulo-formulario-container p {
-    font-size: 0.7em;
+  .container-contacto form p {
+    font-size: 12px;
   }
-  .section-formulario-container .formulario-contacto {
-    font-size: 0.7em;
-    margin: auto;
-    padding: auto;
+  .container-contacto form input {
+    font-size: 12px;
+  }
+  .container-contacto form textarea {
+    font-size: 12px;
+  }
+  .container-contacto form button {
+    font-size: 12px;
   }
   .section-suscribite-container {
     font-size: 0.9em;
@@ -6416,6 +6720,21 @@ html {
   }
   .nosotros-section-principal-container div .servicios-img-container img {
     width: 40vh;
+  }
+  .container-contacto form .h1-title {
+    font-size: 0.9em;
+  }
+  .container-contacto form p {
+    font-size: 12px;
+  }
+  .container-contacto form input {
+    font-size: 12px;
+  }
+  .container-contacto form textarea {
+    font-size: 12px;
+  }
+  .container-contacto form button {
+    font-size: 12px;
   }
   .vende-section-principal-container div .h2-title {
     font-size: 0.9em;
@@ -6544,15 +6863,20 @@ html {
   .section-nosotros-container div .video-institucional-index {
     width: 50vw;
   }
-  .section-formulario-container .titulo-formulario-container .h2-title {
+  .container-contacto form .h3-title {
     font-size: 0.9em;
   }
-  .section-formulario-container .titulo-formulario-container p {
-    font-size: 0.9em;
+  .container-contacto form p {
+    font-size: 12px;
   }
-  .section-formulario-container .formulario-contacto {
-    font-size: 0.9em;
-    padding: 0 0 1em 1em;
+  .container-contacto form input {
+    font-size: 12px;
+  }
+  .container-contacto form textarea {
+    font-size: 12px;
+  }
+  .container-contacto form button {
+    font-size: 12px;
   }
   .section-suscribite-container {
     font-size: 0.9em;
@@ -6678,14 +7002,20 @@ html {
   .nosotros-section-principal-container div .servicios-img-container img {
     width: 40vh;
   }
-  .contacto-section-principal-container .h2-title {
-    font-size: 1.5em;
+  .container-contacto form .h1-title {
+    font-size: 2.5em;
   }
-  .contacto-section-principal-container p {
-    font-size: 0.9em;
+  .container-contacto form p {
+    font-size: 12px;
   }
-  .contacto-form-container {
-    font-size: 0.5em;
+  .container-contacto form input {
+    font-size: 12px;
+  }
+  .container-contacto form textarea {
+    font-size: 12px;
+  }
+  .container-contacto form button {
+    font-size: 12px;
   }
   .contacto-section-two-container div .h3-title {
     font-size: 1.2em;
@@ -6811,16 +7141,20 @@ html {
   .section-nosotros-container div .video-institucional-index {
     width: 50vw;
   }
-  .section-formulario-container .titulo-formulario-container .h2-title {
+  .container-contacto form .h3-title {
     font-size: 0.9em;
   }
-  .section-formulario-container .titulo-formulario-container p {
-    font-size: 0.7em;
+  .container-contacto form p {
+    font-size: 12px;
   }
-  .section-formulario-container .formulario-contacto {
-    font-size: 0.7em;
-    margin: auto;
-    padding: auto;
+  .container-contacto form input {
+    font-size: 12px;
+  }
+  .container-contacto form textarea {
+    font-size: 12px;
+  }
+  .container-contacto form button {
+    font-size: 12px;
   }
   .section-suscribite-container {
     font-size: 0.9em;
@@ -7005,6 +7339,21 @@ html {
   }
   .nosotros-section-principal-container div .servicios-img-container img {
     width: 40vh;
+  }
+  .container-contacto form .h1-title {
+    font-size: 0.9em;
+  }
+  .container-contacto form p {
+    font-size: 12px;
+  }
+  .container-contacto form input {
+    font-size: 12px;
+  }
+  .container-contacto form textarea {
+    font-size: 12px;
+  }
+  .container-contacto form button {
+    font-size: 12px;
   }
   .vende-section-principal-container div .h2-title {
     font-size: 0.9em;
