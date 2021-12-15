@@ -11,7 +11,7 @@
 // Section principal -------------------------------->
 
 .desarrolladora-section-principal-container {
-  background-color: $color3; /* TODAVIA NO DECIDI QUE IMAGEN PONER */
+  background-color: $color3; 
   padding: 8em 8em 9em 8em;
   display: flex;
   flex-flow: column nowrap;
@@ -38,6 +38,7 @@
   margin: 0 3.2em;
   div {
     img {
+      border-radius: 10px;
       width: 100%;
     }
   }
@@ -82,13 +83,7 @@
 
 // Section barra de búsqueda -------------------------------->
 
-.desarroladora-section-barra-container {
-  padding: 4em 3em 4em 3em;
-  #buttons-desarrolladora {
-    background-color: $color1;
-    @include title-p($font, $sizegeneral, 500, $color2);
-  }
-}
+
 
 // Section nuestros proyectos, alianzas y desarrrollos de terceros -------------------------------->
 
@@ -132,6 +127,7 @@
   align-items: center;
   justify-content: center;
   padding: 1.2em;
+  
   div {
     .h2-title {
       @include title-p($font, $sizeintermedio, 600, $color1);
@@ -141,6 +137,12 @@
   .container-terceros {
     padding: 0 2em 0 2em;
   }
+}
+
+#img-carrusel {
+  img {
+    border-radius: 10px;
+  } 
 }
 
 .texto-propiedades-desarrolladora {

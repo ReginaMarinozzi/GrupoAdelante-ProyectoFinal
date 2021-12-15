@@ -4425,7 +4425,6 @@ html {
 
 .desarrolladora-section-principal-container {
   background-color: #c5b552;
-  /* TODAVIA NO DECIDI QUE IMAGEN PONER */
   padding: 8em 8em 9em 8em;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4472,6 +4471,7 @@ html {
 }
 
 .desarroladora-section-two-container div img {
+  border-radius: 10px;
   width: 100%;
 }
 
@@ -4539,18 +4539,6 @@ html {
   font-weight: 500;
   color: #000;
   padding-top: 1.9em;
-}
-
-.desarroladora-section-barra-container {
-  padding: 4em 3em 4em 3em;
-}
-
-.desarroladora-section-barra-container #buttons-desarrolladora {
-  background-color: #000;
-  font-family: "Work Sans", sans-serif;
-  font-size: 0.9em;
-  font-weight: 500;
-  color: #ffffff;
 }
 
 .desarrolladora-section-proyectos-container {
@@ -4638,6 +4626,10 @@ html {
 
 .desarrolladora-section-terceros-container .container-terceros {
   padding: 0 2em 0 2em;
+}
+
+#img-carrusel img {
+  border-radius: 10px;
 }
 
 .texto-propiedades-desarrolladora {
