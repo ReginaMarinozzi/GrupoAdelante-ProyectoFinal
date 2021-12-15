@@ -25,15 +25,6 @@
         .navbar-color-item {
           background-color: $color1;
           text-align: center;
-          &:hover {
-            background-color: $color3;
-          }
-          a {
-            color: $color2;
-            &:hover {
-              color: $color2;
-            }
-          }
         }
       }
     }
@@ -44,17 +35,6 @@
   #navbar-color-item {
     background-color: $color1;
     text-align: center;
-
-    &:hover {
-      background-color: $color3;
-    }
-    a {
-      color: $color2;
-
-      &:hover {
-        color: $color2 !important;
-      }
-    }
   }
 
   // Footer  ---------->
@@ -159,12 +139,6 @@
   .section-suscribite-container {
     font-size: $sizegeneral;
     padding: 1em 0 1em 0;
-  }
-
-  // Icon-top ----------------------------------------->
-
-  .icon-top a {
-    font-size: 3em;
   }
 
   // Inmobiliaria ---------------------------->
@@ -437,31 +411,66 @@
       padding: 1em;
     }
   }
+
+  .icon-top {
+    a {
+      #iconTop {
+        font-size: 0.9em;
+    }
+  }
+}
 }
 
 /* Media query mobile */
 
 @media screen and (max-width: 590px) {
-  // Footer  ---------->
+  // Header-index ------------->
 
-  #footer {
-    .column-footer {
-      .logo {
-        a {
-          img {
-            width: 15vw;
-          }
+  #header-index {
+    .text-box {
+      text-align: center;
+      div {
+        .h1-title {
+          font-size: $sizesubtitulos;
         }
       }
-      .paragraph-footer {
+      div {
         p {
-          font-size: 0.8em;
+          font-size: $sizegeneral;
         }
       }
     }
 
-    .column-footer {
-      align-items: center;
+    div {
+      ul {
+        .navbar-color-item {
+          background-color: $color1;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  // Navbar-pages ------------->
+
+  #navbar-color-item {
+    background-color: $color1;
+    text-align: center;
+  }
+
+  // Footer  ---------->
+  #footer {
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+    .column-footer-one {
+      .paragraph-footer {
+        p {
+          font-size: 12px;
+        }
+      }
+    }
+    .column-footer-two {
       .footer-contacto {
         .h4-title {
           font-size: 1em;
@@ -469,21 +478,29 @@
       }
       .paragraph-footer-2 {
         p {
-          text-align: center;
-          font-size: 0.9em;
+          font-size: 12px;
         }
       }
     }
-
-    .column-footer {
+    .column-footer-three {
       .footer-unidades {
         .h4-title {
           font-size: 1em;
         }
       }
-    }
+      .footer-list {
+        align-items: center;
 
-    .column-footer {
+        ul {
+          padding: 0;
+          margin: 0;
+          li {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+    .column-footer-four {
       div {
         .h4-title {
           font-size: 1em;
@@ -491,33 +508,13 @@
       }
       .icon-redes {
         a {
-          font-size: 1.2em;
-          padding: 0 0.5em 0 0.5em;
+          font-size: 1.1em;
         }
       }
     }
   }
 
   // Index -------->
-  .section-principal-container {
-    height: 50vh;
-    padding: 0;
-    margin: 0;
-    div {
-      padding: 0;
-      margin: 0;
-      .h1-title {
-        font-size: $sizegeneral;
-      }
-    }
-    div {
-      padding: 0;
-      margin: 0;
-      p {
-        font-size: 0.9em;
-      }
-    }
-  }
 
   .section-unidades-container {
     .div-titulos-unidades-container {
@@ -594,9 +591,13 @@
 
   // Icon-top ----------------------------------------->
 
-  .icon-top a {
-    font-size: 2em;
+  .icon-top {
+    a {
+      #iconTop {
+        font-size: 20px;
+    }
   }
+}
 
   // Inmobiliaria ---------------------------->
   .inmobiliaria-section-principal-container {

@@ -166,27 +166,9 @@ html {
     background-color: #000;
     text-align: center;
   }
-  #header-index div ul .navbar-color-item:hover {
-    background-color: #c5b552;
-  }
-  #header-index div ul .navbar-color-item a {
-    color: #ffffff;
-  }
-  #header-index div ul .navbar-color-item a:hover {
-    color: #ffffff;
-  }
   #navbar-color-item {
     background-color: #000;
     text-align: center;
-  }
-  #navbar-color-item:hover {
-    background-color: #c5b552;
-  }
-  #navbar-color-item a {
-    color: #ffffff;
-  }
-  #navbar-color-item a:hover {
-    color: #ffffff !important;
   }
   #footer {
     -webkit-box-orient: vertical;
@@ -264,9 +246,6 @@ html {
   .section-suscribite-container {
     font-size: 0.9em;
     padding: 1em 0 1em 0;
-  }
-  .icon-top a {
-    font-size: 3em;
   }
   .inmobiliaria-section-principal-container {
     padding: 10em 0 10em;
@@ -419,56 +398,69 @@ html {
     margin: 0;
     padding: 1em;
   }
+  .icon-top a #iconTop {
+    font-size: 0.9em;
+  }
 }
 
 /* Media query mobile */
 @media screen and (max-width: 590px) {
-  #footer .column-footer .logo a img {
-    width: 15vw;
+  #header-index .text-box {
+    text-align: center;
   }
-  #footer .column-footer .paragraph-footer p {
-    font-size: 0.8em;
+  #header-index .text-box div .h1-title {
+    font-size: 1.9em;
   }
-  #footer .column-footer {
+  #header-index .text-box div p {
+    font-size: 0.9em;
+  }
+  #header-index div ul .navbar-color-item {
+    background-color: #000;
+    text-align: center;
+  }
+  #navbar-color-item {
+    background-color: #000;
+    text-align: center;
+  }
+  #footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  #footer .column-footer-one .paragraph-footer p {
+    font-size: 12px;
+  }
+  #footer .column-footer-two .footer-contacto .h4-title {
+    font-size: 1em;
+  }
+  #footer .column-footer-two .paragraph-footer-2 p {
+    font-size: 12px;
+  }
+  #footer .column-footer-three .footer-unidades .h4-title {
+    font-size: 1em;
+  }
+  #footer .column-footer-three .footer-list {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
-  #footer .column-footer .footer-contacto .h4-title {
-    font-size: 1em;
-  }
-  #footer .column-footer .paragraph-footer-2 p {
-    text-align: center;
-    font-size: 0.9em;
-  }
-  #footer .column-footer .footer-unidades .h4-title {
-    font-size: 1em;
-  }
-  #footer .column-footer div .h4-title {
-    font-size: 1em;
-  }
-  #footer .column-footer .icon-redes a {
-    font-size: 1.2em;
-    padding: 0 0.5em 0 0.5em;
-  }
-  .section-principal-container {
-    height: 50vh;
+  #footer .column-footer-three .footer-list ul {
     padding: 0;
     margin: 0;
   }
-  .section-principal-container div {
-    padding: 0;
-    margin: 0;
+  #footer .column-footer-three .footer-list ul li {
+    font-size: 12px;
   }
-  .section-principal-container div .h1-title {
-    font-size: 0.9em;
+  #footer .column-footer-four div .h4-title {
+    font-size: 1em;
   }
-  .section-principal-container div {
-    padding: 0;
-    margin: 0;
-  }
-  .section-principal-container div p {
-    font-size: 0.9em;
+  #footer .column-footer-four .icon-redes a {
+    font-size: 1.1em;
   }
   .section-unidades-container .div-titulos-unidades-container div .h2-title {
     font-size: 0.9em;
@@ -524,8 +516,8 @@ html {
     margin: auto;
     padding: auto;
   }
-  .icon-top a {
-    font-size: 2em;
+  .icon-top a #iconTop {
+    font-size: 20px;
   }
   .inmobiliaria-section-principal-container {
     padding: 8em 0 8em;
@@ -757,27 +749,9 @@ html {
     background-color: #000;
     text-align: center;
   }
-  #header-index div ul .navbar-color-item:hover {
-    background-color: #c5b552;
-  }
-  #header-index div ul .navbar-color-item a {
-    color: #ffffff;
-  }
-  #header-index div ul .navbar-color-item a:hover {
-    color: #ffffff;
-  }
   #navbar-color-item {
     background-color: #000;
     text-align: center;
-  }
-  #navbar-color-item:hover {
-    background-color: #c5b552;
-  }
-  #navbar-color-item a {
-    color: #ffffff;
-  }
-  #navbar-color-item a:hover {
-    color: #ffffff !important;
   }
   #footer {
     -webkit-box-orient: vertical;
@@ -855,9 +829,6 @@ html {
   .section-suscribite-container {
     font-size: 0.9em;
     padding: 1em 0 1em 0;
-  }
-  .icon-top a {
-    font-size: 3em;
   }
   .inmobiliaria-section-principal-container {
     padding: 10em 0 10em;
@@ -1010,56 +981,69 @@ html {
     margin: 0;
     padding: 1em;
   }
+  .icon-top a #iconTop {
+    font-size: 0.9em;
+  }
 }
 
 /* Media query mobile */
 @media screen and (max-width: 590px) {
-  #footer .column-footer .logo a img {
-    width: 15vw;
+  #header-index .text-box {
+    text-align: center;
   }
-  #footer .column-footer .paragraph-footer p {
-    font-size: 0.8em;
+  #header-index .text-box div .h1-title {
+    font-size: 1.9em;
   }
-  #footer .column-footer {
+  #header-index .text-box div p {
+    font-size: 0.9em;
+  }
+  #header-index div ul .navbar-color-item {
+    background-color: #000;
+    text-align: center;
+  }
+  #navbar-color-item {
+    background-color: #000;
+    text-align: center;
+  }
+  #footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  #footer .column-footer-one .paragraph-footer p {
+    font-size: 12px;
+  }
+  #footer .column-footer-two .footer-contacto .h4-title {
+    font-size: 1em;
+  }
+  #footer .column-footer-two .paragraph-footer-2 p {
+    font-size: 12px;
+  }
+  #footer .column-footer-three .footer-unidades .h4-title {
+    font-size: 1em;
+  }
+  #footer .column-footer-three .footer-list {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
-  #footer .column-footer .footer-contacto .h4-title {
-    font-size: 1em;
-  }
-  #footer .column-footer .paragraph-footer-2 p {
-    text-align: center;
-    font-size: 0.9em;
-  }
-  #footer .column-footer .footer-unidades .h4-title {
-    font-size: 1em;
-  }
-  #footer .column-footer div .h4-title {
-    font-size: 1em;
-  }
-  #footer .column-footer .icon-redes a {
-    font-size: 1.2em;
-    padding: 0 0.5em 0 0.5em;
-  }
-  .section-principal-container {
-    height: 50vh;
+  #footer .column-footer-three .footer-list ul {
     padding: 0;
     margin: 0;
   }
-  .section-principal-container div {
-    padding: 0;
-    margin: 0;
+  #footer .column-footer-three .footer-list ul li {
+    font-size: 12px;
   }
-  .section-principal-container div .h1-title {
-    font-size: 0.9em;
+  #footer .column-footer-four div .h4-title {
+    font-size: 1em;
   }
-  .section-principal-container div {
-    padding: 0;
-    margin: 0;
-  }
-  .section-principal-container div p {
-    font-size: 0.9em;
+  #footer .column-footer-four .icon-redes a {
+    font-size: 1.1em;
   }
   .section-unidades-container .div-titulos-unidades-container div .h2-title {
     font-size: 0.9em;
@@ -1115,8 +1099,8 @@ html {
     margin: auto;
     padding: auto;
   }
-  .icon-top a {
-    font-size: 2em;
+  .icon-top a #iconTop {
+    font-size: 20px;
   }
   .inmobiliaria-section-principal-container {
     padding: 8em 0 8em;
@@ -1403,27 +1387,9 @@ html {
     background-color: #000;
     text-align: center;
   }
-  #header-index div ul .navbar-color-item:hover {
-    background-color: #c5b552;
-  }
-  #header-index div ul .navbar-color-item a {
-    color: #ffffff;
-  }
-  #header-index div ul .navbar-color-item a:hover {
-    color: #ffffff;
-  }
   #navbar-color-item {
     background-color: #000;
     text-align: center;
-  }
-  #navbar-color-item:hover {
-    background-color: #c5b552;
-  }
-  #navbar-color-item a {
-    color: #ffffff;
-  }
-  #navbar-color-item a:hover {
-    color: #ffffff !important;
   }
   #footer {
     -webkit-box-orient: vertical;
@@ -1501,9 +1467,6 @@ html {
   .section-suscribite-container {
     font-size: 0.9em;
     padding: 1em 0 1em 0;
-  }
-  .icon-top a {
-    font-size: 3em;
   }
   .inmobiliaria-section-principal-container {
     padding: 10em 0 10em;
@@ -1656,56 +1619,69 @@ html {
     margin: 0;
     padding: 1em;
   }
+  .icon-top a #iconTop {
+    font-size: 0.9em;
+  }
 }
 
 /* Media query mobile */
 @media screen and (max-width: 590px) {
-  #footer .column-footer .logo a img {
-    width: 15vw;
+  #header-index .text-box {
+    text-align: center;
   }
-  #footer .column-footer .paragraph-footer p {
-    font-size: 0.8em;
+  #header-index .text-box div .h1-title {
+    font-size: 1.9em;
   }
-  #footer .column-footer {
+  #header-index .text-box div p {
+    font-size: 0.9em;
+  }
+  #header-index div ul .navbar-color-item {
+    background-color: #000;
+    text-align: center;
+  }
+  #navbar-color-item {
+    background-color: #000;
+    text-align: center;
+  }
+  #footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  #footer .column-footer-one .paragraph-footer p {
+    font-size: 12px;
+  }
+  #footer .column-footer-two .footer-contacto .h4-title {
+    font-size: 1em;
+  }
+  #footer .column-footer-two .paragraph-footer-2 p {
+    font-size: 12px;
+  }
+  #footer .column-footer-three .footer-unidades .h4-title {
+    font-size: 1em;
+  }
+  #footer .column-footer-three .footer-list {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
-  #footer .column-footer .footer-contacto .h4-title {
-    font-size: 1em;
-  }
-  #footer .column-footer .paragraph-footer-2 p {
-    text-align: center;
-    font-size: 0.9em;
-  }
-  #footer .column-footer .footer-unidades .h4-title {
-    font-size: 1em;
-  }
-  #footer .column-footer div .h4-title {
-    font-size: 1em;
-  }
-  #footer .column-footer .icon-redes a {
-    font-size: 1.2em;
-    padding: 0 0.5em 0 0.5em;
-  }
-  .section-principal-container {
-    height: 50vh;
+  #footer .column-footer-three .footer-list ul {
     padding: 0;
     margin: 0;
   }
-  .section-principal-container div {
-    padding: 0;
-    margin: 0;
+  #footer .column-footer-three .footer-list ul li {
+    font-size: 12px;
   }
-  .section-principal-container div .h1-title {
-    font-size: 0.9em;
+  #footer .column-footer-four div .h4-title {
+    font-size: 1em;
   }
-  .section-principal-container div {
-    padding: 0;
-    margin: 0;
-  }
-  .section-principal-container div p {
-    font-size: 0.9em;
+  #footer .column-footer-four .icon-redes a {
+    font-size: 1.1em;
   }
   .section-unidades-container .div-titulos-unidades-container div .h2-title {
     font-size: 0.9em;
@@ -1761,8 +1737,8 @@ html {
     margin: auto;
     padding: auto;
   }
-  .icon-top a {
-    font-size: 2em;
+  .icon-top a #iconTop {
+    font-size: 20px;
   }
   .inmobiliaria-section-principal-container {
     padding: 8em 0 8em;
@@ -2175,27 +2151,9 @@ html {
     background-color: #000;
     text-align: center;
   }
-  #header-index div ul .navbar-color-item:hover {
-    background-color: #c5b552;
-  }
-  #header-index div ul .navbar-color-item a {
-    color: #ffffff;
-  }
-  #header-index div ul .navbar-color-item a:hover {
-    color: #ffffff;
-  }
   #navbar-color-item {
     background-color: #000;
     text-align: center;
-  }
-  #navbar-color-item:hover {
-    background-color: #c5b552;
-  }
-  #navbar-color-item a {
-    color: #ffffff;
-  }
-  #navbar-color-item a:hover {
-    color: #ffffff !important;
   }
   #footer {
     -webkit-box-orient: vertical;
@@ -2273,9 +2231,6 @@ html {
   .section-suscribite-container {
     font-size: 0.9em;
     padding: 1em 0 1em 0;
-  }
-  .icon-top a {
-    font-size: 3em;
   }
   .inmobiliaria-section-principal-container {
     padding: 10em 0 10em;
@@ -2428,56 +2383,69 @@ html {
     margin: 0;
     padding: 1em;
   }
+  .icon-top a #iconTop {
+    font-size: 0.9em;
+  }
 }
 
 /* Media query mobile */
 @media screen and (max-width: 590px) {
-  #footer .column-footer .logo a img {
-    width: 15vw;
+  #header-index .text-box {
+    text-align: center;
   }
-  #footer .column-footer .paragraph-footer p {
-    font-size: 0.8em;
+  #header-index .text-box div .h1-title {
+    font-size: 1.9em;
   }
-  #footer .column-footer {
+  #header-index .text-box div p {
+    font-size: 0.9em;
+  }
+  #header-index div ul .navbar-color-item {
+    background-color: #000;
+    text-align: center;
+  }
+  #navbar-color-item {
+    background-color: #000;
+    text-align: center;
+  }
+  #footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  #footer .column-footer-one .paragraph-footer p {
+    font-size: 12px;
+  }
+  #footer .column-footer-two .footer-contacto .h4-title {
+    font-size: 1em;
+  }
+  #footer .column-footer-two .paragraph-footer-2 p {
+    font-size: 12px;
+  }
+  #footer .column-footer-three .footer-unidades .h4-title {
+    font-size: 1em;
+  }
+  #footer .column-footer-three .footer-list {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
-  #footer .column-footer .footer-contacto .h4-title {
-    font-size: 1em;
-  }
-  #footer .column-footer .paragraph-footer-2 p {
-    text-align: center;
-    font-size: 0.9em;
-  }
-  #footer .column-footer .footer-unidades .h4-title {
-    font-size: 1em;
-  }
-  #footer .column-footer div .h4-title {
-    font-size: 1em;
-  }
-  #footer .column-footer .icon-redes a {
-    font-size: 1.2em;
-    padding: 0 0.5em 0 0.5em;
-  }
-  .section-principal-container {
-    height: 50vh;
+  #footer .column-footer-three .footer-list ul {
     padding: 0;
     margin: 0;
   }
-  .section-principal-container div {
-    padding: 0;
-    margin: 0;
+  #footer .column-footer-three .footer-list ul li {
+    font-size: 12px;
   }
-  .section-principal-container div .h1-title {
-    font-size: 0.9em;
+  #footer .column-footer-four div .h4-title {
+    font-size: 1em;
   }
-  .section-principal-container div {
-    padding: 0;
-    margin: 0;
-  }
-  .section-principal-container div p {
-    font-size: 0.9em;
+  #footer .column-footer-four .icon-redes a {
+    font-size: 1.1em;
   }
   .section-unidades-container .div-titulos-unidades-container div .h2-title {
     font-size: 0.9em;
@@ -2533,8 +2501,8 @@ html {
     margin: auto;
     padding: auto;
   }
-  .icon-top a {
-    font-size: 2em;
+  .icon-top a #iconTop {
+    font-size: 20px;
   }
   .inmobiliaria-section-principal-container {
     padding: 8em 0 8em;
@@ -2840,27 +2808,9 @@ html {
     background-color: #000;
     text-align: center;
   }
-  #header-index div ul .navbar-color-item:hover {
-    background-color: #c5b552;
-  }
-  #header-index div ul .navbar-color-item a {
-    color: #ffffff;
-  }
-  #header-index div ul .navbar-color-item a:hover {
-    color: #ffffff;
-  }
   #navbar-color-item {
     background-color: #000;
     text-align: center;
-  }
-  #navbar-color-item:hover {
-    background-color: #c5b552;
-  }
-  #navbar-color-item a {
-    color: #ffffff;
-  }
-  #navbar-color-item a:hover {
-    color: #ffffff !important;
   }
   #footer {
     -webkit-box-orient: vertical;
@@ -2938,9 +2888,6 @@ html {
   .section-suscribite-container {
     font-size: 0.9em;
     padding: 1em 0 1em 0;
-  }
-  .icon-top a {
-    font-size: 3em;
   }
   .inmobiliaria-section-principal-container {
     padding: 10em 0 10em;
@@ -3093,56 +3040,69 @@ html {
     margin: 0;
     padding: 1em;
   }
+  .icon-top a #iconTop {
+    font-size: 0.9em;
+  }
 }
 
 /* Media query mobile */
 @media screen and (max-width: 590px) {
-  #footer .column-footer .logo a img {
-    width: 15vw;
+  #header-index .text-box {
+    text-align: center;
   }
-  #footer .column-footer .paragraph-footer p {
-    font-size: 0.8em;
+  #header-index .text-box div .h1-title {
+    font-size: 1.9em;
   }
-  #footer .column-footer {
+  #header-index .text-box div p {
+    font-size: 0.9em;
+  }
+  #header-index div ul .navbar-color-item {
+    background-color: #000;
+    text-align: center;
+  }
+  #navbar-color-item {
+    background-color: #000;
+    text-align: center;
+  }
+  #footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  #footer .column-footer-one .paragraph-footer p {
+    font-size: 12px;
+  }
+  #footer .column-footer-two .footer-contacto .h4-title {
+    font-size: 1em;
+  }
+  #footer .column-footer-two .paragraph-footer-2 p {
+    font-size: 12px;
+  }
+  #footer .column-footer-three .footer-unidades .h4-title {
+    font-size: 1em;
+  }
+  #footer .column-footer-three .footer-list {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
-  #footer .column-footer .footer-contacto .h4-title {
-    font-size: 1em;
-  }
-  #footer .column-footer .paragraph-footer-2 p {
-    text-align: center;
-    font-size: 0.9em;
-  }
-  #footer .column-footer .footer-unidades .h4-title {
-    font-size: 1em;
-  }
-  #footer .column-footer div .h4-title {
-    font-size: 1em;
-  }
-  #footer .column-footer .icon-redes a {
-    font-size: 1.2em;
-    padding: 0 0.5em 0 0.5em;
-  }
-  .section-principal-container {
-    height: 50vh;
+  #footer .column-footer-three .footer-list ul {
     padding: 0;
     margin: 0;
   }
-  .section-principal-container div {
-    padding: 0;
-    margin: 0;
+  #footer .column-footer-three .footer-list ul li {
+    font-size: 12px;
   }
-  .section-principal-container div .h1-title {
-    font-size: 0.9em;
+  #footer .column-footer-four div .h4-title {
+    font-size: 1em;
   }
-  .section-principal-container div {
-    padding: 0;
-    margin: 0;
-  }
-  .section-principal-container div p {
-    font-size: 0.9em;
+  #footer .column-footer-four .icon-redes a {
+    font-size: 1.1em;
   }
   .section-unidades-container .div-titulos-unidades-container div .h2-title {
     font-size: 0.9em;
@@ -3198,8 +3158,8 @@ html {
     margin: auto;
     padding: auto;
   }
-  .icon-top a {
-    font-size: 2em;
+  .icon-top a #iconTop {
+    font-size: 20px;
   }
   .inmobiliaria-section-principal-container {
     padding: 8em 0 8em;
@@ -3526,27 +3486,9 @@ html {
     background-color: #000;
     text-align: center;
   }
-  #header-index div ul .navbar-color-item:hover {
-    background-color: #c5b552;
-  }
-  #header-index div ul .navbar-color-item a {
-    color: #ffffff;
-  }
-  #header-index div ul .navbar-color-item a:hover {
-    color: #ffffff;
-  }
   #navbar-color-item {
     background-color: #000;
     text-align: center;
-  }
-  #navbar-color-item:hover {
-    background-color: #c5b552;
-  }
-  #navbar-color-item a {
-    color: #ffffff;
-  }
-  #navbar-color-item a:hover {
-    color: #ffffff !important;
   }
   #footer {
     -webkit-box-orient: vertical;
@@ -3624,9 +3566,6 @@ html {
   .section-suscribite-container {
     font-size: 0.9em;
     padding: 1em 0 1em 0;
-  }
-  .icon-top a {
-    font-size: 3em;
   }
   .inmobiliaria-section-principal-container {
     padding: 10em 0 10em;
@@ -3779,56 +3718,69 @@ html {
     margin: 0;
     padding: 1em;
   }
+  .icon-top a #iconTop {
+    font-size: 0.9em;
+  }
 }
 
 /* Media query mobile */
 @media screen and (max-width: 590px) {
-  #footer .column-footer .logo a img {
-    width: 15vw;
+  #header-index .text-box {
+    text-align: center;
   }
-  #footer .column-footer .paragraph-footer p {
-    font-size: 0.8em;
+  #header-index .text-box div .h1-title {
+    font-size: 1.9em;
   }
-  #footer .column-footer {
+  #header-index .text-box div p {
+    font-size: 0.9em;
+  }
+  #header-index div ul .navbar-color-item {
+    background-color: #000;
+    text-align: center;
+  }
+  #navbar-color-item {
+    background-color: #000;
+    text-align: center;
+  }
+  #footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  #footer .column-footer-one .paragraph-footer p {
+    font-size: 12px;
+  }
+  #footer .column-footer-two .footer-contacto .h4-title {
+    font-size: 1em;
+  }
+  #footer .column-footer-two .paragraph-footer-2 p {
+    font-size: 12px;
+  }
+  #footer .column-footer-three .footer-unidades .h4-title {
+    font-size: 1em;
+  }
+  #footer .column-footer-three .footer-list {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
-  #footer .column-footer .footer-contacto .h4-title {
-    font-size: 1em;
-  }
-  #footer .column-footer .paragraph-footer-2 p {
-    text-align: center;
-    font-size: 0.9em;
-  }
-  #footer .column-footer .footer-unidades .h4-title {
-    font-size: 1em;
-  }
-  #footer .column-footer div .h4-title {
-    font-size: 1em;
-  }
-  #footer .column-footer .icon-redes a {
-    font-size: 1.2em;
-    padding: 0 0.5em 0 0.5em;
-  }
-  .section-principal-container {
-    height: 50vh;
+  #footer .column-footer-three .footer-list ul {
     padding: 0;
     margin: 0;
   }
-  .section-principal-container div {
-    padding: 0;
-    margin: 0;
+  #footer .column-footer-three .footer-list ul li {
+    font-size: 12px;
   }
-  .section-principal-container div .h1-title {
-    font-size: 0.9em;
+  #footer .column-footer-four div .h4-title {
+    font-size: 1em;
   }
-  .section-principal-container div {
-    padding: 0;
-    margin: 0;
-  }
-  .section-principal-container div p {
-    font-size: 0.9em;
+  #footer .column-footer-four .icon-redes a {
+    font-size: 1.1em;
   }
   .section-unidades-container .div-titulos-unidades-container div .h2-title {
     font-size: 0.9em;
@@ -3884,8 +3836,8 @@ html {
     margin: auto;
     padding: auto;
   }
-  .icon-top a {
-    font-size: 2em;
+  .icon-top a #iconTop {
+    font-size: 20px;
   }
   .inmobiliaria-section-principal-container {
     padding: 8em 0 8em;
@@ -4321,27 +4273,9 @@ html {
     background-color: #000;
     text-align: center;
   }
-  #header-index div ul .navbar-color-item:hover {
-    background-color: #c5b552;
-  }
-  #header-index div ul .navbar-color-item a {
-    color: #ffffff;
-  }
-  #header-index div ul .navbar-color-item a:hover {
-    color: #ffffff;
-  }
   #navbar-color-item {
     background-color: #000;
     text-align: center;
-  }
-  #navbar-color-item:hover {
-    background-color: #c5b552;
-  }
-  #navbar-color-item a {
-    color: #ffffff;
-  }
-  #navbar-color-item a:hover {
-    color: #ffffff !important;
   }
   #footer {
     -webkit-box-orient: vertical;
@@ -4419,9 +4353,6 @@ html {
   .section-suscribite-container {
     font-size: 0.9em;
     padding: 1em 0 1em 0;
-  }
-  .icon-top a {
-    font-size: 3em;
   }
   .inmobiliaria-section-principal-container {
     padding: 10em 0 10em;
@@ -4574,56 +4505,69 @@ html {
     margin: 0;
     padding: 1em;
   }
+  .icon-top a #iconTop {
+    font-size: 0.9em;
+  }
 }
 
 /* Media query mobile */
 @media screen and (max-width: 590px) {
-  #footer .column-footer .logo a img {
-    width: 15vw;
+  #header-index .text-box {
+    text-align: center;
   }
-  #footer .column-footer .paragraph-footer p {
-    font-size: 0.8em;
+  #header-index .text-box div .h1-title {
+    font-size: 1.9em;
   }
-  #footer .column-footer {
+  #header-index .text-box div p {
+    font-size: 0.9em;
+  }
+  #header-index div ul .navbar-color-item {
+    background-color: #000;
+    text-align: center;
+  }
+  #navbar-color-item {
+    background-color: #000;
+    text-align: center;
+  }
+  #footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  #footer .column-footer-one .paragraph-footer p {
+    font-size: 12px;
+  }
+  #footer .column-footer-two .footer-contacto .h4-title {
+    font-size: 1em;
+  }
+  #footer .column-footer-two .paragraph-footer-2 p {
+    font-size: 12px;
+  }
+  #footer .column-footer-three .footer-unidades .h4-title {
+    font-size: 1em;
+  }
+  #footer .column-footer-three .footer-list {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
-  #footer .column-footer .footer-contacto .h4-title {
-    font-size: 1em;
-  }
-  #footer .column-footer .paragraph-footer-2 p {
-    text-align: center;
-    font-size: 0.9em;
-  }
-  #footer .column-footer .footer-unidades .h4-title {
-    font-size: 1em;
-  }
-  #footer .column-footer div .h4-title {
-    font-size: 1em;
-  }
-  #footer .column-footer .icon-redes a {
-    font-size: 1.2em;
-    padding: 0 0.5em 0 0.5em;
-  }
-  .section-principal-container {
-    height: 50vh;
+  #footer .column-footer-three .footer-list ul {
     padding: 0;
     margin: 0;
   }
-  .section-principal-container div {
-    padding: 0;
-    margin: 0;
+  #footer .column-footer-three .footer-list ul li {
+    font-size: 12px;
   }
-  .section-principal-container div .h1-title {
-    font-size: 0.9em;
+  #footer .column-footer-four div .h4-title {
+    font-size: 1em;
   }
-  .section-principal-container div {
-    padding: 0;
-    margin: 0;
-  }
-  .section-principal-container div p {
-    font-size: 0.9em;
+  #footer .column-footer-four .icon-redes a {
+    font-size: 1.1em;
   }
   .section-unidades-container .div-titulos-unidades-container div .h2-title {
     font-size: 0.9em;
@@ -4679,8 +4623,8 @@ html {
     margin: auto;
     padding: auto;
   }
-  .icon-top a {
-    font-size: 2em;
+  .icon-top a #iconTop {
+    font-size: 20px;
   }
   .inmobiliaria-section-principal-container {
     padding: 8em 0 8em;
@@ -4997,27 +4941,9 @@ html {
     background-color: #000;
     text-align: center;
   }
-  #header-index div ul .navbar-color-item:hover {
-    background-color: #c5b552;
-  }
-  #header-index div ul .navbar-color-item a {
-    color: #ffffff;
-  }
-  #header-index div ul .navbar-color-item a:hover {
-    color: #ffffff;
-  }
   #navbar-color-item {
     background-color: #000;
     text-align: center;
-  }
-  #navbar-color-item:hover {
-    background-color: #c5b552;
-  }
-  #navbar-color-item a {
-    color: #ffffff;
-  }
-  #navbar-color-item a:hover {
-    color: #ffffff !important;
   }
   #footer {
     -webkit-box-orient: vertical;
@@ -5095,9 +5021,6 @@ html {
   .section-suscribite-container {
     font-size: 0.9em;
     padding: 1em 0 1em 0;
-  }
-  .icon-top a {
-    font-size: 3em;
   }
   .inmobiliaria-section-principal-container {
     padding: 10em 0 10em;
@@ -5250,56 +5173,69 @@ html {
     margin: 0;
     padding: 1em;
   }
+  .icon-top a #iconTop {
+    font-size: 0.9em;
+  }
 }
 
 /* Media query mobile */
 @media screen and (max-width: 590px) {
-  #footer .column-footer .logo a img {
-    width: 15vw;
+  #header-index .text-box {
+    text-align: center;
   }
-  #footer .column-footer .paragraph-footer p {
-    font-size: 0.8em;
+  #header-index .text-box div .h1-title {
+    font-size: 1.9em;
   }
-  #footer .column-footer {
+  #header-index .text-box div p {
+    font-size: 0.9em;
+  }
+  #header-index div ul .navbar-color-item {
+    background-color: #000;
+    text-align: center;
+  }
+  #navbar-color-item {
+    background-color: #000;
+    text-align: center;
+  }
+  #footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  #footer .column-footer-one .paragraph-footer p {
+    font-size: 12px;
+  }
+  #footer .column-footer-two .footer-contacto .h4-title {
+    font-size: 1em;
+  }
+  #footer .column-footer-two .paragraph-footer-2 p {
+    font-size: 12px;
+  }
+  #footer .column-footer-three .footer-unidades .h4-title {
+    font-size: 1em;
+  }
+  #footer .column-footer-three .footer-list {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
-  #footer .column-footer .footer-contacto .h4-title {
-    font-size: 1em;
-  }
-  #footer .column-footer .paragraph-footer-2 p {
-    text-align: center;
-    font-size: 0.9em;
-  }
-  #footer .column-footer .footer-unidades .h4-title {
-    font-size: 1em;
-  }
-  #footer .column-footer div .h4-title {
-    font-size: 1em;
-  }
-  #footer .column-footer .icon-redes a {
-    font-size: 1.2em;
-    padding: 0 0.5em 0 0.5em;
-  }
-  .section-principal-container {
-    height: 50vh;
+  #footer .column-footer-three .footer-list ul {
     padding: 0;
     margin: 0;
   }
-  .section-principal-container div {
-    padding: 0;
-    margin: 0;
+  #footer .column-footer-three .footer-list ul li {
+    font-size: 12px;
   }
-  .section-principal-container div .h1-title {
-    font-size: 0.9em;
+  #footer .column-footer-four div .h4-title {
+    font-size: 1em;
   }
-  .section-principal-container div {
-    padding: 0;
-    margin: 0;
-  }
-  .section-principal-container div p {
-    font-size: 0.9em;
+  #footer .column-footer-four .icon-redes a {
+    font-size: 1.1em;
   }
   .section-unidades-container .div-titulos-unidades-container div .h2-title {
     font-size: 0.9em;
@@ -5355,8 +5291,8 @@ html {
     margin: auto;
     padding: auto;
   }
-  .icon-top a {
-    font-size: 2em;
+  .icon-top a #iconTop {
+    font-size: 20px;
   }
   .inmobiliaria-section-principal-container {
     padding: 8em 0 8em;
@@ -5626,27 +5562,9 @@ html {
     background-color: #000;
     text-align: center;
   }
-  #header-index div ul .navbar-color-item:hover {
-    background-color: #c5b552;
-  }
-  #header-index div ul .navbar-color-item a {
-    color: #ffffff;
-  }
-  #header-index div ul .navbar-color-item a:hover {
-    color: #ffffff;
-  }
   #navbar-color-item {
     background-color: #000;
     text-align: center;
-  }
-  #navbar-color-item:hover {
-    background-color: #c5b552;
-  }
-  #navbar-color-item a {
-    color: #ffffff;
-  }
-  #navbar-color-item a:hover {
-    color: #ffffff !important;
   }
   #footer {
     -webkit-box-orient: vertical;
@@ -5724,9 +5642,6 @@ html {
   .section-suscribite-container {
     font-size: 0.9em;
     padding: 1em 0 1em 0;
-  }
-  .icon-top a {
-    font-size: 3em;
   }
   .inmobiliaria-section-principal-container {
     padding: 10em 0 10em;
@@ -5879,56 +5794,69 @@ html {
     margin: 0;
     padding: 1em;
   }
+  .icon-top a #iconTop {
+    font-size: 0.9em;
+  }
 }
 
 /* Media query mobile */
 @media screen and (max-width: 590px) {
-  #footer .column-footer .logo a img {
-    width: 15vw;
+  #header-index .text-box {
+    text-align: center;
   }
-  #footer .column-footer .paragraph-footer p {
-    font-size: 0.8em;
+  #header-index .text-box div .h1-title {
+    font-size: 1.9em;
   }
-  #footer .column-footer {
+  #header-index .text-box div p {
+    font-size: 0.9em;
+  }
+  #header-index div ul .navbar-color-item {
+    background-color: #000;
+    text-align: center;
+  }
+  #navbar-color-item {
+    background-color: #000;
+    text-align: center;
+  }
+  #footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  #footer .column-footer-one .paragraph-footer p {
+    font-size: 12px;
+  }
+  #footer .column-footer-two .footer-contacto .h4-title {
+    font-size: 1em;
+  }
+  #footer .column-footer-two .paragraph-footer-2 p {
+    font-size: 12px;
+  }
+  #footer .column-footer-three .footer-unidades .h4-title {
+    font-size: 1em;
+  }
+  #footer .column-footer-three .footer-list {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
-  #footer .column-footer .footer-contacto .h4-title {
-    font-size: 1em;
-  }
-  #footer .column-footer .paragraph-footer-2 p {
-    text-align: center;
-    font-size: 0.9em;
-  }
-  #footer .column-footer .footer-unidades .h4-title {
-    font-size: 1em;
-  }
-  #footer .column-footer div .h4-title {
-    font-size: 1em;
-  }
-  #footer .column-footer .icon-redes a {
-    font-size: 1.2em;
-    padding: 0 0.5em 0 0.5em;
-  }
-  .section-principal-container {
-    height: 50vh;
+  #footer .column-footer-three .footer-list ul {
     padding: 0;
     margin: 0;
   }
-  .section-principal-container div {
-    padding: 0;
-    margin: 0;
+  #footer .column-footer-three .footer-list ul li {
+    font-size: 12px;
   }
-  .section-principal-container div .h1-title {
-    font-size: 0.9em;
+  #footer .column-footer-four div .h4-title {
+    font-size: 1em;
   }
-  .section-principal-container div {
-    padding: 0;
-    margin: 0;
-  }
-  .section-principal-container div p {
-    font-size: 0.9em;
+  #footer .column-footer-four .icon-redes a {
+    font-size: 1.1em;
   }
   .section-unidades-container .div-titulos-unidades-container div .h2-title {
     font-size: 0.9em;
@@ -5984,8 +5912,8 @@ html {
     margin: auto;
     padding: auto;
   }
-  .icon-top a {
-    font-size: 2em;
+  .icon-top a #iconTop {
+    font-size: 20px;
   }
   .inmobiliaria-section-principal-container {
     padding: 8em 0 8em;
@@ -6223,27 +6151,9 @@ html {
     background-color: #000;
     text-align: center;
   }
-  #header-index div ul .navbar-color-item:hover {
-    background-color: #c5b552;
-  }
-  #header-index div ul .navbar-color-item a {
-    color: #ffffff;
-  }
-  #header-index div ul .navbar-color-item a:hover {
-    color: #ffffff;
-  }
   #navbar-color-item {
     background-color: #000;
     text-align: center;
-  }
-  #navbar-color-item:hover {
-    background-color: #c5b552;
-  }
-  #navbar-color-item a {
-    color: #ffffff;
-  }
-  #navbar-color-item a:hover {
-    color: #ffffff !important;
   }
   #footer {
     -webkit-box-orient: vertical;
@@ -6321,9 +6231,6 @@ html {
   .section-suscribite-container {
     font-size: 0.9em;
     padding: 1em 0 1em 0;
-  }
-  .icon-top a {
-    font-size: 3em;
   }
   .inmobiliaria-section-principal-container {
     padding: 10em 0 10em;
@@ -6476,56 +6383,69 @@ html {
     margin: 0;
     padding: 1em;
   }
+  .icon-top a #iconTop {
+    font-size: 0.9em;
+  }
 }
 
 /* Media query mobile */
 @media screen and (max-width: 590px) {
-  #footer .column-footer .logo a img {
-    width: 15vw;
+  #header-index .text-box {
+    text-align: center;
   }
-  #footer .column-footer .paragraph-footer p {
-    font-size: 0.8em;
+  #header-index .text-box div .h1-title {
+    font-size: 1.9em;
   }
-  #footer .column-footer {
+  #header-index .text-box div p {
+    font-size: 0.9em;
+  }
+  #header-index div ul .navbar-color-item {
+    background-color: #000;
+    text-align: center;
+  }
+  #navbar-color-item {
+    background-color: #000;
+    text-align: center;
+  }
+  #footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  #footer .column-footer-one .paragraph-footer p {
+    font-size: 12px;
+  }
+  #footer .column-footer-two .footer-contacto .h4-title {
+    font-size: 1em;
+  }
+  #footer .column-footer-two .paragraph-footer-2 p {
+    font-size: 12px;
+  }
+  #footer .column-footer-three .footer-unidades .h4-title {
+    font-size: 1em;
+  }
+  #footer .column-footer-three .footer-list {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
-  #footer .column-footer .footer-contacto .h4-title {
-    font-size: 1em;
-  }
-  #footer .column-footer .paragraph-footer-2 p {
-    text-align: center;
-    font-size: 0.9em;
-  }
-  #footer .column-footer .footer-unidades .h4-title {
-    font-size: 1em;
-  }
-  #footer .column-footer div .h4-title {
-    font-size: 1em;
-  }
-  #footer .column-footer .icon-redes a {
-    font-size: 1.2em;
-    padding: 0 0.5em 0 0.5em;
-  }
-  .section-principal-container {
-    height: 50vh;
+  #footer .column-footer-three .footer-list ul {
     padding: 0;
     margin: 0;
   }
-  .section-principal-container div {
-    padding: 0;
-    margin: 0;
+  #footer .column-footer-three .footer-list ul li {
+    font-size: 12px;
   }
-  .section-principal-container div .h1-title {
-    font-size: 0.9em;
+  #footer .column-footer-four div .h4-title {
+    font-size: 1em;
   }
-  .section-principal-container div {
-    padding: 0;
-    margin: 0;
-  }
-  .section-principal-container div p {
-    font-size: 0.9em;
+  #footer .column-footer-four .icon-redes a {
+    font-size: 1.1em;
   }
   .section-unidades-container .div-titulos-unidades-container div .h2-title {
     font-size: 0.9em;
@@ -6581,8 +6501,8 @@ html {
     margin: auto;
     padding: auto;
   }
-  .icon-top a {
-    font-size: 2em;
+  .icon-top a #iconTop {
+    font-size: 20px;
   }
   .inmobiliaria-section-principal-container {
     padding: 8em 0 8em;
