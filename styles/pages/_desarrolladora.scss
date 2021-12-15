@@ -153,6 +153,60 @@
   @include title-p($font, $sizegeneral, 600, $color3);
 }
 
+.texto-propiedades-desarrolladora {
+  text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+  .desarrolladora-paragraph-propiedades {
+    @include title-p($font, $sizegeneral, 400, $color1);
+  }
+
+  .desarrolladora-paragraph-propiedades2 {
+    @include title-p($font, $sizegeneral, 500, $color3);
+  }
+
+  .text-icons {
+    @include title-p($font, $sizegeneral, 500, $color1);
+    display: flex;
+    justify-content: center;
+
+    .metros {
+      padding-bottom: 2em;
+      display: flex;
+      margin: 0 7px;
+      i {
+        margin: 0 5px;
+      }
+      p {
+        margin: 0 5px;
+      }
+    }
+
+    .baños {
+      padding-bottom: 2em;
+      display: flex;
+      margin: 0 7px;
+      i {
+        margin: 0 5px;
+      }
+      p {
+        margin: 0 5px;
+      }
+    }
+
+    .dormitorios {
+      padding-bottom: 2em;
+      display: flex;
+      margin: 0 7px;
+      i {
+        margin: 0 5px;
+      }
+      p {
+        margin: 0 5px;
+      }
+    }
+  }
+}
 // MEDIAS QUERY ------------------------------------->
 
 @import "../base/mediaQuery";

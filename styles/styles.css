@@ -2767,7 +2767,7 @@ html {
   padding: 0 2em 0 2em;
 }
 
-.inmobiliaria-section-destacadas .texto-propiedades {
+.inmobiliaria-section-destacadas .texto-propiedades-inmobiliaria {
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2778,21 +2778,21 @@ html {
           flex-flow: column wrap;
 }
 
-.inmobiliaria-section-destacadas .texto-propiedades .inmobiliaria-paragraph-propiedades {
+.inmobiliaria-section-destacadas .texto-propiedades-inmobiliaria .inmobiliaria-paragraph-propiedades {
   font-family: "Work Sans", sans-serif;
   font-size: 0.9em;
   font-weight: 400;
   color: #000;
 }
 
-.inmobiliaria-section-destacadas .texto-propiedades .inmobiliaria-paragraph-propiedades2 {
+.inmobiliaria-section-destacadas .texto-propiedades-inmobiliaria .inmobiliaria-paragraph-propiedades2 {
   font-family: "Work Sans", sans-serif;
   font-size: 0.9em;
   font-weight: 500;
   color: #c5b552;
 }
 
-.inmobiliaria-section-destacadas .texto-propiedades .inmobiliaria-icons {
+.inmobiliaria-section-destacadas .texto-propiedades-inmobiliaria .inmobiliaria-icons {
   font-family: "Work Sans", sans-serif;
   font-size: 0.9em;
   font-weight: 500;
@@ -2805,48 +2805,51 @@ html {
           justify-content: center;
 }
 
-.inmobiliaria-section-destacadas .texto-propiedades .inmobiliaria-icons .metros {
+.inmobiliaria-section-destacadas .texto-propiedades-inmobiliaria .inmobiliaria-icons .metros {
+  padding-bottom: 2em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin: 0 7px;
 }
 
-.inmobiliaria-section-destacadas .texto-propiedades .inmobiliaria-icons .metros i {
+.inmobiliaria-section-destacadas .texto-propiedades-inmobiliaria .inmobiliaria-icons .metros i {
   margin: 0 5px;
 }
 
-.inmobiliaria-section-destacadas .texto-propiedades .inmobiliaria-icons .metros p {
+.inmobiliaria-section-destacadas .texto-propiedades-inmobiliaria .inmobiliaria-icons .metros p {
   margin: 0 5px;
 }
 
-.inmobiliaria-section-destacadas .texto-propiedades .inmobiliaria-icons .baños {
+.inmobiliaria-section-destacadas .texto-propiedades-inmobiliaria .inmobiliaria-icons .baños {
+  padding-bottom: 2em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin: 0 7px;
 }
 
-.inmobiliaria-section-destacadas .texto-propiedades .inmobiliaria-icons .baños i {
+.inmobiliaria-section-destacadas .texto-propiedades-inmobiliaria .inmobiliaria-icons .baños i {
   margin: 0 5px;
 }
 
-.inmobiliaria-section-destacadas .texto-propiedades .inmobiliaria-icons .baños p {
+.inmobiliaria-section-destacadas .texto-propiedades-inmobiliaria .inmobiliaria-icons .baños p {
   margin: 0 5px;
 }
 
-.inmobiliaria-section-destacadas .texto-propiedades .inmobiliaria-icons .dormitorios {
+.inmobiliaria-section-destacadas .texto-propiedades-inmobiliaria .inmobiliaria-icons .dormitorios {
+  padding-bottom: 2em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin: 0 7px;
 }
 
-.inmobiliaria-section-destacadas .texto-propiedades .inmobiliaria-icons .dormitorios i {
+.inmobiliaria-section-destacadas .texto-propiedades-inmobiliaria .inmobiliaria-icons .dormitorios i {
   margin: 0 5px;
 }
 
-.inmobiliaria-section-destacadas .texto-propiedades .inmobiliaria-icons .dormitorios p {
+.inmobiliaria-section-destacadas .texto-propiedades-inmobiliaria .inmobiliaria-icons .dormitorios p {
   margin: 0 5px;
 }
 
@@ -2875,7 +2878,7 @@ html {
   padding: 0 2em 0 2em;
 }
 
-.inmobiliaria-section-emprendimientos .texto-propiedades {
+.inmobiliaria-section-emprendimientos .texto-propiedades-inmobiliaria {
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2886,21 +2889,21 @@ html {
           flex-flow: column wrap;
 }
 
-.inmobiliaria-section-emprendimientos .texto-propiedades .inmobiliaria-paragraph-propiedades {
+.inmobiliaria-section-emprendimientos .texto-propiedades-inmobiliaria .inmobiliaria-paragraph-propiedades {
   font-family: "Work Sans", sans-serif;
   font-size: 0.9em;
   font-weight: 400;
   color: #000;
 }
 
-.inmobiliaria-section-emprendimientos .texto-propiedades .inmobiliaria-paragraph-propiedades2 {
+.inmobiliaria-section-emprendimientos .texto-propiedades-inmobiliaria .inmobiliaria-paragraph-propiedades2 {
   font-family: "Work Sans", sans-serif;
   font-size: 0.9em;
   font-weight: 500;
   color: #c5b552;
 }
 
-.inmobiliaria-section-emprendimientos .texto-propiedades .inmobiliaria-icons {
+.inmobiliaria-section-emprendimientos .texto-propiedades-inmobiliaria .inmobiliaria-icons {
   font-family: "Work Sans", sans-serif;
   font-size: 0.9em;
   font-weight: 500;
@@ -2913,48 +2916,51 @@ html {
           justify-content: center;
 }
 
-.inmobiliaria-section-emprendimientos .texto-propiedades .inmobiliaria-icons .metros {
+.inmobiliaria-section-emprendimientos .texto-propiedades-inmobiliaria .inmobiliaria-icons .metros {
+  padding-bottom: 2em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin: 0 7px;
 }
 
-.inmobiliaria-section-emprendimientos .texto-propiedades .inmobiliaria-icons .metros i {
+.inmobiliaria-section-emprendimientos .texto-propiedades-inmobiliaria .inmobiliaria-icons .metros i {
   margin: 0 5px;
 }
 
-.inmobiliaria-section-emprendimientos .texto-propiedades .inmobiliaria-icons .metros p {
+.inmobiliaria-section-emprendimientos .texto-propiedades-inmobiliaria .inmobiliaria-icons .metros p {
   margin: 0 5px;
 }
 
-.inmobiliaria-section-emprendimientos .texto-propiedades .inmobiliaria-icons .baños {
+.inmobiliaria-section-emprendimientos .texto-propiedades-inmobiliaria .inmobiliaria-icons .baños {
+  padding-bottom: 2em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin: 0 7px;
 }
 
-.inmobiliaria-section-emprendimientos .texto-propiedades .inmobiliaria-icons .baños i {
+.inmobiliaria-section-emprendimientos .texto-propiedades-inmobiliaria .inmobiliaria-icons .baños i {
   margin: 0 5px;
 }
 
-.inmobiliaria-section-emprendimientos .texto-propiedades .inmobiliaria-icons .baños p {
+.inmobiliaria-section-emprendimientos .texto-propiedades-inmobiliaria .inmobiliaria-icons .baños p {
   margin: 0 5px;
 }
 
-.inmobiliaria-section-emprendimientos .texto-propiedades .inmobiliaria-icons .dormitorios {
+.inmobiliaria-section-emprendimientos .texto-propiedades-inmobiliaria .inmobiliaria-icons .dormitorios {
+  padding-bottom: 2em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin: 0 7px;
 }
 
-.inmobiliaria-section-emprendimientos .texto-propiedades .inmobiliaria-icons .dormitorios i {
+.inmobiliaria-section-emprendimientos .texto-propiedades-inmobiliaria .inmobiliaria-icons .dormitorios i {
   margin: 0 5px;
 }
 
-.inmobiliaria-section-emprendimientos .texto-propiedades .inmobiliaria-icons .dormitorios p {
+.inmobiliaria-section-emprendimientos .texto-propiedades-inmobiliaria .inmobiliaria-icons .dormitorios p {
   margin: 0 5px;
 }
 
@@ -4421,6 +4427,92 @@ html {
   font-size: 0.9em;
   font-weight: 600;
   color: #c5b552;
+}
+
+.texto-propiedades-desarrolladora {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+}
+
+.texto-propiedades-desarrolladora .desarrolladora-paragraph-propiedades {
+  font-family: "Work Sans", sans-serif;
+  font-size: 0.9em;
+  font-weight: 400;
+  color: #000;
+}
+
+.texto-propiedades-desarrolladora .desarrolladora-paragraph-propiedades2 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 0.9em;
+  font-weight: 500;
+  color: #c5b552;
+}
+
+.texto-propiedades-desarrolladora .text-icons {
+  font-family: "Work Sans", sans-serif;
+  font-size: 0.9em;
+  font-weight: 500;
+  color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.texto-propiedades-desarrolladora .text-icons .metros {
+  padding-bottom: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 7px;
+}
+
+.texto-propiedades-desarrolladora .text-icons .metros i {
+  margin: 0 5px;
+}
+
+.texto-propiedades-desarrolladora .text-icons .metros p {
+  margin: 0 5px;
+}
+
+.texto-propiedades-desarrolladora .text-icons .baños {
+  padding-bottom: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 7px;
+}
+
+.texto-propiedades-desarrolladora .text-icons .baños i {
+  margin: 0 5px;
+}
+
+.texto-propiedades-desarrolladora .text-icons .baños p {
+  margin: 0 5px;
+}
+
+.texto-propiedades-desarrolladora .text-icons .dormitorios {
+  padding-bottom: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 7px;
+}
+
+.texto-propiedades-desarrolladora .text-icons .dormitorios i {
+  margin: 0 5px;
+}
+
+.texto-propiedades-desarrolladora .text-icons .dormitorios p {
+  margin: 0 5px;
 }
 
 @media screen and (max-width: 980px) {

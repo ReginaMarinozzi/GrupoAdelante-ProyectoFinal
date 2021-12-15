@@ -51,7 +51,7 @@
     padding: 0 2em 0 2em;
   }
 
-  .texto-propiedades {
+  .texto-propiedades-inmobiliaria {
     text-align: center;
     display: flex;
     flex-flow: column wrap;
@@ -69,6 +69,7 @@
       justify-content: center;
 
       .metros {
+        padding-bottom: 2em;
         display: flex;
         margin: 0 7px;
         i {
@@ -80,6 +81,7 @@
       }
 
       .baños {
+        padding-bottom: 2em;
         display: flex;
         margin: 0 7px;
         i {
@@ -91,6 +93,7 @@
       }
 
       .dormitorios {
+        padding-bottom: 2em;
         display: flex;
         margin: 0 7px;
         i {
@@ -121,7 +124,7 @@
   .container-emprendimientos {
     padding: 0 2em 0 2em;
   }
-  .texto-propiedades {
+  .texto-propiedades-inmobiliaria {
     text-align: center;
     display: flex;
     flex-flow: column wrap;
@@ -139,6 +142,7 @@
       justify-content: center;
 
       .metros {
+        padding-bottom: 2em;
         display: flex;
         margin: 0 7px;
         i {
@@ -150,6 +154,7 @@
       }
 
       .baños {
+        padding-bottom: 2em;
         display: flex;
         margin: 0 7px;
         i {
@@ -161,6 +166,7 @@
       }
 
       .dormitorios {
+        padding-bottom: 2em;
         display: flex;
         margin: 0 7px;
         i {
