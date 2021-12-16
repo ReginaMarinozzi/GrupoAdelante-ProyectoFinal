@@ -34,6 +34,7 @@
       padding-top: 1em;
       text-align: center;
       width: 80%;
+      text-transform: uppercase;
     }
     p {
       @include title-p($font, $sizegeneral, 500, $color1);

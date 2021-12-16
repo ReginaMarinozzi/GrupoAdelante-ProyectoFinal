@@ -120,7 +120,7 @@
     box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 50px;
 
     .h3-title {
-      @include title-p($font, $sizetitulos, 600, $color1);
+      @include title-p($font, $sizeintermedio, 500, $color1);;
       padding-top: 1em;
       text-align: center;
       width: 80%;

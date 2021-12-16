@@ -2353,8 +2353,8 @@ html {
 
 .container-contacto form .h3-title {
   font-family: "Work Sans", sans-serif;
-  font-size: 3.2em;
-  font-weight: 600;
+  font-size: 2.5em;
+  font-weight: 500;
   color: #000;
   padding-top: 1em;
   text-align: center;
@@ -7214,6 +7214,7 @@ html {
   padding-top: 1em;
   text-align: center;
   width: 80%;
+  text-transform: uppercase;
 }
 
 .container-contacto form p {
