@@ -23,10 +23,11 @@
     }
     #button-busqueda {
       width: 200px;
+      height: 40px;
       border-radius: 20px;
       background-color: rgb(134, 116, 54);
       @include title-p($font, $sizegeneral, 500, $color2);
-      border-bottom: 1px solid $color1;
+      border: 1px solid $color1;
       text-transform: uppercase;
     }
   }

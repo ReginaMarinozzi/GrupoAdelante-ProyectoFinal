@@ -142,8 +142,12 @@
   }
 
   .section-suscribite-container {
-    font-size: $sizegeneral;
-    padding: 1em 0 1em 0;
+    div {
+      padding: 0 20px;
+      p {
+        font-size: $sizegeneral;
+      }
+    }
   }
 
   // Inmobiliaria ---------------------------->
@@ -611,9 +615,11 @@
   }
 
   .section-suscribite-container {
-    font-size: 0.9em;
-    margin: auto;
-    padding: auto;
+    div {
+      p {
+        font-size: 12px;
+      }
+    }
   }
 
   // Inmobiliaria ---------------------------->

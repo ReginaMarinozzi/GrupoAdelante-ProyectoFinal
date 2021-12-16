@@ -21,10 +21,12 @@
     text-align: center;
     color: $color1;
     .h1-title {
-      @include title-p($font, $sizetitulos, 700, $color1);
+      @include title-p($font, $sizetitulos, 600, $color1);
+      text-transform: uppercase;
     }
     .h2-title {
-      @include title-p($font, $sizeintermedio, 600, $color1);
+      @include title-p($font, $sizeintermedio, 500, $color1);
+      opacity: 0.5;
     }
   }
 }
@@ -38,14 +40,13 @@
   .inmobiliaria-propiedades-destacadas {
     padding: 4.5em;
     .h2-title {
-      @include title-p($font, $sizeintermedio, 600, $color1);
+      @include title-p($font, $sizeintermedio, 500, $color1);
+      text-transform: uppercase;
     }
   }
-
   .container-destacadas {
     padding: 0 2em 0 2em;
   }
-
   .texto-propiedades-inmobiliaria {
     text-align: center;
     display: flex;
@@ -106,13 +107,13 @@
 
 .inmobiliaria-section-emprendimientos {
   padding-bottom: 2em;
-
   .inmobiliaria-emprendimientos {
     display: flex;
     justify-content: center;
     padding: 5em;
     .h2-title {
-      @include title-p($font, $sizeintermedio, 600, $color1);
+      @include title-p($font, $sizeintermedio, 500, $color1);
+      text-transform: uppercase;
     }
   }
   .container-emprendimientos {
