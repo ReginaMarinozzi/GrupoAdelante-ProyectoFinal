@@ -437,6 +437,22 @@ html {
 
 /* Media query mobile */
 @media screen and (max-width: 590px) {
+  #header-index {
+    background-image: url(../../src/assets/fotos/principal.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 1;
+  }
+  #header-index #fondo-video {
+    display: none;
+  }
   #header-index .text-box {
     text-align: center;
   }
@@ -1101,6 +1117,22 @@ html {
 
 /* Media query mobile */
 @media screen and (max-width: 590px) {
+  #header-index {
+    background-image: url(../../src/assets/fotos/principal.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 1;
+  }
+  #header-index #fondo-video {
+    display: none;
+  }
   #header-index .text-box {
     text-align: center;
   }
@@ -1822,6 +1854,22 @@ html {
 
 /* Media query mobile */
 @media screen and (max-width: 590px) {
+  #header-index {
+    background-image: url(../../src/assets/fotos/principal.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 1;
+  }
+  #header-index #fondo-video {
+    display: none;
+  }
   #header-index .text-box {
     text-align: center;
   }
@@ -2764,6 +2812,22 @@ html {
 
 /* Media query mobile */
 @media screen and (max-width: 590px) {
+  #header-index {
+    background-image: url(../../src/assets/fotos/principal.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 1;
+  }
+  #header-index #fondo-video {
+    display: none;
+  }
   #header-index .text-box {
     text-align: center;
   }
@@ -3440,6 +3504,22 @@ html {
 
 /* Media query mobile */
 @media screen and (max-width: 590px) {
+  #header-index {
+    background-image: url(../../src/assets/fotos/principal.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 1;
+  }
+  #header-index #fondo-video {
+    display: none;
+  }
   #header-index .text-box {
     text-align: center;
   }
@@ -4340,6 +4420,22 @@ html {
 
 /* Media query mobile */
 @media screen and (max-width: 590px) {
+  #header-index {
+    background-image: url(../../src/assets/fotos/principal.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 1;
+  }
+  #header-index #fondo-video {
+    display: none;
+  }
   #header-index .text-box {
     text-align: center;
   }
@@ -5103,6 +5199,22 @@ html {
 
 /* Media query mobile */
 @media screen and (max-width: 590px) {
+  #header-index {
+    background-image: url(../../src/assets/fotos/principal.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 1;
+  }
+  #header-index #fondo-video {
+    display: none;
+  }
   #header-index .text-box {
     text-align: center;
   }
@@ -6064,6 +6176,22 @@ html {
 
 /* Media query mobile */
 @media screen and (max-width: 590px) {
+  #header-index {
+    background-image: url(../../src/assets/fotos/principal.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 1;
+  }
+  #header-index #fondo-video {
+    display: none;
+  }
   #header-index .text-box {
     text-align: center;
   }
@@ -6817,6 +6945,22 @@ html {
 
 /* Media query mobile */
 @media screen and (max-width: 590px) {
+  #header-index {
+    background-image: url(../../src/assets/fotos/principal.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 1;
+  }
+  #header-index #fondo-video {
+    display: none;
+  }
   #header-index .text-box {
     text-align: center;
   }
@@ -7593,6 +7737,22 @@ html {
 
 /* Media query mobile */
 @media screen and (max-width: 590px) {
+  #header-index {
+    background-image: url(../../src/assets/fotos/principal.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 1;
+  }
+  #header-index #fondo-video {
+    display: none;
+  }
   #header-index .text-box {
     text-align: center;
   }
@@ -8344,6 +8504,22 @@ html {
 
 /* Media query mobile */
 @media screen and (max-width: 590px) {
+  #header-index {
+    background-image: url(../../src/assets/fotos/principal.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 1;
+  }
+  #header-index #fondo-video {
+    display: none;
+  }
   #header-index .text-box {
     text-align: center;
   }
