@@ -175,15 +175,21 @@
   padding: 1em 0 1em 0;
   display: flex;
   justify-content: space-evenly;
+  width: 100%;
   div {
+    
     p {
       @include title-p($font, $sizesubtitulos, 500, $color2);
     }
   }
   .subcribite-form {
+  
+    display: flex;
+    flex-flow: column wrap;
     .email-subscribite {
-      font-size: $sizegeneral;
-      border-radius: 12px;
+      @include title-p($font, $sizegeneral, 400, $color2);
+      width: 200%;
+     
     }
     .text-small {
       @include title-p($font, 12px, 300, $color2);
@@ -192,9 +198,11 @@
   .boton-subscribite {
     margin-top: 10px;
     @include title-p($font, 14px, 300, $color3);
-    border-radius: 10px;
-    background-color: $color1;
+    border-radius: 12px;
+    background-color: grey;
     padding: 9px;
+    border: none;
+    
   }
 }
 
