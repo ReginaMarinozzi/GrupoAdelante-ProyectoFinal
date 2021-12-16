@@ -21,15 +21,17 @@
       border-radius: 20px;
       text-transform: uppercase;
     }
-    div {
-      #button-busqueda {
-        width: 200px;
-        border-radius: 20px;
-        background-color: rgb(134, 116, 54);
-        @include title-p($font, $sizegeneral, 500, $color2);
-        border-bottom: 1px solid $color1;
-        text-transform: uppercase;
-      }
+    #button-busqueda {
+      width: 200px;
+      border-radius: 20px;
+      background-color: rgb(134, 116, 54);
+      @include title-p($font, $sizegeneral, 500, $color2);
+      border-bottom: 1px solid $color1;
+      text-transform: uppercase;
     }
   }
 }
+
+// MEDIAS QUERY ------------------------------------->
+
+@import "../base/mediaQuery";

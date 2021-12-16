@@ -894,4 +894,31 @@
       }
     }
   }
+
+  // Barra de busqueda -------------------------->
+  .barra-busqueda-propiedades {
+    #barra-container {
+      width: 100%;
+      background-color: $color1;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-flow: column wrap;
+      #buttons-barra {
+        width: 200px;
+        background-color: $color1;
+        @include title-p($font, $sizegeneral, 500, $color2);
+        border-radius: 20px;
+        text-transform: uppercase;
+      }
+      #button-busqueda {
+        width: 200px;
+        border-radius: 20px;
+        background-color: rgb(134, 116, 54);
+        @include title-p($font, $sizegeneral, 500, $color2);
+        border-bottom: 1px solid $color1;
+        text-transform: uppercase;
+      }
+    }
+  }
 }

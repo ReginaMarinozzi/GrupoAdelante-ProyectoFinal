@@ -11,20 +11,23 @@
 // Section principal -------------------------------->
 
 .desarrolladora-section-principal-container {
-  background-color: $color3; 
-  padding: 8em 8em 9em 8em;
+  background-color: $color3;
+  width: 100%;
+  height: 80vh;
   display: flex;
-  flex-flow: column nowrap;
-  .h1-title {
-    @include title-p($font, $sizetitulos, 700, $color1);
-    padding: 0.5em 0 0.5em 0;
-  }
-  .h2-title {
-    @include title-p($font, $sizeintermedio, 600, $color1);
-  }
-  p {
-    @include title-p($font, $sizesubtitulos, 500, $color1);
-    padding-top: 1.2em;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  padding: 0 2em;
+  .inmobiliaria-titulos-container {
+    text-align: center;
+    color: $color1;
+    .h1-title {
+      @include title-p($font, $sizetitulos, 700, $color1);
+    }
+    p {
+      @include title-p($font, $sizeintermedio, 600, $color1);
+    }
   }
 }
 
