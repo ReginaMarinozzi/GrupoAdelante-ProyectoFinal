@@ -2934,12 +2934,12 @@ html {
 .barra-busqueda-propiedades #barra-container div #button-busqueda {
   width: 200px;
   border-radius: 20px;
-  background-color: #c5b552;
+  background-color: #867436;
   font-family: "Work Sans", sans-serif;
   font-size: 0.9em;
   font-weight: 500;
-  color: #000;
-  border-bottom: 1px solid #c5b552;
+  color: #ffffff;
+  border-bottom: 1px solid #000;
   text-transform: uppercase;
 }
 
