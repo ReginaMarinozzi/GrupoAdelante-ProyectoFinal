@@ -400,16 +400,33 @@ html {
     width: 50vw;
     height: 50vh;
   }
-  .vende-section-principal-container div .h2-title {
-    font-size: 1.9em;
+  .vende-section-principal-container div .h1-title {
+    font-family: "Work Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0 0.7em 0;
   }
   .vende-section-principal-container div p {
+    font-family: "Work Sans", sans-serif;
     font-size: 0.9em;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
   }
-  .vende-section-principal-container .form-container {
-    font-size: 0.7em;
-    margin: 0;
-    padding: 1em;
+  .vende-section-principal-container .container-formulario-vende form input,
+  .vende-section-principal-container .container-formulario-vende form textarea {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #000;
+  }
+  .vende-section-principal-container .container-formulario-vende form button {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #000;
   }
   #icon-top a #iconTop {
     font-size: 0.9em;
@@ -724,16 +741,33 @@ html {
   .container-contacto form button {
     font-size: 12px;
   }
-  .vende-section-principal-container div .h2-title {
-    font-size: 0.9em;
+  .vende-section-principal-container div .h1-title {
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0 0.7em 0;
   }
   .vende-section-principal-container div p {
-    font-size: 0.9em;
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
   }
-  .vende-section-principal-container .form-container {
-    font-size: 0.7em;
-    margin: 0;
-    padding: 1em;
+  .vende-section-principal-container .container-formulario-vende form input,
+  .vende-section-principal-container .container-formulario-vende form textarea {
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
+  }
+  .vende-section-principal-container .container-formulario-vende form button {
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
   }
   #icon-top a #iconTop {
     font-size: 20px;
@@ -754,27 +788,6 @@ html {
     -webkit-box-direction: normal;
         -ms-flex-flow: column wrap;
             flex-flow: column wrap;
-  }
-  .barra-busqueda-propiedades #barra-container #buttons-barra {
-    width: 200px;
-    background-color: #000;
-    font-family: "Work Sans", sans-serif;
-    font-size: 0.9em;
-    font-weight: 500;
-    color: #ffffff;
-    border-radius: 20px;
-    text-transform: uppercase;
-  }
-  .barra-busqueda-propiedades #barra-container #button-busqueda {
-    width: 200px;
-    border-radius: 20px;
-    background-color: #867436;
-    font-family: "Work Sans", sans-serif;
-    font-size: 0.9em;
-    font-weight: 500;
-    color: #ffffff;
-    border-bottom: 1px solid #000;
-    text-transform: uppercase;
   }
 }
 
@@ -1051,16 +1064,33 @@ html {
     width: 50vw;
     height: 50vh;
   }
-  .vende-section-principal-container div .h2-title {
-    font-size: 1.9em;
+  .vende-section-principal-container div .h1-title {
+    font-family: "Work Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0 0.7em 0;
   }
   .vende-section-principal-container div p {
+    font-family: "Work Sans", sans-serif;
     font-size: 0.9em;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
   }
-  .vende-section-principal-container .form-container {
-    font-size: 0.7em;
-    margin: 0;
-    padding: 1em;
+  .vende-section-principal-container .container-formulario-vende form input,
+  .vende-section-principal-container .container-formulario-vende form textarea {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #000;
+  }
+  .vende-section-principal-container .container-formulario-vende form button {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #000;
   }
   #icon-top a #iconTop {
     font-size: 0.9em;
@@ -1375,16 +1405,33 @@ html {
   .container-contacto form button {
     font-size: 12px;
   }
-  .vende-section-principal-container div .h2-title {
-    font-size: 0.9em;
+  .vende-section-principal-container div .h1-title {
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0 0.7em 0;
   }
   .vende-section-principal-container div p {
-    font-size: 0.9em;
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
   }
-  .vende-section-principal-container .form-container {
-    font-size: 0.7em;
-    margin: 0;
-    padding: 1em;
+  .vende-section-principal-container .container-formulario-vende form input,
+  .vende-section-principal-container .container-formulario-vende form textarea {
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
+  }
+  .vende-section-principal-container .container-formulario-vende form button {
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
   }
   #icon-top a #iconTop {
     font-size: 20px;
@@ -1405,27 +1452,6 @@ html {
     -webkit-box-direction: normal;
         -ms-flex-flow: column wrap;
             flex-flow: column wrap;
-  }
-  .barra-busqueda-propiedades #barra-container #buttons-barra {
-    width: 200px;
-    background-color: #000;
-    font-family: "Work Sans", sans-serif;
-    font-size: 0.9em;
-    font-weight: 500;
-    color: #ffffff;
-    border-radius: 20px;
-    text-transform: uppercase;
-  }
-  .barra-busqueda-propiedades #barra-container #button-busqueda {
-    width: 200px;
-    border-radius: 20px;
-    background-color: #867436;
-    font-family: "Work Sans", sans-serif;
-    font-size: 0.9em;
-    font-weight: 500;
-    color: #ffffff;
-    border-bottom: 1px solid #000;
-    text-transform: uppercase;
   }
 }
 
@@ -1757,16 +1783,33 @@ html {
     width: 50vw;
     height: 50vh;
   }
-  .vende-section-principal-container div .h2-title {
-    font-size: 1.9em;
+  .vende-section-principal-container div .h1-title {
+    font-family: "Work Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0 0.7em 0;
   }
   .vende-section-principal-container div p {
+    font-family: "Work Sans", sans-serif;
     font-size: 0.9em;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
   }
-  .vende-section-principal-container .form-container {
-    font-size: 0.7em;
-    margin: 0;
-    padding: 1em;
+  .vende-section-principal-container .container-formulario-vende form input,
+  .vende-section-principal-container .container-formulario-vende form textarea {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #000;
+  }
+  .vende-section-principal-container .container-formulario-vende form button {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #000;
   }
   #icon-top a #iconTop {
     font-size: 0.9em;
@@ -2081,16 +2124,33 @@ html {
   .container-contacto form button {
     font-size: 12px;
   }
-  .vende-section-principal-container div .h2-title {
-    font-size: 0.9em;
+  .vende-section-principal-container div .h1-title {
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0 0.7em 0;
   }
   .vende-section-principal-container div p {
-    font-size: 0.9em;
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
   }
-  .vende-section-principal-container .form-container {
-    font-size: 0.7em;
-    margin: 0;
-    padding: 1em;
+  .vende-section-principal-container .container-formulario-vende form input,
+  .vende-section-principal-container .container-formulario-vende form textarea {
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
+  }
+  .vende-section-principal-container .container-formulario-vende form button {
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
   }
   #icon-top a #iconTop {
     font-size: 20px;
@@ -2111,27 +2171,6 @@ html {
     -webkit-box-direction: normal;
         -ms-flex-flow: column wrap;
             flex-flow: column wrap;
-  }
-  .barra-busqueda-propiedades #barra-container #buttons-barra {
-    width: 200px;
-    background-color: #000;
-    font-family: "Work Sans", sans-serif;
-    font-size: 0.9em;
-    font-weight: 500;
-    color: #ffffff;
-    border-radius: 20px;
-    text-transform: uppercase;
-  }
-  .barra-busqueda-propiedades #barra-container #button-busqueda {
-    width: 200px;
-    border-radius: 20px;
-    background-color: #867436;
-    font-family: "Work Sans", sans-serif;
-    font-size: 0.9em;
-    font-weight: 500;
-    color: #ffffff;
-    border-bottom: 1px solid #000;
-    text-transform: uppercase;
   }
 }
 
@@ -2679,16 +2718,33 @@ html {
     width: 50vw;
     height: 50vh;
   }
-  .vende-section-principal-container div .h2-title {
-    font-size: 1.9em;
+  .vende-section-principal-container div .h1-title {
+    font-family: "Work Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0 0.7em 0;
   }
   .vende-section-principal-container div p {
+    font-family: "Work Sans", sans-serif;
     font-size: 0.9em;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
   }
-  .vende-section-principal-container .form-container {
-    font-size: 0.7em;
-    margin: 0;
-    padding: 1em;
+  .vende-section-principal-container .container-formulario-vende form input,
+  .vende-section-principal-container .container-formulario-vende form textarea {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #000;
+  }
+  .vende-section-principal-container .container-formulario-vende form button {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #000;
   }
   #icon-top a #iconTop {
     font-size: 0.9em;
@@ -3003,16 +3059,33 @@ html {
   .container-contacto form button {
     font-size: 12px;
   }
-  .vende-section-principal-container div .h2-title {
-    font-size: 0.9em;
+  .vende-section-principal-container div .h1-title {
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0 0.7em 0;
   }
   .vende-section-principal-container div p {
-    font-size: 0.9em;
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
   }
-  .vende-section-principal-container .form-container {
-    font-size: 0.7em;
-    margin: 0;
-    padding: 1em;
+  .vende-section-principal-container .container-formulario-vende form input,
+  .vende-section-principal-container .container-formulario-vende form textarea {
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
+  }
+  .vende-section-principal-container .container-formulario-vende form button {
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
   }
   #icon-top a #iconTop {
     font-size: 20px;
@@ -3033,27 +3106,6 @@ html {
     -webkit-box-direction: normal;
         -ms-flex-flow: column wrap;
             flex-flow: column wrap;
-  }
-  .barra-busqueda-propiedades #barra-container #buttons-barra {
-    width: 200px;
-    background-color: #000;
-    font-family: "Work Sans", sans-serif;
-    font-size: 0.9em;
-    font-weight: 500;
-    color: #ffffff;
-    border-radius: 20px;
-    text-transform: uppercase;
-  }
-  .barra-busqueda-propiedades #barra-container #button-busqueda {
-    width: 200px;
-    border-radius: 20px;
-    background-color: #867436;
-    font-family: "Work Sans", sans-serif;
-    font-size: 0.9em;
-    font-weight: 500;
-    color: #ffffff;
-    border-bottom: 1px solid #000;
-    text-transform: uppercase;
   }
 }
 
@@ -3341,16 +3393,33 @@ html {
     width: 50vw;
     height: 50vh;
   }
-  .vende-section-principal-container div .h2-title {
-    font-size: 1.9em;
+  .vende-section-principal-container div .h1-title {
+    font-family: "Work Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0 0.7em 0;
   }
   .vende-section-principal-container div p {
+    font-family: "Work Sans", sans-serif;
     font-size: 0.9em;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
   }
-  .vende-section-principal-container .form-container {
-    font-size: 0.7em;
-    margin: 0;
-    padding: 1em;
+  .vende-section-principal-container .container-formulario-vende form input,
+  .vende-section-principal-container .container-formulario-vende form textarea {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #000;
+  }
+  .vende-section-principal-container .container-formulario-vende form button {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #000;
   }
   #icon-top a #iconTop {
     font-size: 0.9em;
@@ -3665,16 +3734,33 @@ html {
   .container-contacto form button {
     font-size: 12px;
   }
-  .vende-section-principal-container div .h2-title {
-    font-size: 0.9em;
+  .vende-section-principal-container div .h1-title {
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0 0.7em 0;
   }
   .vende-section-principal-container div p {
-    font-size: 0.9em;
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
   }
-  .vende-section-principal-container .form-container {
-    font-size: 0.7em;
-    margin: 0;
-    padding: 1em;
+  .vende-section-principal-container .container-formulario-vende form input,
+  .vende-section-principal-container .container-formulario-vende form textarea {
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
+  }
+  .vende-section-principal-container .container-formulario-vende form button {
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
   }
   #icon-top a #iconTop {
     font-size: 20px;
@@ -3695,27 +3781,6 @@ html {
     -webkit-box-direction: normal;
         -ms-flex-flow: column wrap;
             flex-flow: column wrap;
-  }
-  .barra-busqueda-propiedades #barra-container #buttons-barra {
-    width: 200px;
-    background-color: #000;
-    font-family: "Work Sans", sans-serif;
-    font-size: 0.9em;
-    font-weight: 500;
-    color: #ffffff;
-    border-radius: 20px;
-    text-transform: uppercase;
-  }
-  .barra-busqueda-propiedades #barra-container #button-busqueda {
-    width: 200px;
-    border-radius: 20px;
-    background-color: #867436;
-    font-family: "Work Sans", sans-serif;
-    font-size: 0.9em;
-    font-weight: 500;
-    color: #ffffff;
-    border-bottom: 1px solid #000;
-    text-transform: uppercase;
   }
 }
 
@@ -4224,16 +4289,33 @@ html {
     width: 50vw;
     height: 50vh;
   }
-  .vende-section-principal-container div .h2-title {
-    font-size: 1.9em;
+  .vende-section-principal-container div .h1-title {
+    font-family: "Work Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0 0.7em 0;
   }
   .vende-section-principal-container div p {
+    font-family: "Work Sans", sans-serif;
     font-size: 0.9em;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
   }
-  .vende-section-principal-container .form-container {
-    font-size: 0.7em;
-    margin: 0;
-    padding: 1em;
+  .vende-section-principal-container .container-formulario-vende form input,
+  .vende-section-principal-container .container-formulario-vende form textarea {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #000;
+  }
+  .vende-section-principal-container .container-formulario-vende form button {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #000;
   }
   #icon-top a #iconTop {
     font-size: 0.9em;
@@ -4548,16 +4630,33 @@ html {
   .container-contacto form button {
     font-size: 12px;
   }
-  .vende-section-principal-container div .h2-title {
-    font-size: 0.9em;
+  .vende-section-principal-container div .h1-title {
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0 0.7em 0;
   }
   .vende-section-principal-container div p {
-    font-size: 0.9em;
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
   }
-  .vende-section-principal-container .form-container {
-    font-size: 0.7em;
-    margin: 0;
-    padding: 1em;
+  .vende-section-principal-container .container-formulario-vende form input,
+  .vende-section-principal-container .container-formulario-vende form textarea {
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
+  }
+  .vende-section-principal-container .container-formulario-vende form button {
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
   }
   #icon-top a #iconTop {
     font-size: 20px;
@@ -4578,27 +4677,6 @@ html {
     -webkit-box-direction: normal;
         -ms-flex-flow: column wrap;
             flex-flow: column wrap;
-  }
-  .barra-busqueda-propiedades #barra-container #buttons-barra {
-    width: 200px;
-    background-color: #000;
-    font-family: "Work Sans", sans-serif;
-    font-size: 0.9em;
-    font-weight: 500;
-    color: #ffffff;
-    border-radius: 20px;
-    text-transform: uppercase;
-  }
-  .barra-busqueda-propiedades #barra-container #button-busqueda {
-    width: 200px;
-    border-radius: 20px;
-    background-color: #867436;
-    font-family: "Work Sans", sans-serif;
-    font-size: 0.9em;
-    font-weight: 500;
-    color: #ffffff;
-    border-bottom: 1px solid #000;
-    text-transform: uppercase;
   }
 }
 
@@ -4970,16 +5048,33 @@ html {
     width: 50vw;
     height: 50vh;
   }
-  .vende-section-principal-container div .h2-title {
-    font-size: 1.9em;
+  .vende-section-principal-container div .h1-title {
+    font-family: "Work Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0 0.7em 0;
   }
   .vende-section-principal-container div p {
+    font-family: "Work Sans", sans-serif;
     font-size: 0.9em;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
   }
-  .vende-section-principal-container .form-container {
-    font-size: 0.7em;
-    margin: 0;
-    padding: 1em;
+  .vende-section-principal-container .container-formulario-vende form input,
+  .vende-section-principal-container .container-formulario-vende form textarea {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #000;
+  }
+  .vende-section-principal-container .container-formulario-vende form button {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #000;
   }
   #icon-top a #iconTop {
     font-size: 0.9em;
@@ -5294,16 +5389,33 @@ html {
   .container-contacto form button {
     font-size: 12px;
   }
-  .vende-section-principal-container div .h2-title {
-    font-size: 0.9em;
+  .vende-section-principal-container div .h1-title {
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0 0.7em 0;
   }
   .vende-section-principal-container div p {
-    font-size: 0.9em;
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
   }
-  .vende-section-principal-container .form-container {
-    font-size: 0.7em;
-    margin: 0;
-    padding: 1em;
+  .vende-section-principal-container .container-formulario-vende form input,
+  .vende-section-principal-container .container-formulario-vende form textarea {
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
+  }
+  .vende-section-principal-container .container-formulario-vende form button {
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
   }
   #icon-top a #iconTop {
     font-size: 20px;
@@ -5324,27 +5436,6 @@ html {
     -webkit-box-direction: normal;
         -ms-flex-flow: column wrap;
             flex-flow: column wrap;
-  }
-  .barra-busqueda-propiedades #barra-container #buttons-barra {
-    width: 200px;
-    background-color: #000;
-    font-family: "Work Sans", sans-serif;
-    font-size: 0.9em;
-    font-weight: 500;
-    color: #ffffff;
-    border-radius: 20px;
-    text-transform: uppercase;
-  }
-  .barra-busqueda-propiedades #barra-container #button-busqueda {
-    width: 200px;
-    border-radius: 20px;
-    background-color: #867436;
-    font-family: "Work Sans", sans-serif;
-    font-size: 0.9em;
-    font-weight: 500;
-    color: #ffffff;
-    border-bottom: 1px solid #000;
-    text-transform: uppercase;
   }
 }
 
@@ -5909,16 +6000,33 @@ html {
     width: 50vw;
     height: 50vh;
   }
-  .vende-section-principal-container div .h2-title {
-    font-size: 1.9em;
+  .vende-section-principal-container div .h1-title {
+    font-family: "Work Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0 0.7em 0;
   }
   .vende-section-principal-container div p {
+    font-family: "Work Sans", sans-serif;
     font-size: 0.9em;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
   }
-  .vende-section-principal-container .form-container {
-    font-size: 0.7em;
-    margin: 0;
-    padding: 1em;
+  .vende-section-principal-container .container-formulario-vende form input,
+  .vende-section-principal-container .container-formulario-vende form textarea {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #000;
+  }
+  .vende-section-principal-container .container-formulario-vende form button {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #000;
   }
   #icon-top a #iconTop {
     font-size: 0.9em;
@@ -6233,16 +6341,33 @@ html {
   .container-contacto form button {
     font-size: 12px;
   }
-  .vende-section-principal-container div .h2-title {
-    font-size: 0.9em;
+  .vende-section-principal-container div .h1-title {
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0 0.7em 0;
   }
   .vende-section-principal-container div p {
-    font-size: 0.9em;
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
   }
-  .vende-section-principal-container .form-container {
-    font-size: 0.7em;
-    margin: 0;
-    padding: 1em;
+  .vende-section-principal-container .container-formulario-vende form input,
+  .vende-section-principal-container .container-formulario-vende form textarea {
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
+  }
+  .vende-section-principal-container .container-formulario-vende form button {
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
   }
   #icon-top a #iconTop {
     font-size: 20px;
@@ -6263,27 +6388,6 @@ html {
     -webkit-box-direction: normal;
         -ms-flex-flow: column wrap;
             flex-flow: column wrap;
-  }
-  .barra-busqueda-propiedades #barra-container #buttons-barra {
-    width: 200px;
-    background-color: #000;
-    font-family: "Work Sans", sans-serif;
-    font-size: 0.9em;
-    font-weight: 500;
-    color: #ffffff;
-    border-radius: 20px;
-    text-transform: uppercase;
-  }
-  .barra-busqueda-propiedades #barra-container #button-busqueda {
-    width: 200px;
-    border-radius: 20px;
-    background-color: #867436;
-    font-family: "Work Sans", sans-serif;
-    font-size: 0.9em;
-    font-weight: 500;
-    color: #ffffff;
-    border-bottom: 1px solid #000;
-    text-transform: uppercase;
   }
 }
 
@@ -6649,16 +6753,33 @@ html {
     width: 50vw;
     height: 50vh;
   }
-  .vende-section-principal-container div .h2-title {
-    font-size: 1.9em;
+  .vende-section-principal-container div .h1-title {
+    font-family: "Work Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0 0.7em 0;
   }
   .vende-section-principal-container div p {
+    font-family: "Work Sans", sans-serif;
     font-size: 0.9em;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
   }
-  .vende-section-principal-container .form-container {
-    font-size: 0.7em;
-    margin: 0;
-    padding: 1em;
+  .vende-section-principal-container .container-formulario-vende form input,
+  .vende-section-principal-container .container-formulario-vende form textarea {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #000;
+  }
+  .vende-section-principal-container .container-formulario-vende form button {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #000;
   }
   #icon-top a #iconTop {
     font-size: 0.9em;
@@ -6973,16 +7094,33 @@ html {
   .container-contacto form button {
     font-size: 12px;
   }
-  .vende-section-principal-container div .h2-title {
-    font-size: 0.9em;
+  .vende-section-principal-container div .h1-title {
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0 0.7em 0;
   }
   .vende-section-principal-container div p {
-    font-size: 0.9em;
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
   }
-  .vende-section-principal-container .form-container {
-    font-size: 0.7em;
-    margin: 0;
-    padding: 1em;
+  .vende-section-principal-container .container-formulario-vende form input,
+  .vende-section-principal-container .container-formulario-vende form textarea {
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
+  }
+  .vende-section-principal-container .container-formulario-vende form button {
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
   }
   #icon-top a #iconTop {
     font-size: 20px;
@@ -7003,27 +7141,6 @@ html {
     -webkit-box-direction: normal;
         -ms-flex-flow: column wrap;
             flex-flow: column wrap;
-  }
-  .barra-busqueda-propiedades #barra-container #buttons-barra {
-    width: 200px;
-    background-color: #000;
-    font-family: "Work Sans", sans-serif;
-    font-size: 0.9em;
-    font-weight: 500;
-    color: #ffffff;
-    border-radius: 20px;
-    text-transform: uppercase;
-  }
-  .barra-busqueda-propiedades #barra-container #button-busqueda {
-    width: 200px;
-    border-radius: 20px;
-    background-color: #867436;
-    font-family: "Work Sans", sans-serif;
-    font-size: 0.9em;
-    font-weight: 500;
-    color: #ffffff;
-    border-bottom: 1px solid #000;
-    text-transform: uppercase;
   }
 }
 
@@ -7064,8 +7181,8 @@ html {
 
 .container-contacto form .h1-title {
   font-family: "Work Sans", sans-serif;
-  font-size: 3.2em;
-  font-weight: 600;
+  font-size: 2.5em;
+  font-weight: 500;
   color: #000;
   padding-top: 1em;
   text-align: center;
@@ -7411,16 +7528,33 @@ html {
     width: 50vw;
     height: 50vh;
   }
-  .vende-section-principal-container div .h2-title {
-    font-size: 1.9em;
+  .vende-section-principal-container div .h1-title {
+    font-family: "Work Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0 0.7em 0;
   }
   .vende-section-principal-container div p {
+    font-family: "Work Sans", sans-serif;
     font-size: 0.9em;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
   }
-  .vende-section-principal-container .form-container {
-    font-size: 0.7em;
-    margin: 0;
-    padding: 1em;
+  .vende-section-principal-container .container-formulario-vende form input,
+  .vende-section-principal-container .container-formulario-vende form textarea {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #000;
+  }
+  .vende-section-principal-container .container-formulario-vende form button {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #000;
   }
   #icon-top a #iconTop {
     font-size: 0.9em;
@@ -7735,16 +7869,33 @@ html {
   .container-contacto form button {
     font-size: 12px;
   }
-  .vende-section-principal-container div .h2-title {
-    font-size: 0.9em;
+  .vende-section-principal-container div .h1-title {
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0 0.7em 0;
   }
   .vende-section-principal-container div p {
-    font-size: 0.9em;
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
   }
-  .vende-section-principal-container .form-container {
-    font-size: 0.7em;
-    margin: 0;
-    padding: 1em;
+  .vende-section-principal-container .container-formulario-vende form input,
+  .vende-section-principal-container .container-formulario-vende form textarea {
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
+  }
+  .vende-section-principal-container .container-formulario-vende form button {
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
   }
   #icon-top a #iconTop {
     font-size: 20px;
@@ -7766,27 +7917,6 @@ html {
         -ms-flex-flow: column wrap;
             flex-flow: column wrap;
   }
-  .barra-busqueda-propiedades #barra-container #buttons-barra {
-    width: 200px;
-    background-color: #000;
-    font-family: "Work Sans", sans-serif;
-    font-size: 0.9em;
-    font-weight: 500;
-    color: #ffffff;
-    border-radius: 20px;
-    text-transform: uppercase;
-  }
-  .barra-busqueda-propiedades #barra-container #button-busqueda {
-    width: 200px;
-    border-radius: 20px;
-    background-color: #867436;
-    font-family: "Work Sans", sans-serif;
-    font-size: 0.9em;
-    font-weight: 500;
-    color: #ffffff;
-    border-bottom: 1px solid #000;
-    text-transform: uppercase;
-  }
 }
 
 .vende-section-principal-container {
@@ -7806,7 +7936,7 @@ html {
 .vende-section-principal-container div .h1-title {
   font-family: "Work Sans", sans-serif;
   font-size: 2.5em;
-  font-weight: 600;
+  font-weight: 500;
   color: #ffffff;
   text-align: center;
   padding: 1em 0 0.7em 0;
@@ -7815,7 +7945,7 @@ html {
 .vende-section-principal-container div p {
   font-family: "Work Sans", sans-serif;
   font-size: 0.9em;
-  font-weight: 500;
+  font-weight: 400;
   color: #ffffff;
   text-align: center;
 }
@@ -8149,16 +8279,33 @@ html {
     width: 50vw;
     height: 50vh;
   }
-  .vende-section-principal-container div .h2-title {
-    font-size: 1.9em;
+  .vende-section-principal-container div .h1-title {
+    font-family: "Work Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0 0.7em 0;
   }
   .vende-section-principal-container div p {
+    font-family: "Work Sans", sans-serif;
     font-size: 0.9em;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
   }
-  .vende-section-principal-container .form-container {
-    font-size: 0.7em;
-    margin: 0;
-    padding: 1em;
+  .vende-section-principal-container .container-formulario-vende form input,
+  .vende-section-principal-container .container-formulario-vende form textarea {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #000;
+  }
+  .vende-section-principal-container .container-formulario-vende form button {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #000;
   }
   #icon-top a #iconTop {
     font-size: 0.9em;
@@ -8473,16 +8620,33 @@ html {
   .container-contacto form button {
     font-size: 12px;
   }
-  .vende-section-principal-container div .h2-title {
-    font-size: 0.9em;
+  .vende-section-principal-container div .h1-title {
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0 0.7em 0;
   }
   .vende-section-principal-container div p {
-    font-size: 0.9em;
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
   }
-  .vende-section-principal-container .form-container {
-    font-size: 0.7em;
-    margin: 0;
-    padding: 1em;
+  .vende-section-principal-container .container-formulario-vende form input,
+  .vende-section-principal-container .container-formulario-vende form textarea {
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
+  }
+  .vende-section-principal-container .container-formulario-vende form button {
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
   }
   #icon-top a #iconTop {
     font-size: 20px;
@@ -8503,27 +8667,6 @@ html {
     -webkit-box-direction: normal;
         -ms-flex-flow: column wrap;
             flex-flow: column wrap;
-  }
-  .barra-busqueda-propiedades #barra-container #buttons-barra {
-    width: 200px;
-    background-color: #000;
-    font-family: "Work Sans", sans-serif;
-    font-size: 0.9em;
-    font-weight: 500;
-    color: #ffffff;
-    border-radius: 20px;
-    text-transform: uppercase;
-  }
-  .barra-busqueda-propiedades #barra-container #button-busqueda {
-    width: 200px;
-    border-radius: 20px;
-    background-color: #867436;
-    font-family: "Work Sans", sans-serif;
-    font-size: 0.9em;
-    font-weight: 500;
-    color: #ffffff;
-    border-bottom: 1px solid #000;
-    text-transform: uppercase;
   }
 }
 

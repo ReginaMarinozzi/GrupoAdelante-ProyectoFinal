@@ -410,17 +410,26 @@
 
   .vende-section-principal-container {
     div {
-      .h2-title {
-        font-size: $sizesubtitulos;
+      .h1-title {
+        @include title-p($font, 22px, 500, $color2);
+        text-align: center;
+        padding: 1em 0 0.7em 0;
       }
       p {
-        font-size: $sizegeneral;
+        @include title-p($font, $sizegeneral, 500, $color2);
+        text-align: center;
       }
     }
-    .form-container {
-      font-size: 0.7em;
-      margin: 0;
-      padding: 1em;
+    .container-formulario-vende {
+      form {
+        input,
+        textarea {
+          @include title-p($font, $sizegeneral, 400, $color1);
+        }
+        button {
+          @include title-p($font, $sizegeneral, 400, $color1);
+        }
+      }
     }
   }
 
@@ -871,17 +880,26 @@
 
   .vende-section-principal-container {
     div {
-      .h2-title {
-        font-size: $sizegeneral;
+      .h1-title {
+        @include title-p($font, 18px, 600, $color2);
+        text-align: center;
+        padding: 1em 0 0.7em 0;
       }
       p {
-        font-size: 0.9em;
+        @include title-p($font, 12px, 500, $color2);
+        text-align: center;
       }
     }
-    .form-container {
-      font-size: 0.7em;
-      margin: 0;
-      padding: 1em;
+    .container-formulario-vende {
+      form {
+        input,
+        textarea {
+          @include title-p($font, 12px, 400, $color1);
+        }
+        button {
+          @include title-p($font, 12px, 400, $color1);
+        }
+      }
     }
   }
 
@@ -904,21 +922,6 @@
       justify-content: space-evenly;
       align-items: center;
       flex-flow: column wrap;
-      #buttons-barra {
-        width: 200px;
-        background-color: $color1;
-        @include title-p($font, $sizegeneral, 500, $color2);
-        border-radius: 20px;
-        text-transform: uppercase;
-      }
-      #button-busqueda {
-        width: 200px;
-        border-radius: 20px;
-        background-color: rgb(134, 116, 54);
-        @include title-p($font, $sizegeneral, 500, $color2);
-        border-bottom: 1px solid $color1;
-        text-transform: uppercase;
-      }
     }
   }
 }
