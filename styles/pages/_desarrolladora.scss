@@ -65,10 +65,12 @@
   padding: 100px 50px;
   .h3-title {
     @include title-p($font, $sizesubtitulos, 500, $color1);
+    margin-bottom: 50px;
   }
   .desarrolladora-div-icon-container {
     display: flex;
     justify-content: space-evenly;
+    margin-top: 50px;
     .desarrolladora-icon-container {
       display: flex;
       align-items: center;

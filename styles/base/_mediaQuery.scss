@@ -326,34 +326,67 @@
   // Nosotros
 
   .nosotros-section-principal-container {
-    margin: 0;
-    padding: 2em;
-    font-size: 0.9em;
-    div {
+    display: flex;
+    flex-flow: column nowrap;
+    font-size: 14px;
+    .nosotros-container {
+      display: flex;
+      flex-flow: column nowrap;
       .nosotros-img-container {
         img {
-          width: 40vh;
+          width: 100%;
+        }
+      }
+      .nosotros-p-container {
+        p {
+          padding: 10px;
+          text-align: left;
         }
       }
     }
-    div {
+    .mision-container {
+      display: flex;
+      flex-flow: column nowrap;
+      .mision-p-container {
+        p {
+          padding: 10px;
+          text-align: left;
+        }
+      }
       .mision-img-container {
         img {
-          width: 40vh;
+          width: 100%;
         }
       }
     }
-    div {
+    .valores-container {
+      display: flex;
+      flex-flow: column nowrap;
       .valores-img-container {
         img {
-          width: 40vh;
+          width: 100%;
+        }
+      }
+      .valores-p-container {
+        padding: 0;
+        p {
+          padding: 10px;
+          text-align: center;
         }
       }
     }
-    div {
+    .servicios-container {
+      display: flex;
+      flex-flow: column nowrap;
+      .servicios-p-container {
+        p {
+          padding: 10px;
+          text-align: center;
+        }
+      }
       .servicios-img-container {
         img {
-          width: 40vh;
+          width: 100%;
         }
       }
     }
@@ -827,7 +860,7 @@
     font-size: 12px;
     .nosotros-container {
       display: flex;
-    flex-flow: column nowrap;
+      flex-flow: column nowrap;
       .nosotros-img-container {
         img {
           width: 100%;

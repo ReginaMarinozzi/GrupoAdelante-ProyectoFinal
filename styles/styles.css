@@ -347,21 +347,81 @@ html {
     font-size: 0.9em;
   }
   .nosotros-section-principal-container {
-    margin: 0;
-    padding: 2em;
-    font-size: 0.9em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    font-size: 14px;
   }
-  .nosotros-section-principal-container div .nosotros-img-container img {
-    width: 40vh;
+  .nosotros-section-principal-container .nosotros-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
-  .nosotros-section-principal-container div .mision-img-container img {
-    width: 40vh;
+  .nosotros-section-principal-container .nosotros-container .nosotros-img-container img {
+    width: 100%;
   }
-  .nosotros-section-principal-container div .valores-img-container img {
-    width: 40vh;
+  .nosotros-section-principal-container .nosotros-container .nosotros-p-container p {
+    padding: 10px;
+    text-align: left;
   }
-  .nosotros-section-principal-container div .servicios-img-container img {
-    width: 40vh;
+  .nosotros-section-principal-container .mision-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .nosotros-section-principal-container .mision-container .mision-p-container p {
+    padding: 10px;
+    text-align: left;
+  }
+  .nosotros-section-principal-container .mision-container .mision-img-container img {
+    width: 100%;
+  }
+  .nosotros-section-principal-container .valores-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .nosotros-section-principal-container .valores-container .valores-img-container img {
+    width: 100%;
+  }
+  .nosotros-section-principal-container .valores-container .valores-p-container {
+    padding: 0;
+  }
+  .nosotros-section-principal-container .valores-container .valores-p-container p {
+    padding: 10px;
+    text-align: center;
+  }
+  .nosotros-section-principal-container .servicios-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .nosotros-section-principal-container .servicios-container .servicios-p-container p {
+    padding: 10px;
+    text-align: center;
+  }
+  .nosotros-section-principal-container .servicios-container .servicios-img-container img {
+    width: 100%;
   }
   .container-contacto form .h1-title {
     font-size: 2.5em;
@@ -1073,21 +1133,81 @@ html {
     font-size: 0.9em;
   }
   .nosotros-section-principal-container {
-    margin: 0;
-    padding: 2em;
-    font-size: 0.9em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    font-size: 14px;
   }
-  .nosotros-section-principal-container div .nosotros-img-container img {
-    width: 40vh;
+  .nosotros-section-principal-container .nosotros-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
-  .nosotros-section-principal-container div .mision-img-container img {
-    width: 40vh;
+  .nosotros-section-principal-container .nosotros-container .nosotros-img-container img {
+    width: 100%;
   }
-  .nosotros-section-principal-container div .valores-img-container img {
-    width: 40vh;
+  .nosotros-section-principal-container .nosotros-container .nosotros-p-container p {
+    padding: 10px;
+    text-align: left;
   }
-  .nosotros-section-principal-container div .servicios-img-container img {
-    width: 40vh;
+  .nosotros-section-principal-container .mision-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .nosotros-section-principal-container .mision-container .mision-p-container p {
+    padding: 10px;
+    text-align: left;
+  }
+  .nosotros-section-principal-container .mision-container .mision-img-container img {
+    width: 100%;
+  }
+  .nosotros-section-principal-container .valores-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .nosotros-section-principal-container .valores-container .valores-img-container img {
+    width: 100%;
+  }
+  .nosotros-section-principal-container .valores-container .valores-p-container {
+    padding: 0;
+  }
+  .nosotros-section-principal-container .valores-container .valores-p-container p {
+    padding: 10px;
+    text-align: center;
+  }
+  .nosotros-section-principal-container .servicios-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .nosotros-section-principal-container .servicios-container .servicios-p-container p {
+    padding: 10px;
+    text-align: center;
+  }
+  .nosotros-section-principal-container .servicios-container .servicios-img-container img {
+    width: 100%;
   }
   .container-contacto form .h1-title {
     font-size: 2.5em;
@@ -1856,21 +1976,81 @@ html {
     font-size: 0.9em;
   }
   .nosotros-section-principal-container {
-    margin: 0;
-    padding: 2em;
-    font-size: 0.9em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    font-size: 14px;
   }
-  .nosotros-section-principal-container div .nosotros-img-container img {
-    width: 40vh;
+  .nosotros-section-principal-container .nosotros-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
-  .nosotros-section-principal-container div .mision-img-container img {
-    width: 40vh;
+  .nosotros-section-principal-container .nosotros-container .nosotros-img-container img {
+    width: 100%;
   }
-  .nosotros-section-principal-container div .valores-img-container img {
-    width: 40vh;
+  .nosotros-section-principal-container .nosotros-container .nosotros-p-container p {
+    padding: 10px;
+    text-align: left;
   }
-  .nosotros-section-principal-container div .servicios-img-container img {
-    width: 40vh;
+  .nosotros-section-principal-container .mision-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .nosotros-section-principal-container .mision-container .mision-p-container p {
+    padding: 10px;
+    text-align: left;
+  }
+  .nosotros-section-principal-container .mision-container .mision-img-container img {
+    width: 100%;
+  }
+  .nosotros-section-principal-container .valores-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .nosotros-section-principal-container .valores-container .valores-img-container img {
+    width: 100%;
+  }
+  .nosotros-section-principal-container .valores-container .valores-p-container {
+    padding: 0;
+  }
+  .nosotros-section-principal-container .valores-container .valores-p-container p {
+    padding: 10px;
+    text-align: center;
+  }
+  .nosotros-section-principal-container .servicios-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .nosotros-section-principal-container .servicios-container .servicios-p-container p {
+    padding: 10px;
+    text-align: center;
+  }
+  .nosotros-section-principal-container .servicios-container .servicios-img-container img {
+    width: 100%;
   }
   .container-contacto form .h1-title {
     font-size: 2.5em;
@@ -2873,21 +3053,81 @@ html {
     font-size: 0.9em;
   }
   .nosotros-section-principal-container {
-    margin: 0;
-    padding: 2em;
-    font-size: 0.9em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    font-size: 14px;
   }
-  .nosotros-section-principal-container div .nosotros-img-container img {
-    width: 40vh;
+  .nosotros-section-principal-container .nosotros-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
-  .nosotros-section-principal-container div .mision-img-container img {
-    width: 40vh;
+  .nosotros-section-principal-container .nosotros-container .nosotros-img-container img {
+    width: 100%;
   }
-  .nosotros-section-principal-container div .valores-img-container img {
-    width: 40vh;
+  .nosotros-section-principal-container .nosotros-container .nosotros-p-container p {
+    padding: 10px;
+    text-align: left;
   }
-  .nosotros-section-principal-container div .servicios-img-container img {
-    width: 40vh;
+  .nosotros-section-principal-container .mision-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .nosotros-section-principal-container .mision-container .mision-p-container p {
+    padding: 10px;
+    text-align: left;
+  }
+  .nosotros-section-principal-container .mision-container .mision-img-container img {
+    width: 100%;
+  }
+  .nosotros-section-principal-container .valores-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .nosotros-section-principal-container .valores-container .valores-img-container img {
+    width: 100%;
+  }
+  .nosotros-section-principal-container .valores-container .valores-p-container {
+    padding: 0;
+  }
+  .nosotros-section-principal-container .valores-container .valores-p-container p {
+    padding: 10px;
+    text-align: center;
+  }
+  .nosotros-section-principal-container .servicios-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .nosotros-section-principal-container .servicios-container .servicios-p-container p {
+    padding: 10px;
+    text-align: center;
+  }
+  .nosotros-section-principal-container .servicios-container .servicios-img-container img {
+    width: 100%;
   }
   .container-contacto form .h1-title {
     font-size: 2.5em;
@@ -3612,21 +3852,81 @@ html {
     font-size: 0.9em;
   }
   .nosotros-section-principal-container {
-    margin: 0;
-    padding: 2em;
-    font-size: 0.9em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    font-size: 14px;
   }
-  .nosotros-section-principal-container div .nosotros-img-container img {
-    width: 40vh;
+  .nosotros-section-principal-container .nosotros-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
-  .nosotros-section-principal-container div .mision-img-container img {
-    width: 40vh;
+  .nosotros-section-principal-container .nosotros-container .nosotros-img-container img {
+    width: 100%;
   }
-  .nosotros-section-principal-container div .valores-img-container img {
-    width: 40vh;
+  .nosotros-section-principal-container .nosotros-container .nosotros-p-container p {
+    padding: 10px;
+    text-align: left;
   }
-  .nosotros-section-principal-container div .servicios-img-container img {
-    width: 40vh;
+  .nosotros-section-principal-container .mision-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .nosotros-section-principal-container .mision-container .mision-p-container p {
+    padding: 10px;
+    text-align: left;
+  }
+  .nosotros-section-principal-container .mision-container .mision-img-container img {
+    width: 100%;
+  }
+  .nosotros-section-principal-container .valores-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .nosotros-section-principal-container .valores-container .valores-img-container img {
+    width: 100%;
+  }
+  .nosotros-section-principal-container .valores-container .valores-p-container {
+    padding: 0;
+  }
+  .nosotros-section-principal-container .valores-container .valores-p-container p {
+    padding: 10px;
+    text-align: center;
+  }
+  .nosotros-section-principal-container .servicios-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .nosotros-section-principal-container .servicios-container .servicios-p-container p {
+    padding: 10px;
+    text-align: center;
+  }
+  .nosotros-section-principal-container .servicios-container .servicios-img-container img {
+    width: 100%;
   }
   .container-contacto form .h1-title {
     font-size: 2.5em;
@@ -4574,21 +4874,81 @@ html {
     font-size: 0.9em;
   }
   .nosotros-section-principal-container {
-    margin: 0;
-    padding: 2em;
-    font-size: 0.9em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    font-size: 14px;
   }
-  .nosotros-section-principal-container div .nosotros-img-container img {
-    width: 40vh;
+  .nosotros-section-principal-container .nosotros-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
-  .nosotros-section-principal-container div .mision-img-container img {
-    width: 40vh;
+  .nosotros-section-principal-container .nosotros-container .nosotros-img-container img {
+    width: 100%;
   }
-  .nosotros-section-principal-container div .valores-img-container img {
-    width: 40vh;
+  .nosotros-section-principal-container .nosotros-container .nosotros-p-container p {
+    padding: 10px;
+    text-align: left;
   }
-  .nosotros-section-principal-container div .servicios-img-container img {
-    width: 40vh;
+  .nosotros-section-principal-container .mision-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .nosotros-section-principal-container .mision-container .mision-p-container p {
+    padding: 10px;
+    text-align: left;
+  }
+  .nosotros-section-principal-container .mision-container .mision-img-container img {
+    width: 100%;
+  }
+  .nosotros-section-principal-container .valores-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .nosotros-section-principal-container .valores-container .valores-img-container img {
+    width: 100%;
+  }
+  .nosotros-section-principal-container .valores-container .valores-p-container {
+    padding: 0;
+  }
+  .nosotros-section-principal-container .valores-container .valores-p-container p {
+    padding: 10px;
+    text-align: center;
+  }
+  .nosotros-section-principal-container .servicios-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .nosotros-section-principal-container .servicios-container .servicios-p-container p {
+    padding: 10px;
+    text-align: center;
+  }
+  .nosotros-section-principal-container .servicios-container .servicios-img-container img {
+    width: 100%;
   }
   .container-contacto form .h1-title {
     font-size: 2.5em;
@@ -5409,21 +5769,81 @@ html {
     font-size: 0.9em;
   }
   .nosotros-section-principal-container {
-    margin: 0;
-    padding: 2em;
-    font-size: 0.9em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    font-size: 14px;
   }
-  .nosotros-section-principal-container div .nosotros-img-container img {
-    width: 40vh;
+  .nosotros-section-principal-container .nosotros-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
-  .nosotros-section-principal-container div .mision-img-container img {
-    width: 40vh;
+  .nosotros-section-principal-container .nosotros-container .nosotros-img-container img {
+    width: 100%;
   }
-  .nosotros-section-principal-container div .valores-img-container img {
-    width: 40vh;
+  .nosotros-section-principal-container .nosotros-container .nosotros-p-container p {
+    padding: 10px;
+    text-align: left;
   }
-  .nosotros-section-principal-container div .servicios-img-container img {
-    width: 40vh;
+  .nosotros-section-principal-container .mision-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .nosotros-section-principal-container .mision-container .mision-p-container p {
+    padding: 10px;
+    text-align: left;
+  }
+  .nosotros-section-principal-container .mision-container .mision-img-container img {
+    width: 100%;
+  }
+  .nosotros-section-principal-container .valores-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .nosotros-section-principal-container .valores-container .valores-img-container img {
+    width: 100%;
+  }
+  .nosotros-section-principal-container .valores-container .valores-p-container {
+    padding: 0;
+  }
+  .nosotros-section-principal-container .valores-container .valores-p-container p {
+    padding: 10px;
+    text-align: center;
+  }
+  .nosotros-section-principal-container .servicios-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .nosotros-section-principal-container .servicios-container .servicios-p-container p {
+    padding: 10px;
+    text-align: center;
+  }
+  .nosotros-section-principal-container .servicios-container .servicios-img-container img {
+    width: 100%;
   }
   .container-contacto form .h1-title {
     font-size: 2.5em;
@@ -6004,6 +6424,7 @@ html {
   font-size: 1.9em;
   font-weight: 500;
   color: #000;
+  margin-bottom: 50px;
 }
 
 .desarralladora-section-icon-container .desarrolladora-div-icon-container {
@@ -6013,6 +6434,7 @@ html {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  margin-top: 50px;
 }
 
 .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container {
@@ -6430,21 +6852,81 @@ html {
     font-size: 0.9em;
   }
   .nosotros-section-principal-container {
-    margin: 0;
-    padding: 2em;
-    font-size: 0.9em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    font-size: 14px;
   }
-  .nosotros-section-principal-container div .nosotros-img-container img {
-    width: 40vh;
+  .nosotros-section-principal-container .nosotros-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
-  .nosotros-section-principal-container div .mision-img-container img {
-    width: 40vh;
+  .nosotros-section-principal-container .nosotros-container .nosotros-img-container img {
+    width: 100%;
   }
-  .nosotros-section-principal-container div .valores-img-container img {
-    width: 40vh;
+  .nosotros-section-principal-container .nosotros-container .nosotros-p-container p {
+    padding: 10px;
+    text-align: left;
   }
-  .nosotros-section-principal-container div .servicios-img-container img {
-    width: 40vh;
+  .nosotros-section-principal-container .mision-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .nosotros-section-principal-container .mision-container .mision-p-container p {
+    padding: 10px;
+    text-align: left;
+  }
+  .nosotros-section-principal-container .mision-container .mision-img-container img {
+    width: 100%;
+  }
+  .nosotros-section-principal-container .valores-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .nosotros-section-principal-container .valores-container .valores-img-container img {
+    width: 100%;
+  }
+  .nosotros-section-principal-container .valores-container .valores-p-container {
+    padding: 0;
+  }
+  .nosotros-section-principal-container .valores-container .valores-p-container p {
+    padding: 10px;
+    text-align: center;
+  }
+  .nosotros-section-principal-container .servicios-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .nosotros-section-principal-container .servicios-container .servicios-p-container p {
+    padding: 10px;
+    text-align: center;
+  }
+  .nosotros-section-principal-container .servicios-container .servicios-img-container img {
+    width: 100%;
   }
   .container-contacto form .h1-title {
     font-size: 2.5em;
@@ -7245,21 +7727,81 @@ html {
     font-size: 0.9em;
   }
   .nosotros-section-principal-container {
-    margin: 0;
-    padding: 2em;
-    font-size: 0.9em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    font-size: 14px;
   }
-  .nosotros-section-principal-container div .nosotros-img-container img {
-    width: 40vh;
+  .nosotros-section-principal-container .nosotros-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
-  .nosotros-section-principal-container div .mision-img-container img {
-    width: 40vh;
+  .nosotros-section-principal-container .nosotros-container .nosotros-img-container img {
+    width: 100%;
   }
-  .nosotros-section-principal-container div .valores-img-container img {
-    width: 40vh;
+  .nosotros-section-principal-container .nosotros-container .nosotros-p-container p {
+    padding: 10px;
+    text-align: left;
   }
-  .nosotros-section-principal-container div .servicios-img-container img {
-    width: 40vh;
+  .nosotros-section-principal-container .mision-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .nosotros-section-principal-container .mision-container .mision-p-container p {
+    padding: 10px;
+    text-align: left;
+  }
+  .nosotros-section-principal-container .mision-container .mision-img-container img {
+    width: 100%;
+  }
+  .nosotros-section-principal-container .valores-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .nosotros-section-principal-container .valores-container .valores-img-container img {
+    width: 100%;
+  }
+  .nosotros-section-principal-container .valores-container .valores-p-container {
+    padding: 0;
+  }
+  .nosotros-section-principal-container .valores-container .valores-p-container p {
+    padding: 10px;
+    text-align: center;
+  }
+  .nosotros-section-principal-container .servicios-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .nosotros-section-principal-container .servicios-container .servicios-p-container p {
+    padding: 10px;
+    text-align: center;
+  }
+  .nosotros-section-principal-container .servicios-container .servicios-img-container img {
+    width: 100%;
   }
   .container-contacto form .h1-title {
     font-size: 2.5em;
@@ -8083,21 +8625,81 @@ html {
     font-size: 0.9em;
   }
   .nosotros-section-principal-container {
-    margin: 0;
-    padding: 2em;
-    font-size: 0.9em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    font-size: 14px;
   }
-  .nosotros-section-principal-container div .nosotros-img-container img {
-    width: 40vh;
+  .nosotros-section-principal-container .nosotros-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
-  .nosotros-section-principal-container div .mision-img-container img {
-    width: 40vh;
+  .nosotros-section-principal-container .nosotros-container .nosotros-img-container img {
+    width: 100%;
   }
-  .nosotros-section-principal-container div .valores-img-container img {
-    width: 40vh;
+  .nosotros-section-principal-container .nosotros-container .nosotros-p-container p {
+    padding: 10px;
+    text-align: left;
   }
-  .nosotros-section-principal-container div .servicios-img-container img {
-    width: 40vh;
+  .nosotros-section-principal-container .mision-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .nosotros-section-principal-container .mision-container .mision-p-container p {
+    padding: 10px;
+    text-align: left;
+  }
+  .nosotros-section-principal-container .mision-container .mision-img-container img {
+    width: 100%;
+  }
+  .nosotros-section-principal-container .valores-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .nosotros-section-principal-container .valores-container .valores-img-container img {
+    width: 100%;
+  }
+  .nosotros-section-principal-container .valores-container .valores-p-container {
+    padding: 0;
+  }
+  .nosotros-section-principal-container .valores-container .valores-p-container p {
+    padding: 10px;
+    text-align: center;
+  }
+  .nosotros-section-principal-container .servicios-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .nosotros-section-principal-container .servicios-container .servicios-p-container p {
+    padding: 10px;
+    text-align: center;
+  }
+  .nosotros-section-principal-container .servicios-container .servicios-img-container img {
+    width: 100%;
   }
   .container-contacto form .h1-title {
     font-size: 2.5em;
@@ -8896,21 +9498,81 @@ html {
     font-size: 0.9em;
   }
   .nosotros-section-principal-container {
-    margin: 0;
-    padding: 2em;
-    font-size: 0.9em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    font-size: 14px;
   }
-  .nosotros-section-principal-container div .nosotros-img-container img {
-    width: 40vh;
+  .nosotros-section-principal-container .nosotros-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
-  .nosotros-section-principal-container div .mision-img-container img {
-    width: 40vh;
+  .nosotros-section-principal-container .nosotros-container .nosotros-img-container img {
+    width: 100%;
   }
-  .nosotros-section-principal-container div .valores-img-container img {
-    width: 40vh;
+  .nosotros-section-principal-container .nosotros-container .nosotros-p-container p {
+    padding: 10px;
+    text-align: left;
   }
-  .nosotros-section-principal-container div .servicios-img-container img {
-    width: 40vh;
+  .nosotros-section-principal-container .mision-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .nosotros-section-principal-container .mision-container .mision-p-container p {
+    padding: 10px;
+    text-align: left;
+  }
+  .nosotros-section-principal-container .mision-container .mision-img-container img {
+    width: 100%;
+  }
+  .nosotros-section-principal-container .valores-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .nosotros-section-principal-container .valores-container .valores-img-container img {
+    width: 100%;
+  }
+  .nosotros-section-principal-container .valores-container .valores-p-container {
+    padding: 0;
+  }
+  .nosotros-section-principal-container .valores-container .valores-p-container p {
+    padding: 10px;
+    text-align: center;
+  }
+  .nosotros-section-principal-container .servicios-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .nosotros-section-principal-container .servicios-container .servicios-p-container p {
+    padding: 10px;
+    text-align: center;
+  }
+  .nosotros-section-principal-container .servicios-container .servicios-img-container img {
+    width: 100%;
   }
   .container-contacto form .h1-title {
     font-size: 2.5em;
