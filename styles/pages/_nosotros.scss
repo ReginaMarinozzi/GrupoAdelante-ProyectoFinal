@@ -22,7 +22,7 @@
   flex-flow: column nowrap;
   margin: 6em;
   @include title-p($font, $sizegeneral, 400, $color1);
-  div {
+  .nosotros-container {
     display: flex;
     align-items: center;
     padding: 1.2em 0 1.2em 0;
@@ -39,7 +39,7 @@
       }
     }
   }
-  div {
+  .mision-container{
     display: flex;
     align-items: center;
     padding: 1.2em 0 1.2em 0;
@@ -56,7 +56,7 @@
       }
     }
   }
-  div {
+  .valores-container{
     display: flex;
     align-items: center;
     padding: 1.2em 0 1.2em 0;
@@ -75,7 +75,7 @@
       }
     }
   }
-  div {
+  .servicios-container {
     display: flex;
     align-items: center;
     padding: 1.2em 0 1.2em 0;

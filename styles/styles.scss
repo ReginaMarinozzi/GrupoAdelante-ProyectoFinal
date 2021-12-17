@@ -42,9 +42,9 @@ html {
   bottom: 0%;
   margin-right: 0.2em;
   color: darken($color3, 20%);
-  font-size: 4em;
+  font-size: 3.8em;
   z-index: 1000;
-
+  
   &:hover {
     color: lighten($color1, 20%);
     z-index: 1000;

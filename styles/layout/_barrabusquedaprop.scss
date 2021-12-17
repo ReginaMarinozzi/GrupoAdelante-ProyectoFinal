@@ -9,7 +9,8 @@
 .barra-busqueda-propiedades {
   #barra-container {
     width: 100%;
-    height: 20vh;
+    height: auto;
+    padding: 50px 0;
     background-color: $color1;
     display: flex;
     justify-content: space-evenly;

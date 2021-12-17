@@ -179,14 +179,16 @@
 
 .section-suscribite-container {
   background-color: $color1;
-  padding: 1em 0 1em 0;
+  padding: 20px 0;
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   width: 100%;
   div {
     p {
       @include title-p($font, $sizesubtitulos, 500, $color2);
       text-transform: uppercase;
+      margin: 0;
     }
   }
   form {
