@@ -516,11 +516,22 @@ html {
   .section-unidades-container .div-titulos-unidades-container div p {
     font-size: 0.9em;
   }
-  .section-unidades-container .div-unidades-container div {
-    height: 9em;
-    width: 9em;
+  .section-unidades-container .div-unidades-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  .section-unidades-container .div-unidades-container a .h3-title {
+  .section-unidades-container .div-unidades-container div {
+    margin: 10px;
+  }
+  .section-unidades-container .div-unidades-container div a .h3-title {
     font-size: 0.9em;
   }
   .section-nosotros-container {
@@ -565,6 +576,9 @@ html {
   }
   .section-suscribite-container div p {
     font-size: 12px;
+  }
+  .section-suscribite-container form {
+    padding-right: 20px;
   }
   .inmobiliaria-section-principal-container {
     padding: 8em 0 8em;
@@ -1196,11 +1210,22 @@ html {
   .section-unidades-container .div-titulos-unidades-container div p {
     font-size: 0.9em;
   }
-  .section-unidades-container .div-unidades-container div {
-    height: 9em;
-    width: 9em;
+  .section-unidades-container .div-unidades-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  .section-unidades-container .div-unidades-container a .h3-title {
+  .section-unidades-container .div-unidades-container div {
+    margin: 10px;
+  }
+  .section-unidades-container .div-unidades-container div a .h3-title {
     font-size: 0.9em;
   }
   .section-nosotros-container {
@@ -1245,6 +1270,9 @@ html {
   }
   .section-suscribite-container div p {
     font-size: 12px;
+  }
+  .section-suscribite-container form {
+    padding-right: 20px;
   }
   .inmobiliaria-section-principal-container {
     padding: 8em 0 8em;
@@ -1933,11 +1961,22 @@ html {
   .section-unidades-container .div-titulos-unidades-container div p {
     font-size: 0.9em;
   }
-  .section-unidades-container .div-unidades-container div {
-    height: 9em;
-    width: 9em;
+  .section-unidades-container .div-unidades-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  .section-unidades-container .div-unidades-container a .h3-title {
+  .section-unidades-container .div-unidades-container div {
+    margin: 10px;
+  }
+  .section-unidades-container .div-unidades-container div a .h3-title {
     font-size: 0.9em;
   }
   .section-nosotros-container {
@@ -1982,6 +2021,9 @@ html {
   }
   .section-suscribite-container div p {
     font-size: 12px;
+  }
+  .section-suscribite-container form {
+    padding-right: 20px;
   }
   .inmobiliaria-section-principal-container {
     padding: 8em 0 8em;
@@ -2225,6 +2267,8 @@ html {
 }
 
 .section-unidades-container {
+  width: 80%;
+  margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2321,10 +2365,15 @@ html {
 }
 
 .section-nosotros-container {
+  width: 80%;
+  margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 3em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 10px;
 }
 
 .section-nosotros-container div {
@@ -2335,20 +2384,16 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-flow: column wrap;
           flex-flow: column wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  margin-right: 2.5em;
+  padding: 10px;
 }
 
 .section-nosotros-container div div .h3-title {
   font-family: "Work Sans", sans-serif;
   font-size: 1.9em;
-  font-weight: 600;
+  font-weight: 500;
   color: #000;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .section-nosotros-container div div p {
@@ -2359,8 +2404,12 @@ html {
   text-align: justify;
 }
 
+.section-nosotros-container div {
+  padding: 10px;
+}
+
 .section-nosotros-container div .video-institucional-index {
-  width: 50vw;
+  width: 40vw;
   border-radius: 10px;
 }
 
@@ -2498,6 +2547,7 @@ html {
 }
 
 .section-suscribite-container form .email-subscribite {
+  padding: 5px;
   width: 100%;
   margin-bottom: 5px;
   font-family: "Work Sans", sans-serif;
@@ -2520,6 +2570,7 @@ html {
 .section-suscribite-container .boton-subscribite {
   width: 70%;
   margin-top: 5px;
+  padding: 5px;
   font-family: "Work Sans", sans-serif;
   font-size: 14px;
   font-weight: 300;
@@ -2891,11 +2942,22 @@ html {
   .section-unidades-container .div-titulos-unidades-container div p {
     font-size: 0.9em;
   }
-  .section-unidades-container .div-unidades-container div {
-    height: 9em;
-    width: 9em;
+  .section-unidades-container .div-unidades-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  .section-unidades-container .div-unidades-container a .h3-title {
+  .section-unidades-container .div-unidades-container div {
+    margin: 10px;
+  }
+  .section-unidades-container .div-unidades-container div a .h3-title {
     font-size: 0.9em;
   }
   .section-nosotros-container {
@@ -2940,6 +3002,9 @@ html {
   }
   .section-suscribite-container div p {
     font-size: 12px;
+  }
+  .section-suscribite-container form {
+    padding-right: 20px;
   }
   .inmobiliaria-section-principal-container {
     padding: 8em 0 8em;
@@ -3583,11 +3648,22 @@ html {
   .section-unidades-container .div-titulos-unidades-container div p {
     font-size: 0.9em;
   }
-  .section-unidades-container .div-unidades-container div {
-    height: 9em;
-    width: 9em;
+  .section-unidades-container .div-unidades-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  .section-unidades-container .div-unidades-container a .h3-title {
+  .section-unidades-container .div-unidades-container div {
+    margin: 10px;
+  }
+  .section-unidades-container .div-unidades-container div a .h3-title {
     font-size: 0.9em;
   }
   .section-nosotros-container {
@@ -3632,6 +3708,9 @@ html {
   }
   .section-suscribite-container div p {
     font-size: 12px;
+  }
+  .section-suscribite-container form {
+    padding-right: 20px;
   }
   .inmobiliaria-section-principal-container {
     padding: 8em 0 8em;
@@ -4499,11 +4578,22 @@ html {
   .section-unidades-container .div-titulos-unidades-container div p {
     font-size: 0.9em;
   }
-  .section-unidades-container .div-unidades-container div {
-    height: 9em;
-    width: 9em;
+  .section-unidades-container .div-unidades-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  .section-unidades-container .div-unidades-container a .h3-title {
+  .section-unidades-container .div-unidades-container div {
+    margin: 10px;
+  }
+  .section-unidades-container .div-unidades-container div a .h3-title {
     font-size: 0.9em;
   }
   .section-nosotros-container {
@@ -4548,6 +4638,9 @@ html {
   }
   .section-suscribite-container div p {
     font-size: 12px;
+  }
+  .section-suscribite-container form {
+    padding-right: 20px;
   }
   .inmobiliaria-section-principal-container {
     padding: 8em 0 8em;
@@ -5278,11 +5371,22 @@ html {
   .section-unidades-container .div-titulos-unidades-container div p {
     font-size: 0.9em;
   }
-  .section-unidades-container .div-unidades-container div {
-    height: 9em;
-    width: 9em;
+  .section-unidades-container .div-unidades-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  .section-unidades-container .div-unidades-container a .h3-title {
+  .section-unidades-container .div-unidades-container div {
+    margin: 10px;
+  }
+  .section-unidades-container .div-unidades-container div a .h3-title {
     font-size: 0.9em;
   }
   .section-nosotros-container {
@@ -5327,6 +5431,9 @@ html {
   }
   .section-suscribite-container div p {
     font-size: 12px;
+  }
+  .section-suscribite-container form {
+    padding-right: 20px;
   }
   .inmobiliaria-section-principal-container {
     padding: 8em 0 8em;
@@ -6255,11 +6362,22 @@ html {
   .section-unidades-container .div-titulos-unidades-container div p {
     font-size: 0.9em;
   }
-  .section-unidades-container .div-unidades-container div {
-    height: 9em;
-    width: 9em;
+  .section-unidades-container .div-unidades-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  .section-unidades-container .div-unidades-container a .h3-title {
+  .section-unidades-container .div-unidades-container div {
+    margin: 10px;
+  }
+  .section-unidades-container .div-unidades-container div a .h3-title {
     font-size: 0.9em;
   }
   .section-nosotros-container {
@@ -6304,6 +6422,9 @@ html {
   }
   .section-suscribite-container div p {
     font-size: 12px;
+  }
+  .section-suscribite-container form {
+    padding-right: 20px;
   }
   .inmobiliaria-section-principal-container {
     padding: 8em 0 8em;
@@ -7024,11 +7145,22 @@ html {
   .section-unidades-container .div-titulos-unidades-container div p {
     font-size: 0.9em;
   }
-  .section-unidades-container .div-unidades-container div {
-    height: 9em;
-    width: 9em;
+  .section-unidades-container .div-unidades-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  .section-unidades-container .div-unidades-container a .h3-title {
+  .section-unidades-container .div-unidades-container div {
+    margin: 10px;
+  }
+  .section-unidades-container .div-unidades-container div a .h3-title {
     font-size: 0.9em;
   }
   .section-nosotros-container {
@@ -7073,6 +7205,9 @@ html {
   }
   .section-suscribite-container div p {
     font-size: 12px;
+  }
+  .section-suscribite-container form {
+    padding-right: 20px;
   }
   .inmobiliaria-section-principal-container {
     padding: 8em 0 8em;
@@ -7816,11 +7951,22 @@ html {
   .section-unidades-container .div-titulos-unidades-container div p {
     font-size: 0.9em;
   }
-  .section-unidades-container .div-unidades-container div {
-    height: 9em;
-    width: 9em;
+  .section-unidades-container .div-unidades-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  .section-unidades-container .div-unidades-container a .h3-title {
+  .section-unidades-container .div-unidades-container div {
+    margin: 10px;
+  }
+  .section-unidades-container .div-unidades-container div a .h3-title {
     font-size: 0.9em;
   }
   .section-nosotros-container {
@@ -7865,6 +8011,9 @@ html {
   }
   .section-suscribite-container div p {
     font-size: 12px;
+  }
+  .section-suscribite-container form {
+    padding-right: 20px;
   }
   .inmobiliaria-section-principal-container {
     padding: 8em 0 8em;
@@ -8583,11 +8732,22 @@ html {
   .section-unidades-container .div-titulos-unidades-container div p {
     font-size: 0.9em;
   }
-  .section-unidades-container .div-unidades-container div {
-    height: 9em;
-    width: 9em;
+  .section-unidades-container .div-unidades-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  .section-unidades-container .div-unidades-container a .h3-title {
+  .section-unidades-container .div-unidades-container div {
+    margin: 10px;
+  }
+  .section-unidades-container .div-unidades-container div a .h3-title {
     font-size: 0.9em;
   }
   .section-nosotros-container {
@@ -8632,6 +8792,9 @@ html {
   }
   .section-suscribite-container div p {
     font-size: 12px;
+  }
+  .section-suscribite-container form {
+    padding-right: 20px;
   }
   .inmobiliaria-section-principal-container {
     padding: 8em 0 8em;

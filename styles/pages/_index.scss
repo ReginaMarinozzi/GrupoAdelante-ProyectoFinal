@@ -11,6 +11,8 @@
 // Sección unidades de negocios ---------------------------->
 
 .section-unidades-container {
+  width: 80%;
+  margin: auto;
   display: flex;
   flex-flow: column wrap;
   justify-content: space-around;
@@ -70,17 +72,20 @@
 // Sección nosotros ----------------------------------------->
 
 .section-nosotros-container {
+  width: 80%;
+  margin: auto;
   display: flex;
-  padding: 3em;
+  align-items: center;
+  padding-bottom: 10px;
   div {
     display: flex;
     flex-flow: column wrap;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-right: 2.5em;
+    padding: 10px;
     div {
       .h3-title {
-        @include title-p($font, $sizesubtitulos, 600, $color1);
+        @include title-p($font, $sizesubtitulos, 500, $color1);
+        text-transform: uppercase;
+        text-align: center;
       }
     }
     div {
@@ -91,8 +96,9 @@
     }
   }
   div {
+    padding: 10px;
     .video-institucional-index {
-      width: 50vw;
+      width: 40vw;
       border-radius: 10px;
     }
   }
@@ -120,7 +126,7 @@
     box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 50px;
 
     .h3-title {
-      @include title-p($font, $sizeintermedio, 500, $color1);;
+      @include title-p($font, $sizeintermedio, 500, $color1);
       padding-top: 1em;
       text-align: center;
       width: 80%;
@@ -187,6 +193,7 @@
     display: flex;
     flex-direction: column;
     .email-subscribite {
+      padding: 5px;
       width: 100%;
       margin-bottom: 5px;
       @include title-p($font, $sizegeneral, 400, $color2);
@@ -202,6 +209,7 @@
   .boton-subscribite {
     width: 70%;
     margin-top: 5px;
+    padding: 5px;
     @include title-p($font, 14px, 300, $color2);
     border-radius: 12px;
     border: 1px solid $color2;

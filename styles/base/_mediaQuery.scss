@@ -467,7 +467,7 @@
     z-index: 1;
 
     #fondo-video {
-      display: none; 
+      display: none;
     }
 
     .text-box {
@@ -573,13 +573,15 @@
       }
     }
     .div-unidades-container {
+      display: flex;
+      flex-flow: column;
+      align-items: center;
       div {
-        height: 9em;
-        width: 9em;
-      }
-      a {
-        .h3-title {
-          font-size: 0.9em;
+        margin: 10px;
+        a {
+          .h3-title {
+            font-size: 0.9em;
+          }
         }
       }
     }
@@ -635,6 +637,9 @@
       p {
         font-size: 12px;
       }
+    }
+    form {
+      padding-right: 20px;
     }
   }
 
