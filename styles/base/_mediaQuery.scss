@@ -1,8 +1,59 @@
-// MEDIAS QUERY ------------------------------------->
+// MEDIAS QUERY ------------------------------>
 
-// Media query tablet
+// Media query primer break point ---------------------------------------------------------------------------------->
+
+@media screen and (max-width: 1200px) {
+
+  // Header-index ------------->
+
+  #header-index {
+    .text-box {
+      text-align: center;
+      div {
+        .h1-title {
+          font-size: $sizesubtitulos;
+        }
+      }
+      div {
+        p {
+          font-size: $sizegeneral;
+        }
+      }
+    }
+  }
+
+  // Index ------------------->
+
+  .section-unidades-container {
+    .div-titulos-unidades-container {
+      div {
+        .h2-title {
+          font-size: 1.5em;
+        }
+      }
+      div {
+        p {
+          font-size: $sizegeneral;
+        }
+      }
+    }
+    .div-unidades-container {
+      div {
+        padding: 100px 0;
+      }
+      a {
+        .h3-title {
+          font-size: 1.25em;
+        }
+      }
+    }
+  }
+}
+
+// Media query tablet segundo break point ------------------------------------------------------------------------>
 
 @media screen and (max-width: 980px) {
+
   // Header-index ------------->
 
   #header-index {
@@ -67,7 +118,7 @@
     }
   }
 
-  // Index -------->
+  // Index ------------------------------------>
 
   .section-unidades-container {
     .div-titulos-unidades-container {
@@ -84,11 +135,11 @@
     }
     .div-unidades-container {
       div {
-        width: 100%;
+        padding: 70px 0;
       }
       a {
         .h3-title {
-          font-size: 1.5em;
+          font-size: 1em;
         }
       }
     }
@@ -189,7 +240,7 @@
     }
   }
 
-  // Financiera ----------------------->
+  // Financiera ------------------>
 
   .financiera-section-principal-container {
     .h1-title {
@@ -227,7 +278,7 @@
     }
   }
 
-  // Desarrolladora --------------------->
+  // Desarrolladora ------------------->
 
   .desarrolladora-section-principal-container {
     .h1-title {
@@ -236,9 +287,6 @@
     }
     .h2-title {
       font-size: $sizesubtitulos;
-    }
-    p {
-      font-size: $sizegeneral;
     }
   }
 
@@ -323,7 +371,7 @@
     }
   }
 
-  // Nosotros
+  // Nosotros ------------------->
 
   .nosotros-section-principal-container {
     display: flex;
@@ -392,7 +440,7 @@
     }
   }
 
-  // Contactos
+  // Contactos ------------------->
 
   .container-contacto {
     form {
@@ -432,7 +480,7 @@
     }
   }
 
-  // Vende
+  // Vende ------------------->
 
   .vende-section-principal-container {
     div {
@@ -459,7 +507,7 @@
     }
   }
 
-  // Icon top
+  // Icon top ------------------->
 
   #icon-top {
     a {
@@ -468,9 +516,73 @@
       }
     }
   }
+
+  // Barra de busqueda ---------------------->
+  .barra-busqueda-propiedades {
+    #barra-container {
+      @include display(flex, space-evenly, center, column nowrap);
+    }
+    #buttons-barra {
+      margin: 10px;
+    }
+    #button-busqueda {
+      margin: 10px;
+    }
+  }
 }
 
-/* Media query mobile */
+// Media query tercer breakpoint ----------------------------------------------------------------------------------->
+
+@media screen and (max-width: 740px) {
+   // Header-index ------------->
+
+   #header-index {
+    .text-box {
+      text-align: center;
+      div {
+        .h1-title {
+          font-size: 1.5em;
+        }
+      }
+      div {
+        p {
+          font-size: $sizegeneral;
+        }
+      }
+    }
+  }
+   
+  // Index -------->
+
+    .section-unidades-container {
+      .div-titulos-unidades-container {
+        div {
+          .h2-title {
+            font-size: 1.25em;
+          }
+        }
+        div {
+          p {
+            font-size: $sizegeneral;
+          }
+        }
+      }
+      .div-unidades-container {
+        @include display(flex, center, center, column nowrap);
+        div {
+          width: 200px;
+          a {
+            .h3-title {
+              font-size: 1em;
+            }
+          }
+        }
+      }
+    }
+
+}
+
+// Media query mobile ---------------------------------------------------------------------------------------------->
 
 @media screen and (max-width: 590px) {
   // Header-index ------------->
@@ -596,11 +708,9 @@
       }
     }
     .div-unidades-container {
-      display: flex;
-      flex-flow: column;
-      align-items: center;
+      @include display(flex, center, center, column nowrap);
       div {
-        margin: 10px;
+        width: 200px;
         a {
           .h3-title {
             font-size: 0.9em;
@@ -668,6 +778,7 @@
   }
 
   // Inmobiliaria ---------------------------->
+
   .inmobiliaria-section-principal-container {
     padding: 20px;
     align-items: center;
@@ -743,6 +854,7 @@
       }
     }
   }
+
   // Desarrolladora --------------------->
 
   .desarrolladora-section-principal-container {
@@ -752,11 +864,7 @@
     }
     .h2-title {
       font-size: $sizegeneral;
-      text-align: left;
-    }
-    p {
-      font-size: 12px;
-      text-align: left;
+      text-align: center;
     }
   }
 
@@ -854,7 +962,7 @@
     }
   }
 
-  // Nosotros
+  // Nosotros ------------------->
 
   .nosotros-section-principal-container {
     @include display(flex, center, center, column nowrap);
@@ -944,7 +1052,7 @@
     @include display(flex, center, center, column nowrap);
   }
 
-  // Vende
+  // Vende ------------------->
 
   .vende-section-principal-container {
     div {
@@ -971,7 +1079,7 @@
     }
   }
 
-  // Icon-top ----------------------------------------->
+  // Icon-top --------------------->
 
   #icon-top {
     a {
@@ -982,6 +1090,7 @@
   }
 
   // Barra de busqueda -------------------------->
+
   .barra-busqueda-propiedades {
     #barra-container {
       @include display(flex, space-evenly, center, column nowrap);

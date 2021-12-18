@@ -11,23 +11,21 @@
 // Section principal -------------------------------->
 
 .desarrolladora-section-principal-container {
-  background-color: $color3;
+  background-image: url("./../src/assets/fotos/quienesopaca.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   width: 100%;
   text-align: center;
   @include display(flex, center, center, column nowrap);
   padding: 130px;
   .h1-title {
-    @include title-p($font, $sizetitulos, 600, $color1);
+    @include title-p($font, $sizetitulos, 500, $color2);
     text-transform: uppercase;
     text-align: center;
+    opacity: 0.9;
   }
   .h2-title {
-    @include title-p($font, $sizesubtitulos, 500, $color1);
-    opacity: 0.7;
-  }
-  p {
-    @include title-p($font, 1.5em, 500, $color1);
-    margin-top: 1.1em;
+    @include title-p($font, $sizesubtitulos, 500, $color2);
     opacity: 0.7;
   }
 }
