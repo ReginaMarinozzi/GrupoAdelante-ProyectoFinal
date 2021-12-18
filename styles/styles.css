@@ -36,7 +36,11 @@ html {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  padding: 4em 5em 4em 5em;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  padding: 4em 5em;
   border-top: 1px solid #353535;
 }
 
@@ -59,10 +63,16 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
 }
 
 #footer .column-footer-two .footer-contacto .h4-title {
@@ -92,10 +102,16 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
   height: 5em;
 }
 
@@ -137,6 +153,10 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
 }
 
 #footer .column-footer-four .icon-redes a {
@@ -173,14 +193,19 @@ html {
     text-align: center;
   }
   #footer {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column wrap;
-            flex-flow: column wrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
   #footer .column-footer-one .footer-contacto .h4-title {
     font-size: 1.5em;
@@ -207,8 +232,7 @@ html {
     font-size: 0.9em;
   }
   .section-unidades-container .div-unidades-container div {
-    height: 13em;
-    width: 13em;
+    width: 100%;
   }
   .section-unidades-container .div-unidades-container a .h3-title {
     font-size: 1.5em;
@@ -217,10 +241,16 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-flow: column wrap;
-            flex-flow: column wrap;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
   .section-nosotros-container div {
     margin: auto;
@@ -296,8 +326,18 @@ html {
   .financiera-section-principal-container p {
     font-size: 0.9em;
   }
+  .financiera-section-icon-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
+    padding: 50px;
+  }
   .financiera-section-icon-container .financiera-icon-container i {
-    font-size: 8vh;
+    font-size: 40px;
   }
   .financiera-section-icon-container .financiera-icon-container p {
     text-align: center;
@@ -323,10 +363,10 @@ html {
     font-size: 1.2em;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container i {
-    font-size: 8vh;
+    font-size: 40px;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container p {
-    font-size: 0.9em;
+    font-size: 14px;
   }
   .desarrolladora-section-proyectos-container div .h2-title {
     font-size: 1.9em;
@@ -424,10 +464,10 @@ html {
     width: 100%;
   }
   .container-contacto form .h1-title {
-    font-size: 2.5em;
+    font-size: 1.9em;
   }
   .container-contacto form p {
-    font-size: 12px;
+    font-size: 14px;
   }
   .container-contacto form input {
     font-size: 12px;
@@ -668,10 +708,14 @@ html {
     -webkit-box-direction: normal;
         -ms-flex-flow: column wrap;
             flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
     padding: 50px;
   }
   .financiera-section-icon-container .financiera-icon-container i {
-    font-size: 6vh;
+    font-size: 30px;
   }
   .financiera-section-icon-container .financiera-icon-container p {
     text-align: center;
@@ -719,11 +763,11 @@ html {
   }
   .desarralladora-section-icon-container {
     margin: 0;
-    padding: 50px;
   }
   .desarralladora-section-icon-container .h3-title {
     font-size: 0.9em;
     text-align: center;
+    margin-bottom: 3em;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container {
     -webkit-box-orient: vertical;
@@ -735,7 +779,7 @@ html {
             align-items: center;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container i {
-    font-size: 6vh;
+    font-size: 30px;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container p {
     font-size: 12px;
@@ -762,6 +806,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -772,6 +822,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -788,6 +844,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -804,6 +866,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -823,6 +891,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -854,10 +928,16 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-            flex-flow: column;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
   .vende-section-principal-container div .h1-title {
     font-family: "Work Sans", sans-serif;
@@ -902,8 +982,8 @@ html {
             align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-flow: column wrap;
-            flex-flow: column wrap;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
   .barra-busqueda-propiedades #buttons-barra {
     margin: 10px;
@@ -959,14 +1039,19 @@ html {
     text-align: center;
   }
   #footer {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column wrap;
-            flex-flow: column wrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
   #footer .column-footer-one .footer-contacto .h4-title {
     font-size: 1.5em;
@@ -993,8 +1078,7 @@ html {
     font-size: 0.9em;
   }
   .section-unidades-container .div-unidades-container div {
-    height: 13em;
-    width: 13em;
+    width: 100%;
   }
   .section-unidades-container .div-unidades-container a .h3-title {
     font-size: 1.5em;
@@ -1003,10 +1087,16 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-flow: column wrap;
-            flex-flow: column wrap;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
   .section-nosotros-container div {
     margin: auto;
@@ -1082,8 +1172,18 @@ html {
   .financiera-section-principal-container p {
     font-size: 0.9em;
   }
+  .financiera-section-icon-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
+    padding: 50px;
+  }
   .financiera-section-icon-container .financiera-icon-container i {
-    font-size: 8vh;
+    font-size: 40px;
   }
   .financiera-section-icon-container .financiera-icon-container p {
     text-align: center;
@@ -1109,10 +1209,10 @@ html {
     font-size: 1.2em;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container i {
-    font-size: 8vh;
+    font-size: 40px;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container p {
-    font-size: 0.9em;
+    font-size: 14px;
   }
   .desarrolladora-section-proyectos-container div .h2-title {
     font-size: 1.9em;
@@ -1210,10 +1310,10 @@ html {
     width: 100%;
   }
   .container-contacto form .h1-title {
-    font-size: 2.5em;
+    font-size: 1.9em;
   }
   .container-contacto form p {
-    font-size: 12px;
+    font-size: 14px;
   }
   .container-contacto form input {
     font-size: 12px;
@@ -1454,10 +1554,14 @@ html {
     -webkit-box-direction: normal;
         -ms-flex-flow: column wrap;
             flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
     padding: 50px;
   }
   .financiera-section-icon-container .financiera-icon-container i {
-    font-size: 6vh;
+    font-size: 30px;
   }
   .financiera-section-icon-container .financiera-icon-container p {
     text-align: center;
@@ -1505,11 +1609,11 @@ html {
   }
   .desarralladora-section-icon-container {
     margin: 0;
-    padding: 50px;
   }
   .desarralladora-section-icon-container .h3-title {
     font-size: 0.9em;
     text-align: center;
+    margin-bottom: 3em;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container {
     -webkit-box-orient: vertical;
@@ -1521,7 +1625,7 @@ html {
             align-items: center;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container i {
-    font-size: 6vh;
+    font-size: 30px;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container p {
     font-size: 12px;
@@ -1548,6 +1652,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -1558,6 +1668,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -1574,6 +1690,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -1590,6 +1712,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -1609,6 +1737,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -1640,10 +1774,16 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-            flex-flow: column;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
   .vende-section-principal-container div .h1-title {
     font-family: "Work Sans", sans-serif;
@@ -1688,8 +1828,8 @@ html {
             align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-flow: column wrap;
-            flex-flow: column wrap;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
   .barra-busqueda-propiedades #buttons-barra {
     margin: 10px;
@@ -1726,7 +1866,7 @@ html {
   min-height: 100%;
 }
 
-#header-index .overlay {
+#header-index .capa-opaca {
   position: absolute;
   background: rgba(0, 0, 0, 0.6);
   top: 0;
@@ -1739,7 +1879,7 @@ html {
 #header-index #nav-general {
   font-family: "Work Sans", sans-serif;
   font-size: 1em;
-  height: 12vh;
+  padding: 15px;
 }
 
 #header-index #nav-general div a #logo {
@@ -1774,6 +1914,7 @@ html {
   font-size: 3.2em;
   font-weight: 500;
   color: #ffffff;
+  text-transform: uppercase;
 }
 
 #header-index .text-box div p {
@@ -1802,14 +1943,19 @@ html {
     text-align: center;
   }
   #footer {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column wrap;
-            flex-flow: column wrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
   #footer .column-footer-one .footer-contacto .h4-title {
     font-size: 1.5em;
@@ -1836,8 +1982,7 @@ html {
     font-size: 0.9em;
   }
   .section-unidades-container .div-unidades-container div {
-    height: 13em;
-    width: 13em;
+    width: 100%;
   }
   .section-unidades-container .div-unidades-container a .h3-title {
     font-size: 1.5em;
@@ -1846,10 +1991,16 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-flow: column wrap;
-            flex-flow: column wrap;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
   .section-nosotros-container div {
     margin: auto;
@@ -1925,8 +2076,18 @@ html {
   .financiera-section-principal-container p {
     font-size: 0.9em;
   }
+  .financiera-section-icon-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
+    padding: 50px;
+  }
   .financiera-section-icon-container .financiera-icon-container i {
-    font-size: 8vh;
+    font-size: 40px;
   }
   .financiera-section-icon-container .financiera-icon-container p {
     text-align: center;
@@ -1952,10 +2113,10 @@ html {
     font-size: 1.2em;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container i {
-    font-size: 8vh;
+    font-size: 40px;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container p {
-    font-size: 0.9em;
+    font-size: 14px;
   }
   .desarrolladora-section-proyectos-container div .h2-title {
     font-size: 1.9em;
@@ -2053,10 +2214,10 @@ html {
     width: 100%;
   }
   .container-contacto form .h1-title {
-    font-size: 2.5em;
+    font-size: 1.9em;
   }
   .container-contacto form p {
-    font-size: 12px;
+    font-size: 14px;
   }
   .container-contacto form input {
     font-size: 12px;
@@ -2297,10 +2458,14 @@ html {
     -webkit-box-direction: normal;
         -ms-flex-flow: column wrap;
             flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
     padding: 50px;
   }
   .financiera-section-icon-container .financiera-icon-container i {
-    font-size: 6vh;
+    font-size: 30px;
   }
   .financiera-section-icon-container .financiera-icon-container p {
     text-align: center;
@@ -2348,11 +2513,11 @@ html {
   }
   .desarralladora-section-icon-container {
     margin: 0;
-    padding: 50px;
   }
   .desarralladora-section-icon-container .h3-title {
     font-size: 0.9em;
     text-align: center;
+    margin-bottom: 3em;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container {
     -webkit-box-orient: vertical;
@@ -2364,7 +2529,7 @@ html {
             align-items: center;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container i {
-    font-size: 6vh;
+    font-size: 30px;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container p {
     font-size: 12px;
@@ -2391,6 +2556,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -2401,6 +2572,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -2417,6 +2594,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -2433,6 +2616,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -2452,6 +2641,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -2483,10 +2678,16 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-            flex-flow: column;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
   .vende-section-principal-container div .h1-title {
     font-family: "Work Sans", sans-serif;
@@ -2531,8 +2732,8 @@ html {
             align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-flow: column wrap;
-            flex-flow: column wrap;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
   .barra-busqueda-propiedades #buttons-barra {
     margin: 10px;
@@ -2545,42 +2746,36 @@ html {
 .section-unidades-container {
   width: 80%;
   margin: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  padding: 5em 0 6em 0;
+  padding: 5em;
 }
 
 .section-unidades-container .div-titulos-unidades-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
 }
 
 .section-unidades-container .div-titulos-unidades-container div .h2-title {
   font-family: "Work Sans", sans-serif;
   font-size: 1.9em;
-  font-weight: 600;
+  font-weight: 500;
   color: #000;
 }
 
 .section-unidades-container .div-titulos-unidades-container div p {
   font-family: "Work Sans", sans-serif;
   font-size: 1.3em;
-  font-weight: 500;
+  font-weight: 400;
   color: #000;
   padding: 1em 1em 2em 1em;
   text-align: center;
@@ -2591,25 +2786,32 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
 }
 
 .section-unidades-container .div-unidades-container div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
   height: 16em;
   width: 16em;
   border-radius: 1.2em;
@@ -2646,20 +2848,21 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
   padding-bottom: 10px;
 }
 
 .section-nosotros-container div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
+  text-align: center;
   padding: 10px;
 }
 
@@ -2699,23 +2902,30 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
 }
 
 .container-contacto form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column;
-          flex-flow: column;
-  background-color: #ffffff;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  background-color: #ffffff;
   width: 80%;
   padding: 20px;
   margin: 50px 0;
@@ -2804,6 +3014,10 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
   width: 100%;
 }
 
@@ -2820,10 +3034,16 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
 }
 
 .section-suscribite-container form .email-subscribite {
@@ -2879,14 +3099,19 @@ html {
     text-align: center;
   }
   #footer {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column wrap;
-            flex-flow: column wrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
   #footer .column-footer-one .footer-contacto .h4-title {
     font-size: 1.5em;
@@ -2913,8 +3138,7 @@ html {
     font-size: 0.9em;
   }
   .section-unidades-container .div-unidades-container div {
-    height: 13em;
-    width: 13em;
+    width: 100%;
   }
   .section-unidades-container .div-unidades-container a .h3-title {
     font-size: 1.5em;
@@ -2923,10 +3147,16 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-flow: column wrap;
-            flex-flow: column wrap;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
   .section-nosotros-container div {
     margin: auto;
@@ -3002,8 +3232,18 @@ html {
   .financiera-section-principal-container p {
     font-size: 0.9em;
   }
+  .financiera-section-icon-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
+    padding: 50px;
+  }
   .financiera-section-icon-container .financiera-icon-container i {
-    font-size: 8vh;
+    font-size: 40px;
   }
   .financiera-section-icon-container .financiera-icon-container p {
     text-align: center;
@@ -3029,10 +3269,10 @@ html {
     font-size: 1.2em;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container i {
-    font-size: 8vh;
+    font-size: 40px;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container p {
-    font-size: 0.9em;
+    font-size: 14px;
   }
   .desarrolladora-section-proyectos-container div .h2-title {
     font-size: 1.9em;
@@ -3130,10 +3370,10 @@ html {
     width: 100%;
   }
   .container-contacto form .h1-title {
-    font-size: 2.5em;
+    font-size: 1.9em;
   }
   .container-contacto form p {
-    font-size: 12px;
+    font-size: 14px;
   }
   .container-contacto form input {
     font-size: 12px;
@@ -3374,10 +3614,14 @@ html {
     -webkit-box-direction: normal;
         -ms-flex-flow: column wrap;
             flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
     padding: 50px;
   }
   .financiera-section-icon-container .financiera-icon-container i {
-    font-size: 6vh;
+    font-size: 30px;
   }
   .financiera-section-icon-container .financiera-icon-container p {
     text-align: center;
@@ -3425,11 +3669,11 @@ html {
   }
   .desarralladora-section-icon-container {
     margin: 0;
-    padding: 50px;
   }
   .desarralladora-section-icon-container .h3-title {
     font-size: 0.9em;
     text-align: center;
+    margin-bottom: 3em;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container {
     -webkit-box-orient: vertical;
@@ -3441,7 +3685,7 @@ html {
             align-items: center;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container i {
-    font-size: 6vh;
+    font-size: 30px;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container p {
     font-size: 12px;
@@ -3468,6 +3712,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -3478,6 +3728,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -3494,6 +3750,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -3510,6 +3772,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -3529,6 +3797,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -3560,10 +3834,16 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-            flex-flow: column;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
   .vende-section-principal-container div .h1-title {
     font-family: "Work Sans", sans-serif;
@@ -3608,8 +3888,8 @@ html {
             align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-flow: column wrap;
-            flex-flow: column wrap;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
   .barra-busqueda-propiedades #buttons-barra {
     margin: 10px;
@@ -3633,6 +3913,10 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
 }
 
 .barra-busqueda-propiedades #barra-container #buttons-barra {
@@ -3678,14 +3962,19 @@ html {
     text-align: center;
   }
   #footer {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column wrap;
-            flex-flow: column wrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
   #footer .column-footer-one .footer-contacto .h4-title {
     font-size: 1.5em;
@@ -3712,8 +4001,7 @@ html {
     font-size: 0.9em;
   }
   .section-unidades-container .div-unidades-container div {
-    height: 13em;
-    width: 13em;
+    width: 100%;
   }
   .section-unidades-container .div-unidades-container a .h3-title {
     font-size: 1.5em;
@@ -3722,10 +4010,16 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-flow: column wrap;
-            flex-flow: column wrap;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
   .section-nosotros-container div {
     margin: auto;
@@ -3801,8 +4095,18 @@ html {
   .financiera-section-principal-container p {
     font-size: 0.9em;
   }
+  .financiera-section-icon-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
+    padding: 50px;
+  }
   .financiera-section-icon-container .financiera-icon-container i {
-    font-size: 8vh;
+    font-size: 40px;
   }
   .financiera-section-icon-container .financiera-icon-container p {
     text-align: center;
@@ -3828,10 +4132,10 @@ html {
     font-size: 1.2em;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container i {
-    font-size: 8vh;
+    font-size: 40px;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container p {
-    font-size: 0.9em;
+    font-size: 14px;
   }
   .desarrolladora-section-proyectos-container div .h2-title {
     font-size: 1.9em;
@@ -3929,10 +4233,10 @@ html {
     width: 100%;
   }
   .container-contacto form .h1-title {
-    font-size: 2.5em;
+    font-size: 1.9em;
   }
   .container-contacto form p {
-    font-size: 12px;
+    font-size: 14px;
   }
   .container-contacto form input {
     font-size: 12px;
@@ -4173,10 +4477,14 @@ html {
     -webkit-box-direction: normal;
         -ms-flex-flow: column wrap;
             flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
     padding: 50px;
   }
   .financiera-section-icon-container .financiera-icon-container i {
-    font-size: 6vh;
+    font-size: 30px;
   }
   .financiera-section-icon-container .financiera-icon-container p {
     text-align: center;
@@ -4224,11 +4532,11 @@ html {
   }
   .desarralladora-section-icon-container {
     margin: 0;
-    padding: 50px;
   }
   .desarralladora-section-icon-container .h3-title {
     font-size: 0.9em;
     text-align: center;
+    margin-bottom: 3em;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container {
     -webkit-box-orient: vertical;
@@ -4240,7 +4548,7 @@ html {
             align-items: center;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container i {
-    font-size: 6vh;
+    font-size: 30px;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container p {
     font-size: 12px;
@@ -4267,6 +4575,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -4277,6 +4591,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -4293,6 +4613,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -4309,6 +4635,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -4328,6 +4660,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -4359,10 +4697,16 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-            flex-flow: column;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
   .vende-section-principal-container div .h1-title {
     font-family: "Work Sans", sans-serif;
@@ -4407,8 +4751,8 @@ html {
             align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-flow: column wrap;
-            flex-flow: column wrap;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
   .barra-busqueda-propiedades #buttons-barra {
     margin: 10px;
@@ -4430,6 +4774,10 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
   padding: 130px 0;
 }
 
@@ -4458,13 +4806,16 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
 }
 
 .inmobiliaria-section-destacadas .inmobiliaria-propiedades-destacadas {
@@ -4488,10 +4839,16 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
 }
 
 .inmobiliaria-section-destacadas .texto-propiedades-inmobiliaria .inmobiliaria-paragraph-propiedades {
@@ -4519,6 +4876,13 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
 }
 
 .inmobiliaria-section-destacadas .texto-propiedades-inmobiliaria .inmobiliaria-icons .metros {
@@ -4580,6 +4944,13 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
   padding: 5em;
 }
 
@@ -4600,10 +4971,16 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
 }
 
 .inmobiliaria-section-emprendimientos .texto-propiedades-inmobiliaria .inmobiliaria-paragraph-propiedades {
@@ -4631,6 +5008,13 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
 }
 
 .inmobiliaria-section-emprendimientos .texto-propiedades-inmobiliaria .inmobiliaria-icons .metros {
@@ -4638,6 +5022,16 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
   margin: 0 7px;
 }
 
@@ -4654,6 +5048,16 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
   margin: 0 7px;
 }
 
@@ -4670,6 +5074,16 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
   margin: 0 7px;
 }
 
@@ -4700,14 +5114,19 @@ html {
     text-align: center;
   }
   #footer {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column wrap;
-            flex-flow: column wrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
   #footer .column-footer-one .footer-contacto .h4-title {
     font-size: 1.5em;
@@ -4734,8 +5153,7 @@ html {
     font-size: 0.9em;
   }
   .section-unidades-container .div-unidades-container div {
-    height: 13em;
-    width: 13em;
+    width: 100%;
   }
   .section-unidades-container .div-unidades-container a .h3-title {
     font-size: 1.5em;
@@ -4744,10 +5162,16 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-flow: column wrap;
-            flex-flow: column wrap;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
   .section-nosotros-container div {
     margin: auto;
@@ -4823,8 +5247,18 @@ html {
   .financiera-section-principal-container p {
     font-size: 0.9em;
   }
+  .financiera-section-icon-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
+    padding: 50px;
+  }
   .financiera-section-icon-container .financiera-icon-container i {
-    font-size: 8vh;
+    font-size: 40px;
   }
   .financiera-section-icon-container .financiera-icon-container p {
     text-align: center;
@@ -4850,10 +5284,10 @@ html {
     font-size: 1.2em;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container i {
-    font-size: 8vh;
+    font-size: 40px;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container p {
-    font-size: 0.9em;
+    font-size: 14px;
   }
   .desarrolladora-section-proyectos-container div .h2-title {
     font-size: 1.9em;
@@ -4951,10 +5385,10 @@ html {
     width: 100%;
   }
   .container-contacto form .h1-title {
-    font-size: 2.5em;
+    font-size: 1.9em;
   }
   .container-contacto form p {
-    font-size: 12px;
+    font-size: 14px;
   }
   .container-contacto form input {
     font-size: 12px;
@@ -5195,10 +5629,14 @@ html {
     -webkit-box-direction: normal;
         -ms-flex-flow: column wrap;
             flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
     padding: 50px;
   }
   .financiera-section-icon-container .financiera-icon-container i {
-    font-size: 6vh;
+    font-size: 30px;
   }
   .financiera-section-icon-container .financiera-icon-container p {
     text-align: center;
@@ -5246,11 +5684,11 @@ html {
   }
   .desarralladora-section-icon-container {
     margin: 0;
-    padding: 50px;
   }
   .desarralladora-section-icon-container .h3-title {
     font-size: 0.9em;
     text-align: center;
+    margin-bottom: 3em;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container {
     -webkit-box-orient: vertical;
@@ -5262,7 +5700,7 @@ html {
             align-items: center;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container i {
-    font-size: 6vh;
+    font-size: 30px;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container p {
     font-size: 12px;
@@ -5289,6 +5727,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -5299,6 +5743,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -5315,6 +5765,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -5331,6 +5787,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -5350,6 +5812,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -5381,10 +5849,16 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-            flex-flow: column;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
   .vende-section-principal-container div .h1-title {
     font-family: "Work Sans", sans-serif;
@@ -5429,8 +5903,8 @@ html {
             align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-flow: column wrap;
-            flex-flow: column wrap;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
   .barra-busqueda-propiedades #buttons-barra {
     margin: 10px;
@@ -5464,7 +5938,7 @@ html {
 .financiera-section-principal-container .h1-title {
   font-family: "Work Sans", sans-serif;
   font-size: 3.2em;
-  font-weight: 600;
+  font-weight: 500;
   color: #ffffff;
   text-transform: uppercase;
   opacity: 0.9;
@@ -5481,7 +5955,7 @@ html {
 .financiera-section-principal-container p {
   font-family: "Work Sans", sans-serif;
   font-size: 1.5em;
-  font-weight: 500;
+  font-weight: 400;
   color: #ffffff;
   text-align: center;
   margin-top: 1.1em;
@@ -5493,40 +5967,50 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  padding: 150px 50px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  padding: 100px 50px;
+  width: 100%;
 }
 
 .financiera-section-icon-container .financiera-icon-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column;
-          flex-flow: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  width: 20%;
 }
 
 .financiera-section-icon-container .financiera-icon-container i {
-  font-size: 10vh;
+  font-size: 45px;
   color: #000;
 }
 
 .financiera-section-icon-container .financiera-icon-container p {
   font-family: "Work Sans", sans-serif;
   font-size: 0.9em;
-  font-weight: 500;
+  font-weight: 400;
   color: #000;
   text-align: center;
   margin-top: 1.1em;
+  text-transform: uppercase;
 }
 
 .financiera-section-solicitar-container {
@@ -5537,13 +6021,16 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column;
-          flex-flow: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
 }
 
 .financiera-section-solicitar-container .financiera-titulo-container .h3-title {
@@ -5570,6 +6057,13 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
 }
 
 .financiera-section-solicitar-container .financiera-icon-button-container #boton-solicitar {
@@ -5595,14 +6089,19 @@ html {
     text-align: center;
   }
   #footer {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column wrap;
-            flex-flow: column wrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
   #footer .column-footer-one .footer-contacto .h4-title {
     font-size: 1.5em;
@@ -5629,8 +6128,7 @@ html {
     font-size: 0.9em;
   }
   .section-unidades-container .div-unidades-container div {
-    height: 13em;
-    width: 13em;
+    width: 100%;
   }
   .section-unidades-container .div-unidades-container a .h3-title {
     font-size: 1.5em;
@@ -5639,10 +6137,16 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-flow: column wrap;
-            flex-flow: column wrap;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
   .section-nosotros-container div {
     margin: auto;
@@ -5718,8 +6222,18 @@ html {
   .financiera-section-principal-container p {
     font-size: 0.9em;
   }
+  .financiera-section-icon-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
+    padding: 50px;
+  }
   .financiera-section-icon-container .financiera-icon-container i {
-    font-size: 8vh;
+    font-size: 40px;
   }
   .financiera-section-icon-container .financiera-icon-container p {
     text-align: center;
@@ -5745,10 +6259,10 @@ html {
     font-size: 1.2em;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container i {
-    font-size: 8vh;
+    font-size: 40px;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container p {
-    font-size: 0.9em;
+    font-size: 14px;
   }
   .desarrolladora-section-proyectos-container div .h2-title {
     font-size: 1.9em;
@@ -5846,10 +6360,10 @@ html {
     width: 100%;
   }
   .container-contacto form .h1-title {
-    font-size: 2.5em;
+    font-size: 1.9em;
   }
   .container-contacto form p {
-    font-size: 12px;
+    font-size: 14px;
   }
   .container-contacto form input {
     font-size: 12px;
@@ -6090,10 +6604,14 @@ html {
     -webkit-box-direction: normal;
         -ms-flex-flow: column wrap;
             flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
     padding: 50px;
   }
   .financiera-section-icon-container .financiera-icon-container i {
-    font-size: 6vh;
+    font-size: 30px;
   }
   .financiera-section-icon-container .financiera-icon-container p {
     text-align: center;
@@ -6141,11 +6659,11 @@ html {
   }
   .desarralladora-section-icon-container {
     margin: 0;
-    padding: 50px;
   }
   .desarralladora-section-icon-container .h3-title {
     font-size: 0.9em;
     text-align: center;
+    margin-bottom: 3em;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container {
     -webkit-box-orient: vertical;
@@ -6157,7 +6675,7 @@ html {
             align-items: center;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container i {
-    font-size: 6vh;
+    font-size: 30px;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container p {
     font-size: 12px;
@@ -6184,6 +6702,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -6194,6 +6718,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -6210,6 +6740,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -6226,6 +6762,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -6245,6 +6787,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -6276,10 +6824,16 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-            flex-flow: column;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
   .vende-section-principal-container div .h1-title {
     font-family: "Work Sans", sans-serif;
@@ -6324,8 +6878,8 @@ html {
             align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-flow: column wrap;
-            flex-flow: column wrap;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
   .barra-busqueda-propiedades #buttons-barra {
     margin: 10px;
@@ -6357,35 +6911,44 @@ html {
 
 .desarrolladora-section-principal-container .h1-title {
   font-family: "Work Sans", sans-serif;
-  font-size: 2.5em;
+  font-size: 3.2em;
   font-weight: 600;
   color: #000;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .desarrolladora-section-principal-container .h2-title {
   font-family: "Work Sans", sans-serif;
-  font-size: 2.5em;
-  font-weight: 600;
+  font-size: 1.9em;
+  font-weight: 500;
   color: #000;
-  opacity: 0.9;
+  opacity: 0.7;
 }
 
 .desarrolladora-section-principal-container p {
   font-family: "Work Sans", sans-serif;
-  font-size: 1.3em;
-  font-weight: 600;
+  font-size: 1.5em;
+  font-weight: 500;
   color: #000;
-  opacity: 0.8;
+  margin-top: 1.1em;
+  opacity: 0.7;
 }
 
 .desarroladora-section-two-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
   padding: 100px 50px;
   width: 100%;
 }
@@ -6409,14 +6972,17 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  padding: 100px 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  padding: 50px;
 }
 
 .desarralladora-section-icon-container .h3-title {
@@ -6424,7 +6990,8 @@ html {
   font-size: 1.9em;
   font-weight: 500;
   color: #000;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
+  text-align: center;
 }
 
 .desarralladora-section-icon-container .desarrolladora-div-icon-container {
@@ -6434,13 +7001,23 @@ html {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  margin-top: 50px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  width: 100%;
 }
 
 .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -6448,11 +7025,12 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-flow: column nowrap;
           flex-flow: column nowrap;
+  width: 20%;
 }
 
 .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container i {
   color: #000;
-  font-size: 10vh;
+  font-size: 50px;
 }
 
 .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container p {
@@ -6461,22 +7039,24 @@ html {
   font-weight: 500;
   color: #000;
   padding-top: 1.9em;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .desarrolladora-section-proyectos-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
   padding: 1.2em;
 }
 
@@ -6497,16 +7077,16 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
   padding: 1.2em;
 }
 
@@ -6527,16 +7107,16 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
   padding: 1.2em;
 }
 
@@ -6562,10 +7142,16 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
 }
 
 .texto-propiedades-desarrolladora .desarrolladora-paragraph-propiedades {
@@ -6590,13 +7176,16 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
 }
 
 .texto-propiedades-desarrolladora #text-icons .metros {
@@ -6604,10 +7193,16 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
   margin: 0 7px;
 }
 
@@ -6624,10 +7219,16 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
   margin: 0 7px;
 }
 
@@ -6644,10 +7245,16 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
   margin: 0 7px;
 }
 
@@ -6678,14 +7285,19 @@ html {
     text-align: center;
   }
   #footer {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column wrap;
-            flex-flow: column wrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
   #footer .column-footer-one .footer-contacto .h4-title {
     font-size: 1.5em;
@@ -6712,8 +7324,7 @@ html {
     font-size: 0.9em;
   }
   .section-unidades-container .div-unidades-container div {
-    height: 13em;
-    width: 13em;
+    width: 100%;
   }
   .section-unidades-container .div-unidades-container a .h3-title {
     font-size: 1.5em;
@@ -6722,10 +7333,16 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-flow: column wrap;
-            flex-flow: column wrap;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
   .section-nosotros-container div {
     margin: auto;
@@ -6801,8 +7418,18 @@ html {
   .financiera-section-principal-container p {
     font-size: 0.9em;
   }
+  .financiera-section-icon-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
+    padding: 50px;
+  }
   .financiera-section-icon-container .financiera-icon-container i {
-    font-size: 8vh;
+    font-size: 40px;
   }
   .financiera-section-icon-container .financiera-icon-container p {
     text-align: center;
@@ -6828,10 +7455,10 @@ html {
     font-size: 1.2em;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container i {
-    font-size: 8vh;
+    font-size: 40px;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container p {
-    font-size: 0.9em;
+    font-size: 14px;
   }
   .desarrolladora-section-proyectos-container div .h2-title {
     font-size: 1.9em;
@@ -6929,10 +7556,10 @@ html {
     width: 100%;
   }
   .container-contacto form .h1-title {
-    font-size: 2.5em;
+    font-size: 1.9em;
   }
   .container-contacto form p {
-    font-size: 12px;
+    font-size: 14px;
   }
   .container-contacto form input {
     font-size: 12px;
@@ -7173,10 +7800,14 @@ html {
     -webkit-box-direction: normal;
         -ms-flex-flow: column wrap;
             flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
     padding: 50px;
   }
   .financiera-section-icon-container .financiera-icon-container i {
-    font-size: 6vh;
+    font-size: 30px;
   }
   .financiera-section-icon-container .financiera-icon-container p {
     text-align: center;
@@ -7224,11 +7855,11 @@ html {
   }
   .desarralladora-section-icon-container {
     margin: 0;
-    padding: 50px;
   }
   .desarralladora-section-icon-container .h3-title {
     font-size: 0.9em;
     text-align: center;
+    margin-bottom: 3em;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container {
     -webkit-box-orient: vertical;
@@ -7240,7 +7871,7 @@ html {
             align-items: center;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container i {
-    font-size: 6vh;
+    font-size: 30px;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container p {
     font-size: 12px;
@@ -7267,6 +7898,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -7277,6 +7914,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -7293,6 +7936,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -7309,6 +7958,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -7328,6 +7983,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -7359,10 +8020,16 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-            flex-flow: column;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
   .vende-section-principal-container div .h1-title {
     font-family: "Work Sans", sans-serif;
@@ -7407,8 +8074,8 @@ html {
             align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-flow: column wrap;
-            flex-flow: column wrap;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
   .barra-busqueda-propiedades #buttons-barra {
     margin: 10px;
@@ -7427,6 +8094,12 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-flow: column nowrap;
@@ -7442,9 +8115,16 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
   padding: 1.2em 0 1.2em 0;
 }
 
@@ -7462,9 +8142,16 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
   padding: 1.2em 0 1.2em 0;
 }
 
@@ -7482,9 +8169,16 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
   padding: 1.2em 0 1.2em 0;
 }
 
@@ -7510,9 +8204,16 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
   padding: 1.2em 0 1.2em 0;
 }
 
@@ -7553,14 +8254,19 @@ html {
     text-align: center;
   }
   #footer {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column wrap;
-            flex-flow: column wrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
   #footer .column-footer-one .footer-contacto .h4-title {
     font-size: 1.5em;
@@ -7587,8 +8293,7 @@ html {
     font-size: 0.9em;
   }
   .section-unidades-container .div-unidades-container div {
-    height: 13em;
-    width: 13em;
+    width: 100%;
   }
   .section-unidades-container .div-unidades-container a .h3-title {
     font-size: 1.5em;
@@ -7597,10 +8302,16 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-flow: column wrap;
-            flex-flow: column wrap;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
   .section-nosotros-container div {
     margin: auto;
@@ -7676,8 +8387,18 @@ html {
   .financiera-section-principal-container p {
     font-size: 0.9em;
   }
+  .financiera-section-icon-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
+    padding: 50px;
+  }
   .financiera-section-icon-container .financiera-icon-container i {
-    font-size: 8vh;
+    font-size: 40px;
   }
   .financiera-section-icon-container .financiera-icon-container p {
     text-align: center;
@@ -7703,10 +8424,10 @@ html {
     font-size: 1.2em;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container i {
-    font-size: 8vh;
+    font-size: 40px;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container p {
-    font-size: 0.9em;
+    font-size: 14px;
   }
   .desarrolladora-section-proyectos-container div .h2-title {
     font-size: 1.9em;
@@ -7804,10 +8525,10 @@ html {
     width: 100%;
   }
   .container-contacto form .h1-title {
-    font-size: 2.5em;
+    font-size: 1.9em;
   }
   .container-contacto form p {
-    font-size: 12px;
+    font-size: 14px;
   }
   .container-contacto form input {
     font-size: 12px;
@@ -8048,10 +8769,14 @@ html {
     -webkit-box-direction: normal;
         -ms-flex-flow: column wrap;
             flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
     padding: 50px;
   }
   .financiera-section-icon-container .financiera-icon-container i {
-    font-size: 6vh;
+    font-size: 30px;
   }
   .financiera-section-icon-container .financiera-icon-container p {
     text-align: center;
@@ -8099,11 +8824,11 @@ html {
   }
   .desarralladora-section-icon-container {
     margin: 0;
-    padding: 50px;
   }
   .desarralladora-section-icon-container .h3-title {
     font-size: 0.9em;
     text-align: center;
+    margin-bottom: 3em;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container {
     -webkit-box-orient: vertical;
@@ -8115,7 +8840,7 @@ html {
             align-items: center;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container i {
-    font-size: 6vh;
+    font-size: 30px;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container p {
     font-size: 12px;
@@ -8142,6 +8867,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -8152,6 +8883,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -8168,6 +8905,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -8184,6 +8927,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -8203,6 +8952,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -8234,10 +8989,16 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-            flex-flow: column;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
   .vende-section-principal-container div .h1-title {
     font-family: "Work Sans", sans-serif;
@@ -8282,8 +9043,8 @@ html {
             align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-flow: column wrap;
-            flex-flow: column wrap;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
   .barra-busqueda-propiedades #buttons-barra {
     margin: 10px;
@@ -8295,7 +9056,6 @@ html {
 
 .container-contacto {
   width: 100%;
-  height: auto;
   background-color: #c5b552;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8303,23 +9063,30 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
 }
 
 .container-contacto form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column;
-          flex-flow: column;
-  background-color: #ffffff;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  background-color: #ffffff;
   width: 80%;
   padding: 20px;
   margin: 50px 0;
@@ -8334,18 +9101,18 @@ html {
   font-weight: 500;
   color: #000;
   padding-top: 1em;
-  text-align: center;
   width: 80%;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .container-contacto form p {
   font-family: "Work Sans", sans-serif;
   font-size: 0.9em;
-  font-weight: 500;
+  font-weight: 400;
   color: #000;
-  text-align: center;
   width: 80%;
+  text-align: center;
 }
 
 .container-contacto form input,
@@ -8401,13 +9168,17 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 4em;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  padding-top: 4em;
   margin-bottom: 50px;
 }
 
@@ -8416,6 +9187,7 @@ html {
   font-size: 2.5em;
   font-weight: 400;
   color: #000;
+  text-align: center;
 }
 
 .contacto-section-two-container div p {
@@ -8451,14 +9223,19 @@ html {
     text-align: center;
   }
   #footer {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column wrap;
-            flex-flow: column wrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
   #footer .column-footer-one .footer-contacto .h4-title {
     font-size: 1.5em;
@@ -8485,8 +9262,7 @@ html {
     font-size: 0.9em;
   }
   .section-unidades-container .div-unidades-container div {
-    height: 13em;
-    width: 13em;
+    width: 100%;
   }
   .section-unidades-container .div-unidades-container a .h3-title {
     font-size: 1.5em;
@@ -8495,10 +9271,16 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-flow: column wrap;
-            flex-flow: column wrap;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
   .section-nosotros-container div {
     margin: auto;
@@ -8574,8 +9356,18 @@ html {
   .financiera-section-principal-container p {
     font-size: 0.9em;
   }
+  .financiera-section-icon-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
+    padding: 50px;
+  }
   .financiera-section-icon-container .financiera-icon-container i {
-    font-size: 8vh;
+    font-size: 40px;
   }
   .financiera-section-icon-container .financiera-icon-container p {
     text-align: center;
@@ -8601,10 +9393,10 @@ html {
     font-size: 1.2em;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container i {
-    font-size: 8vh;
+    font-size: 40px;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container p {
-    font-size: 0.9em;
+    font-size: 14px;
   }
   .desarrolladora-section-proyectos-container div .h2-title {
     font-size: 1.9em;
@@ -8702,10 +9494,10 @@ html {
     width: 100%;
   }
   .container-contacto form .h1-title {
-    font-size: 2.5em;
+    font-size: 1.9em;
   }
   .container-contacto form p {
-    font-size: 12px;
+    font-size: 14px;
   }
   .container-contacto form input {
     font-size: 12px;
@@ -8946,10 +9738,14 @@ html {
     -webkit-box-direction: normal;
         -ms-flex-flow: column wrap;
             flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
     padding: 50px;
   }
   .financiera-section-icon-container .financiera-icon-container i {
-    font-size: 6vh;
+    font-size: 30px;
   }
   .financiera-section-icon-container .financiera-icon-container p {
     text-align: center;
@@ -8997,11 +9793,11 @@ html {
   }
   .desarralladora-section-icon-container {
     margin: 0;
-    padding: 50px;
   }
   .desarralladora-section-icon-container .h3-title {
     font-size: 0.9em;
     text-align: center;
+    margin-bottom: 3em;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container {
     -webkit-box-orient: vertical;
@@ -9013,7 +9809,7 @@ html {
             align-items: center;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container i {
-    font-size: 6vh;
+    font-size: 30px;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container p {
     font-size: 12px;
@@ -9040,6 +9836,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -9050,6 +9852,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -9066,6 +9874,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -9082,6 +9896,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -9101,6 +9921,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -9132,10 +9958,16 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-            flex-flow: column;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
   .vende-section-principal-container div .h1-title {
     font-family: "Work Sans", sans-serif;
@@ -9180,8 +10012,8 @@ html {
             align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-flow: column wrap;
-            flex-flow: column wrap;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
   .barra-busqueda-propiedades #buttons-barra {
     margin: 10px;
@@ -9192,13 +10024,7 @@ html {
 }
 
 .vende-section-principal-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column nowrap;
-          flex-flow: column nowrap;
+  text-align: center;
   background-image: url("./../src/assets/fotos/quienesopaca.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -9210,7 +10036,6 @@ html {
   font-size: 2.5em;
   font-weight: 500;
   color: #ffffff;
-  text-align: center;
   padding: 1em 0 0.7em 0;
 }
 
@@ -9219,7 +10044,6 @@ html {
   font-size: 0.9em;
   font-weight: 400;
   color: #ffffff;
-  text-align: center;
 }
 
 .vende-section-principal-container .container-formulario-vende {
@@ -9231,23 +10055,30 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
 }
 
 .vende-section-principal-container .container-formulario-vende form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column;
-          flex-flow: column;
-  background-color: #ffffff;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  background-color: #ffffff;
   width: 80%;
   padding: 10px 20px;
   margin: 30px 0;
@@ -9324,14 +10155,19 @@ html {
     text-align: center;
   }
   #footer {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column wrap;
-            flex-flow: column wrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
   #footer .column-footer-one .footer-contacto .h4-title {
     font-size: 1.5em;
@@ -9358,8 +10194,7 @@ html {
     font-size: 0.9em;
   }
   .section-unidades-container .div-unidades-container div {
-    height: 13em;
-    width: 13em;
+    width: 100%;
   }
   .section-unidades-container .div-unidades-container a .h3-title {
     font-size: 1.5em;
@@ -9368,10 +10203,16 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-flow: column wrap;
-            flex-flow: column wrap;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
   .section-nosotros-container div {
     margin: auto;
@@ -9447,8 +10288,18 @@ html {
   .financiera-section-principal-container p {
     font-size: 0.9em;
   }
+  .financiera-section-icon-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
+    padding: 50px;
+  }
   .financiera-section-icon-container .financiera-icon-container i {
-    font-size: 8vh;
+    font-size: 40px;
   }
   .financiera-section-icon-container .financiera-icon-container p {
     text-align: center;
@@ -9474,10 +10325,10 @@ html {
     font-size: 1.2em;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container i {
-    font-size: 8vh;
+    font-size: 40px;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container p {
-    font-size: 0.9em;
+    font-size: 14px;
   }
   .desarrolladora-section-proyectos-container div .h2-title {
     font-size: 1.9em;
@@ -9575,10 +10426,10 @@ html {
     width: 100%;
   }
   .container-contacto form .h1-title {
-    font-size: 2.5em;
+    font-size: 1.9em;
   }
   .container-contacto form p {
-    font-size: 12px;
+    font-size: 14px;
   }
   .container-contacto form input {
     font-size: 12px;
@@ -9819,10 +10670,14 @@ html {
     -webkit-box-direction: normal;
         -ms-flex-flow: column wrap;
             flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
     padding: 50px;
   }
   .financiera-section-icon-container .financiera-icon-container i {
-    font-size: 6vh;
+    font-size: 30px;
   }
   .financiera-section-icon-container .financiera-icon-container p {
     text-align: center;
@@ -9870,11 +10725,11 @@ html {
   }
   .desarralladora-section-icon-container {
     margin: 0;
-    padding: 50px;
   }
   .desarralladora-section-icon-container .h3-title {
     font-size: 0.9em;
     text-align: center;
+    margin-bottom: 3em;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container {
     -webkit-box-orient: vertical;
@@ -9886,7 +10741,7 @@ html {
             align-items: center;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container i {
-    font-size: 6vh;
+    font-size: 30px;
   }
   .desarralladora-section-icon-container .desarrolladora-div-icon-container .desarrolladora-icon-container p {
     font-size: 12px;
@@ -9913,6 +10768,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -9923,6 +10784,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -9939,6 +10806,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -9955,6 +10828,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -9974,6 +10853,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -10005,10 +10890,16 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-            flex-flow: column;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
   .vende-section-principal-container div .h1-title {
     font-family: "Work Sans", sans-serif;
@@ -10053,8 +10944,8 @@ html {
             align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-flow: column wrap;
-            flex-flow: column wrap;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
   .barra-busqueda-propiedades #buttons-barra {
     margin: 10px;

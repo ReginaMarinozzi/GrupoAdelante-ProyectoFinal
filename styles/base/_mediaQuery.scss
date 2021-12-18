@@ -39,9 +39,7 @@
 
   // Footer  ---------->
   #footer {
-    flex-flow: column wrap;
-    align-items: center;
-    text-align: center;
+    @include display(flex, center, center, column nowrap);
     .column-footer-one {
       .footer-contacto {
         .h4-title {
@@ -86,8 +84,7 @@
     }
     .div-unidades-container {
       div {
-        height: 13em;
-        width: 13em;
+        width: 100%;
       }
       a {
         .h3-title {
@@ -98,8 +95,7 @@
   }
 
   .section-nosotros-container {
-    display: flex;
-    flex-flow: column wrap;
+    @include display(flex, center, center, column nowrap);
     div {
       margin: auto;
       padding: auto;
@@ -208,9 +204,13 @@
   }
 
   .financiera-section-icon-container {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 50px;
     .financiera-icon-container {
       i {
-        font-size: 8vh;
+        font-size: 40px;
       }
       p {
         text-align: center;
@@ -257,10 +257,10 @@
     .desarrolladora-div-icon-container {
       .desarrolladora-icon-container {
         i {
-          font-size: 8vh;
+          font-size: 40px;
         }
         p {
-          font-size: 0.9em;
+          font-size: 14px;
         }
       }
     }
@@ -397,10 +397,10 @@
   .container-contacto {
     form {
       .h1-title {
-        font-size: $sizeintermedio;
+        font-size: $sizesubtitulos;
       }
       p {
-        font-size: 12px;
+        font-size: 14px;
       }
       input {
         font-size: 12px;
@@ -719,10 +719,12 @@
   .financiera-section-icon-container {
     display: flex;
     flex-flow: column wrap;
+    align-items: center;
+    margin: 0;
     padding: 50px;
     .financiera-icon-container {
       i {
-        font-size: 6vh;
+        font-size: 30px;
       }
       p {
         text-align: center;
@@ -776,17 +778,17 @@
 
   .desarralladora-section-icon-container {
     margin: 0;
-    padding: 50px;
     .h3-title {
       font-size: $sizegeneral;
       text-align: center;
+      margin-bottom: 3em;
     }
     .desarrolladora-div-icon-container {
       flex-direction: column;
       align-items: center;
       .desarrolladora-icon-container {
         i {
-          font-size: 6vh;
+          font-size: 30px;
         }
         p {
           font-size: 12px;
@@ -855,12 +857,10 @@
   // Nosotros
 
   .nosotros-section-principal-container {
-    display: flex;
-    flex-flow: column nowrap;
+    @include display(flex, center, center, column nowrap);
     font-size: 12px;
     .nosotros-container {
-      display: flex;
-      flex-flow: column nowrap;
+      @include display(flex, center, center, column nowrap);
       .nosotros-img-container {
         img {
           width: 100%;
@@ -874,8 +874,7 @@
       }
     }
     .mision-container {
-      display: flex;
-      flex-flow: column nowrap;
+      @include display(flex, center, center, column nowrap);
       .mision-p-container {
         p {
           padding: 10px;
@@ -889,8 +888,7 @@
       }
     }
     .valores-container {
-      display: flex;
-      flex-flow: column nowrap;
+      @include display(flex, center, center, column nowrap);
       .valores-img-container {
         img {
           width: 100%;
@@ -905,8 +903,7 @@
       }
     }
     .servicios-container {
-      display: flex;
-      flex-flow: column nowrap;
+      @include display(flex, center, center, column nowrap);
       .servicios-p-container {
         p {
           padding: 10px;
@@ -944,8 +941,7 @@
   }
 
   .contacto-section-two-container {
-    display: flex;
-    flex-flow: column;
+    @include display(flex, center, center, column nowrap);
   }
 
   // Vende
@@ -988,10 +984,7 @@
   // Barra de busqueda -------------------------->
   .barra-busqueda-propiedades {
     #barra-container {
-      display: flex;
-      justify-content: space-evenly;
-      align-items: center;
-      flex-flow: column wrap;
+      @include display(flex, space-evenly, center, column nowrap);
     }
     #buttons-barra {
       margin: 10px;

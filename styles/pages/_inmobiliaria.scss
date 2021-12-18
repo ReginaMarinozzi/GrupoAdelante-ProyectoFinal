@@ -13,9 +13,7 @@
 .inmobiliaria-section-principal-container {
   background-color: $color3;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include display(flex, center, center, row nowrap);
   padding: 130px 0;
   .inmobiliaria-titulos-container {
     text-align: center;
@@ -34,9 +32,7 @@
 // Section propiedades destacadas -------------------------------->
 
 .inmobiliaria-section-destacadas {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+  @include display(flex, center, center, column nowrap);
   .inmobiliaria-propiedades-destacadas {
     padding: 4.5em;
     .h2-title {
@@ -49,8 +45,7 @@
   }
   .texto-propiedades-inmobiliaria {
     text-align: center;
-    display: flex;
-    flex-flow: column wrap;
+    @include display(flex, center, center, column nowrap);
     .inmobiliaria-paragraph-propiedades {
       @include title-p($font, $sizegeneral, 400, $color1);
     }
@@ -61,9 +56,7 @@
 
     .inmobiliaria-icons {
       @include title-p($font, $sizegeneral, 500, $color1);
-      display: flex;
-      justify-content: center;
-
+      @include display(flex, center, center, row nowrap);
       .metros {
         padding-bottom: 2em;
         display: flex;
@@ -108,8 +101,7 @@
 .inmobiliaria-section-emprendimientos {
   padding-bottom: 2em;
   .inmobiliaria-emprendimientos {
-    display: flex;
-    justify-content: center;
+    @include display(flex, center, center, row nowrap);
     padding: 5em;
     .h2-title {
       @include title-p($font, $sizeintermedio, 500, $color1);
@@ -121,8 +113,7 @@
   }
   .texto-propiedades-inmobiliaria {
     text-align: center;
-    display: flex;
-    flex-flow: column wrap;
+    @include display(flex, center, center, column nowrap);
     .inmobiliaria-paragraph-propiedades {
       @include title-p($font, $sizegeneral, 400, $color1);
     }
@@ -133,12 +124,11 @@
 
     .inmobiliaria-icons {
       @include title-p($font, $sizegeneral, 500, $color1);
-      display: flex;
-      justify-content: center;
+      @include display(flex, center, center, row nowrap);
 
       .metros {
         padding-bottom: 2em;
-        display: flex;
+        @include display(flex, center, center, row nowrap);
         margin: 0 7px;
         i {
           margin: 0 5px;
@@ -150,7 +140,7 @@
 
       .baños {
         padding-bottom: 2em;
-        display: flex;
+        @include display(flex, center, center, row nowrap);
         margin: 0 7px;
         i {
           margin: 0 5px;
@@ -162,7 +152,7 @@
 
       .dormitorios {
         padding-bottom: 2em;
-        display: flex;
+        @include display(flex, center, center, row nowrap);
         margin: 0 7px;
         i {
           margin: 0 5px;

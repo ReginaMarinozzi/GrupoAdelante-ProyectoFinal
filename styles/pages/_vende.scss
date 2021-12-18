@@ -11,8 +11,7 @@
 // Section principal -------------------------------->
 
 .vende-section-principal-container {
-  display: flex;
-  flex-flow: column nowrap;
+  text-align: center;
   background-image: url("./../src/assets/fotos/quienesopaca.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -20,26 +19,19 @@
   div {
     .h1-title {
       @include title-p($font, $sizeintermedio, 500, $color2);
-      text-align: center;
       padding: 1em 0 0.7em 0;
     }
     p {
       @include title-p($font, $sizegeneral, 400, $color2);
-      text-align: center;
     }
   }
   .container-formulario-vende {
     width: 100%;
     height: auto;
-    display: flex;
-    justify-content: center;
-
+    @include display(flex, center, center, row nowrap);
     form {
-      display: flex;
-      flex-flow: column;
+      @include display(flex, center, center, column nowrap);
       background-color: $color2;
-      justify-content: center;
-      align-items: center;
       width: 80%;
       padding: 10px 20px;
       margin: 30px 0;

@@ -33,7 +33,7 @@
     }
   }
 
-  .overlay {
+  .capa-opaca {
     position: absolute;
     background: rgba(0, 0, 0, 0.6);
     top: 0;
@@ -46,7 +46,7 @@
   #nav-general {
     font-family: $font;
     font-size: 1em;
-    height: 12vh;
+    padding: 15px;
     div {
       a {
         #logo {
@@ -80,6 +80,7 @@
     div {
       .h1-title {
         @include title-p($font, $sizetitulos, 500, $color2);
+        text-transform: uppercase;
       }
     }
     div {

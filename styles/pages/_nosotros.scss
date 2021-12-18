@@ -18,13 +18,11 @@
 // Section one -------------------------------->
 
 .nosotros-section-principal-container {
-  display: flex;
-  flex-flow: column nowrap;
+  @include display(flex, center, center, column nowrap);
   margin: 6em;
   @include title-p($font, $sizegeneral, 400, $color1);
   .nosotros-container {
-    display: flex;
-    align-items: center;
+    @include display(flex, center, center, row nowrap);
     padding: 1.2em 0 1.2em 0;
     .nosotros-img-container {
       img {
@@ -40,8 +38,7 @@
     }
   }
   .mision-container{
-    display: flex;
-    align-items: center;
+    @include display(flex, center, center, row nowrap);
     padding: 1.2em 0 1.2em 0;
     .mision-p-container {
       p {
@@ -57,8 +54,7 @@
     }
   }
   .valores-container{
-    display: flex;
-    align-items: center;
+    @include display(flex, center, center, row nowrap);
     padding: 1.2em 0 1.2em 0;
     .valores-img-container {
       img {
@@ -76,8 +72,7 @@
     }
   }
   .servicios-container {
-    display: flex;
-    align-items: center;
+    @include display(flex, center, center, row nowrap);
     padding: 1.2em 0 1.2em 0;
     .servicios-p-container {
       flex-flow: column wrap;

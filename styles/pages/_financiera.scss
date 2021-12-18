@@ -11,17 +11,14 @@
 // Section principal -------------------------------->
 
 .financiera-section-principal-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column nowrap;
+  @include display(flex, center, center, column nowrap);
   background-image: url("./../src/assets/fotos/principalofi.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   width: 100%;
   padding: 200px 30px;
   .h1-title {
-    @include title-p($font, $sizetitulos, 600, $color2);
+    @include title-p($font, $sizetitulos, 500, $color2);
     text-transform: uppercase;
     opacity: 0.9;
   }
@@ -30,7 +27,7 @@
     opacity: 0.9;
   }
   p {
-    @include title-p($font, 1.5em, 500, $color2);
+    @include title-p($font, 1.5em, 400, $color2);
     text-align: center;
     margin-top: 1.1em;
     opacity: 0.7;
@@ -41,22 +38,21 @@
 
 .financiera-section-icon-container {
   background-color: $color3;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  padding: 150px 50px;
+  @include display(flex, space-evenly, flex-start, row nowrap);
+  padding: 100px 50px;
+  width: 100%;
   .financiera-icon-container {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
+    @include display(flex, center, center, column nowrap);
+    width: 20%;
     i {
-      font-size: 10vh;
+      font-size: 45px;
       color: $color1;
     }
     p {
-      @include title-p($font, $sizegeneral, 500, $color1);
+      @include title-p($font, $sizegeneral, 400, $color1);
       text-align: center;
       margin-top: 1.1em;
+      text-transform: uppercase;
     }
   }
 }
@@ -66,9 +62,7 @@
 .financiera-section-solicitar-container {
   padding: 50px;
   .financiera-titulo-container {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
+    @include display(flex, center, center, column nowrap);
     .h3-title {
       @include title-p($font, $sizesubtitulos, 500, $color1);
       text-align: center;
@@ -80,8 +74,7 @@
     }
   }
   .financiera-icon-button-container {
-    display: flex;
-    justify-content: center;
+    @include display(flex, center, center, row nowrap);
     #boton-solicitar {
       border-radius: 20px;
     }

@@ -13,22 +13,17 @@
 .section-unidades-container {
   width: 80%;
   margin: auto;
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: space-around;
-  padding: 5em 0 6em 0;
+  padding: 5em;
   .div-titulos-unidades-container {
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
+    @include display(flex, center, center, column nowrap);
     div {
       .h2-title {
-        @include title-p($font, $sizesubtitulos, 600, $color1);
+        @include title-p($font, $sizesubtitulos, 500, $color1);
       }
     }
     div {
       p {
-        @include title-p($font, 1.3em, 500, $color1);
+        @include title-p($font, 1.3em, 400, $color1);
         padding: 1em 1em 2em 1em;
         text-align: center;
         letter-spacing: normal;
@@ -36,13 +31,9 @@
     }
   }
   .div-unidades-container {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
+    @include display(flex, space-evenly, center, row nowrap);
     div {
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      @include display(flex, center, center, row nowrap);
       height: 16em;
       width: 16em;
       border-radius: 1.2em;
@@ -74,12 +65,10 @@
 .section-nosotros-container {
   width: 80%;
   margin: auto;
-  display: flex;
-  align-items: center;
+  @include display(flex, center, center, row nowrap);
   padding-bottom: 10px;
   div {
-    display: flex;
-    flex-flow: column wrap;
+    text-align: center;
     padding: 10px;
     div {
       .h3-title {
@@ -110,15 +99,10 @@
   width: 100%;
   height: auto;
   background-color: $color3;
-  display: flex;
-  justify-content: center;
-
+  @include display(flex, center, center, row nowrap);
   form {
-    display: flex;
-    flex-flow: column;
+    @include display(flex, center, center, column nowrap);
     background-color: $color2;
-    justify-content: center;
-    align-items: center;
     width: 80%;
     padding: 20px;
     margin: 50px 0;
@@ -180,9 +164,7 @@
 .section-suscribite-container {
   background-color: $color1;
   padding: 20px 0;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  @include display(flex, space-evenly, center, row nowrap);
   width: 100%;
   div {
     p {
@@ -192,8 +174,7 @@
     }
   }
   form {
-    display: flex;
-    flex-direction: column;
+    @include display(flex, center, center, column nowrap);
     .email-subscribite {
       padding: 5px;
       width: 100%;

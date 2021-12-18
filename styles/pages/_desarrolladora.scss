@@ -14,30 +14,28 @@
   background-color: $color3;
   width: 100%;
   text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column nowrap;
+  @include display(flex, center, center, column nowrap);
   padding: 130px;
   .h1-title {
-    @include title-p($font, $sizeintermedio, 600, $color1);
+    @include title-p($font, $sizetitulos, 600, $color1);
     text-transform: uppercase;
+    text-align: center;
   }
   .h2-title {
-    @include title-p($font, $sizeintermedio, 600, $color1);
-    opacity: 0.9;
+    @include title-p($font, $sizesubtitulos, 500, $color1);
+    opacity: 0.7;
   }
   p {
-    @include title-p($font, 1.3em, 600, $color1);
-    opacity: 0.8;
+    @include title-p($font, 1.5em, 500, $color1);
+    margin-top: 1.1em;
+    opacity: 0.7;
   }
 }
 
 // Section two -------------------------------->
 
 .desarroladora-section-two-container {
-  display: flex;
-  align-items: center;
+  @include display(flex, center, center, row nowrap);
   padding: 100px 50px;
   width: 100%;
   div {
@@ -59,29 +57,28 @@
 
 .desarralladora-section-icon-container {
   background-color: $color3;
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: space-evenly;
-  padding: 100px 50px;
+  @include display(flex, space-evenly, center, column nowrap);
+  padding: 50px;
   .h3-title {
     @include title-p($font, $sizesubtitulos, 500, $color1);
-    margin-bottom: 50px;
+    margin-bottom: 100px;
+    text-align: center;
   }
   .desarrolladora-div-icon-container {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 50px;
+    @include display(flex, space-evenly, flex-start, row nowrap);
+    width: 100%;
     .desarrolladora-icon-container {
-      display: flex;
-      align-items: center;
-      flex-flow: column nowrap;
+      @include display(flex, center, center, column nowrap);
+      width: 20%;
       i {
         color: $color1;
-        font-size: 10vh;
+        font-size: 50px;
       }
       p {
         @include title-p($font, $sizegeneral, 500, $color1);
         padding-top: 1.9em;
+        text-transform: uppercase;
+        text-align: center;
       }
     }
   }
@@ -90,10 +87,7 @@
 // Section nuestros proyectos, alianzas y desarrrollos de terceros -------------------------------->
 
 .desarrolladora-section-proyectos-container {
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  justify-content: center;
+  @include display(flex, center, center, column nowrap);
   padding: 1.2em;
   div {
     .h2-title {
@@ -108,10 +102,7 @@
 }
 
 .desarrolladora-section-alianzas-container {
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  justify-content: center;
+  @include display(flex, center, center, column nowrap);
   padding: 1.2em;
   div {
     .h2-title {
@@ -126,12 +117,8 @@
 }
 
 .desarrolladora-section-terceros-container {
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  justify-content: center;
+  @include display(flex, center, center, column nowrap);
   padding: 1.2em;
-
   div {
     .h2-title {
       @include title-p($font, $sizeintermedio, 500, $color1);
@@ -152,8 +139,7 @@
 
 .texto-propiedades-desarrolladora {
   text-align: center;
-  display: flex;
-  flex-flow: column wrap;
+  @include display(flex, center, center, column nowrap);
   .desarrolladora-paragraph-propiedades {
     @include title-p($font, $sizegeneral, 400, $color1);
   }
@@ -164,14 +150,10 @@
 
   #text-icons {
     @include title-p($font, $sizegeneral, 500, $color1);
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-
+    @include display(flex, center, center, row nowrap);
     .metros {
       padding-bottom: 2em;
-      display: flex;
-      flex-flow: row wrap;
+      @include display(flex, center, center, row nowrap);
       margin: 0 7px;
       i {
         margin: 0 5px;
@@ -183,8 +165,7 @@
 
     .baños {
       padding-bottom: 2em;
-      display: flex;
-      flex-flow: row wrap;
+      @include display(flex, center, center, row nowrap);
       margin: 0 7px;
       i {
         margin: 0 5px;
@@ -196,8 +177,7 @@
 
     .dormitorios {
       padding-bottom: 2em;
-      display: flex;
-      flex-flow: row wrap;
+      @include display(flex, center, center, row nowrap);
       margin: 0 7px;
       i {
         margin: 0 5px;
