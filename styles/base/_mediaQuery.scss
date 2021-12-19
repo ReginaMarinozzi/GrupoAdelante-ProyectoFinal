@@ -374,67 +374,66 @@
   // Nosotros ------------------->
 
   .nosotros-section-principal-container {
-    display: flex;
-    flex-flow: column nowrap;
+    width: 80%;
     font-size: 14px;
     .nosotros-container {
-      display: flex;
-      flex-flow: column nowrap;
+      @include display(flex, center, center, column nowrap);
       .nosotros-img-container {
+        @include display(flex, center, center, column nowrap);
         img {
-          width: 100%;
+          width: 60%;
         }
       }
       .nosotros-p-container {
         p {
-          padding: 10px;
+          padding: 20px;
           text-align: left;
         }
       }
     }
     .mision-container {
-      display: flex;
-      flex-flow: column nowrap;
+      @include display(flex, center, center, column-reverse nowrap);
       .mision-p-container {
         p {
-          padding: 10px;
+          padding: 20px;
           text-align: left;
         }
       }
       .mision-img-container {
+        @include display(flex, center, center, column nowrap);
         img {
-          width: 100%;
+          width: 60%;
         }
       }
     }
     .valores-container {
-      display: flex;
-      flex-flow: column nowrap;
+      @include display(flex, center, center, column nowrap);
       .valores-img-container {
+        @include display(flex, center, center, column nowrap);
         img {
-          width: 100%;
+          width: 60%;
         }
       }
       .valores-p-container {
         padding: 0;
         p {
-          padding: 10px;
+          padding: 20px;
           text-align: center;
         }
       }
     }
     .servicios-container {
-      display: flex;
-      flex-flow: column nowrap;
+      @include display(flex, center, center, column-reverse nowrap);
       .servicios-p-container {
         p {
-          padding: 10px;
+          padding: 20px;
           text-align: center;
         }
       }
       .servicios-img-container {
+        @include display(flex, center, center, column nowrap);
         img {
-          width: 100%;
+          width: 60%;
         }
       }
     }
@@ -982,7 +981,7 @@
       }
     }
     .mision-container {
-      @include display(flex, center, center, column nowrap);
+      @include display(flex, center, center, column-reverse nowrap);
       .mision-p-container {
         p {
           padding: 10px;
@@ -1011,7 +1010,7 @@
       }
     }
     .servicios-container {
-      @include display(flex, center, center, column nowrap);
+      @include display(flex, center, center, column-reverse nowrap);
       .servicios-p-container {
         p {
           padding: 10px;
