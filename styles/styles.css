@@ -8029,7 +8029,8 @@ html {
       -ms-flex-flow: row nowrap;
           flex-flow: row nowrap;
   padding: 100px 50px;
-  width: 100%;
+  width: 80%;
+  margin: auto;
 }
 
 .desarroladora-section-two-container div img {
@@ -8044,6 +8045,7 @@ html {
   color: #000;
   padding-left: 2em;
   text-align: left;
+  margin: 0;
 }
 
 .desarralladora-section-icon-container {
