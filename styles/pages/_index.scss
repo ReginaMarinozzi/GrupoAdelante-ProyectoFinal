@@ -25,7 +25,6 @@
       p {
         @include title-p($font, 1.3em, 400, $color1);
         padding: 1em 1em 2em 1em;
-
         letter-spacing: normal;
       }
     }
@@ -36,6 +35,7 @@
     div {
       flex-basis: 32%;
       background-color: rgb(238, 238, 238);
+      border: 1px solid rgb(226, 226, 226);
       margin-bottom: 5%;
       padding: 100px 12px;
       box-sizing: border-box;
@@ -101,7 +101,7 @@
 .container-contacto {
   width: 100%;
   height: auto;
-  background-color: $color3;
+  background-color: $color4;
   @include display(flex, center, center, row nowrap);
   form {
     @include display(flex, center, center, column nowrap);

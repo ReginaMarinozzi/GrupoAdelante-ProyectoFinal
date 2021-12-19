@@ -3027,6 +3027,7 @@ html {
   -ms-flex-preferred-size: 32%;
       flex-basis: 32%;
   background-color: #eeeeee;
+  border: 1px solid #e2e2e2;
   margin-bottom: 5%;
   padding: 100px 12px;
   -webkit-box-sizing: border-box;
@@ -3114,7 +3115,7 @@ html {
 .container-contacto {
   width: 100%;
   height: auto;
-  background-color: #c5b552;
+  background-color: #867436;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
